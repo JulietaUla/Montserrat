@@ -1,4 +1,4 @@
-# Montserrat Pro
+# Montserrat
 by Julieta Ulanovsky
 
 The old posters and signs in the traditional neighborhood of Buenos Aires called Montserrat inspired me to design a typeface that rescues the beauty of urban typography from the first half of the twentieth century. The goal is to rescue what is in Montserrat and set it free, under a free, libre and open source license, the SIL Open Font License.
