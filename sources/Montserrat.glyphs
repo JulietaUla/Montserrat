@@ -1,5 +1,5 @@
 {
-.appVersion = "925";
+.appVersion = "895";
 classes = (
 {
 automatic = 1;
@@ -80183,6 +80183,7 @@ unicode = 0000;
 keepAlternatesTogether = 1;
 instances = (
 {
+exports = 0;
 interpolationWeight = 20;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -80192,6 +80193,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80212,6 +80214,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80228,6 +80231,7 @@ name = Light;
 weightClass = Light;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80243,6 +80247,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80259,6 +80264,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80275,6 +80281,7 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80293,6 +80300,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 interpolationWeight = 193;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -80303,6 +80311,7 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+exports = 0;
 interpolationWeight = 215;
 interpolationWidth = 0;
 instanceInterpolations = {
@@ -80312,6 +80321,7 @@ name = Black;
 weightClass = Black;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = familyName;
@@ -80589,6 +80599,7 @@ name = Thin;
 weightClass = Thin;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -80875,6 +80886,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -81157,6 +81169,7 @@ name = Light;
 weightClass = Light;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -81438,6 +81451,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -81720,6 +81734,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -82002,6 +82017,7 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -82286,6 +82302,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = familyName;
@@ -82564,6 +82581,7 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
+exports = 0;
 customParameters = (
 {
 name = familyName;
@@ -82839,6 +82857,35 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
+},
+{
+customParameters = (
+{
+name = "New Parameter";
+value = "New Value";
+}
+);
+interpolationWeight = 110;
+instanceInterpolations = {
+"1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = 1;
+};
+name = Master;
+},
+{
+customParameters = (
+{
+name = "Disable Masters";
+value = (
+Regular
+);
+}
+);
+interpolationWeight = 110;
+instanceInterpolations = {
+UUID0 = 0.538462;
+"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = 0.461538;
+};
+name = Interpolated;
 }
 );
 kerning = {
