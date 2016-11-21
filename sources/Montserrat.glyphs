@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/gbreve/gcaron g/gcircumflex \U00E9/commaaccentcomb.alt/commaturnedabovecomb/gcommaaccent \U00E1\U00F1/gdotaccent/gmacron"
+"/Lslash \U00D8/Hbar/Tbar/Tbar.ss01/hbar/tbar/tbar.ss01 E/lslash/lslash.ss01 t\U00F8"
 );
 classes = (
 {
@@ -197,10 +197,13 @@ position = "{235, 774}";
 position = "{269, 734}";
 },
 {
-position = "{249, 615}";
+position = "{249, 382}";
 },
 {
 position = "{463, -65}";
+},
+{
+position = "{244, 470}";
 }
 );
 horizontalStems = (
@@ -281,7 +284,7 @@ angle = 90;
 position = "{804, 329}";
 },
 {
-position = "{389, 91}";
+position = "{389, 525}";
 },
 {
 position = "{292, -204}";
@@ -370,7 +373,7 @@ angle = 90;
 position = "{127, 679}";
 },
 {
-position = "{127, 104}";
+position = "{127, 568}";
 }
 );
 horizontalStems = (
@@ -8920,15 +8923,14 @@ nodes = (
 components = (
 {
 name = H;
-transform = "{1, 0, 0, 1, 25, 0}";
 },
 {
 name = strokelongcomb;
-transform = "{1.9, 0, 0, 1, -145, 116}";
+transform = "{1.9, 0, 0, 1, -170, 116}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 840;
+width = 791;
 }
 );
 leftKerningGroup = H;
@@ -37476,37 +37478,6 @@ glyphname = lslash;
 layers = (
 {
 background = {
-components = (
-{
-name = l;
-transform = "{1, 0, 0, 1, 13, 0}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"6 442 LINE",
-"6 422 LINE",
-"270 497 LINE",
-"270 518 LINE"
-);
-}
-);
-};
-components = (
-{
-name = l;
-transform = "{1, 0, 0, 1, 12, 0}";
-}
-);
-guideLines = (
-{
-angle = 90;
-position = "{254, 496}";
-}
-);
-layerId = UUID0;
 paths = (
 {
 closed = 1;
@@ -37518,18 +37489,43 @@ nodes = (
 );
 }
 );
-width = 274;
-},
+};
+components = (
 {
-background = {
+name = l;
+transform = "{1, 0, 0, 1, 12, 0}";
+}
+);
+layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"-33 434 LINE",
-"-33 289 LINE",
-"380 408 LINE",
-"380 554 LINE"
+"254 470 LINE",
+"20 306 LINE",
+"20 283 LINE",
+"254 447 LINE"
+);
+}
+);
+width = 274;
+},
+{
+background = {
+components = (
+{
+name = l;
+transform = "{1, 0, 0, 1, 1, 0}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"-10 194 LINE",
+"356 450 LINE",
+"356 568 LINE",
+"-10 312 LINE"
 );
 }
 );
@@ -37559,17 +37555,17 @@ background = {
 components = (
 {
 name = l;
-transform = "{1, 0, 0, 1, 14, 0}";
+transform = "{1, 0, 0, 1, 14, 10}";
 }
 );
 paths = (
 {
 closed = 1;
 nodes = (
-"10 225 LINE",
-"350 463 LINE",
-"313 517 LINE",
-"-27 279 LINE"
+"10 240 LINE",
+"312 451 LINE",
+"312 531 LINE",
+"10 320 LINE"
 );
 }
 );
@@ -37577,7 +37573,7 @@ nodes = (
 components = (
 {
 name = l;
-transform = "{1, 0, 0, 1, 14, 0}";
+transform = "{1, 0, 0, 1, 14, 10}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -37585,10 +37581,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"10 235 LINE",
-"312 446 LINE",
-"312 526 LINE",
-"10 315 LINE"
+"10 240 LINE",
+"312 451 LINE",
+"312 531 LINE",
+"10 320 LINE"
 );
 }
 );
@@ -37673,10 +37669,27 @@ color = 4;
 glyphname = lslash.ss01;
 layers = (
 {
+background = {
 components = (
 {
 name = l.ss01;
-transform = "{1, 0, 0, 1, 48, 0}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"254 468 LINE",
+"20 304 LINE",
+"20 281 LINE",
+"254 445 LINE"
+);
+}
+);
+};
+components = (
+{
+name = l.ss01;
 }
 );
 layerId = UUID0;
@@ -37684,20 +37697,39 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 442 LINE",
-"30 422 LINE",
-"292 497 LINE",
-"292 518 LINE"
+"244 468 LINE",
+"10 304 LINE",
+"10 281 LINE",
+"244 445 LINE"
 );
 }
 );
-width = 307;
+width = 266;
 },
 {
+background = {
 components = (
 {
 name = l.ss01;
-transform = "{1, 0, 0, 1, 34, 0}";
+transform = "{1, 0, 0, 1, 10, 0}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"10 240 LINE",
+"312 451 LINE",
+"312 531 LINE",
+"10 320 LINE"
+);
+}
+);
+};
+components = (
+{
+name = l.ss01;
+transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -37705,19 +37737,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"2 438 LINE",
-"2 360 LINE",
-"341 457 LINE",
-"341 536 LINE"
+"10 240 LINE",
+"312 451 LINE",
+"312 531 LINE",
+"10 320 LINE"
 );
 }
 );
-width = 343;
+width = 319;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"-10 194 LINE",
+"356 450 LINE",
+"356 568 LINE",
+"-10 312 LINE"
+);
+}
+);
+};
 components = (
 {
 name = l.ss01;
+transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -37725,14 +37771,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-45 434 LINE",
-"-45 289 LINE",
-"368 408 LINE",
-"368 554 LINE"
+"-10 194 LINE",
+"356 450 LINE",
+"356 568 LINE",
+"-10 312 LINE"
 );
 }
 );
-width = 374;
+width = 384;
 }
 );
 leftMetricsKey = lslash;
