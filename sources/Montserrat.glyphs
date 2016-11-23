@@ -2,7 +2,7 @@
 .appVersion = "895";
 DisplayStrings = (
 /quotedblleft,
-"you,,,;/quoteleft/quoteright/quotesinglbase O/quoteright lve"
+/Hbar/hbar
 );
 classes = (
 {
@@ -8878,13 +8878,20 @@ nodes = (
 components = (
 {
 name = H;
-},
-{
-name = strokelongcomb;
-transform = "{1.9, 0, 0, 1, -166, 96}";
 }
 );
 layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"62 527 LINE",
+"738.4 527 LINE",
+"738.4 547 LINE",
+"62 547 LINE"
+);
+}
+);
 width = 799;
 },
 {
@@ -8933,13 +8940,20 @@ nodes = (
 components = (
 {
 name = H;
-},
-{
-name = strokelongcomb;
-transform = "{1.9, 0, 0, 1, -170, 116}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"1 524 LINE",
+"791.4 524 LINE",
+"791.4 590 LINE",
+"1 590 LINE"
+);
+}
+);
 width = 791;
 }
 );
