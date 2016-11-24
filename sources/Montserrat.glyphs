@@ -1,8 +1,8 @@
 {
-.appVersion = "895";
+.appVersion = "939";
 DisplayStrings = (
-/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf,
-/circumflexcomb_tildecomb
+/Aogonek/Aogonek.ss01/Eogonek/Eogonek.ss01/Iogonek/Iogonek.ss01/Oogonek/Uogonek/Uogonek.ss01/aogonek/aogonek.ss01/eogonek/eogonek.ss01/iogonek/oogonek/uogonek/ogonekcomb/ogonekcomb.cueve/ogonek,
+/ogonek/aogonek.ss01/Aogonek/Aogonek.ss01/Eogonek/Iogonek/Iogonek.ss01/Uogonek.ss01/aogonek/iogonek/uogonek/ogonekcomb
 );
 classes = (
 {
@@ -86446,8 +86446,8 @@ nodes = (
 "148 -108 OFFCURVE",
 "148 -94 CURVE SMOOTH",
 "148 -63 OFFCURVE",
-"201 0 OFFCURVE",
-"252 0 CURVE",
+"193 -17 OFFCURVE",
+"232 0 CURVE",
 "117 52 LINE"
 );
 }
@@ -86473,16 +86473,16 @@ nodes = (
 "171 -224 OFFCURVE",
 "202 -212 OFFCURVE",
 "231 -200 CURVE",
-"201 -110 LINE",
-"193 -114 OFFCURVE",
-"183 -117 OFFCURVE",
-"174 -117 CURVE SMOOTH",
-"156 -117 OFFCURVE",
-"148 -108 OFFCURVE",
-"148 -94 CURVE SMOOTH",
-"148 -63 OFFCURVE",
-"193 -17 OFFCURVE",
-"232 0 CURVE",
+"206 -103 LINE",
+"198 -107 OFFCURVE",
+"188 -110 OFFCURVE",
+"179 -110 CURVE SMOOTH",
+"161 -110 OFFCURVE",
+"155 -101 OFFCURVE",
+"155 -87 CURVE SMOOTH",
+"155 -56 OFFCURVE",
+"183 -17 OFFCURVE",
+"198 6 CURVE",
 "117 52 LINE"
 );
 }
@@ -88588,7 +88588,6 @@ width = 340;
 );
 }
 );
-keepAlternatesTogether = 1;
 instances = (
 {
 interpolationWeight = 20;
@@ -91249,6 +91248,7 @@ name = Black;
 weightClass = Black;
 }
 );
+keepAlternatesTogether = 1;
 kerning = {
 UUID0 = {
 "@MMK_L_A" = {
