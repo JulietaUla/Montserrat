@@ -1,7 +1,8 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/lira/naira/won/peso/euro \U00A5"
+"/lira/naira/won/peso/euro \U00A5",
+"/manat/cedi/guarani $\U00A2\012/colonsign/liraTurkish \012/euro/lira/naira/won/peso \U00A5\012/franc/ruble \U00A3/rupeeIndian/kip \012/peseta \U00A4/dong/florin"
 );
 classes = (
 {
@@ -333,10 +334,10 @@ position = "{292, -204}";
 position = "{772, 372}";
 },
 {
-position = "{772, 312}";
+position = "{772, 183}";
 },
 {
-position = "{772, 252}";
+position = "{772, 123}";
 }
 );
 horizontalStems = (
@@ -419,13 +420,13 @@ value = "0";
 descender = -194;
 guideLines = (
 {
-position = "{492, 261}";
+position = "{492, 84}";
 },
 {
 position = "{492, 446}";
 },
 {
-position = "{492, 331}";
+position = "{492, 154}";
 },
 {
 position = "{492, 376}";
@@ -13387,11 +13388,11 @@ name = M;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 381, 0}";
+transform = "{1, 0, 0, 1, 391, 0}";
 }
 );
 layerId = UUID0;
-width = 914;
+width = 934;
 },
 {
 components = (
@@ -78987,8 +78988,6 @@ nodes = (
 width = 711;
 }
 );
-leftMetricsKey = o;
-rightMetricsKey = o;
 unicode = 00A4;
 },
 {
@@ -79156,8 +79155,6 @@ nodes = (
 width = 622;
 }
 );
-leftMetricsKey = S;
-rightMetricsKey = S;
 unicode = 0024;
 },
 {
@@ -79372,8 +79369,6 @@ nodes = (
 width = 693;
 }
 );
-leftMetricsKey = "=dcroat";
-rightMetricsKey = "=dcroat";
 unicode = 20AB;
 },
 {
@@ -79605,8 +79600,6 @@ nodes = (
 width = 790;
 }
 );
-leftMetricsKey = f;
-rightMetricsKey = C;
 unicode = 20AC;
 },
 {
@@ -79832,11 +79825,14 @@ closed = 1;
 nodes = (
 "128 0 LINE",
 "148 0 LINE",
-"148 323 LINE",
+"148 332 LINE",
+"139 323 LINE",
 "489 323 LINE",
 "489 343 LINE",
-"148 343 LINE",
-"148 679 LINE",
+"139 343 LINE",
+"148 334 LINE",
+"148 688 LINE",
+"139 679 LINE",
 "535 679 LINE",
 "535 699 LINE",
 "128 699 LINE"
@@ -79845,10 +79841,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"30 156 LINE",
+"38 156 LINE",
 "380 156 LINE",
 "380 176 LINE",
-"30 176 LINE"
+"38 176 LINE"
 );
 }
 );
@@ -79862,11 +79858,14 @@ closed = 1;
 nodes = (
 "90 0 LINE",
 "208 0 LINE",
-"208 291 LINE",
+"208 343 LINE",
+"156 291 LINE",
 "526 291 LINE",
 "526 391 LINE",
-"208 391 LINE",
-"208 599 LINE",
+"156 391 LINE",
+"208 339 LINE",
+"208 651 LINE",
+"156 599 LINE",
 "559 599 LINE",
 "560 700 LINE",
 "90 700 LINE"
@@ -79875,10 +79874,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"15 123 LINE",
+"10 123 LINE",
 "438 123 LINE",
 "438 183 LINE",
-"15 183 LINE"
+"10 183 LINE"
 );
 }
 );
@@ -79892,11 +79891,14 @@ closed = 1;
 nodes = (
 "95 0 LINE",
 "327 0 LINE",
-"327 238 LINE",
+"327 339 LINE",
+"226 238 LINE",
 "638 238 LINE",
 "638 404 LINE",
-"327 404 LINE",
-"327 525 LINE",
+"226 404 LINE",
+"327 303 LINE",
+"327 626 LINE",
+"226 525 LINE",
 "659 525 LINE",
 "659 701 LINE",
 "95 701 LINE"
@@ -79905,10 +79907,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"15 84 LINE",
+"25 84 LINE",
 "526 84 LINE",
 "526 154 LINE",
-"15 154 LINE"
+"25 154 LINE"
 );
 }
 );
@@ -80054,10 +80056,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1 340 LINE",
+"-5 340 LINE",
 "466 340 LINE",
 "466 360 LINE",
-"1 360 LINE"
+"-5 360 LINE"
 );
 }
 );
@@ -80142,10 +80144,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1 322 LINE",
+"-4 322 LINE",
 "572 322 LINE",
 "572 382 LINE",
-"1 382 LINE"
+"-4 382 LINE"
 );
 }
 );
@@ -80309,8 +80311,6 @@ nodes = (
 width = 670;
 }
 );
-leftMetricsKey = "=Dcroat";
-rightMetricsKey = "=K";
 unicode = 20AD;
 },
 {
@@ -80486,7 +80486,6 @@ nodes = (
 width = 576;
 }
 );
-rightMetricsKey = sterling;
 unicode = 20A4;
 },
 {
@@ -82024,8 +82023,6 @@ name = "Bold Aug 11 16, 18:07";
 width = 1698;
 }
 );
-leftMetricsKey = P;
-rightMetricsKey = s;
 unicode = 20A7;
 },
 {
@@ -82681,10 +82678,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 146 LINE",
+"38 146 LINE",
 "420 146 LINE",
 "420 166 LINE",
-"30 166 LINE"
+"38 166 LINE"
 );
 },
 {
@@ -82693,7 +82690,8 @@ nodes = (
 "128 699 LINE",
 "128 0 LINE",
 "148 0 LINE",
-"148 250 LINE",
+"148 259 LINE",
+"139 250 LINE",
 "365 250 LINE SMOOTH",
 "535 250 OFFCURVE",
 "632 333 OFFCURVE",
@@ -82706,8 +82704,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"148 270 LINE",
-"148 679 LINE",
+"139 270 LINE",
+"148 261 LINE",
+"148 688 LINE",
+"139 679 LINE",
 "365 679 LINE SMOOTH",
 "522 679 OFFCURVE",
 "612 606 OFFCURVE",
@@ -82726,10 +82726,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"17 100 LINE",
+"12 100 LINE",
 "460 100 LINE",
 "460 160 LINE",
-"17 160 LINE"
+"12 160 LINE"
 );
 },
 {
@@ -82738,7 +82738,8 @@ nodes = (
 "92 700 LINE",
 "92 0 LINE",
 "210 0 LINE",
-"210 227 LINE",
+"210 279 LINE",
+"158 227 LINE",
 "371 227 LINE SMOOTH",
 "547 227 OFFCURVE",
 "648 315 OFFCURVE",
@@ -82751,8 +82752,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"210 328 LINE",
-"210 599 LINE",
+"158 328 LINE",
+"210 276 LINE",
+"210 651 LINE",
+"158 599 LINE",
 "366 599 LINE SMOOTH",
 "474 599 OFFCURVE",
 "535 556 OFFCURVE",
@@ -82783,7 +82786,8 @@ nodes = (
 "100 701 LINE",
 "100 0 LINE",
 "332 0 LINE",
-"332 214 LINE",
+"332 315 LINE",
+"231 214 LINE",
 "429 214 LINE SMOOTH",
 "611 214 OFFCURVE",
 "716 304 OFFCURVE",
@@ -82796,8 +82800,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"332 374 LINE",
-"332 541 LINE",
+"231 374 LINE",
+"332 273 LINE",
+"332 642 LINE",
+"231 541 LINE",
 "417 541 LINE SMOOTH",
 "467 541 OFFCURVE",
 "496 511 OFFCURVE",
@@ -83264,7 +83270,6 @@ nodes = (
 width = 547;
 }
 );
-leftMetricsKey = f;
 unicode = 00A3;
 },
 {
