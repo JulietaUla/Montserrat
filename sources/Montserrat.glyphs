@@ -4,7 +4,9 @@ DisplayStrings = (
 "/period.sc/questiondown.sc/exclamdown.sc/h.sc/quotedblleft.sc/quotedblright.sc/quoteleft.sc/quoteright.sc/h.sc/exclam.sc/question.sc \012\U00BF\U00A1/quotedblleft/quoteleft H/quoteright/quotedblright ?!",
 ":,;/quotesinglbase ./colon.sc/comma.sc/semicolon.sc/quotesinglbase.sc/period.sc",
 "H/hyphen.case/endash.case H/emdash.case/periodcentered.case/bullet.case/slash.case H/backslash.case \012/parenleft.case H/parenright.case  /bracketleft.case H/bracketright.case  /braceleft.case H/braceright.case \012/guillemetleft.case H/guillemetright.case  /guilsinglleft.case H/guilsinglright.case  ",
-"H-<+=-\U00F7/guilsinglleft.case/endash.case Hola\012H/leftArrow H/endash/upArrow/rightArrow/downArrow"
+"H-<+=-\U00F7/guilsinglleft.case/endash.case Hola\012H/leftArrow H/endash/upArrow/rightArrow/downArrow",
+"",
+"/upArrow/rightArrow/downArrow/leftArrow \012/upArrow.case/rightArrow.case/downArrow.case/leftArrow.case"
 );
 classes = (
 {
@@ -135,7 +137,7 @@ name = smcp;
 },
 {
 automatic = 1;
-code = "sub backslash by backslash.case;\012sub periodcentered by periodcentered.case;\012sub bullet by bullet.case;\012sub slash by slash.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub emdash by emdash.case;\012sub endash by endash.case;\012sub hyphen by hyphen.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub hookabovecomb by hookabovecomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
+code = "sub backslash by backslash.case;\012sub periodcentered by periodcentered.case;\012sub bullet by bullet.case;\012sub slash by slash.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub emdash by emdash.case;\012sub endash by endash.case;\012sub hyphen by hyphen.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub upArrow by upArrow.case;\012sub rightArrow by rightArrow.case;\012sub downArrow by downArrow.case;\012sub leftArrow by leftArrow.case;\012sub hookabovecomb by hookabovecomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
 name = case;
 },
 {
@@ -240,10 +242,10 @@ position = "{359, 576}";
 position = "{375, -90}";
 },
 {
-position = "{359, 311}";
+position = "{359, 73}";
 },
 {
-position = "{359, 380}";
+position = "{359, 459}";
 }
 );
 horizontalStems = (
@@ -337,17 +339,17 @@ position = "{389, 782}";
 position = "{292, -83}";
 },
 {
-position = "{681, 381}";
+position = "{681, 385}";
 },
 {
-position = "{772, 199}";
+position = "{772, 484}";
 },
 {
 angle = 180;
 position = "{709, -8}";
 },
 {
-position = "{461, 341}";
+position = "{461, 306}";
 },
 {
 position = "{461, 266}";
@@ -442,7 +444,7 @@ guideLines = (
 position = "{467, 271}";
 },
 {
-position = "{492, 411}";
+position = "{482, 537}";
 },
 {
 position = "{492, 784}";
@@ -451,10 +453,7 @@ position = "{492, 784}";
 position = "{476, -82}";
 },
 {
-position = "{467, 239}";
-},
-{
-position = "{467, 431}";
+position = "{467, 56}";
 },
 {
 position = "{492, 786}";
@@ -103312,33 +103311,153 @@ unicode = 2030;
 glyphname = upArrow;
 layers = (
 {
-components = (
+background = {
+paths = (
 {
-name = leftArrow;
-transform = "{0, -1, 1, 0, 0, 606}";
+closed = 1;
+nodes = (
+"299 468 LINE",
+"146 359 LINE",
+"146 335 LINE",
+"299 443 LINE",
+"455 335 LINE",
+"455 359 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"290 450 LINE",
+"290 133 LINE",
+"310 133 LINE",
+"310 450 LINE"
+);
 }
 );
+};
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"314 467 LINE",
+"138 341 LINE",
+"138 314 LINE",
+"314 439 LINE",
+"494 314 LINE",
+"494 341 LINE"
+);
 },
 {
-components = (
-{
-name = leftArrow;
-transform = "{0, -1, 1, 0, -4, 608}";
+closed = 1;
+nodes = (
+"304 447 LINE",
+"304 80 LINE",
+"326 80 LINE",
+"326 447 LINE"
+);
 }
 );
+width = 631;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"299 479 LINE",
+"127 363 LINE",
+"127 272 LINE",
+"299 379 LINE",
+"472 272 LINE",
+"472 363 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"257 395 LINE",
+"257 129 LINE",
+"343 129 LINE",
+"343 395 LINE"
+);
+}
+);
+};
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"329 496 LINE",
+"125 357 LINE",
+"125 260 LINE",
+"329 389 LINE",
+"535 260 LINE",
+"535 357 LINE"
+);
 },
 {
-components = (
-{
-name = leftArrow;
-transform = "{0, -1, 1, 0, -9, 604}";
+closed = 1;
+nodes = (
+"285 407 LINE",
+"285 76 LINE",
+"376 76 LINE",
+"376 407 LINE"
+);
 }
 );
+width = 660;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"301 541 LINE",
+"106 417 LINE",
+"106 249 LINE",
+"301 355 LINE",
+"494 249 LINE",
+"494 417 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"218 380 LINE",
+"218 78 LINE",
+"382 78 LINE",
+"382 380 LINE"
+);
+}
+);
+};
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 547 LINE",
+"72 400 LINE",
+"72 222 LINE",
+"300 351 LINE",
+"528 222 LINE",
+"528 400 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"214 378 LINE",
+"214 25 LINE",
+"386 25 LINE",
+"386 378 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -103368,10 +103487,18 @@ layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 width = 600;
 },
 {
+background = {
 components = (
 {
 name = leftArrow;
-transform = "{-1, 0, 0, -1, 589, 618}";
+transform = "{-1, 0, 0, -1, 600, 618}";
+}
+);
+};
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 600, 618}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -103384,30 +103511,54 @@ unicode = 2192;
 glyphname = downArrow;
 layers = (
 {
+background = {
 components = (
 {
 name = leftArrow;
 transform = "{0, 1, -1, 0, 601, -5}";
 }
 );
+};
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 601, 532}";
+}
+);
 layerId = UUID0;
 width = 600;
 },
 {
+background = {
 components = (
 {
 name = leftArrow;
 transform = "{0, 1, -1, 0, 604, 1}";
 }
 );
+};
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 600, 549}";
+}
+);
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 width = 600;
 },
 {
+background = {
 components = (
 {
-name = leftArrow;
-transform = "{0, 1, -1, 0, 604, 15}";
+name = upArrow;
+transform = "{-1, 0, 0, -1, 595, 626}";
+}
+);
+};
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 599, 562}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -103425,25 +103576,25 @@ paths = (
 {
 closed = 1;
 nodes = (
-"138 299 LINE",
-"247 146 LINE",
-"271 146 LINE",
-"163 299 LINE",
-"271 455 LINE",
-"247 455 LINE"
+"127 314 LINE",
+"253 138 LINE",
+"280 138 LINE",
+"155 314 LINE",
+"280 493 LINE",
+"253 493 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"156 290 LINE",
-"473 290 LINE",
-"473 310 LINE",
-"156 310 LINE"
+"147 304 LINE",
+"514 304 LINE",
+"514 326 LINE",
+"147 326 LINE"
 );
 }
 );
-width = 600;
+width = 630;
 },
 {
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -103451,28 +103602,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"129 303 LINE",
-"245 131 LINE",
-"341 131 LINE",
-"234 303 LINE",
-"341 476 LINE",
-"245 476 LINE"
+"125 333 LINE",
+"263 128 LINE",
+"366 128 LINE",
+"236 333 LINE",
+"366 538 LINE",
+"263 538 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"233 266 LINE",
-"479 266 LINE",
-"479 342 LINE",
-"233 342 LINE"
+"234 293 LINE",
+"545 293 LINE",
+"545 374 LINE",
+"234 374 LINE"
 );
 }
 );
-width = 600;
+width = 660;
 },
 {
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+background = {
 paths = (
 {
 closed = 1;
@@ -103495,10 +103646,398 @@ nodes = (
 );
 }
 );
+};
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"47 339 LINE",
+"194 111 LINE",
+"384 111 LINE",
+"256 339 LINE",
+"384 566 LINE",
+"194 566 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"242 264 LINE",
+"569 264 LINE",
+"569 413 LINE",
+"242 413 LINE"
+);
+}
+);
 width = 600;
 }
 );
 unicode = 2190;
+},
+{
+glyphname = upArrow.case;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"299 468 LINE",
+"146 359 LINE",
+"146 335 LINE",
+"299 443 LINE",
+"455 335 LINE",
+"455 359 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"290 450 LINE",
+"290 133 LINE",
+"310 133 LINE",
+"310 450 LINE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"314 549 LINE",
+"138 423 LINE",
+"138 396 LINE",
+"314 521 LINE",
+"494 396 LINE",
+"494 423 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"304 529 LINE",
+"304 162 LINE",
+"326 162 LINE",
+"326 529 LINE"
+);
+}
+);
+width = 631;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"299 479 LINE",
+"127 363 LINE",
+"127 272 LINE",
+"299 379 LINE",
+"472 272 LINE",
+"472 363 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"257 395 LINE",
+"257 129 LINE",
+"343 129 LINE",
+"343 395 LINE"
+);
+}
+);
+};
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"329 564 LINE",
+"125 425 LINE",
+"125 328 LINE",
+"329 457 LINE",
+"535 328 LINE",
+"535 425 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"285 475 LINE",
+"285 144 LINE",
+"376 144 LINE",
+"376 475 LINE"
+);
+}
+);
+width = 660;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"301 541 LINE",
+"106 417 LINE",
+"106 249 LINE",
+"301 355 LINE",
+"494 249 LINE",
+"494 417 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"218 380 LINE",
+"218 78 LINE",
+"382 78 LINE",
+"382 380 LINE"
+);
+}
+);
+};
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 620 LINE",
+"72 473 LINE",
+"72 295 LINE",
+"300 424 LINE",
+"527 295 LINE",
+"527 473 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"213 451 LINE",
+"213 98 LINE",
+"386 98 LINE",
+"386 451 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+glyphname = rightArrow.case;
+layers = (
+{
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 611, 669}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 608, 678}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 600;
+},
+{
+background = {
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 600, 618}";
+}
+);
+};
+components = (
+{
+name = leftArrow;
+transform = "{-1, 0, 0, -1, 600, 680}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 600;
+}
+);
+},
+{
+glyphname = downArrow.case;
+layers = (
+{
+background = {
+components = (
+{
+name = leftArrow;
+transform = "{0, 1, -1, 0, 601, -5}";
+}
+);
+};
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 601, 627}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+background = {
+components = (
+{
+name = leftArrow;
+transform = "{0, 1, -1, 0, 604, 1}";
+}
+);
+};
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 600, 627}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 600;
+},
+{
+background = {
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 595, 626}";
+}
+);
+};
+components = (
+{
+name = upArrow;
+transform = "{-1, 0, 0, -1, 600, 644}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 600;
+}
+);
+},
+{
+glyphname = leftArrow.case;
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"127 353 LINE",
+"253 177 LINE",
+"280 177 LINE",
+"155 353 LINE",
+"280 532 LINE",
+"253 532 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"147 343 LINE",
+"514 343 LINE",
+"514 365 LINE",
+"147 365 LINE"
+);
+}
+);
+width = 630;
+},
+{
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"125 344 LINE",
+"263 139 LINE",
+"366 139 LINE",
+"236 344 LINE",
+"366 549 LINE",
+"263 549 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"234 304 LINE",
+"545 304 LINE",
+"545 385 LINE",
+"234 385 LINE"
+);
+}
+);
+width = 660;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"63 310 LINE",
+"187 115 LINE",
+"367 115 LINE",
+"261 310 LINE",
+"367 503 LINE",
+"187 503 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"246 239 LINE",
+"526 239 LINE",
+"526 379 LINE",
+"246 379 LINE"
+);
+}
+);
+};
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"47 342 LINE",
+"194 114 LINE",
+"384 114 LINE",
+"256 342 LINE",
+"384 569 LINE",
+"194 569 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"242 267 LINE",
+"569 267 LINE",
+"569 416 LINE",
+"242 416 LINE"
+);
+}
+);
+width = 600;
+}
+);
 },
 {
 color = 10;
