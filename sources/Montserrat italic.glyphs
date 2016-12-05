@@ -1,5 +1,8 @@
 {
 .appVersion = "942";
+DisplayStrings = (
+"\U00B7/periodcentered.sc/periodcentered.loclCAT.sc"
+);
 copyright = "Copyright (c) 2011-2015, Julieta Ulanovsky (julieta.ulanovsky@gmail.com)";
 customParameters = (
 {
@@ -279,7 +282,7 @@ position = "{109, 845}";
 position = "{98, 312}";
 },
 {
-position = "{56, 252}";
+position = "{51, 224}";
 },
 {
 position = "{435, -7}";
@@ -100896,8 +100899,6 @@ layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 width = 205;
 }
 );
-leftMetricsKey = comma;
-rightMetricsKey = comma;
 unicode = 2018;
 },
 {
@@ -100998,6 +100999,41 @@ width = 205;
 leftMetricsKey = comma;
 rightMetricsKey = comma;
 unicode = 201A;
+},
+{
+glyphname = periodcentered.sc;
+layers = (
+{
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 38, 265}";
+}
+);
+layerId = UUID0;
+width = 176;
+},
+{
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 34, 231}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 209;
+},
+{
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 29, 197}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 247;
+}
+);
 },
 {
 glyphname = exclam.sc;
@@ -101201,6 +101237,59 @@ transform = "{-1, 0, 0, -1, 305, 589}";
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 296;
+}
+);
+},
+{
+glyphname = periodcentered.loclCAT.sc;
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{87, 312}";
+}
+);
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -71, -354}";
+}
+);
+layerId = UUID0;
+width = 151;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{128, 322}";
+}
+);
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -73, -361}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 234;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{160, 376}";
+}
+);
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -66, -326}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 281;
 }
 );
 },
