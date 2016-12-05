@@ -1,8 +1,5 @@
 {
 .appVersion = "942";
-DisplayStrings = (
-"\U00BF?\U00A1!./period.sc/exclamdown.sc hola/exclam.sc/question.sc/questiondown.sc"
-);
 copyright = "Copyright (c) 2011-2015, Julieta Ulanovsky (julieta.ulanovsky@gmail.com)";
 customParameters = (
 {
@@ -101377,33 +101374,241 @@ source = period;
 glyphname = question.sc;
 layers = (
 {
-layerId = UUID0;
-width = 600;
-},
+background = {
+components = (
 {
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 600;
-},
-{
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 600;
+name = period.sc;
+transform = "{1, 0, 0, 1, 133, 0}";
 }
 );
+paths = (
+{
+closed = 1;
+nodes = (
+"287 599 LINE",
+"255 437 LINE",
+"205 188 LINE",
+"225 188 LINE",
+"275 437 LINE",
+"307 599 LINE"
+);
+}
+);
+};
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 113, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"103 484 LINE",
+"115 558 OFFCURVE",
+"166 595 OFFCURVE",
+"235 595 CURVE SMOOTH",
+"310 595 OFFCURVE",
+"359 558 OFFCURVE",
+"350 480 CURVE SMOOTH",
+"333 335 OFFCURVE",
+"196 348 OFFCURVE",
+"177 194 CURVE",
+"196 194 LINE",
+"214 340 OFFCURVE",
+"352 327 OFFCURVE",
+"370 480 CURVE SMOOTH",
+"381 572 OFFCURVE",
+"321 615 OFFCURVE",
+"238 615 CURVE SMOOTH",
+"159 615 OFFCURVE",
+"99 570 OFFCURVE",
+"84 486 CURVE"
+);
+}
+);
+width = 360;
+userData = {
+RMXScaler = {
+adjustSpace = 18;
+height = 80;
+width = 81;
+};
+};
+},
+{
+background = {
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 109, 0}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"230 600 LINE",
+"206 478 LINE",
+"171 209 LINE",
+"242 209 LINE",
+"315 478 LINE",
+"339 600 LINE"
+);
+}
+);
+};
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 123, 0}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"151 438 LINE",
+"160 493 OFFCURVE",
+"190 519 OFFCURVE",
+"241 519 CURVE SMOOTH",
+"286 519 OFFCURVE",
+"308 498 OFFCURVE",
+"308 457 CURVE SMOOTH",
+"308 368 OFFCURVE",
+"188 350 OFFCURVE",
+"173 209 CURVE",
+"258 209 LINE",
+"269 313 OFFCURVE",
+"413 347 OFFCURVE",
+"413 474 CURVE SMOOTH",
+"413 557 OFFCURVE",
+"355 609 OFFCURVE",
+"258 609 CURVE SMOOTH",
+"151 609 OFFCURVE",
+"78 545 OFFCURVE",
+"64 439 CURVE"
+);
+}
+);
+width = 391;
+userData = {
+RMXScaler = {
+adjustSpace = 10;
+height = 82;
+weight = -3;
+width = 82;
+};
+};
+},
+{
+background = {
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 113, 0}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"196 601 LINE",
+"165 447 LINE",
+"162 229 LINE",
+"296 229 LINE",
+"379 447 LINE",
+"410 601 LINE"
+);
+}
+);
+};
+components = (
+{
+name = period.sc;
+transform = "{1, 0, 0, 1, 125, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"207 391 LINE",
+"212 435 OFFCURVE",
+"226 455 OFFCURVE",
+"254 455 CURVE SMOOTH",
+"268 455 OFFCURVE",
+"276 446 OFFCURVE",
+"276 427 CURVE SMOOTH",
+"276 364 OFFCURVE",
+"179 358 OFFCURVE",
+"163 229 CURVE",
+"316 229 LINE",
+"328 320 OFFCURVE",
+"471 338 OFFCURVE",
+"471 476 CURVE SMOOTH",
+"471 566 OFFCURVE",
+"408 617 OFFCURVE",
+"293 617 CURVE SMOOTH",
+"155 617 OFFCURVE",
+"66 533 OFFCURVE",
+"49 390 CURVE"
+);
+}
+);
+width = 436;
+userData = {
+RMXScaler = {
+adjustSpace = 6;
+height = 83;
+weight = -17;
+width = 84;
+};
+};
+}
+);
+userData = {
+RMXScaler = {
+source = question;
+};
+};
 },
 {
 glyphname = questiondown.sc;
 layers = (
 {
+components = (
+{
+name = question.sc;
+transform = "{-1, 0, 0, -1, 367, 557}";
+}
+);
 layerId = UUID0;
-width = 600;
+width = 360;
 },
 {
+components = (
+{
+name = question.sc;
+transform = "{-1, 0, 0, -1, 392, 572}";
+}
+);
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 600;
+width = 392;
 },
 {
+components = (
+{
+name = question.sc;
+transform = "{-1, 0, 0, -1, 448, 589}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 600;
+width = 437;
 }
 );
 },
