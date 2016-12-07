@@ -1,5 +1,8 @@
 {
 .appVersion = "942";
+DisplayStrings = (
+"/IJ/IJ.ss01/ij/f_f_ij/f_f_ij.ss01/f_ij/f_ij.ss01/ij.sc/ij.sc.ss01 \012"
+);
 classes = (
 {
 automatic = 1;
@@ -54,7 +57,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [hookabovecomb dotbelowcomb cedillacomb];\012	@MarkscombCase = [hookabovecomb.case dotbelowcomb.case cedillacomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_2;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dotbelowcomb cedillacomb];\012	@MarkscombCase = [dotbelowcomb.case cedillacomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_2;\012";
 name = ccmp;
 },
 {
@@ -119,17 +122,17 @@ name = onum;
 },
 {
 automatic = 1;
-code = "sub A by a.sc;\012sub Aacute by aacute.sc;\012sub Abreve by abreve.sc;\012sub Abreveacute by abreveacute.sc;\012sub Abrevedotbelow by abrevedotbelow.sc;\012sub Abrevegrave by abrevegrave.sc;\012sub Abrevehookabove by abrevehookabove.sc;\012sub Abrevetilde by abrevetilde.sc;\012sub Acircumflex by acircumflex.sc;\012sub Acircumflexacute by acircumflexacute.sc;\012sub Acircumflexdotbelow by acircumflexdotbelow.sc;\012sub Acircumflexgrave by acircumflexgrave.sc;\012sub Acircumflexhookabove by acircumflexhookabove.sc;\012sub Acircumflextilde by acircumflextilde.sc;\012sub Adblgrave by adblgrave.sc;\012sub Adieresis by adieresis.sc;\012sub Adotbelow by adotbelow.sc;\012sub Agrave by agrave.sc;\012sub Ahookabove by ahookabove.sc;\012sub Ainvertedbreve by ainvertedbreve.sc;\012sub Amacron by amacron.sc;\012sub Aogonek by aogonek.sc;\012sub Aring by aring.sc;\012sub Aringacute by aringacute.sc;\012sub Atilde by atilde.sc;\012sub AE by ae.sc;\012sub AEacute by aeacute.sc;\012sub B by b.sc;\012sub C by c.sc;\012sub Cacute by cacute.sc;\012sub Ccaron by ccaron.sc;\012sub Ccedilla by ccedilla.sc;\012sub Ccedillaacute by ccedillaacute.sc;\012sub Ccircumflex by ccircumflex.sc;\012sub Cdotaccent by cdotaccent.sc;\012sub D by d.sc;\012sub DZcaron by dzcaron.sc;\012sub Eth by eth.sc;\012sub Dcaron by dcaron.sc;\012sub Dcroat by dcroat.sc;\012sub Ddotbelow by ddotbelow.sc;\012sub Dlinebelow by dlinebelow.sc;\012sub Dzcaron by dzcaron.sc;\012sub E by e.sc;\012sub Eacute by eacute.sc;\012sub Ebreve by ebreve.sc;\012sub Ecaron by ecaron.sc;\012sub Ecedillabreve by ecedillabreve.sc;\012sub Ecircumflex by ecircumflex.sc;\012sub Ecircumflexacute by ecircumflexacute.sc;\012sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub Ecircumflexgrave by ecircumflexgrave.sc;\012sub Ecircumflexhookabove by ecircumflexhookabove.sc;\012sub Ecircumflextilde by ecircumflextilde.sc;\012sub Edblgrave by edblgrave.sc;\012sub Edieresis by edieresis.sc;\012sub Edotaccent by edotaccent.sc;\012sub Edotbelow by edotbelow.sc;\012sub Egrave by egrave.sc;\012sub Ehookabove by ehookabove.sc;\012sub Einvertedbreve by einvertedbreve.sc;\012sub Emacron by emacron.sc;\012sub Emacronacute by emacronacute.sc;\012sub Emacrongrave by emacrongrave.sc;\012sub Eogonek by eogonek.sc;\012sub Etilde by etilde.sc;\012sub F by f.sc;\012sub G by g.sc;\012sub Gbreve by gbreve.sc;\012sub Gcaron by gcaron.sc;\012sub Gcircumflex by gcircumflex.sc;\012sub Gcommaaccent by gcommaaccent.sc;\012sub Gdotaccent by gdotaccent.sc;\012sub Gmacron by gmacron.sc;\012sub H by h.sc;\012sub Hbar by hbar.sc;\012sub Hbrevebelow by hbrevebelow.sc;\012sub Hcircumflex by hcircumflex.sc;\012sub Hdotbelow by hdotbelow.sc;\012sub I by i.sc;\012sub Iacute by iacute.sc;\012sub Ibreve by ibreve.sc;\012sub Icircumflex by icircumflex.sc;\012sub Idblgrave by idblgrave.sc;\012sub Idieresis by idieresis.sc;\012sub Idieresisacute by idieresisacute.sc;\012sub Idotaccent by idotaccent.sc;\012sub Idotbelow by idotbelow.sc;\012sub Igrave by igrave.sc;\012sub Ihookabove by ihookabove.sc;\012sub Iinvertedbreve by iinvertedbreve.sc;\012sub Imacron by imacron.sc;\012sub Iogonek by iogonek.sc;\012sub Itilde by itilde.sc;\012sub J by j.sc;\012sub Jacute by jacute.sc;\012sub Jcircumflex by jcircumflex.sc;\012sub K by k.sc;\012sub Kcommaaccent by kcommaaccent.sc;\012sub L by l.sc;\012sub LJ by lj.sc;\012sub Lacute by lacute.sc;\012sub Lcaron by lcaron.sc;\012sub Lcommaaccent by lcommaaccent.sc;\012sub Ldot by ldot.sc;\012sub Ldotbelow by ldotbelow.sc;\012sub Lj by lj.sc;\012sub Llinebelow by llinebelow.sc;\012sub Lslash by lslash.sc;\012sub M by m.sc;\012sub Mdotbelow by mdotbelow.sc;\012sub N by n.sc;\012sub NJ by nj.sc;\012sub Nacute by nacute.sc;\012sub Ncaron by ncaron.sc;\012sub Ncommaaccent by ncommaaccent.sc;\012sub Ndotaccent by ndotaccent.sc;\012sub Ndotbelow by ndotbelow.sc;\012sub Eng by eng.sc;\012sub Nj by nj.sc;\012sub Nlinebelow by nlinebelow.sc;\012sub Ntilde by ntilde.sc;\012sub O by o.sc;\012sub Oacute by oacute.sc;\012sub Obreve by obreve.sc;\012sub Ocircumflex by ocircumflex.sc;\012sub Ocircumflexacute by ocircumflexacute.sc;\012sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub Ocircumflexgrave by ocircumflexgrave.sc;\012sub Ocircumflexhookabove by ocircumflexhookabove.sc;\012sub Ocircumflextilde by ocircumflextilde.sc;\012sub Odblgrave by odblgrave.sc;\012sub Odieresis by odieresis.sc;\012sub Odieresismacron by odieresismacron.sc;\012sub Odotaccentmacron by odotaccentmacron.sc;\012sub Odotbelow by odotbelow.sc;\012sub Ograve by ograve.sc;\012sub Ohookabove by ohookabove.sc;\012sub Ohorn by ohorn.sc;\012sub Ohornacute by ohornacute.sc;\012sub Ohorndotbelow by ohorndotbelow.sc;\012sub Ohorngrave by ohorngrave.sc;\012sub Ohornhookabove by ohornhookabove.sc;\012sub Ohorntilde by ohorntilde.sc;\012sub Ohungarumlaut by ohungarumlaut.sc;\012sub Oinvertedbreve by oinvertedbreve.sc;\012sub Omacron by omacron.sc;\012sub Omacronacute by omacronacute.sc;\012sub Omacrongrave by omacrongrave.sc;\012sub Oogonek by Oogonek.sc;\012sub Oslash by oslash.sc;\012sub Oslashacute by oslashacute.sc;\012sub Otilde by otilde.sc;\012sub Otildeacute by otildeacute.sc;\012sub Otildedieresis by otildedieresis.sc;\012sub Otildemacron by otildemacron.sc;\012sub OE by oe.sc;\012sub P by p.sc;\012sub Thorn by thorn.sc;\012sub Q by q.sc;\012sub R by r.sc;\012sub Racute by racute.sc;\012sub Rcaron by rcaron.sc;\012sub Rcommaaccent by rcommaaccent.sc;\012sub Rdblgrave by rdblgrave.sc;\012sub Rdotbelow by rdotbelow.sc;\012sub Rinvertedbreve by rinvertedbreve.sc;\012sub Rlinebelow by rlinebelow.sc;\012sub S by s.sc;\012sub Sacute by sacute.sc;\012sub Sacutedotaccent by sacutedotaccent.sc;\012sub Scaron by scaron.sc;\012sub Scarondotaccent by scarondotaccent.sc;\012sub Scedilla by scedilla.sc;\012sub Scircumflex by scircumflex.sc;\012sub Scommaaccent by scommaaccent.sc;\012sub Sdotaccent by sdotaccent.sc;\012sub Sdotbelow by sdotbelow.sc;\012sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub Germandbls by germandbls.sc;\012sub Schwa by schwa.sc;\012sub T by t.sc;\012sub Tbar by tbar.sc;\012sub Tcaron by tcaron.sc;\012sub Tcedilla by tcedilla.sc;\012sub Tcommaaccent by tcommaaccent.sc;\012sub Tdotbelow by tdotbelow.sc;\012sub Tlinebelow by tlinebelow.sc;\012sub U by u.sc;\012sub Uacute by uacute.sc;\012sub Ubreve by ubreve.sc;\012sub Ucircumflex by ucircumflex.sc;\012sub Udblgrave by udblgrave.sc;\012sub Udieresis by udieresis.sc;\012sub Udotbelow by udotbelow.sc;\012sub Ugrave by ugrave.sc;\012sub Uhookabove by uhookabove.sc;\012sub Uhorn by uhorn.sc;\012sub Uhornacute by uhornacute.sc;\012sub Uhorndotbelow by uhorndotbelow.sc;\012sub Uhorngrave by uhorngrave.sc;\012sub Uhornhookabove by uhornhookabove.sc;\012sub Uhorntilde by uhorntilde.sc;\012sub Uhungarumlaut by uhungarumlaut.sc;\012sub Uinvertedbreve by uinvertedbreve.sc;\012sub Umacron by umacron.sc;\012sub Umacrondieresis by umacrondieresis.sc;\012sub Uogonek by uogonek.sc;\012sub Uring by uring.sc;\012sub Utilde by utilde.sc;\012sub Utildeacute by utildeacute.sc;\012sub V by v.sc;\012sub W by w.sc;\012sub Wacute by wacute.sc;\012sub Wcircumflex by wcircumflex.sc;\012sub Wdieresis by wdieresis.sc;\012sub Wgrave by wgrave.sc;\012sub X by x.sc;\012sub Y by y.sc;\012sub Yacute by yacute.sc;\012sub Ycircumflex by ycircumflex.sc;\012sub Ydieresis by ydieresis.sc;\012sub Ydotaccent by ydotaccent.sc;\012sub Ydotbelow by ydotbelow.sc;\012sub Ygrave by ygrave.sc;\012sub Yhookabove by yhookabove.sc;\012sub Ymacron by ymacron.sc;\012sub Ytilde by ytilde.sc;\012sub Z by z.sc;\012sub Zacute by zacute.sc;\012sub Zcaron by zcaron.sc;\012sub Zdotaccent by zdotaccent.sc;\012sub Zdotbelow by zdotbelow.sc;\012sub periodcentered by periodcentered.sc;\012sub colon by colon.sc;\012sub comma by comma.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub periodcentered.loclCAT by periodcentered.loclCAT.sc;\012sub period by period.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesinglbase by quotesinglbase.sc;\012sub quotesingle by quotesingle.sc;\012sub semicolon by semicolon.sc;\012sub ampersand by ampersand.sc;\012sub dotbelowcomb by dotbelowcomb.sc;\012sub cedillacomb by cedillacomb.sc;\012sub ogonekcomb.curve by ogonekcomb.curve.sc;\012";
+code = "sub A by a.sc;\012sub Aacute by aacute.sc;\012sub Abreve by abreve.sc;\012sub Abreveacute by abreveacute.sc;\012sub Abrevedotbelow by abrevedotbelow.sc;\012sub Abrevegrave by abrevegrave.sc;\012sub Abrevehookabove by abrevehookabove.sc;\012sub Abrevetilde by abrevetilde.sc;\012sub Acircumflex by acircumflex.sc;\012sub Acircumflexacute by acircumflexacute.sc;\012sub Acircumflexdotbelow by acircumflexdotbelow.sc;\012sub Acircumflexgrave by acircumflexgrave.sc;\012sub Acircumflexhookabove by acircumflexhookabove.sc;\012sub Acircumflextilde by acircumflextilde.sc;\012sub Adblgrave by adblgrave.sc;\012sub Adieresis by adieresis.sc;\012sub Adotbelow by adotbelow.sc;\012sub Agrave by agrave.sc;\012sub Ahookabove by ahookabove.sc;\012sub Ainvertedbreve by ainvertedbreve.sc;\012sub Amacron by amacron.sc;\012sub Aogonek by aogonek.sc;\012sub Aring by aring.sc;\012sub Aringacute by aringacute.sc;\012sub Atilde by atilde.sc;\012sub AE by ae.sc;\012sub AEacute by aeacute.sc;\012sub B by b.sc;\012sub C by c.sc;\012sub Cacute by cacute.sc;\012sub Ccaron by ccaron.sc;\012sub Ccedilla by ccedilla.sc;\012sub Ccedillaacute by ccedillaacute.sc;\012sub Ccircumflex by ccircumflex.sc;\012sub Cdotaccent by cdotaccent.sc;\012sub D by d.sc;\012sub DZcaron by dzcaron.sc;\012sub Eth by eth.sc;\012sub Dcaron by dcaron.sc;\012sub Dcroat by dcroat.sc;\012sub Ddotbelow by ddotbelow.sc;\012sub Dlinebelow by dlinebelow.sc;\012sub Dzcaron by dzcaron.sc;\012sub E by e.sc;\012sub Eacute by eacute.sc;\012sub Ebreve by ebreve.sc;\012sub Ecaron by ecaron.sc;\012sub Ecedillabreve by ecedillabreve.sc;\012sub Ecircumflex by ecircumflex.sc;\012sub Ecircumflexacute by ecircumflexacute.sc;\012sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub Ecircumflexgrave by ecircumflexgrave.sc;\012sub Ecircumflexhookabove by ecircumflexhookabove.sc;\012sub Ecircumflextilde by ecircumflextilde.sc;\012sub Edblgrave by edblgrave.sc;\012sub Edieresis by edieresis.sc;\012sub Edotaccent by edotaccent.sc;\012sub Edotbelow by edotbelow.sc;\012sub Egrave by egrave.sc;\012sub Ehookabove by ehookabove.sc;\012sub Einvertedbreve by einvertedbreve.sc;\012sub Emacron by emacron.sc;\012sub Emacronacute by emacronacute.sc;\012sub Emacrongrave by emacrongrave.sc;\012sub Eogonek by eogonek.sc;\012sub Etilde by etilde.sc;\012sub F by f.sc;\012sub G by g.sc;\012sub Gbreve by gbreve.sc;\012sub Gcaron by gcaron.sc;\012sub Gcircumflex by gcircumflex.sc;\012sub Gcommaaccent by gcommaaccent.sc;\012sub Gdotaccent by gdotaccent.sc;\012sub Gmacron by gmacron.sc;\012sub H by h.sc;\012sub Hbar by hbar.sc;\012sub Hbrevebelow by hbrevebelow.sc;\012sub Hcircumflex by hcircumflex.sc;\012sub Hdotbelow by hdotbelow.sc;\012sub I by i.sc;\012sub IJ by ij.sc;\012sub Iacute by iacute.sc;\012sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;\012sub Ibreve by ibreve.sc;\012sub Icircumflex by icircumflex.sc;\012sub Idblgrave by idblgrave.sc;\012sub Idieresis by idieresis.sc;\012sub Idieresisacute by idieresisacute.sc;\012sub Idotaccent by idotaccent.sc;\012sub Idotbelow by idotbelow.sc;\012sub Igrave by igrave.sc;\012sub Ihookabove by ihookabove.sc;\012sub Iinvertedbreve by iinvertedbreve.sc;\012sub Imacron by imacron.sc;\012sub Iogonek by iogonek.sc;\012sub Itilde by itilde.sc;\012sub J by j.sc;\012sub Jacute by jacute.sc;\012sub Jcircumflex by jcircumflex.sc;\012sub K by k.sc;\012sub Kcommaaccent by kcommaaccent.sc;\012sub L by l.sc;\012sub LJ by lj.sc;\012sub Lacute by lacute.sc;\012sub Lcaron by lcaron.sc;\012sub Lcommaaccent by lcommaaccent.sc;\012sub Ldot by ldot.sc;\012sub Ldotbelow by ldotbelow.sc;\012sub Lj by lj.sc;\012sub Llinebelow by llinebelow.sc;\012sub Lslash by lslash.sc;\012sub M by m.sc;\012sub Mdotbelow by mdotbelow.sc;\012sub N by n.sc;\012sub NJ by nj.sc;\012sub Nacute by nacute.sc;\012sub Ncaron by ncaron.sc;\012sub Ncommaaccent by ncommaaccent.sc;\012sub Ndotaccent by ndotaccent.sc;\012sub Ndotbelow by ndotbelow.sc;\012sub Eng by eng.sc;\012sub Nj by nj.sc;\012sub Nlinebelow by nlinebelow.sc;\012sub Ntilde by ntilde.sc;\012sub O by o.sc;\012sub Oacute by oacute.sc;\012sub Obreve by obreve.sc;\012sub Ocircumflex by ocircumflex.sc;\012sub Ocircumflexacute by ocircumflexacute.sc;\012sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub Ocircumflexgrave by ocircumflexgrave.sc;\012sub Ocircumflexhookabove by ocircumflexhookabove.sc;\012sub Ocircumflextilde by ocircumflextilde.sc;\012sub Odblgrave by odblgrave.sc;\012sub Odieresis by odieresis.sc;\012sub Odieresismacron by odieresismacron.sc;\012sub Odotaccentmacron by odotaccentmacron.sc;\012sub Odotbelow by odotbelow.sc;\012sub Ograve by ograve.sc;\012sub Ohookabove by ohookabove.sc;\012sub Ohorn by ohorn.sc;\012sub Ohornacute by ohornacute.sc;\012sub Ohorndotbelow by ohorndotbelow.sc;\012sub Ohorngrave by ohorngrave.sc;\012sub Ohornhookabove by ohornhookabove.sc;\012sub Ohorntilde by ohorntilde.sc;\012sub Ohungarumlaut by ohungarumlaut.sc;\012sub Oinvertedbreve by oinvertedbreve.sc;\012sub Omacron by omacron.sc;\012sub Omacronacute by omacronacute.sc;\012sub Omacrongrave by omacrongrave.sc;\012sub Oogonek by oogonek.sc;\012sub Oslash by oslash.sc;\012sub Oslashacute by oslashacute.sc;\012sub Otilde by otilde.sc;\012sub Otildeacute by otildeacute.sc;\012sub Otildedieresis by otildedieresis.sc;\012sub Otildemacron by otildemacron.sc;\012sub OE by oe.sc;\012sub P by p.sc;\012sub Thorn by thorn.sc;\012sub Q by q.sc;\012sub R by r.sc;\012sub Racute by racute.sc;\012sub Rcaron by rcaron.sc;\012sub Rcommaaccent by rcommaaccent.sc;\012sub Rdblgrave by rdblgrave.sc;\012sub Rdotbelow by rdotbelow.sc;\012sub Rinvertedbreve by rinvertedbreve.sc;\012sub Rlinebelow by rlinebelow.sc;\012sub S by s.sc;\012sub Sacute by sacute.sc;\012sub Sacutedotaccent by sacutedotaccent.sc;\012sub Scaron by scaron.sc;\012sub Scarondotaccent by scarondotaccent.sc;\012sub Scedilla by scedilla.sc;\012sub Scircumflex by scircumflex.sc;\012sub Scommaaccent by scommaaccent.sc;\012sub Sdotaccent by sdotaccent.sc;\012sub Sdotbelow by sdotbelow.sc;\012sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub Germandbls by germandbls.sc;\012sub Schwa by schwa.sc;\012sub T by t.sc;\012sub Tbar by tbar.sc;\012sub Tcaron by tcaron.sc;\012sub Tcedilla by tcedilla.sc;\012sub Tcommaaccent by tcommaaccent.sc;\012sub Tdotbelow by tdotbelow.sc;\012sub Tlinebelow by tlinebelow.sc;\012sub U by u.sc;\012sub Uacute by uacute.sc;\012sub Ubreve by ubreve.sc;\012sub Ucircumflex by ucircumflex.sc;\012sub Udblgrave by udblgrave.sc;\012sub Udieresis by udieresis.sc;\012sub Udotbelow by udotbelow.sc;\012sub Ugrave by ugrave.sc;\012sub Uhookabove by uhookabove.sc;\012sub Uhorn by uhorn.sc;\012sub Uhornacute by uhornacute.sc;\012sub Uhorndotbelow by uhorndotbelow.sc;\012sub Uhorngrave by uhorngrave.sc;\012sub Uhornhookabove by uhornhookabove.sc;\012sub Uhorntilde by uhorntilde.sc;\012sub Uhungarumlaut by uhungarumlaut.sc;\012sub Uinvertedbreve by uinvertedbreve.sc;\012sub Umacron by umacron.sc;\012sub Umacrondieresis by umacrondieresis.sc;\012sub Uogonek by uogonek.sc;\012sub Uring by uring.sc;\012sub Utilde by utilde.sc;\012sub Utildeacute by utildeacute.sc;\012sub V by v.sc;\012sub W by w.sc;\012sub Wacute by wacute.sc;\012sub Wcircumflex by wcircumflex.sc;\012sub Wdieresis by wdieresis.sc;\012sub Wgrave by wgrave.sc;\012sub X by x.sc;\012sub Y by y.sc;\012sub Yacute by yacute.sc;\012sub Ycircumflex by ycircumflex.sc;\012sub Ydieresis by ydieresis.sc;\012sub Ydotaccent by ydotaccent.sc;\012sub Ydotbelow by ydotbelow.sc;\012sub Ygrave by ygrave.sc;\012sub Yhookabove by yhookabove.sc;\012sub Ymacron by ymacron.sc;\012sub Ytilde by ytilde.sc;\012sub Z by z.sc;\012sub Zacute by zacute.sc;\012sub Zcaron by zcaron.sc;\012sub Zdotaccent by zdotaccent.sc;\012sub Zdotbelow by zdotbelow.sc;\012sub periodcentered by periodcentered.sc;\012sub colon by colon.sc;\012sub comma by comma.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub periodcentered.loclCAT by periodcentered.loclCAT.sc;\012sub period by period.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesinglbase by quotesinglbase.sc;\012sub quotesingle by quotesingle.sc;\012sub semicolon by semicolon.sc;\012sub ampersand by ampersand.sc;\012sub dotbelowcomb by dotbelowcomb.sc;\012sub cedillacomb by cedillacomb.sc;\012sub ogonekcomb.curve by ogonekcomb.curve.sc;\012";
 name = c2sc;
 },
 {
 automatic = 1;
-code = "sub a by a.sc;\012sub aacute by aacute.sc;\012sub abreve by abreve.sc;\012sub abreveacute by abreveacute.sc;\012sub abrevedotbelow by abrevedotbelow.sc;\012sub abrevegrave by abrevegrave.sc;\012sub abrevehookabove by abrevehookabove.sc;\012sub abrevetilde by abrevetilde.sc;\012sub acircumflex by acircumflex.sc;\012sub acircumflexacute by acircumflexacute.sc;\012sub acircumflexdotbelow by acircumflexdotbelow.sc;\012sub acircumflexgrave by acircumflexgrave.sc;\012sub acircumflexhookabove by acircumflexhookabove.sc;\012sub acircumflextilde by acircumflextilde.sc;\012sub adblgrave by adblgrave.sc;\012sub adieresis by adieresis.sc;\012sub adotbelow by adotbelow.sc;\012sub agrave by agrave.sc;\012sub ahookabove by ahookabove.sc;\012sub ainvertedbreve by ainvertedbreve.sc;\012sub amacron by amacron.sc;\012sub aogonek by aogonek.sc;\012sub aring by aring.sc;\012sub aringacute by aringacute.sc;\012sub atilde by atilde.sc;\012sub ae by ae.sc;\012sub aeacute by aeacute.sc;\012sub b by b.sc;\012sub c by c.sc;\012sub cacute by cacute.sc;\012sub ccaron by ccaron.sc;\012sub ccedilla by ccedilla.sc;\012sub ccedillaacute by ccedillaacute.sc;\012sub ccircumflex by ccircumflex.sc;\012sub cdotaccent by cdotaccent.sc;\012sub d by d.sc;\012sub eth by eth.sc;\012sub dcaron by dcaron.sc;\012sub dcroat by dcroat.sc;\012sub ddotbelow by ddotbelow.sc;\012sub dlinebelow by dlinebelow.sc;\012sub dzcaron by dzcaron.sc;\012sub e by e.sc;\012sub eacute by eacute.sc;\012sub ebreve by ebreve.sc;\012sub ecaron by ecaron.sc;\012sub ecedillabreve by ecedillabreve.sc;\012sub ecircumflex by ecircumflex.sc;\012sub ecircumflexacute by ecircumflexacute.sc;\012sub ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub ecircumflexgrave by ecircumflexgrave.sc;\012sub ecircumflexhookabove by ecircumflexhookabove.sc;\012sub ecircumflextilde by ecircumflextilde.sc;\012sub edblgrave by edblgrave.sc;\012sub edieresis by edieresis.sc;\012sub edotaccent by edotaccent.sc;\012sub edotbelow by edotbelow.sc;\012sub egrave by egrave.sc;\012sub ehookabove by ehookabove.sc;\012sub einvertedbreve by einvertedbreve.sc;\012sub emacron by emacron.sc;\012sub emacronacute by emacronacute.sc;\012sub emacrongrave by emacrongrave.sc;\012sub eogonek by eogonek.sc;\012sub etilde by etilde.sc;\012sub schwa by schwa.sc;\012sub f by f.sc;\012sub g by g.sc;\012sub gbreve by gbreve.sc;\012sub gcaron by gcaron.sc;\012sub gcircumflex by gcircumflex.sc;\012sub gcommaaccent by gcommaaccent.sc;\012sub gdotaccent by gdotaccent.sc;\012sub gmacron by gmacron.sc;\012sub h by h.sc;\012sub hbar by hbar.sc;\012sub hbrevebelow by hbrevebelow.sc;\012sub hcircumflex by hcircumflex.sc;\012sub hdotbelow by hdotbelow.sc;\012sub i by i.sc;\012sub idotless by idotless.sc;\012sub iacute by iacute.sc;\012sub ibreve by ibreve.sc;\012sub icircumflex by icircumflex.sc;\012sub idblgrave by idblgrave.sc;\012sub idieresis by idieresis.sc;\012sub idieresisacute by idieresisacute.sc;\012sub idotaccent by idotaccent.sc;\012sub idotbelow by idotbelow.sc;\012sub igrave by igrave.sc;\012sub ihookabove by ihookabove.sc;\012sub iinvertedbreve by iinvertedbreve.sc;\012sub imacron by imacron.sc;\012sub iogonek by iogonek.sc;\012sub itilde by itilde.sc;\012sub j by j.sc;\012sub jacute by jacute.sc;\012sub jcircumflex by jcircumflex.sc;\012sub k by k.sc;\012sub kcommaaccent by kcommaaccent.sc;\012sub kgreenlandic by kgreenlandic.sc;\012sub l by l.sc;\012sub lacute by lacute.sc;\012sub lcaron by lcaron.sc;\012sub lcommaaccent by lcommaaccent.sc;\012sub ldot by ldot.sc;\012sub ldotbelow by ldotbelow.sc;\012sub lj by lj.sc;\012sub llinebelow by llinebelow.sc;\012sub lslash by lslash.sc;\012sub m by m.sc;\012sub mdotbelow by mdotbelow.sc;\012sub n by n.sc;\012sub nacute by nacute.sc;\012sub ncaron by ncaron.sc;\012sub ncommaaccent by ncommaaccent.sc;\012sub ndotaccent by ndotaccent.sc;\012sub ndotbelow by ndotbelow.sc;\012sub eng by eng.sc;\012sub nj by nj.sc;\012sub nlinebelow by nlinebelow.sc;\012sub ntilde by ntilde.sc;\012sub o by o.sc;\012sub oacute by oacute.sc;\012sub obreve by obreve.sc;\012sub ocircumflex by ocircumflex.sc;\012sub ocircumflexacute by ocircumflexacute.sc;\012sub ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub ocircumflexgrave by ocircumflexgrave.sc;\012sub ocircumflexhookabove by ocircumflexhookabove.sc;\012sub ocircumflextilde by ocircumflextilde.sc;\012sub odblgrave by odblgrave.sc;\012sub odieresis by odieresis.sc;\012sub odieresismacron by odieresismacron.sc;\012sub odotaccentmacron by odotaccentmacron.sc;\012sub odotbelow by odotbelow.sc;\012sub ograve by ograve.sc;\012sub ohookabove by ohookabove.sc;\012sub ohorn by ohorn.sc;\012sub ohornacute by ohornacute.sc;\012sub ohorndotbelow by ohorndotbelow.sc;\012sub ohorngrave by ohorngrave.sc;\012sub ohornhookabove by ohornhookabove.sc;\012sub ohorntilde by ohorntilde.sc;\012sub ohungarumlaut by ohungarumlaut.sc;\012sub oinvertedbreve by oinvertedbreve.sc;\012sub omacron by omacron.sc;\012sub omacronacute by omacronacute.sc;\012sub omacrongrave by omacrongrave.sc;\012sub oogonek by oogonek.sc;\012sub oslash by oslash.sc;\012sub oslashacute by oslashacute.sc;\012sub otilde by otilde.sc;\012sub otildeacute by otildeacute.sc;\012sub otildedieresis by otildedieresis.sc;\012sub otildemacron by otildemacron.sc;\012sub oe by oe.sc;\012sub p by p.sc;\012sub thorn by thorn.sc;\012sub q by q.sc;\012sub r by r.sc;\012sub racute by racute.sc;\012sub rcaron by rcaron.sc;\012sub rcommaaccent by rcommaaccent.sc;\012sub rdblgrave by rdblgrave.sc;\012sub rdotbelow by rdotbelow.sc;\012sub rinvertedbreve by rinvertedbreve.sc;\012sub rlinebelow by rlinebelow.sc;\012sub s by s.sc;\012sub sacute by sacute.sc;\012sub sacutedotaccent by sacutedotaccent.sc;\012sub scaron by scaron.sc;\012sub scarondotaccent by scarondotaccent.sc;\012sub scedilla by scedilla.sc;\012sub scircumflex by scircumflex.sc;\012sub scommaaccent by scommaaccent.sc;\012sub sdotaccent by sdotaccent.sc;\012sub sdotbelow by sdotbelow.sc;\012sub sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub germandbls by germandbls.sc;\012sub t by t.sc;\012sub tbar by tbar.sc;\012sub tcaron by tcaron.sc;\012sub tcedilla by tcedilla.sc;\012sub tcommaaccent by tcommaaccent.sc;\012sub tdieresis by tdieresis.sc;\012sub tdotbelow by tdotbelow.sc;\012sub tlinebelow by tlinebelow.sc;\012sub u by u.sc;\012sub uacute by uacute.sc;\012sub ubreve by ubreve.sc;\012sub ucircumflex by ucircumflex.sc;\012sub udblgrave by udblgrave.sc;\012sub udieresis by udieresis.sc;\012sub udotbelow by udotbelow.sc;\012sub ugrave by ugrave.sc;\012sub uhookabove by uhookabove.sc;\012sub uhorn by uhorn.sc;\012sub uhornacute by uhornacute.sc;\012sub uhorndotbelow by uhorndotbelow.sc;\012sub uhorngrave by uhorngrave.sc;\012sub uhornhookabove by uhornhookabove.sc;\012sub uhorntilde by uhorntilde.sc;\012sub uhungarumlaut by uhungarumlaut.sc;\012sub uinvertedbreve by uinvertedbreve.sc;\012sub umacron by umacron.sc;\012sub umacrondieresis by umacrondieresis.sc;\012sub uogonek by uogonek.sc;\012sub uring by uring.sc;\012sub utilde by utilde.sc;\012sub utildeacute by utildeacute.sc;\012sub v by v.sc;\012sub w by w.sc;\012sub wacute by wacute.sc;\012sub wcircumflex by wcircumflex.sc;\012sub wdieresis by wdieresis.sc;\012sub wgrave by wgrave.sc;\012sub x by x.sc;\012sub y by y.sc;\012sub yacute by yacute.sc;\012sub ycircumflex by ycircumflex.sc;\012sub ydieresis by ydieresis.sc;\012sub ydotaccent by ydotaccent.sc;\012sub ydotbelow by ydotbelow.sc;\012sub ygrave by ygrave.sc;\012sub yhookabove by yhookabove.sc;\012sub ymacron by ymacron.sc;\012sub ytilde by ytilde.sc;\012sub z by z.sc;\012sub zacute by zacute.sc;\012sub zcaron by zcaron.sc;\012sub zdotaccent by zdotaccent.sc;\012sub zdotbelow by zdotbelow.sc;\012sub periodcentered by periodcentered.sc;\012sub colon by colon.sc;\012sub comma by comma.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub periodcentered.loclCAT by periodcentered.loclCAT.sc;\012sub period by period.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesinglbase by quotesinglbase.sc;\012sub quotesingle by quotesingle.sc;\012sub semicolon by semicolon.sc;\012sub ampersand by ampersand.sc;\012sub dotbelowcomb by dotbelowcomb.sc;\012sub cedillacomb by cedillacomb.sc;\012sub ogonekcomb.curve by ogonekcomb.curve.sc;\012";
+code = "sub a by a.sc;\012sub aacute by aacute.sc;\012sub abreve by abreve.sc;\012sub abreveacute by abreveacute.sc;\012sub abrevedotbelow by abrevedotbelow.sc;\012sub abrevegrave by abrevegrave.sc;\012sub abrevehookabove by abrevehookabove.sc;\012sub abrevetilde by abrevetilde.sc;\012sub acircumflex by acircumflex.sc;\012sub acircumflexacute by acircumflexacute.sc;\012sub acircumflexdotbelow by acircumflexdotbelow.sc;\012sub acircumflexgrave by acircumflexgrave.sc;\012sub acircumflexhookabove by acircumflexhookabove.sc;\012sub acircumflextilde by acircumflextilde.sc;\012sub adblgrave by adblgrave.sc;\012sub adieresis by adieresis.sc;\012sub adotbelow by adotbelow.sc;\012sub agrave by agrave.sc;\012sub ahookabove by ahookabove.sc;\012sub ainvertedbreve by ainvertedbreve.sc;\012sub amacron by amacron.sc;\012sub aogonek by aogonek.sc;\012sub aring by aring.sc;\012sub aringacute by aringacute.sc;\012sub atilde by atilde.sc;\012sub ae by ae.sc;\012sub aeacute by aeacute.sc;\012sub b by b.sc;\012sub c by c.sc;\012sub cacute by cacute.sc;\012sub ccaron by ccaron.sc;\012sub ccedilla by ccedilla.sc;\012sub ccedillaacute by ccedillaacute.sc;\012sub ccircumflex by ccircumflex.sc;\012sub cdotaccent by cdotaccent.sc;\012sub d by d.sc;\012sub eth by eth.sc;\012sub dcaron by dcaron.sc;\012sub dcroat by dcroat.sc;\012sub ddotbelow by ddotbelow.sc;\012sub dlinebelow by dlinebelow.sc;\012sub dzcaron by dzcaron.sc;\012sub e by e.sc;\012sub eacute by eacute.sc;\012sub ebreve by ebreve.sc;\012sub ecaron by ecaron.sc;\012sub ecedillabreve by ecedillabreve.sc;\012sub ecircumflex by ecircumflex.sc;\012sub ecircumflexacute by ecircumflexacute.sc;\012sub ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub ecircumflexgrave by ecircumflexgrave.sc;\012sub ecircumflexhookabove by ecircumflexhookabove.sc;\012sub ecircumflextilde by ecircumflextilde.sc;\012sub edblgrave by edblgrave.sc;\012sub edieresis by edieresis.sc;\012sub edotaccent by edotaccent.sc;\012sub edotbelow by edotbelow.sc;\012sub egrave by egrave.sc;\012sub ehookabove by ehookabove.sc;\012sub einvertedbreve by einvertedbreve.sc;\012sub emacron by emacron.sc;\012sub emacronacute by emacronacute.sc;\012sub emacrongrave by emacrongrave.sc;\012sub eogonek by eogonek.sc;\012sub etilde by etilde.sc;\012sub schwa by schwa.sc;\012sub f by f.sc;\012sub g by g.sc;\012sub gbreve by gbreve.sc;\012sub gcaron by gcaron.sc;\012sub gcircumflex by gcircumflex.sc;\012sub gcommaaccent by gcommaaccent.sc;\012sub gdotaccent by gdotaccent.sc;\012sub gmacron by gmacron.sc;\012sub h by h.sc;\012sub hbar by hbar.sc;\012sub hbrevebelow by hbrevebelow.sc;\012sub hcircumflex by hcircumflex.sc;\012sub hdotbelow by hdotbelow.sc;\012sub i by i.sc;\012sub idotless by idotless.sc;\012sub iacute by iacute.sc;\012sub iacute_j.loclNLD by iacute_j.loclNLD.sc;\012sub ibreve by ibreve.sc;\012sub icircumflex by icircumflex.sc;\012sub idblgrave by idblgrave.sc;\012sub idieresis by idieresis.sc;\012sub idieresisacute by idieresisacute.sc;\012sub idotaccent by idotaccent.sc;\012sub idotbelow by idotbelow.sc;\012sub igrave by igrave.sc;\012sub ihookabove by ihookabove.sc;\012sub iinvertedbreve by iinvertedbreve.sc;\012sub ij by ij.sc;\012sub imacron by imacron.sc;\012sub iogonek by iogonek.sc;\012sub itilde by itilde.sc;\012sub j by j.sc;\012sub jacute by jacute.sc;\012sub jcircumflex by jcircumflex.sc;\012sub k by k.sc;\012sub kcommaaccent by kcommaaccent.sc;\012sub kgreenlandic by kgreenlandic.sc;\012sub l by l.sc;\012sub lacute by lacute.sc;\012sub lcaron by lcaron.sc;\012sub lcommaaccent by lcommaaccent.sc;\012sub ldot by ldot.sc;\012sub ldotbelow by ldotbelow.sc;\012sub lj by lj.sc;\012sub llinebelow by llinebelow.sc;\012sub lslash by lslash.sc;\012sub m by m.sc;\012sub mdotbelow by mdotbelow.sc;\012sub n by n.sc;\012sub nacute by nacute.sc;\012sub ncaron by ncaron.sc;\012sub ncommaaccent by ncommaaccent.sc;\012sub ndotaccent by ndotaccent.sc;\012sub ndotbelow by ndotbelow.sc;\012sub eng by eng.sc;\012sub nj by nj.sc;\012sub nlinebelow by nlinebelow.sc;\012sub ntilde by ntilde.sc;\012sub o by o.sc;\012sub oacute by oacute.sc;\012sub obreve by obreve.sc;\012sub ocircumflex by ocircumflex.sc;\012sub ocircumflexacute by ocircumflexacute.sc;\012sub ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub ocircumflexgrave by ocircumflexgrave.sc;\012sub ocircumflexhookabove by ocircumflexhookabove.sc;\012sub ocircumflextilde by ocircumflextilde.sc;\012sub odblgrave by odblgrave.sc;\012sub odieresis by odieresis.sc;\012sub odieresismacron by odieresismacron.sc;\012sub odotaccentmacron by odotaccentmacron.sc;\012sub odotbelow by odotbelow.sc;\012sub ograve by ograve.sc;\012sub ohookabove by ohookabove.sc;\012sub ohorn by ohorn.sc;\012sub ohornacute by ohornacute.sc;\012sub ohorndotbelow by ohorndotbelow.sc;\012sub ohorngrave by ohorngrave.sc;\012sub ohornhookabove by ohornhookabove.sc;\012sub ohorntilde by ohorntilde.sc;\012sub ohungarumlaut by ohungarumlaut.sc;\012sub oinvertedbreve by oinvertedbreve.sc;\012sub omacron by omacron.sc;\012sub omacronacute by omacronacute.sc;\012sub omacrongrave by omacrongrave.sc;\012sub oogonek by oogonek.sc;\012sub oslash by oslash.sc;\012sub oslashacute by oslashacute.sc;\012sub otilde by otilde.sc;\012sub otildeacute by otildeacute.sc;\012sub otildedieresis by otildedieresis.sc;\012sub otildemacron by otildemacron.sc;\012sub oe by oe.sc;\012sub p by p.sc;\012sub thorn by thorn.sc;\012sub q by q.sc;\012sub r by r.sc;\012sub racute by racute.sc;\012sub rcaron by rcaron.sc;\012sub rcommaaccent by rcommaaccent.sc;\012sub rdblgrave by rdblgrave.sc;\012sub rdotbelow by rdotbelow.sc;\012sub rinvertedbreve by rinvertedbreve.sc;\012sub rlinebelow by rlinebelow.sc;\012sub s by s.sc;\012sub sacute by sacute.sc;\012sub sacutedotaccent by sacutedotaccent.sc;\012sub scaron by scaron.sc;\012sub scarondotaccent by scarondotaccent.sc;\012sub scedilla by scedilla.sc;\012sub scircumflex by scircumflex.sc;\012sub scommaaccent by scommaaccent.sc;\012sub sdotaccent by sdotaccent.sc;\012sub sdotbelow by sdotbelow.sc;\012sub sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub germandbls by germandbls.sc;\012sub t by t.sc;\012sub tbar by tbar.sc;\012sub tcaron by tcaron.sc;\012sub tcedilla by tcedilla.sc;\012sub tcommaaccent by tcommaaccent.sc;\012sub tdieresis by tdieresis.sc;\012sub tdotbelow by tdotbelow.sc;\012sub tlinebelow by tlinebelow.sc;\012sub u by u.sc;\012sub uacute by uacute.sc;\012sub ubreve by ubreve.sc;\012sub ucircumflex by ucircumflex.sc;\012sub udblgrave by udblgrave.sc;\012sub udieresis by udieresis.sc;\012sub udotbelow by udotbelow.sc;\012sub ugrave by ugrave.sc;\012sub uhookabove by uhookabove.sc;\012sub uhorn by uhorn.sc;\012sub uhornacute by uhornacute.sc;\012sub uhorndotbelow by uhorndotbelow.sc;\012sub uhorngrave by uhorngrave.sc;\012sub uhornhookabove by uhornhookabove.sc;\012sub uhorntilde by uhorntilde.sc;\012sub uhungarumlaut by uhungarumlaut.sc;\012sub uinvertedbreve by uinvertedbreve.sc;\012sub umacron by umacron.sc;\012sub umacrondieresis by umacrondieresis.sc;\012sub uogonek by uogonek.sc;\012sub uring by uring.sc;\012sub utilde by utilde.sc;\012sub utildeacute by utildeacute.sc;\012sub v by v.sc;\012sub w by w.sc;\012sub wacute by wacute.sc;\012sub wcircumflex by wcircumflex.sc;\012sub wdieresis by wdieresis.sc;\012sub wgrave by wgrave.sc;\012sub x by x.sc;\012sub y by y.sc;\012sub yacute by yacute.sc;\012sub ycircumflex by ycircumflex.sc;\012sub ydieresis by ydieresis.sc;\012sub ydotaccent by ydotaccent.sc;\012sub ydotbelow by ydotbelow.sc;\012sub ygrave by ygrave.sc;\012sub yhookabove by yhookabove.sc;\012sub ymacron by ymacron.sc;\012sub ytilde by ytilde.sc;\012sub z by z.sc;\012sub zacute by zacute.sc;\012sub zcaron by zcaron.sc;\012sub zdotaccent by zdotaccent.sc;\012sub zdotbelow by zdotbelow.sc;\012sub periodcentered by periodcentered.sc;\012sub colon by colon.sc;\012sub comma by comma.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub periodcentered.loclCAT by periodcentered.loclCAT.sc;\012sub period by period.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesinglbase by quotesinglbase.sc;\012sub quotesingle by quotesingle.sc;\012sub semicolon by semicolon.sc;\012sub ampersand by ampersand.sc;\012sub dotbelowcomb by dotbelowcomb.sc;\012sub cedillacomb by cedillacomb.sc;\012sub ogonekcomb.curve by ogonekcomb.curve.sc;\012";
 name = smcp;
 },
 {
 automatic = 1;
-code = "sub backslash by backslash.case;\012sub periodcentered by periodcentered.case;\012sub bullet by bullet.case;\012sub slash by slash.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub emdash by emdash.case;\012sub endash by endash.case;\012sub hyphen by hyphen.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub upArrow by upArrow.case;\012sub rightArrow by rightArrow.case;\012sub downArrow by downArrow.case;\012sub leftArrow by leftArrow.case;\012sub at by at.case;\012sub hookabovecomb by hookabovecomb.case;\012sub dotbelowcomb by dotbelowcomb.case;\012sub cedillacomb by cedillacomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
+code = "sub backslash by backslash.case;\012sub periodcentered by periodcentered.case;\012sub bullet by bullet.case;\012sub slash by slash.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub emdash by emdash.case;\012sub endash by endash.case;\012sub hyphen by hyphen.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub upArrow by upArrow.case;\012sub rightArrow by rightArrow.case;\012sub downArrow by downArrow.case;\012sub leftArrow by leftArrow.case;\012sub at by at.case;\012sub dotbelowcomb by dotbelowcomb.case;\012sub cedillacomb by cedillacomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
 name = case;
 },
 {
@@ -144,12 +147,12 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub A by A.ss01;\012sub Aacute by Aacute.ss01;\012sub Abreve by Abreve.ss01;\012sub Abreveacute by Abreveacute.ss01;\012sub Abrevedotbelow by Abrevedotbelow.ss01;\012sub Abrevegrave by Abrevegrave.ss01;\012sub Abrevehookabove by Abrevehookabove.ss01;\012sub Abrevetilde by Abrevetilde.ss01;\012sub Acircumflex by Acircumflex.ss01;\012sub Acircumflexacute by Acircumflexacute.ss01;\012sub Acircumflexdotbelow by Acircumflexdotbelow.ss01;\012sub Acircumflexgrave by Acircumflexgrave.ss01;\012sub Acircumflexhookabove by Acircumflexhookabove.ss01;\012sub Acircumflextilde by Acircumflextilde.ss01;\012sub Adblgrave by Adblgrave.ss01;\012sub Adieresis by Adieresis.ss01;\012sub Adotbelow by Adotbelow.ss01;\012sub Agrave by Agrave.ss01;\012sub Ahookabove by Ahookabove.ss01;\012sub Ainvertedbreve by Ainvertedbreve.ss01;\012sub Amacron by Amacron.ss01;\012sub Aogonek by Aogonek.ss01;\012sub Aring by Aring.ss01;\012sub Aringacute by Aringacute.ss01;\012sub Atilde by Atilde.ss01;\012sub DZcaron by DZcaron.ss01;\012sub Dzcaron by Dzcaron.ss01;\012sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ebreve by Ebreve.ss01;\012sub Ecaron by Ecaron.ss01;\012sub Ecedillabreve by Ecedillabreve.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Ecircumflexacute by Ecircumflexacute.ss01;\012sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;\012sub Ecircumflexgrave by Ecircumflexgrave.ss01;\012sub Ecircumflexhookabove by Ecircumflexhookabove.ss01;\012sub Ecircumflextilde by Ecircumflextilde.ss01;\012sub Edblgrave by Edblgrave.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Edotaccent by Edotaccent.ss01;\012sub Edotbelow by Edotbelow.ss01;\012sub Egrave by Egrave.ss01;\012sub Ehookabove by Ehookabove.ss01;\012sub Einvertedbreve by Einvertedbreve.ss01;\012sub Emacron by Emacron.ss01;\012sub Emacronacute by Emacronacute.ss01;\012sub Emacrongrave by Emacrongrave.ss01;\012sub Eogonek by Eogonek.ss01;\012sub Etilde by Etilde.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub Gbreve by Gbreve.ss01;\012sub Gcaron by Gcaron.ss01;\012sub Gcircumflex by Gcircumflex.ss01;\012sub Gcommaaccent by Gcommaaccent.ss01;\012sub Gdotaccent by Gdotaccent.ss01;\012sub Gmacron by Gmacron.ss01;\012sub I by I.ss01;\012sub IJ by IJ.ss01;\012sub Iacute by Iacute.ss01;\012sub Iacute_J.loclNLD by Iacute_J.loclNLD.ss01;\012sub Ibreve by Ibreve.ss01;\012sub Icircumflex by Icircumflex.ss01;\012sub Idblgrave by Idblgrave.ss01;\012sub Idieresis by Idieresis.ss01;\012sub Idieresisacute by Idieresisacute.ss01;\012sub Idotaccent by Idotaccent.ss01;\012sub Idotbelow by Idotbelow.ss01;\012sub Igrave by Igrave.ss01;\012sub Ihookabove by Ihookabove.ss01;\012sub Iinvertedbreve by Iinvertedbreve.ss01;\012sub Imacron by Imacron.ss01;\012sub Iogonek by Iogonek.ss01;\012sub Itilde by Itilde.ss01;\012sub J by J.ss01;\012sub Jacute by Jacute.ss01;\012sub Jcircumflex by Jcircumflex.ss01;\012sub LJ by LJ.ss01;\012sub M by M.ss01;\012sub Mdotbelow by Mdotbelow.ss01;\012sub N by N.ss01;\012sub NJ by NJ.ss01;\012sub Nacute by Nacute.ss01;\012sub Ncaron by Ncaron.ss01;\012sub Ncommaaccent by Ncommaaccent.ss01;\012sub Ndotaccent by Ndotaccent.ss01;\012sub Ndotbelow by Ndotbelow.ss01;\012sub Eng by Eng.ss01;\012sub Nj by Nj.ss01;\012sub Nlinebelow by Nlinebelow.ss01;\012sub Ntilde by Ntilde.ss01;\012sub Q by Q.ss01;\012sub Schwa by Schwa.ss01;\012sub T by T.ss01;\012sub Tbar by Tbar.ss01;\012sub Tcaron by Tcaron.ss01;\012sub Tcedilla by Tcedilla.ss01;\012sub Tcommaaccent by Tcommaaccent.ss01;\012sub Tdotbelow by Tdotbelow.ss01;\012sub Tlinebelow by Tlinebelow.ss01;\012sub U by U.ss01;\012sub Uacute by Uacute.ss01;\012sub Ubreve by Ubreve.ss01;\012sub Ucircumflex by Ucircumflex.ss01;\012sub Udblgrave by Udblgrave.ss01;\012sub Udieresis by Udieresis.ss01;\012sub Udotbelow by Udotbelow.ss01;\012sub Ugrave by Ugrave.ss01;\012sub Uhookabove by Uhookabove.ss01;\012sub Uhorn by Uhorn.ss01;\012sub Uhornacute by Uhornacute.ss01;\012sub Uhorndotbelow by Uhorndotbelow.ss01;\012sub Uhorngrave by Uhorngrave.ss01;\012sub Uhornhookabove by Uhornhookabove.ss01;\012sub Uhorntilde by Uhorntilde.ss01;\012sub Uhungarumlaut by Uhungarumlaut.ss01;\012sub Uinvertedbreve by Uinvertedbreve.ss01;\012sub Umacron by Umacron.ss01;\012sub Umacrondieresis by Umacrondieresis.ss01;\012sub Uogonek by Uogonek.ss01;\012sub Uring by Uring.ss01;\012sub Utilde by Utilde.ss01;\012sub Utildeacute by Utildeacute.ss01;\012sub W by W.ss01;\012sub Wacute by Wacute.ss01;\012sub Wcircumflex by Wcircumflex.ss01;\012sub Wdieresis by Wdieresis.ss01;\012sub Wgrave by Wgrave.ss01;\012sub Y by Y.ss01;\012sub Yacute by Yacute.ss01;\012sub Ycircumflex by Ycircumflex.ss01;\012sub Ydieresis by Ydieresis.ss01;\012sub Ydotaccent by Ydotaccent.ss01;\012sub Ydotbelow by Ydotbelow.ss01;\012sub Ygrave by Ygrave.ss01;\012sub Yhookabove by Yhookabove.ss01;\012sub Ymacron by Ymacron.ss01;\012sub Ytilde by Ytilde.ss01;\012sub Z by Z.ss01;\012sub Zacute by Zacute.ss01;\012sub Zcaron by Zcaron.ss01;\012sub Zdotaccent by Zdotaccent.ss01;\012sub Zdotbelow by Zdotbelow.ss01;\012sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub abreveacute by abreveacute.ss01;\012sub abrevedotbelow by abrevedotbelow.ss01;\012sub abrevegrave by abrevegrave.ss01;\012sub abrevehookabove by abrevehookabove.ss01;\012sub abrevetilde by abrevetilde.ss01;\012sub acircumflex by acircumflex.ss01;\012sub acircumflexacute by acircumflexacute.ss01;\012sub acircumflexdotbelow by acircumflexdotbelow.ss01;\012sub acircumflexgrave by acircumflexgrave.ss01;\012sub acircumflexhookabove by acircumflexhookabove.ss01;\012sub acircumflextilde by acircumflextilde.ss01;\012sub adblgrave by adblgrave.ss01;\012sub adieresis by adieresis.ss01;\012sub adotbelow by adotbelow.ss01;\012sub agrave by agrave.ss01;\012sub ahookabove by ahookabove.ss01;\012sub ainvertedbreve by ainvertedbreve.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub aringacute by aringacute.ss01;\012sub atilde by atilde.ss01;\012sub ae by ae.ss01;\012sub aeacute by aeacute.ss01;\012sub dzcaron by dzcaron.ss01;\012sub e by e.ss01;\012sub eacute by eacute.ss01;\012sub ebreve by ebreve.ss01;\012sub ecaron by ecaron.ss01;\012sub ecedillabreve by ecedillabreve.ss01;\012sub ecircumflex by ecircumflex.ss01;\012sub ecircumflexacute by ecircumflexacute.ss01;\012sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;\012sub ecircumflexgrave by ecircumflexgrave.ss01;\012sub ecircumflexhookabove by ecircumflexhookabove.ss01;\012sub ecircumflextilde by ecircumflextilde.ss01;\012sub edblgrave by edblgrave.ss01;\012sub edieresis by edieresis.ss01;\012sub edotaccent by edotaccent.ss01;\012sub edotbelow by edotbelow.ss01;\012sub egrave by egrave.ss01;\012sub ehookabove by ehookabove.ss01;\012sub einvertedbreve by einvertedbreve.ss01;\012sub emacron by emacron.ss01;\012sub emacronacute by emacronacute.ss01;\012sub emacrongrave by emacrongrave.ss01;\012sub eogonek by eogonek.ss01;\012sub etilde by etilde.ss01;\012sub schwa by schwa.ss01;\012sub f by f.ss01;\012sub l by l.ss01;\012sub lacute by lacute.ss01;\012sub lcaron by lcaron.ss01;\012sub lcommaaccent by lcommaaccent.ss01;\012sub ldot by ldot.ss01;\012sub ldotbelow by ldotbelow.ss01;\012sub lj by lj.ss01;\012sub llinebelow by llinebelow.ss01;\012sub lslash by lslash.ss01;\012sub oe by oe.ss01;\012sub t by t.ss01;\012sub tbar by tbar.ss01;\012sub tcaron by tcaron.ss01;\012sub tcedilla by tcedilla.ss01;\012sub tcommaaccent by tcommaaccent.ss01;\012sub tdieresis by tdieresis.ss01;\012sub tdotbelow by tdotbelow.ss01;\012sub tlinebelow by tlinebelow.ss01;\012sub w by w.ss01;\012sub wacute by wacute.ss01;\012sub wcircumflex by wcircumflex.ss01;\012sub wdieresis by wdieresis.ss01;\012sub wgrave by wgrave.ss01;\012sub y by y.ss01;\012sub yacute by yacute.ss01;\012sub ycircumflex by ycircumflex.ss01;\012sub ydieresis by ydieresis.ss01;\012sub ydotbelow by ydotbelow.ss01;\012sub ygrave by ygrave.ss01;\012sub yhookabove by yhookabove.ss01;\012sub ymacron by ymacron.ss01;\012sub ytilde by ytilde.ss01;\012sub z by z.ss01;\012sub zacute by zacute.ss01;\012sub zcaron by zcaron.ss01;\012sub zdotaccent by zdotaccent.ss01;\012sub zdotbelow by zdotbelow.ss01;\012sub f_f_i by f_f_i.ss01;\012sub f_f_ij by f_f_ij.ss01;\012sub f_f_l by f_f_l.ss01;\012sub f_ij by f_ij.ss01;\012sub fi by fi.ss01;\012sub fl by fl.ss01;\012sub a.sc by a.sc.ss01;\012sub aacute.sc by aacute.sc.ss01;\012sub abreve.sc by abreve.sc.ss01;\012sub abreveacute.sc by abreveacute.sc.ss01;\012sub abrevedotbelow.sc by abrevedotbelow.sc.ss01;\012sub abrevegrave.sc by abrevegrave.sc.ss01;\012sub abrevehookabove.sc by abrevehookabove.sc.ss01;\012sub abrevetilde.sc by abrevetilde.sc.ss01;\012sub acircumflex.sc by acircumflex.sc.ss01;\012sub acircumflexacute.sc by acircumflexacute.sc.ss01;\012sub acircumflexdotbelow.sc by acircumflexdotbelow.sc.ss01;\012sub acircumflexgrave.sc by acircumflexgrave.sc.ss01;\012sub acircumflexhookabove.sc by acircumflexhookabove.sc.ss01;\012sub acircumflextilde.sc by acircumflextilde.sc.ss01;\012sub adblgrave.sc by adblgrave.sc.ss01;\012sub adieresis.sc by adieresis.sc.ss01;\012sub adotbelow.sc by adotbelow.sc.ss01;\012sub agrave.sc by agrave.sc.ss01;\012sub ahookabove.sc by ahookabove.sc.ss01;\012sub ainvertedbreve.sc by ainvertedbreve.sc.ss01;\012sub amacron.sc by amacron.sc.ss01;\012sub aogonek.sc by aogonek.sc.ss01;\012sub aring.sc by aring.sc.ss01;\012sub aringacute.sc by aringacute.sc.ss01;\012sub atilde.sc by atilde.sc.ss01;\012sub dzcaron.sc by dzcaron.sc.ss01;\012sub e.sc by e.sc.ss01;\012sub eacute.sc by eacute.sc.ss01;\012sub ebreve.sc by ebreve.sc.ss01;\012sub ecaron.sc by ecaron.sc.ss01;\012sub ecedillabreve.sc by ecedillabreve.sc.ss01;\012sub ecircumflex.sc by ecircumflex.sc.ss01;\012sub ecircumflexacute.sc by ecircumflexacute.sc.ss01;\012sub ecircumflexdotbelow.sc by ecircumflexdotbelow.sc.ss01;\012sub ecircumflexgrave.sc by ecircumflexgrave.sc.ss01;\012sub ecircumflexhookabove.sc by ecircumflexhookabove.sc.ss01;\012sub ecircumflextilde.sc by ecircumflextilde.sc.ss01;\012sub edblgrave.sc by edblgrave.sc.ss01;\012sub edieresis.sc by edieresis.sc.ss01;\012sub edotaccent.sc by edotaccent.sc.ss01;\012sub edotbelow.sc by edotbelow.sc.ss01;\012sub egrave.sc by egrave.sc.ss01;\012sub ehookabove.sc by ehookabove.sc.ss01;\012sub einvertedbreve.sc by einvertedbreve.sc.ss01;\012sub emacron.sc by emacron.sc.ss01;\012sub emacronacute.sc by emacronacute.sc.ss01;\012sub emacrongrave.sc by emacrongrave.sc.ss01;\012sub eogonek.sc by eogonek.sc.ss01;\012sub etilde.sc by etilde.sc.ss01;\012sub schwa.sc by schwa.sc.ss01;\012sub f.sc by f.sc.ss01;\012sub g.sc by g.sc.ss01;\012sub gbreve.sc by gbreve.sc.ss01;\012sub gcaron.sc by gcaron.sc.ss01;\012sub gcircumflex.sc by gcircumflex.sc.ss01;\012sub gcommaaccent.sc by gcommaaccent.sc.ss01;\012sub gdotaccent.sc by gdotaccent.sc.ss01;\012sub gmacron.sc by gmacron.sc.ss01;\012sub i.sc by i.sc.ss01;\012sub idotless.sc by idotless.sc.ss01;\012sub iacute.sc by iacute.sc.ss01;\012sub ibreve.sc by ibreve.sc.ss01;\012sub icircumflex.sc by icircumflex.sc.ss01;\012sub idblgrave.sc by idblgrave.sc.ss01;\012sub idieresis.sc by idieresis.sc.ss01;\012sub idieresisacute.sc by idieresisacute.sc.ss01;\012sub idotaccent.sc by idotaccent.sc.ss01;\012sub idotbelow.sc by idotbelow.sc.ss01;\012sub igrave.sc by igrave.sc.ss01;\012sub ihookabove.sc by ihookabove.sc.ss01;\012sub iinvertedbreve.sc by iinvertedbreve.sc.ss01;\012sub imacron.sc by imacron.sc.ss01;\012sub iogonek.sc by iogonek.sc.ss01;\012sub itilde.sc by itilde.sc.ss01;\012sub j.sc by j.sc.ss01;\012sub jacute.sc by jacute.sc.ss01;\012sub jcircumflex.sc by jcircumflex.sc.ss01;\012sub m.sc by m.sc.ss01;\012sub mdotbelow.sc by mdotbelow.sc.ss01;\012sub n.sc by n.sc.ss01;\012sub nacute.sc by nacute.sc.ss01;\012sub ncaron.sc by ncaron.sc.ss01;\012sub ncommaaccent.sc by ncommaaccent.sc.ss01;\012sub ndotaccent.sc by ndotaccent.sc.ss01;\012sub ndotbelow.sc by ndotbelow.sc.ss01;\012sub eng.sc by eng.sc.ss01;\012sub nj.sc by nj.sc.ss01;\012sub nlinebelow.sc by nlinebelow.sc.ss01;\012sub ntilde.sc by ntilde.sc.ss01;\012sub q.sc by q.sc.ss01;\012sub t.sc by t.sc.ss01;\012sub tbar.sc by tbar.sc.ss01;\012sub tcaron.sc by tcaron.sc.ss01;\012sub tcedilla.sc by tcedilla.sc.ss01;\012sub tcommaaccent.sc by tcommaaccent.sc.ss01;\012sub tdieresis.sc by tdieresis.sc.ss01;\012sub tdotbelow.sc by tdotbelow.sc.ss01;\012sub tlinebelow.sc by tlinebelow.sc.ss01;\012sub u.sc by u.sc.ss01;\012sub uacute.sc by uacute.sc.ss01;\012sub ubreve.sc by ubreve.sc.ss01;\012sub ucircumflex.sc by ucircumflex.sc.ss01;\012sub udblgrave.sc by udblgrave.sc.ss01;\012sub udieresis.sc by udieresis.sc.ss01;\012sub udotbelow.sc by udotbelow.sc.ss01;\012sub ugrave.sc by ugrave.sc.ss01;\012sub uhookabove.sc by uhookabove.sc.ss01;\012sub uhorn.sc by uhorn.sc.ss01;\012sub uhornacute.sc by uhornacute.sc.ss01;\012sub uhorndotbelow.sc by uhorndotbelow.sc.ss01;\012sub uhorngrave.sc by uhorngrave.sc.ss01;\012sub uhornhookabove.sc by uhornhookabove.sc.ss01;\012sub uhorntilde.sc by uhorntilde.sc.ss01;\012sub uhungarumlaut.sc by uhungarumlaut.sc.ss01;\012sub uinvertedbreve.sc by uinvertedbreve.sc.ss01;\012sub umacron.sc by umacron.sc.ss01;\012sub umacrondieresis.sc by umacrondieresis.sc.ss01;\012sub uogonek.sc by uogonek.sc.ss01;\012sub uring.sc by uring.sc.ss01;\012sub utilde.sc by utilde.sc.ss01;\012sub utildeacute.sc by utildeacute.sc.ss01;\012sub w.sc by w.sc.ss01;\012sub wacute.sc by wacute.sc.ss01;\012sub wcircumflex.sc by wcircumflex.sc.ss01;\012sub wdieresis.sc by wdieresis.sc.ss01;\012sub wgrave.sc by wgrave.sc.ss01;\012sub y.sc by y.sc.ss01;\012sub yacute.sc by yacute.sc.ss01;\012sub ycircumflex.sc by ycircumflex.sc.ss01;\012sub ydieresis.sc by ydieresis.sc.ss01;\012sub ydotaccent.sc by ydotaccent.sc.ss01;\012sub ydotbelow.sc by ydotbelow.sc.ss01;\012sub ygrave.sc by ygrave.sc.ss01;\012sub yhookabove.sc by yhookabove.sc.ss01;\012sub ymacron.sc by ymacron.sc.ss01;\012sub ytilde.sc by ytilde.sc.ss01;\012sub z.sc by z.sc.ss01;\012sub zacute.sc by zacute.sc.ss01;\012sub zcaron.sc by zcaron.sc.ss01;\012sub zdotaccent.sc by zdotaccent.sc.ss01;\012sub zdotbelow.sc by zdotbelow.sc.ss01;\012sub zero by zero.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;\012sub nine by nine.ss01;\012sub Tdieresis by Tdieresis.ss01;\012";
+code = "sub A by A.ss01;\012sub Aacute by Aacute.ss01;\012sub Abreve by Abreve.ss01;\012sub Abreveacute by Abreveacute.ss01;\012sub Abrevedotbelow by Abrevedotbelow.ss01;\012sub Abrevegrave by Abrevegrave.ss01;\012sub Abrevehookabove by Abrevehookabove.ss01;\012sub Abrevetilde by Abrevetilde.ss01;\012sub Acircumflex by Acircumflex.ss01;\012sub Acircumflexacute by Acircumflexacute.ss01;\012sub Acircumflexdotbelow by Acircumflexdotbelow.ss01;\012sub Acircumflexgrave by Acircumflexgrave.ss01;\012sub Acircumflexhookabove by Acircumflexhookabove.ss01;\012sub Acircumflextilde by Acircumflextilde.ss01;\012sub Adblgrave by Adblgrave.ss01;\012sub Adieresis by Adieresis.ss01;\012sub Adotbelow by Adotbelow.ss01;\012sub Agrave by Agrave.ss01;\012sub Ahookabove by Ahookabove.ss01;\012sub Ainvertedbreve by Ainvertedbreve.ss01;\012sub Amacron by Amacron.ss01;\012sub Aogonek by Aogonek.ss01;\012sub Aring by Aring.ss01;\012sub Aringacute by Aringacute.ss01;\012sub Atilde by Atilde.ss01;\012sub DZcaron by DZcaron.ss01;\012sub Dzcaron by Dzcaron.ss01;\012sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ebreve by Ebreve.ss01;\012sub Ecaron by Ecaron.ss01;\012sub Ecedillabreve by Ecedillabreve.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Ecircumflexacute by Ecircumflexacute.ss01;\012sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;\012sub Ecircumflexgrave by Ecircumflexgrave.ss01;\012sub Ecircumflexhookabove by Ecircumflexhookabove.ss01;\012sub Ecircumflextilde by Ecircumflextilde.ss01;\012sub Edblgrave by Edblgrave.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Edotaccent by Edotaccent.ss01;\012sub Edotbelow by Edotbelow.ss01;\012sub Egrave by Egrave.ss01;\012sub Ehookabove by Ehookabove.ss01;\012sub Einvertedbreve by Einvertedbreve.ss01;\012sub Emacron by Emacron.ss01;\012sub Emacronacute by Emacronacute.ss01;\012sub Emacrongrave by Emacrongrave.ss01;\012sub Eogonek by Eogonek.ss01;\012sub Etilde by Etilde.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub Gbreve by Gbreve.ss01;\012sub Gcaron by Gcaron.ss01;\012sub Gcircumflex by Gcircumflex.ss01;\012sub Gcommaaccent by Gcommaaccent.ss01;\012sub Gdotaccent by Gdotaccent.ss01;\012sub Gmacron by Gmacron.ss01;\012sub I by I.ss01;\012sub IJ by IJ.ss01;\012sub Iacute by Iacute.ss01;\012sub Iacute_J.loclNLD by Iacute_J.loclNLD.ss01;\012sub Ibreve by Ibreve.ss01;\012sub Icircumflex by Icircumflex.ss01;\012sub Idblgrave by Idblgrave.ss01;\012sub Idieresis by Idieresis.ss01;\012sub Idieresisacute by Idieresisacute.ss01;\012sub Idotaccent by Idotaccent.ss01;\012sub Idotbelow by Idotbelow.ss01;\012sub Igrave by Igrave.ss01;\012sub Ihookabove by Ihookabove.ss01;\012sub Iinvertedbreve by Iinvertedbreve.ss01;\012sub Imacron by Imacron.ss01;\012sub Iogonek by Iogonek.ss01;\012sub Itilde by Itilde.ss01;\012sub J by J.ss01;\012sub Jacute by Jacute.ss01;\012sub Jcircumflex by Jcircumflex.ss01;\012sub LJ by LJ.ss01;\012sub M by M.ss01;\012sub Mdotbelow by Mdotbelow.ss01;\012sub N by N.ss01;\012sub NJ by NJ.ss01;\012sub Nacute by Nacute.ss01;\012sub Ncaron by Ncaron.ss01;\012sub Ncommaaccent by Ncommaaccent.ss01;\012sub Ndotaccent by Ndotaccent.ss01;\012sub Ndotbelow by Ndotbelow.ss01;\012sub Eng by Eng.ss01;\012sub Nj by Nj.ss01;\012sub Nlinebelow by Nlinebelow.ss01;\012sub Ntilde by Ntilde.ss01;\012sub Q by Q.ss01;\012sub Schwa by Schwa.ss01;\012sub T by T.ss01;\012sub Tbar by Tbar.ss01;\012sub Tcaron by Tcaron.ss01;\012sub Tcedilla by Tcedilla.ss01;\012sub Tcommaaccent by Tcommaaccent.ss01;\012sub Tdotbelow by Tdotbelow.ss01;\012sub Tlinebelow by Tlinebelow.ss01;\012sub U by U.ss01;\012sub Uacute by Uacute.ss01;\012sub Ubreve by Ubreve.ss01;\012sub Ucircumflex by Ucircumflex.ss01;\012sub Udblgrave by Udblgrave.ss01;\012sub Udieresis by Udieresis.ss01;\012sub Udotbelow by Udotbelow.ss01;\012sub Ugrave by Ugrave.ss01;\012sub Uhookabove by Uhookabove.ss01;\012sub Uhorn by Uhorn.ss01;\012sub Uhornacute by Uhornacute.ss01;\012sub Uhorndotbelow by Uhorndotbelow.ss01;\012sub Uhorngrave by Uhorngrave.ss01;\012sub Uhornhookabove by Uhornhookabove.ss01;\012sub Uhorntilde by Uhorntilde.ss01;\012sub Uhungarumlaut by Uhungarumlaut.ss01;\012sub Uinvertedbreve by Uinvertedbreve.ss01;\012sub Umacron by Umacron.ss01;\012sub Umacrondieresis by Umacrondieresis.ss01;\012sub Uogonek by Uogonek.ss01;\012sub Uring by Uring.ss01;\012sub Utilde by Utilde.ss01;\012sub Utildeacute by Utildeacute.ss01;\012sub W by W.ss01;\012sub Wacute by Wacute.ss01;\012sub Wcircumflex by Wcircumflex.ss01;\012sub Wdieresis by Wdieresis.ss01;\012sub Wgrave by Wgrave.ss01;\012sub Y by Y.ss01;\012sub Yacute by Yacute.ss01;\012sub Ycircumflex by Ycircumflex.ss01;\012sub Ydieresis by Ydieresis.ss01;\012sub Ydotaccent by Ydotaccent.ss01;\012sub Ydotbelow by Ydotbelow.ss01;\012sub Ygrave by Ygrave.ss01;\012sub Yhookabove by Yhookabove.ss01;\012sub Ymacron by Ymacron.ss01;\012sub Ytilde by Ytilde.ss01;\012sub Z by Z.ss01;\012sub Zacute by Zacute.ss01;\012sub Zcaron by Zcaron.ss01;\012sub Zdotaccent by Zdotaccent.ss01;\012sub Zdotbelow by Zdotbelow.ss01;\012sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub abreveacute by abreveacute.ss01;\012sub abrevedotbelow by abrevedotbelow.ss01;\012sub abrevegrave by abrevegrave.ss01;\012sub abrevehookabove by abrevehookabove.ss01;\012sub abrevetilde by abrevetilde.ss01;\012sub acircumflex by acircumflex.ss01;\012sub acircumflexacute by acircumflexacute.ss01;\012sub acircumflexdotbelow by acircumflexdotbelow.ss01;\012sub acircumflexgrave by acircumflexgrave.ss01;\012sub acircumflexhookabove by acircumflexhookabove.ss01;\012sub acircumflextilde by acircumflextilde.ss01;\012sub adblgrave by adblgrave.ss01;\012sub adieresis by adieresis.ss01;\012sub adotbelow by adotbelow.ss01;\012sub agrave by agrave.ss01;\012sub ahookabove by ahookabove.ss01;\012sub ainvertedbreve by ainvertedbreve.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub aringacute by aringacute.ss01;\012sub atilde by atilde.ss01;\012sub ae by ae.ss01;\012sub aeacute by aeacute.ss01;\012sub dzcaron by dzcaron.ss01;\012sub e by e.ss01;\012sub eacute by eacute.ss01;\012sub ebreve by ebreve.ss01;\012sub ecaron by ecaron.ss01;\012sub ecedillabreve by ecedillabreve.ss01;\012sub ecircumflex by ecircumflex.ss01;\012sub ecircumflexacute by ecircumflexacute.ss01;\012sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;\012sub ecircumflexgrave by ecircumflexgrave.ss01;\012sub ecircumflexhookabove by ecircumflexhookabove.ss01;\012sub ecircumflextilde by ecircumflextilde.ss01;\012sub edblgrave by edblgrave.ss01;\012sub edieresis by edieresis.ss01;\012sub edotaccent by edotaccent.ss01;\012sub edotbelow by edotbelow.ss01;\012sub egrave by egrave.ss01;\012sub ehookabove by ehookabove.ss01;\012sub einvertedbreve by einvertedbreve.ss01;\012sub emacron by emacron.ss01;\012sub emacronacute by emacronacute.ss01;\012sub emacrongrave by emacrongrave.ss01;\012sub eogonek by eogonek.ss01;\012sub etilde by etilde.ss01;\012sub schwa by schwa.ss01;\012sub f by f.ss01;\012sub l by l.ss01;\012sub lacute by lacute.ss01;\012sub lcaron by lcaron.ss01;\012sub lcommaaccent by lcommaaccent.ss01;\012sub ldot by ldot.ss01;\012sub ldotbelow by ldotbelow.ss01;\012sub lj by lj.ss01;\012sub llinebelow by llinebelow.ss01;\012sub lslash by lslash.ss01;\012sub oe by oe.ss01;\012sub t by t.ss01;\012sub tbar by tbar.ss01;\012sub tcaron by tcaron.ss01;\012sub tcedilla by tcedilla.ss01;\012sub tcommaaccent by tcommaaccent.ss01;\012sub tdieresis by tdieresis.ss01;\012sub tdotbelow by tdotbelow.ss01;\012sub tlinebelow by tlinebelow.ss01;\012sub w by w.ss01;\012sub wacute by wacute.ss01;\012sub wcircumflex by wcircumflex.ss01;\012sub wdieresis by wdieresis.ss01;\012sub wgrave by wgrave.ss01;\012sub y by y.ss01;\012sub yacute by yacute.ss01;\012sub ycircumflex by ycircumflex.ss01;\012sub ydieresis by ydieresis.ss01;\012sub ydotbelow by ydotbelow.ss01;\012sub ygrave by ygrave.ss01;\012sub yhookabove by yhookabove.ss01;\012sub ymacron by ymacron.ss01;\012sub ytilde by ytilde.ss01;\012sub z by z.ss01;\012sub zacute by zacute.ss01;\012sub zcaron by zcaron.ss01;\012sub zdotaccent by zdotaccent.ss01;\012sub zdotbelow by zdotbelow.ss01;\012sub f_f_i by f_f_i.ss01;\012sub f_f_ij by f_f_ij.ss01;\012sub f_f_l by f_f_l.ss01;\012sub f_ij by f_ij.ss01;\012sub fi by fi.ss01;\012sub fl by fl.ss01;\012sub a.sc by a.sc.ss01;\012sub aacute.sc by aacute.sc.ss01;\012sub abreve.sc by abreve.sc.ss01;\012sub abreveacute.sc by abreveacute.sc.ss01;\012sub abrevedotbelow.sc by abrevedotbelow.sc.ss01;\012sub abrevegrave.sc by abrevegrave.sc.ss01;\012sub abrevehookabove.sc by abrevehookabove.sc.ss01;\012sub abrevetilde.sc by abrevetilde.sc.ss01;\012sub acircumflex.sc by acircumflex.sc.ss01;\012sub acircumflexacute.sc by acircumflexacute.sc.ss01;\012sub acircumflexdotbelow.sc by acircumflexdotbelow.sc.ss01;\012sub acircumflexgrave.sc by acircumflexgrave.sc.ss01;\012sub acircumflexhookabove.sc by acircumflexhookabove.sc.ss01;\012sub acircumflextilde.sc by acircumflextilde.sc.ss01;\012sub adblgrave.sc by adblgrave.sc.ss01;\012sub adieresis.sc by adieresis.sc.ss01;\012sub adotbelow.sc by adotbelow.sc.ss01;\012sub agrave.sc by agrave.sc.ss01;\012sub ahookabove.sc by ahookabove.sc.ss01;\012sub ainvertedbreve.sc by ainvertedbreve.sc.ss01;\012sub amacron.sc by amacron.sc.ss01;\012sub aogonek.sc by aogonek.sc.ss01;\012sub aring.sc by aring.sc.ss01;\012sub aringacute.sc by aringacute.sc.ss01;\012sub atilde.sc by atilde.sc.ss01;\012sub dzcaron.sc by dzcaron.sc.ss01;\012sub e.sc by e.sc.ss01;\012sub eacute.sc by eacute.sc.ss01;\012sub ebreve.sc by ebreve.sc.ss01;\012sub ecaron.sc by ecaron.sc.ss01;\012sub ecedillabreve.sc by ecedillabreve.sc.ss01;\012sub ecircumflex.sc by ecircumflex.sc.ss01;\012sub ecircumflexacute.sc by ecircumflexacute.sc.ss01;\012sub ecircumflexdotbelow.sc by ecircumflexdotbelow.sc.ss01;\012sub ecircumflexgrave.sc by ecircumflexgrave.sc.ss01;\012sub ecircumflexhookabove.sc by ecircumflexhookabove.sc.ss01;\012sub ecircumflextilde.sc by ecircumflextilde.sc.ss01;\012sub edblgrave.sc by edblgrave.sc.ss01;\012sub edieresis.sc by edieresis.sc.ss01;\012sub edotaccent.sc by edotaccent.sc.ss01;\012sub edotbelow.sc by edotbelow.sc.ss01;\012sub egrave.sc by egrave.sc.ss01;\012sub ehookabove.sc by ehookabove.sc.ss01;\012sub einvertedbreve.sc by einvertedbreve.sc.ss01;\012sub emacron.sc by emacron.sc.ss01;\012sub emacronacute.sc by emacronacute.sc.ss01;\012sub emacrongrave.sc by emacrongrave.sc.ss01;\012sub eogonek.sc by eogonek.sc.ss01;\012sub etilde.sc by etilde.sc.ss01;\012sub schwa.sc by schwa.sc.ss01;\012sub f.sc by f.sc.ss01;\012sub g.sc by g.sc.ss01;\012sub gbreve.sc by gbreve.sc.ss01;\012sub gcaron.sc by gcaron.sc.ss01;\012sub gcircumflex.sc by gcircumflex.sc.ss01;\012sub gcommaaccent.sc by gcommaaccent.sc.ss01;\012sub gdotaccent.sc by gdotaccent.sc.ss01;\012sub gmacron.sc by gmacron.sc.ss01;\012sub i.sc by i.sc.ss01;\012sub idotless.sc by idotless.sc.ss01;\012sub iacute.sc by iacute.sc.ss01;\012sub iacute_j.loclNLD.sc by iacute_j.loclNLD.sc.ss01;\012sub ibreve.sc by ibreve.sc.ss01;\012sub icircumflex.sc by icircumflex.sc.ss01;\012sub idblgrave.sc by idblgrave.sc.ss01;\012sub idieresis.sc by idieresis.sc.ss01;\012sub idieresisacute.sc by idieresisacute.sc.ss01;\012sub idotaccent.sc by idotaccent.sc.ss01;\012sub idotbelow.sc by idotbelow.sc.ss01;\012sub igrave.sc by igrave.sc.ss01;\012sub ihookabove.sc by ihookabove.sc.ss01;\012sub iinvertedbreve.sc by iinvertedbreve.sc.ss01;\012sub ij.sc by ij.sc.ss01;\012sub imacron.sc by imacron.sc.ss01;\012sub iogonek.sc by iogonek.sc.ss01;\012sub itilde.sc by itilde.sc.ss01;\012sub j.sc by j.sc.ss01;\012sub jacute.sc by jacute.sc.ss01;\012sub jcircumflex.sc by jcircumflex.sc.ss01;\012sub m.sc by m.sc.ss01;\012sub mdotbelow.sc by mdotbelow.sc.ss01;\012sub n.sc by n.sc.ss01;\012sub nacute.sc by nacute.sc.ss01;\012sub ncaron.sc by ncaron.sc.ss01;\012sub ncommaaccent.sc by ncommaaccent.sc.ss01;\012sub ndotaccent.sc by ndotaccent.sc.ss01;\012sub ndotbelow.sc by ndotbelow.sc.ss01;\012sub eng.sc by eng.sc.ss01;\012sub nj.sc by nj.sc.ss01;\012sub nlinebelow.sc by nlinebelow.sc.ss01;\012sub ntilde.sc by ntilde.sc.ss01;\012sub q.sc by q.sc.ss01;\012sub t.sc by t.sc.ss01;\012sub tbar.sc by tbar.sc.ss01;\012sub tcaron.sc by tcaron.sc.ss01;\012sub tcedilla.sc by tcedilla.sc.ss01;\012sub tcommaaccent.sc by tcommaaccent.sc.ss01;\012sub tdieresis.sc by tdieresis.sc.ss01;\012sub tdotbelow.sc by tdotbelow.sc.ss01;\012sub tlinebelow.sc by tlinebelow.sc.ss01;\012sub u.sc by u.sc.ss01;\012sub uacute.sc by uacute.sc.ss01;\012sub ubreve.sc by ubreve.sc.ss01;\012sub ucircumflex.sc by ucircumflex.sc.ss01;\012sub udblgrave.sc by udblgrave.sc.ss01;\012sub udieresis.sc by udieresis.sc.ss01;\012sub udotbelow.sc by udotbelow.sc.ss01;\012sub ugrave.sc by ugrave.sc.ss01;\012sub uhookabove.sc by uhookabove.sc.ss01;\012sub uhorn.sc by uhorn.sc.ss01;\012sub uhornacute.sc by uhornacute.sc.ss01;\012sub uhorndotbelow.sc by uhorndotbelow.sc.ss01;\012sub uhorngrave.sc by uhorngrave.sc.ss01;\012sub uhornhookabove.sc by uhornhookabove.sc.ss01;\012sub uhorntilde.sc by uhorntilde.sc.ss01;\012sub uhungarumlaut.sc by uhungarumlaut.sc.ss01;\012sub uinvertedbreve.sc by uinvertedbreve.sc.ss01;\012sub umacron.sc by umacron.sc.ss01;\012sub umacrondieresis.sc by umacrondieresis.sc.ss01;\012sub uogonek.sc by uogonek.sc.ss01;\012sub uring.sc by uring.sc.ss01;\012sub utilde.sc by utilde.sc.ss01;\012sub utildeacute.sc by utildeacute.sc.ss01;\012sub w.sc by w.sc.ss01;\012sub wacute.sc by wacute.sc.ss01;\012sub wcircumflex.sc by wcircumflex.sc.ss01;\012sub wdieresis.sc by wdieresis.sc.ss01;\012sub wgrave.sc by wgrave.sc.ss01;\012sub y.sc by y.sc.ss01;\012sub yacute.sc by yacute.sc.ss01;\012sub ycircumflex.sc by ycircumflex.sc.ss01;\012sub ydieresis.sc by ydieresis.sc.ss01;\012sub ydotaccent.sc by ydotaccent.sc.ss01;\012sub ydotbelow.sc by ydotbelow.sc.ss01;\012sub ygrave.sc by ygrave.sc.ss01;\012sub yhookabove.sc by yhookabove.sc.ss01;\012sub ymacron.sc by ymacron.sc.ss01;\012sub ytilde.sc by ytilde.sc.ss01;\012sub z.sc by z.sc.ss01;\012sub zacute.sc by zacute.sc.ss01;\012sub zcaron.sc by zcaron.sc.ss01;\012sub zdotaccent.sc by zdotaccent.sc.ss01;\012sub zdotbelow.sc by zdotbelow.sc.ss01;\012sub zero by zero.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;\012sub nine by nine.ss01;\012sub Tdieresis by Tdieresis.ss01;\012sub Napostrophe by Napostrophe.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub A by A.ss01;\012sub Aacute by Aacute.ss01;\012sub Abreve by Abreve.ss01;\012sub Abreveacute by Abreveacute.ss01;\012sub Abrevedotbelow by Abrevedotbelow.ss01;\012sub Abrevegrave by Abrevegrave.ss01;\012sub Abrevehookabove by Abrevehookabove.ss01;\012sub Abrevetilde by Abrevetilde.ss01;\012sub Acircumflex by Acircumflex.ss01;\012sub Acircumflexacute by Acircumflexacute.ss01;\012sub Acircumflexdotbelow by Acircumflexdotbelow.ss01;\012sub Acircumflexgrave by Acircumflexgrave.ss01;\012sub Acircumflexhookabove by Acircumflexhookabove.ss01;\012sub Acircumflextilde by Acircumflextilde.ss01;\012sub Adblgrave by Adblgrave.ss01;\012sub Adieresis by Adieresis.ss01;\012sub Adotbelow by Adotbelow.ss01;\012sub Agrave by Agrave.ss01;\012sub Ahookabove by Ahookabove.ss01;\012sub Ainvertedbreve by Ainvertedbreve.ss01;\012sub Amacron by Amacron.ss01;\012sub Aogonek by Aogonek.ss01;\012sub Aring by Aring.ss01;\012sub Aringacute by Aringacute.ss01;\012sub Atilde by Atilde.ss01;\012sub DZcaron by DZcaron.ss01;\012sub Dzcaron by Dzcaron.ss01;\012sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ebreve by Ebreve.ss01;\012sub Ecaron by Ecaron.ss01;\012sub Ecedillabreve by Ecedillabreve.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Ecircumflexacute by Ecircumflexacute.ss01;\012sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;\012sub Ecircumflexgrave by Ecircumflexgrave.ss01;\012sub Ecircumflexhookabove by Ecircumflexhookabove.ss01;\012sub Ecircumflextilde by Ecircumflextilde.ss01;\012sub Edblgrave by Edblgrave.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Edotaccent by Edotaccent.ss01;\012sub Edotbelow by Edotbelow.ss01;\012sub Egrave by Egrave.ss01;\012sub Ehookabove by Ehookabove.ss01;\012sub Einvertedbreve by Einvertedbreve.ss01;\012sub Emacron by Emacron.ss01;\012sub Emacronacute by Emacronacute.ss01;\012sub Emacrongrave by Emacrongrave.ss01;\012sub Eogonek by Eogonek.ss01;\012sub Etilde by Etilde.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub Gbreve by Gbreve.ss01;\012sub Gcaron by Gcaron.ss01;\012sub Gcircumflex by Gcircumflex.ss01;\012sub Gcommaaccent by Gcommaaccent.ss01;\012sub Gdotaccent by Gdotaccent.ss01;\012sub Gmacron by Gmacron.ss01;\012sub I by I.ss01;\012sub IJ by IJ.ss01;\012sub Iacute by Iacute.ss01;\012sub Iacute_J.loclNLD by Iacute_J.loclNLD.ss01;\012sub Ibreve by Ibreve.ss01;\012sub Icircumflex by Icircumflex.ss01;\012sub Idblgrave by Idblgrave.ss01;\012sub Idieresis by Idieresis.ss01;\012sub Idieresisacute by Idieresisacute.ss01;\012sub Idotaccent by Idotaccent.ss01;\012sub Idotbelow by Idotbelow.ss01;\012sub Igrave by Igrave.ss01;\012sub Ihookabove by Ihookabove.ss01;\012sub Iinvertedbreve by Iinvertedbreve.ss01;\012sub Imacron by Imacron.ss01;\012sub Iogonek by Iogonek.ss01;\012sub Itilde by Itilde.ss01;\012sub J by J.ss01;\012sub Jacute by Jacute.ss01;\012sub Jcircumflex by Jcircumflex.ss01;\012sub LJ by LJ.ss01;\012sub M by M.ss01;\012sub Mdotbelow by Mdotbelow.ss01;\012sub N by N.ss01;\012sub NJ by NJ.ss01;\012sub Nacute by Nacute.ss01;\012sub Ncaron by Ncaron.ss01;\012sub Ncommaaccent by Ncommaaccent.ss01;\012sub Ndotaccent by Ndotaccent.ss01;\012sub Ndotbelow by Ndotbelow.ss01;\012sub Eng by Eng.ss01;\012sub Nj by Nj.ss01;\012sub Nlinebelow by Nlinebelow.ss01;\012sub Ntilde by Ntilde.ss01;\012sub Q by Q.ss01;\012sub Schwa by Schwa.ss01;\012sub T by T.ss01;\012sub Tbar by Tbar.ss01;\012sub Tcaron by Tcaron.ss01;\012sub Tcedilla by Tcedilla.ss01;\012sub Tcommaaccent by Tcommaaccent.ss01;\012sub Tdotbelow by Tdotbelow.ss01;\012sub Tlinebelow by Tlinebelow.ss01;\012sub U by U.ss01;\012sub Uacute by Uacute.ss01;\012sub Ubreve by Ubreve.ss01;\012sub Ucircumflex by Ucircumflex.ss01;\012sub Udblgrave by Udblgrave.ss01;\012sub Udieresis by Udieresis.ss01;\012sub Udotbelow by Udotbelow.ss01;\012sub Ugrave by Ugrave.ss01;\012sub Uhookabove by Uhookabove.ss01;\012sub Uhorn by Uhorn.ss01;\012sub Uhornacute by Uhornacute.ss01;\012sub Uhorndotbelow by Uhorndotbelow.ss01;\012sub Uhorngrave by Uhorngrave.ss01;\012sub Uhornhookabove by Uhornhookabove.ss01;\012sub Uhorntilde by Uhorntilde.ss01;\012sub Uhungarumlaut by Uhungarumlaut.ss01;\012sub Uinvertedbreve by Uinvertedbreve.ss01;\012sub Umacron by Umacron.ss01;\012sub Umacrondieresis by Umacrondieresis.ss01;\012sub Uogonek by Uogonek.ss01;\012sub Uring by Uring.ss01;\012sub Utilde by Utilde.ss01;\012sub Utildeacute by Utildeacute.ss01;\012sub W by W.ss01;\012sub Wacute by Wacute.ss01;\012sub Wcircumflex by Wcircumflex.ss01;\012sub Wdieresis by Wdieresis.ss01;\012sub Wgrave by Wgrave.ss01;\012sub Y by Y.ss01;\012sub Yacute by Yacute.ss01;\012sub Ycircumflex by Ycircumflex.ss01;\012sub Ydieresis by Ydieresis.ss01;\012sub Ydotaccent by Ydotaccent.ss01;\012sub Ydotbelow by Ydotbelow.ss01;\012sub Ygrave by Ygrave.ss01;\012sub Yhookabove by Yhookabove.ss01;\012sub Ymacron by Ymacron.ss01;\012sub Ytilde by Ytilde.ss01;\012sub Z by Z.ss01;\012sub Zacute by Zacute.ss01;\012sub Zcaron by Zcaron.ss01;\012sub Zdotaccent by Zdotaccent.ss01;\012sub Zdotbelow by Zdotbelow.ss01;\012sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub abreveacute by abreveacute.ss01;\012sub abrevedotbelow by abrevedotbelow.ss01;\012sub abrevegrave by abrevegrave.ss01;\012sub abrevehookabove by abrevehookabove.ss01;\012sub abrevetilde by abrevetilde.ss01;\012sub acircumflex by acircumflex.ss01;\012sub acircumflexacute by acircumflexacute.ss01;\012sub acircumflexdotbelow by acircumflexdotbelow.ss01;\012sub acircumflexgrave by acircumflexgrave.ss01;\012sub acircumflexhookabove by acircumflexhookabove.ss01;\012sub acircumflextilde by acircumflextilde.ss01;\012sub adblgrave by adblgrave.ss01;\012sub adieresis by adieresis.ss01;\012sub adotbelow by adotbelow.ss01;\012sub agrave by agrave.ss01;\012sub ahookabove by ahookabove.ss01;\012sub ainvertedbreve by ainvertedbreve.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub aringacute by aringacute.ss01;\012sub atilde by atilde.ss01;\012sub ae by ae.ss01;\012sub aeacute by aeacute.ss01;\012sub dzcaron by dzcaron.ss01;\012sub e by e.ss01;\012sub eacute by eacute.ss01;\012sub ebreve by ebreve.ss01;\012sub ecaron by ecaron.ss01;\012sub ecedillabreve by ecedillabreve.ss01;\012sub ecircumflex by ecircumflex.ss01;\012sub ecircumflexacute by ecircumflexacute.ss01;\012sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;\012sub ecircumflexgrave by ecircumflexgrave.ss01;\012sub ecircumflexhookabove by ecircumflexhookabove.ss01;\012sub ecircumflextilde by ecircumflextilde.ss01;\012sub edblgrave by edblgrave.ss01;\012sub edieresis by edieresis.ss01;\012sub edotaccent by edotaccent.ss01;\012sub edotbelow by edotbelow.ss01;\012sub egrave by egrave.ss01;\012sub ehookabove by ehookabove.ss01;\012sub einvertedbreve by einvertedbreve.ss01;\012sub emacron by emacron.ss01;\012sub emacronacute by emacronacute.ss01;\012sub emacrongrave by emacrongrave.ss01;\012sub eogonek by eogonek.ss01;\012sub etilde by etilde.ss01;\012sub schwa by schwa.ss01;\012sub f by f.ss01;\012sub l by l.ss01;\012sub lacute by lacute.ss01;\012sub lcaron by lcaron.ss01;\012sub lcommaaccent by lcommaaccent.ss01;\012sub ldot by ldot.ss01;\012sub ldotbelow by ldotbelow.ss01;\012sub lj by lj.ss01;\012sub llinebelow by llinebelow.ss01;\012sub lslash by lslash.ss01;\012sub oe by oe.ss01;\012sub t by t.ss01;\012sub tbar by tbar.ss01;\012sub tcaron by tcaron.ss01;\012sub tcedilla by tcedilla.ss01;\012sub tcommaaccent by tcommaaccent.ss01;\012sub tdieresis by tdieresis.ss01;\012sub tdotbelow by tdotbelow.ss01;\012sub tlinebelow by tlinebelow.ss01;\012sub w by w.ss01;\012sub wacute by wacute.ss01;\012sub wcircumflex by wcircumflex.ss01;\012sub wdieresis by wdieresis.ss01;\012sub wgrave by wgrave.ss01;\012sub y by y.ss01;\012sub yacute by yacute.ss01;\012sub ycircumflex by ycircumflex.ss01;\012sub ydieresis by ydieresis.ss01;\012sub ydotbelow by ydotbelow.ss01;\012sub ygrave by ygrave.ss01;\012sub yhookabove by yhookabove.ss01;\012sub ymacron by ymacron.ss01;\012sub ytilde by ytilde.ss01;\012sub z by z.ss01;\012sub zacute by zacute.ss01;\012sub zcaron by zcaron.ss01;\012sub zdotaccent by zdotaccent.ss01;\012sub zdotbelow by zdotbelow.ss01;\012sub f_f_i by f_f_i.ss01;\012sub f_f_ij by f_f_ij.ss01;\012sub f_f_l by f_f_l.ss01;\012sub f_ij by f_ij.ss01;\012sub fi by fi.ss01;\012sub fl by fl.ss01;\012sub a.sc by a.sc.ss01;\012sub aacute.sc by aacute.sc.ss01;\012sub abreve.sc by abreve.sc.ss01;\012sub abreveacute.sc by abreveacute.sc.ss01;\012sub abrevedotbelow.sc by abrevedotbelow.sc.ss01;\012sub abrevegrave.sc by abrevegrave.sc.ss01;\012sub abrevehookabove.sc by abrevehookabove.sc.ss01;\012sub abrevetilde.sc by abrevetilde.sc.ss01;\012sub acircumflex.sc by acircumflex.sc.ss01;\012sub acircumflexacute.sc by acircumflexacute.sc.ss01;\012sub acircumflexdotbelow.sc by acircumflexdotbelow.sc.ss01;\012sub acircumflexgrave.sc by acircumflexgrave.sc.ss01;\012sub acircumflexhookabove.sc by acircumflexhookabove.sc.ss01;\012sub acircumflextilde.sc by acircumflextilde.sc.ss01;\012sub adblgrave.sc by adblgrave.sc.ss01;\012sub adieresis.sc by adieresis.sc.ss01;\012sub adotbelow.sc by adotbelow.sc.ss01;\012sub agrave.sc by agrave.sc.ss01;\012sub ahookabove.sc by ahookabove.sc.ss01;\012sub ainvertedbreve.sc by ainvertedbreve.sc.ss01;\012sub amacron.sc by amacron.sc.ss01;\012sub aogonek.sc by aogonek.sc.ss01;\012sub aring.sc by aring.sc.ss01;\012sub aringacute.sc by aringacute.sc.ss01;\012sub atilde.sc by atilde.sc.ss01;\012sub dzcaron.sc by dzcaron.sc.ss01;\012sub e.sc by e.sc.ss01;\012sub eacute.sc by eacute.sc.ss01;\012sub ebreve.sc by ebreve.sc.ss01;\012sub ecaron.sc by ecaron.sc.ss01;\012sub ecedillabreve.sc by ecedillabreve.sc.ss01;\012sub ecircumflex.sc by ecircumflex.sc.ss01;\012sub ecircumflexacute.sc by ecircumflexacute.sc.ss01;\012sub ecircumflexdotbelow.sc by ecircumflexdotbelow.sc.ss01;\012sub ecircumflexgrave.sc by ecircumflexgrave.sc.ss01;\012sub ecircumflexhookabove.sc by ecircumflexhookabove.sc.ss01;\012sub ecircumflextilde.sc by ecircumflextilde.sc.ss01;\012sub edblgrave.sc by edblgrave.sc.ss01;\012sub edieresis.sc by edieresis.sc.ss01;\012sub edotaccent.sc by edotaccent.sc.ss01;\012sub edotbelow.sc by edotbelow.sc.ss01;\012sub egrave.sc by egrave.sc.ss01;\012sub ehookabove.sc by ehookabove.sc.ss01;\012sub einvertedbreve.sc by einvertedbreve.sc.ss01;\012sub emacron.sc by emacron.sc.ss01;\012sub emacronacute.sc by emacronacute.sc.ss01;\012sub emacrongrave.sc by emacrongrave.sc.ss01;\012sub eogonek.sc by eogonek.sc.ss01;\012sub etilde.sc by etilde.sc.ss01;\012sub schwa.sc by schwa.sc.ss01;\012sub f.sc by f.sc.ss01;\012sub g.sc by g.sc.ss01;\012sub gbreve.sc by gbreve.sc.ss01;\012sub gcaron.sc by gcaron.sc.ss01;\012sub gcircumflex.sc by gcircumflex.sc.ss01;\012sub gcommaaccent.sc by gcommaaccent.sc.ss01;\012sub gdotaccent.sc by gdotaccent.sc.ss01;\012sub gmacron.sc by gmacron.sc.ss01;\012sub i.sc by i.sc.ss01;\012sub idotless.sc by idotless.sc.ss01;\012sub iacute.sc by iacute.sc.ss01;\012sub ibreve.sc by ibreve.sc.ss01;\012sub icircumflex.sc by icircumflex.sc.ss01;\012sub idblgrave.sc by idblgrave.sc.ss01;\012sub idieresis.sc by idieresis.sc.ss01;\012sub idieresisacute.sc by idieresisacute.sc.ss01;\012sub idotaccent.sc by idotaccent.sc.ss01;\012sub idotbelow.sc by idotbelow.sc.ss01;\012sub igrave.sc by igrave.sc.ss01;\012sub ihookabove.sc by ihookabove.sc.ss01;\012sub iinvertedbreve.sc by iinvertedbreve.sc.ss01;\012sub imacron.sc by imacron.sc.ss01;\012sub iogonek.sc by iogonek.sc.ss01;\012sub itilde.sc by itilde.sc.ss01;\012sub j.sc by j.sc.ss01;\012sub jacute.sc by jacute.sc.ss01;\012sub jcircumflex.sc by jcircumflex.sc.ss01;\012sub m.sc by m.sc.ss01;\012sub mdotbelow.sc by mdotbelow.sc.ss01;\012sub n.sc by n.sc.ss01;\012sub nacute.sc by nacute.sc.ss01;\012sub ncaron.sc by ncaron.sc.ss01;\012sub ncommaaccent.sc by ncommaaccent.sc.ss01;\012sub ndotaccent.sc by ndotaccent.sc.ss01;\012sub ndotbelow.sc by ndotbelow.sc.ss01;\012sub eng.sc by eng.sc.ss01;\012sub nj.sc by nj.sc.ss01;\012sub nlinebelow.sc by nlinebelow.sc.ss01;\012sub ntilde.sc by ntilde.sc.ss01;\012sub q.sc by q.sc.ss01;\012sub t.sc by t.sc.ss01;\012sub tbar.sc by tbar.sc.ss01;\012sub tcaron.sc by tcaron.sc.ss01;\012sub tcedilla.sc by tcedilla.sc.ss01;\012sub tcommaaccent.sc by tcommaaccent.sc.ss01;\012sub tdieresis.sc by tdieresis.sc.ss01;\012sub tdotbelow.sc by tdotbelow.sc.ss01;\012sub tlinebelow.sc by tlinebelow.sc.ss01;\012sub u.sc by u.sc.ss01;\012sub uacute.sc by uacute.sc.ss01;\012sub ubreve.sc by ubreve.sc.ss01;\012sub ucircumflex.sc by ucircumflex.sc.ss01;\012sub udblgrave.sc by udblgrave.sc.ss01;\012sub udieresis.sc by udieresis.sc.ss01;\012sub udotbelow.sc by udotbelow.sc.ss01;\012sub ugrave.sc by ugrave.sc.ss01;\012sub uhookabove.sc by uhookabove.sc.ss01;\012sub uhorn.sc by uhorn.sc.ss01;\012sub uhornacute.sc by uhornacute.sc.ss01;\012sub uhorndotbelow.sc by uhorndotbelow.sc.ss01;\012sub uhorngrave.sc by uhorngrave.sc.ss01;\012sub uhornhookabove.sc by uhornhookabove.sc.ss01;\012sub uhorntilde.sc by uhorntilde.sc.ss01;\012sub uhungarumlaut.sc by uhungarumlaut.sc.ss01;\012sub uinvertedbreve.sc by uinvertedbreve.sc.ss01;\012sub umacron.sc by umacron.sc.ss01;\012sub umacrondieresis.sc by umacrondieresis.sc.ss01;\012sub uogonek.sc by uogonek.sc.ss01;\012sub uring.sc by uring.sc.ss01;\012sub utilde.sc by utilde.sc.ss01;\012sub utildeacute.sc by utildeacute.sc.ss01;\012sub w.sc by w.sc.ss01;\012sub wacute.sc by wacute.sc.ss01;\012sub wcircumflex.sc by wcircumflex.sc.ss01;\012sub wdieresis.sc by wdieresis.sc.ss01;\012sub wgrave.sc by wgrave.sc.ss01;\012sub y.sc by y.sc.ss01;\012sub yacute.sc by yacute.sc.ss01;\012sub ycircumflex.sc by ycircumflex.sc.ss01;\012sub ydieresis.sc by ydieresis.sc.ss01;\012sub ydotaccent.sc by ydotaccent.sc.ss01;\012sub ydotbelow.sc by ydotbelow.sc.ss01;\012sub ygrave.sc by ygrave.sc.ss01;\012sub yhookabove.sc by yhookabove.sc.ss01;\012sub ymacron.sc by ymacron.sc.ss01;\012sub ytilde.sc by ytilde.sc.ss01;\012sub z.sc by z.sc.ss01;\012sub zacute.sc by zacute.sc.ss01;\012sub zcaron.sc by zcaron.sc.ss01;\012sub zdotaccent.sc by zdotaccent.sc.ss01;\012sub zdotbelow.sc by zdotbelow.sc.ss01;\012sub zero by zero.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;\012sub nine by nine.ss01;\012sub Tdieresis by Tdieresis.ss01;\012";
+code = "sub A by A.ss01;\012sub Aacute by Aacute.ss01;\012sub Abreve by Abreve.ss01;\012sub Abreveacute by Abreveacute.ss01;\012sub Abrevedotbelow by Abrevedotbelow.ss01;\012sub Abrevegrave by Abrevegrave.ss01;\012sub Abrevehookabove by Abrevehookabove.ss01;\012sub Abrevetilde by Abrevetilde.ss01;\012sub Acircumflex by Acircumflex.ss01;\012sub Acircumflexacute by Acircumflexacute.ss01;\012sub Acircumflexdotbelow by Acircumflexdotbelow.ss01;\012sub Acircumflexgrave by Acircumflexgrave.ss01;\012sub Acircumflexhookabove by Acircumflexhookabove.ss01;\012sub Acircumflextilde by Acircumflextilde.ss01;\012sub Adblgrave by Adblgrave.ss01;\012sub Adieresis by Adieresis.ss01;\012sub Adotbelow by Adotbelow.ss01;\012sub Agrave by Agrave.ss01;\012sub Ahookabove by Ahookabove.ss01;\012sub Ainvertedbreve by Ainvertedbreve.ss01;\012sub Amacron by Amacron.ss01;\012sub Aogonek by Aogonek.ss01;\012sub Aring by Aring.ss01;\012sub Aringacute by Aringacute.ss01;\012sub Atilde by Atilde.ss01;\012sub DZcaron by DZcaron.ss01;\012sub Dzcaron by Dzcaron.ss01;\012sub E by E.ss01;\012sub Eacute by Eacute.ss01;\012sub Ebreve by Ebreve.ss01;\012sub Ecaron by Ecaron.ss01;\012sub Ecedillabreve by Ecedillabreve.ss01;\012sub Ecircumflex by Ecircumflex.ss01;\012sub Ecircumflexacute by Ecircumflexacute.ss01;\012sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;\012sub Ecircumflexgrave by Ecircumflexgrave.ss01;\012sub Ecircumflexhookabove by Ecircumflexhookabove.ss01;\012sub Ecircumflextilde by Ecircumflextilde.ss01;\012sub Edblgrave by Edblgrave.ss01;\012sub Edieresis by Edieresis.ss01;\012sub Edotaccent by Edotaccent.ss01;\012sub Edotbelow by Edotbelow.ss01;\012sub Egrave by Egrave.ss01;\012sub Ehookabove by Ehookabove.ss01;\012sub Einvertedbreve by Einvertedbreve.ss01;\012sub Emacron by Emacron.ss01;\012sub Emacronacute by Emacronacute.ss01;\012sub Emacrongrave by Emacrongrave.ss01;\012sub Eogonek by Eogonek.ss01;\012sub Etilde by Etilde.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub Gbreve by Gbreve.ss01;\012sub Gcaron by Gcaron.ss01;\012sub Gcircumflex by Gcircumflex.ss01;\012sub Gcommaaccent by Gcommaaccent.ss01;\012sub Gdotaccent by Gdotaccent.ss01;\012sub Gmacron by Gmacron.ss01;\012sub I by I.ss01;\012sub IJ by IJ.ss01;\012sub Iacute by Iacute.ss01;\012sub Iacute_J.loclNLD by Iacute_J.loclNLD.ss01;\012sub Ibreve by Ibreve.ss01;\012sub Icircumflex by Icircumflex.ss01;\012sub Idblgrave by Idblgrave.ss01;\012sub Idieresis by Idieresis.ss01;\012sub Idieresisacute by Idieresisacute.ss01;\012sub Idotaccent by Idotaccent.ss01;\012sub Idotbelow by Idotbelow.ss01;\012sub Igrave by Igrave.ss01;\012sub Ihookabove by Ihookabove.ss01;\012sub Iinvertedbreve by Iinvertedbreve.ss01;\012sub Imacron by Imacron.ss01;\012sub Iogonek by Iogonek.ss01;\012sub Itilde by Itilde.ss01;\012sub J by J.ss01;\012sub Jacute by Jacute.ss01;\012sub Jcircumflex by Jcircumflex.ss01;\012sub LJ by LJ.ss01;\012sub M by M.ss01;\012sub Mdotbelow by Mdotbelow.ss01;\012sub N by N.ss01;\012sub NJ by NJ.ss01;\012sub Nacute by Nacute.ss01;\012sub Ncaron by Ncaron.ss01;\012sub Ncommaaccent by Ncommaaccent.ss01;\012sub Ndotaccent by Ndotaccent.ss01;\012sub Ndotbelow by Ndotbelow.ss01;\012sub Eng by Eng.ss01;\012sub Nj by Nj.ss01;\012sub Nlinebelow by Nlinebelow.ss01;\012sub Ntilde by Ntilde.ss01;\012sub Q by Q.ss01;\012sub Schwa by Schwa.ss01;\012sub T by T.ss01;\012sub Tbar by Tbar.ss01;\012sub Tcaron by Tcaron.ss01;\012sub Tcedilla by Tcedilla.ss01;\012sub Tcommaaccent by Tcommaaccent.ss01;\012sub Tdotbelow by Tdotbelow.ss01;\012sub Tlinebelow by Tlinebelow.ss01;\012sub U by U.ss01;\012sub Uacute by Uacute.ss01;\012sub Ubreve by Ubreve.ss01;\012sub Ucircumflex by Ucircumflex.ss01;\012sub Udblgrave by Udblgrave.ss01;\012sub Udieresis by Udieresis.ss01;\012sub Udotbelow by Udotbelow.ss01;\012sub Ugrave by Ugrave.ss01;\012sub Uhookabove by Uhookabove.ss01;\012sub Uhorn by Uhorn.ss01;\012sub Uhornacute by Uhornacute.ss01;\012sub Uhorndotbelow by Uhorndotbelow.ss01;\012sub Uhorngrave by Uhorngrave.ss01;\012sub Uhornhookabove by Uhornhookabove.ss01;\012sub Uhorntilde by Uhorntilde.ss01;\012sub Uhungarumlaut by Uhungarumlaut.ss01;\012sub Uinvertedbreve by Uinvertedbreve.ss01;\012sub Umacron by Umacron.ss01;\012sub Umacrondieresis by Umacrondieresis.ss01;\012sub Uogonek by Uogonek.ss01;\012sub Uring by Uring.ss01;\012sub Utilde by Utilde.ss01;\012sub Utildeacute by Utildeacute.ss01;\012sub W by W.ss01;\012sub Wacute by Wacute.ss01;\012sub Wcircumflex by Wcircumflex.ss01;\012sub Wdieresis by Wdieresis.ss01;\012sub Wgrave by Wgrave.ss01;\012sub Y by Y.ss01;\012sub Yacute by Yacute.ss01;\012sub Ycircumflex by Ycircumflex.ss01;\012sub Ydieresis by Ydieresis.ss01;\012sub Ydotaccent by Ydotaccent.ss01;\012sub Ydotbelow by Ydotbelow.ss01;\012sub Ygrave by Ygrave.ss01;\012sub Yhookabove by Yhookabove.ss01;\012sub Ymacron by Ymacron.ss01;\012sub Ytilde by Ytilde.ss01;\012sub Z by Z.ss01;\012sub Zacute by Zacute.ss01;\012sub Zcaron by Zcaron.ss01;\012sub Zdotaccent by Zdotaccent.ss01;\012sub Zdotbelow by Zdotbelow.ss01;\012sub a by a.ss01;\012sub aacute by aacute.ss01;\012sub abreve by abreve.ss01;\012sub abreveacute by abreveacute.ss01;\012sub abrevedotbelow by abrevedotbelow.ss01;\012sub abrevegrave by abrevegrave.ss01;\012sub abrevehookabove by abrevehookabove.ss01;\012sub abrevetilde by abrevetilde.ss01;\012sub acircumflex by acircumflex.ss01;\012sub acircumflexacute by acircumflexacute.ss01;\012sub acircumflexdotbelow by acircumflexdotbelow.ss01;\012sub acircumflexgrave by acircumflexgrave.ss01;\012sub acircumflexhookabove by acircumflexhookabove.ss01;\012sub acircumflextilde by acircumflextilde.ss01;\012sub adblgrave by adblgrave.ss01;\012sub adieresis by adieresis.ss01;\012sub adotbelow by adotbelow.ss01;\012sub agrave by agrave.ss01;\012sub ahookabove by ahookabove.ss01;\012sub ainvertedbreve by ainvertedbreve.ss01;\012sub amacron by amacron.ss01;\012sub aogonek by aogonek.ss01;\012sub aring by aring.ss01;\012sub aringacute by aringacute.ss01;\012sub atilde by atilde.ss01;\012sub ae by ae.ss01;\012sub aeacute by aeacute.ss01;\012sub dzcaron by dzcaron.ss01;\012sub e by e.ss01;\012sub eacute by eacute.ss01;\012sub ebreve by ebreve.ss01;\012sub ecaron by ecaron.ss01;\012sub ecedillabreve by ecedillabreve.ss01;\012sub ecircumflex by ecircumflex.ss01;\012sub ecircumflexacute by ecircumflexacute.ss01;\012sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;\012sub ecircumflexgrave by ecircumflexgrave.ss01;\012sub ecircumflexhookabove by ecircumflexhookabove.ss01;\012sub ecircumflextilde by ecircumflextilde.ss01;\012sub edblgrave by edblgrave.ss01;\012sub edieresis by edieresis.ss01;\012sub edotaccent by edotaccent.ss01;\012sub edotbelow by edotbelow.ss01;\012sub egrave by egrave.ss01;\012sub ehookabove by ehookabove.ss01;\012sub einvertedbreve by einvertedbreve.ss01;\012sub emacron by emacron.ss01;\012sub emacronacute by emacronacute.ss01;\012sub emacrongrave by emacrongrave.ss01;\012sub eogonek by eogonek.ss01;\012sub etilde by etilde.ss01;\012sub schwa by schwa.ss01;\012sub f by f.ss01;\012sub l by l.ss01;\012sub lacute by lacute.ss01;\012sub lcaron by lcaron.ss01;\012sub lcommaaccent by lcommaaccent.ss01;\012sub ldot by ldot.ss01;\012sub ldotbelow by ldotbelow.ss01;\012sub lj by lj.ss01;\012sub llinebelow by llinebelow.ss01;\012sub lslash by lslash.ss01;\012sub oe by oe.ss01;\012sub t by t.ss01;\012sub tbar by tbar.ss01;\012sub tcaron by tcaron.ss01;\012sub tcedilla by tcedilla.ss01;\012sub tcommaaccent by tcommaaccent.ss01;\012sub tdieresis by tdieresis.ss01;\012sub tdotbelow by tdotbelow.ss01;\012sub tlinebelow by tlinebelow.ss01;\012sub w by w.ss01;\012sub wacute by wacute.ss01;\012sub wcircumflex by wcircumflex.ss01;\012sub wdieresis by wdieresis.ss01;\012sub wgrave by wgrave.ss01;\012sub y by y.ss01;\012sub yacute by yacute.ss01;\012sub ycircumflex by ycircumflex.ss01;\012sub ydieresis by ydieresis.ss01;\012sub ydotbelow by ydotbelow.ss01;\012sub ygrave by ygrave.ss01;\012sub yhookabove by yhookabove.ss01;\012sub ymacron by ymacron.ss01;\012sub ytilde by ytilde.ss01;\012sub z by z.ss01;\012sub zacute by zacute.ss01;\012sub zcaron by zcaron.ss01;\012sub zdotaccent by zdotaccent.ss01;\012sub zdotbelow by zdotbelow.ss01;\012sub f_f_i by f_f_i.ss01;\012sub f_f_ij by f_f_ij.ss01;\012sub f_f_l by f_f_l.ss01;\012sub f_ij by f_ij.ss01;\012sub fi by fi.ss01;\012sub fl by fl.ss01;\012sub a.sc by a.sc.ss01;\012sub aacute.sc by aacute.sc.ss01;\012sub abreve.sc by abreve.sc.ss01;\012sub abreveacute.sc by abreveacute.sc.ss01;\012sub abrevedotbelow.sc by abrevedotbelow.sc.ss01;\012sub abrevegrave.sc by abrevegrave.sc.ss01;\012sub abrevehookabove.sc by abrevehookabove.sc.ss01;\012sub abrevetilde.sc by abrevetilde.sc.ss01;\012sub acircumflex.sc by acircumflex.sc.ss01;\012sub acircumflexacute.sc by acircumflexacute.sc.ss01;\012sub acircumflexdotbelow.sc by acircumflexdotbelow.sc.ss01;\012sub acircumflexgrave.sc by acircumflexgrave.sc.ss01;\012sub acircumflexhookabove.sc by acircumflexhookabove.sc.ss01;\012sub acircumflextilde.sc by acircumflextilde.sc.ss01;\012sub adblgrave.sc by adblgrave.sc.ss01;\012sub adieresis.sc by adieresis.sc.ss01;\012sub adotbelow.sc by adotbelow.sc.ss01;\012sub agrave.sc by agrave.sc.ss01;\012sub ahookabove.sc by ahookabove.sc.ss01;\012sub ainvertedbreve.sc by ainvertedbreve.sc.ss01;\012sub amacron.sc by amacron.sc.ss01;\012sub aogonek.sc by aogonek.sc.ss01;\012sub aring.sc by aring.sc.ss01;\012sub aringacute.sc by aringacute.sc.ss01;\012sub atilde.sc by atilde.sc.ss01;\012sub dzcaron.sc by dzcaron.sc.ss01;\012sub e.sc by e.sc.ss01;\012sub eacute.sc by eacute.sc.ss01;\012sub ebreve.sc by ebreve.sc.ss01;\012sub ecaron.sc by ecaron.sc.ss01;\012sub ecedillabreve.sc by ecedillabreve.sc.ss01;\012sub ecircumflex.sc by ecircumflex.sc.ss01;\012sub ecircumflexacute.sc by ecircumflexacute.sc.ss01;\012sub ecircumflexdotbelow.sc by ecircumflexdotbelow.sc.ss01;\012sub ecircumflexgrave.sc by ecircumflexgrave.sc.ss01;\012sub ecircumflexhookabove.sc by ecircumflexhookabove.sc.ss01;\012sub ecircumflextilde.sc by ecircumflextilde.sc.ss01;\012sub edblgrave.sc by edblgrave.sc.ss01;\012sub edieresis.sc by edieresis.sc.ss01;\012sub edotaccent.sc by edotaccent.sc.ss01;\012sub edotbelow.sc by edotbelow.sc.ss01;\012sub egrave.sc by egrave.sc.ss01;\012sub ehookabove.sc by ehookabove.sc.ss01;\012sub einvertedbreve.sc by einvertedbreve.sc.ss01;\012sub emacron.sc by emacron.sc.ss01;\012sub emacronacute.sc by emacronacute.sc.ss01;\012sub emacrongrave.sc by emacrongrave.sc.ss01;\012sub eogonek.sc by eogonek.sc.ss01;\012sub etilde.sc by etilde.sc.ss01;\012sub schwa.sc by schwa.sc.ss01;\012sub f.sc by f.sc.ss01;\012sub g.sc by g.sc.ss01;\012sub gbreve.sc by gbreve.sc.ss01;\012sub gcaron.sc by gcaron.sc.ss01;\012sub gcircumflex.sc by gcircumflex.sc.ss01;\012sub gcommaaccent.sc by gcommaaccent.sc.ss01;\012sub gdotaccent.sc by gdotaccent.sc.ss01;\012sub gmacron.sc by gmacron.sc.ss01;\012sub i.sc by i.sc.ss01;\012sub idotless.sc by idotless.sc.ss01;\012sub iacute.sc by iacute.sc.ss01;\012sub iacute_j.loclNLD.sc by iacute_j.loclNLD.sc.ss01;\012sub ibreve.sc by ibreve.sc.ss01;\012sub icircumflex.sc by icircumflex.sc.ss01;\012sub idblgrave.sc by idblgrave.sc.ss01;\012sub idieresis.sc by idieresis.sc.ss01;\012sub idieresisacute.sc by idieresisacute.sc.ss01;\012sub idotaccent.sc by idotaccent.sc.ss01;\012sub idotbelow.sc by idotbelow.sc.ss01;\012sub igrave.sc by igrave.sc.ss01;\012sub ihookabove.sc by ihookabove.sc.ss01;\012sub iinvertedbreve.sc by iinvertedbreve.sc.ss01;\012sub ij.sc by ij.sc.ss01;\012sub imacron.sc by imacron.sc.ss01;\012sub iogonek.sc by iogonek.sc.ss01;\012sub itilde.sc by itilde.sc.ss01;\012sub j.sc by j.sc.ss01;\012sub jacute.sc by jacute.sc.ss01;\012sub jcircumflex.sc by jcircumflex.sc.ss01;\012sub m.sc by m.sc.ss01;\012sub mdotbelow.sc by mdotbelow.sc.ss01;\012sub n.sc by n.sc.ss01;\012sub nacute.sc by nacute.sc.ss01;\012sub ncaron.sc by ncaron.sc.ss01;\012sub ncommaaccent.sc by ncommaaccent.sc.ss01;\012sub ndotaccent.sc by ndotaccent.sc.ss01;\012sub ndotbelow.sc by ndotbelow.sc.ss01;\012sub eng.sc by eng.sc.ss01;\012sub nj.sc by nj.sc.ss01;\012sub nlinebelow.sc by nlinebelow.sc.ss01;\012sub ntilde.sc by ntilde.sc.ss01;\012sub q.sc by q.sc.ss01;\012sub t.sc by t.sc.ss01;\012sub tbar.sc by tbar.sc.ss01;\012sub tcaron.sc by tcaron.sc.ss01;\012sub tcedilla.sc by tcedilla.sc.ss01;\012sub tcommaaccent.sc by tcommaaccent.sc.ss01;\012sub tdieresis.sc by tdieresis.sc.ss01;\012sub tdotbelow.sc by tdotbelow.sc.ss01;\012sub tlinebelow.sc by tlinebelow.sc.ss01;\012sub u.sc by u.sc.ss01;\012sub uacute.sc by uacute.sc.ss01;\012sub ubreve.sc by ubreve.sc.ss01;\012sub ucircumflex.sc by ucircumflex.sc.ss01;\012sub udblgrave.sc by udblgrave.sc.ss01;\012sub udieresis.sc by udieresis.sc.ss01;\012sub udotbelow.sc by udotbelow.sc.ss01;\012sub ugrave.sc by ugrave.sc.ss01;\012sub uhookabove.sc by uhookabove.sc.ss01;\012sub uhorn.sc by uhorn.sc.ss01;\012sub uhornacute.sc by uhornacute.sc.ss01;\012sub uhorndotbelow.sc by uhorndotbelow.sc.ss01;\012sub uhorngrave.sc by uhorngrave.sc.ss01;\012sub uhornhookabove.sc by uhornhookabove.sc.ss01;\012sub uhorntilde.sc by uhorntilde.sc.ss01;\012sub uhungarumlaut.sc by uhungarumlaut.sc.ss01;\012sub uinvertedbreve.sc by uinvertedbreve.sc.ss01;\012sub umacron.sc by umacron.sc.ss01;\012sub umacrondieresis.sc by umacrondieresis.sc.ss01;\012sub uogonek.sc by uogonek.sc.ss01;\012sub uring.sc by uring.sc.ss01;\012sub utilde.sc by utilde.sc.ss01;\012sub utildeacute.sc by utildeacute.sc.ss01;\012sub w.sc by w.sc.ss01;\012sub wacute.sc by wacute.sc.ss01;\012sub wcircumflex.sc by wcircumflex.sc.ss01;\012sub wdieresis.sc by wdieresis.sc.ss01;\012sub wgrave.sc by wgrave.sc.ss01;\012sub y.sc by y.sc.ss01;\012sub yacute.sc by yacute.sc.ss01;\012sub ycircumflex.sc by ycircumflex.sc.ss01;\012sub ydieresis.sc by ydieresis.sc.ss01;\012sub ydotaccent.sc by ydotaccent.sc.ss01;\012sub ydotbelow.sc by ydotbelow.sc.ss01;\012sub ygrave.sc by ygrave.sc.ss01;\012sub yhookabove.sc by yhookabove.sc.ss01;\012sub ymacron.sc by ymacron.sc.ss01;\012sub ytilde.sc by ytilde.sc.ss01;\012sub z.sc by z.sc.ss01;\012sub zacute.sc by zacute.sc.ss01;\012sub zcaron.sc by zcaron.sc.ss01;\012sub zdotaccent.sc by zdotaccent.sc.ss01;\012sub zdotbelow.sc by zdotbelow.sc.ss01;\012sub zero by zero.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;\012sub nine by nine.ss01;\012sub Tdieresis by Tdieresis.ss01;\012sub Napostrophe by Napostrophe.ss01;\012";
 name = ss01;
 }
 );
@@ -215,11 +218,10 @@ value = "0";
 descender = -194;
 guideLines = (
 {
-angle = 180;
-position = "{352, 372}";
+position = "{372, 460}";
 },
 {
-position = "{347, 91}";
+position = "{347, -80}";
 },
 {
 position = "{317, 559}";
@@ -228,7 +230,7 @@ position = "{317, 559}";
 position = "{151, 767}";
 },
 {
-position = "{347, 71}";
+position = "{347, -131}";
 }
 );
 horizontalStems = (
@@ -313,13 +315,16 @@ value = "0";
 descender = -194;
 guideLines = (
 {
-position = "{333, 71}";
+position = "{352, -71}";
 },
 {
 position = "{189, 574}";
 },
 {
 position = "{241, 762}";
+},
+{
+position = "{352, -206}";
 }
 );
 horizontalStems = (
@@ -413,13 +418,16 @@ position = "{474, 582}";
 position = "{484, 820}";
 },
 {
-position = "{493, -15}";
+position = "{507, -65}";
 },
 {
 position = "{485, 286}";
 },
 {
 position = "{294, 733}";
+},
+{
+position = "{507, -292}";
 }
 );
 horizontalStems = (
@@ -813,7 +821,7 @@ name = A;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 279, 182}";
+transform = "{1, 0, 0, 1, 289, 182}";
 }
 );
 layerId = UUID0;
@@ -859,7 +867,7 @@ name = A.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 323, 182}";
+transform = "{1, 0, 0, 1, 333, 182}";
 }
 );
 layerId = UUID0;
@@ -894,6 +902,7 @@ width = 747;
 );
 },
 {
+color = 9;
 glyphname = Abreve;
 layers = (
 {
@@ -939,6 +948,7 @@ width = 799;
 unicode = 0102;
 },
 {
+color = 9;
 glyphname = Abreve.ss01;
 layers = (
 {
@@ -1105,7 +1115,7 @@ transform = "{1, 0, 0, 1, 248, 0}";
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 190, 170}";
+transform = "{1, 0, 0, 1, 190, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -1163,7 +1173,7 @@ transform = "{1, 0, 0, 1, 264, 0}";
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 206, 170}";
+transform = "{1, 0, 0, 1, 206, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -1462,6 +1472,7 @@ width = 747;
 );
 },
 {
+color = 9;
 glyphname = Acircumflex;
 layers = (
 {
@@ -1507,6 +1518,7 @@ width = 799;
 unicode = 00C2;
 },
 {
+color = 9;
 glyphname = Acircumflex.ss01;
 layers = (
 {
@@ -1673,7 +1685,7 @@ transform = "{1, 0, 0, 1, 248, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 190, 170}";
+transform = "{1, 0, 0, 1, 190, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -1731,7 +1743,7 @@ transform = "{1, 0, 0, 1, 264, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 206, 170}";
+transform = "{1, 0, 0, 1, 206, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -2576,6 +2588,7 @@ width = 747;
 );
 },
 {
+color = 9;
 glyphname = Amacron;
 layers = (
 {
@@ -2621,6 +2634,7 @@ width = 799;
 unicode = 0100;
 },
 {
+color = 9;
 glyphname = Amacron.ss01;
 layers = (
 {
@@ -2665,6 +2679,7 @@ width = 747;
 );
 },
 {
+color = 9;
 glyphname = Aogonek;
 layers = (
 {
@@ -2710,6 +2725,7 @@ width = 799;
 unicode = 0104;
 },
 {
+color = 9;
 glyphname = Aogonek.ss01;
 layers = (
 {
@@ -3219,7 +3235,7 @@ name = AE;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 534, 182}";
+transform = "{1, 0, 0, 1, 544, 182}";
 }
 );
 layerId = UUID0;
@@ -3586,7 +3602,7 @@ name = C;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 289, 182}";
+transform = "{1, 0, 0, 1, 299, 182}";
 }
 );
 layerId = UUID0;
@@ -3728,7 +3744,7 @@ transform = "{1, 0, 0, 1, 256, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 322, 182}";
+transform = "{1, 0, 0, 1, 332, 182}";
 }
 );
 layerId = UUID0;
@@ -3772,6 +3788,7 @@ width = 688;
 unicode = 1E08;
 },
 {
+color = 9;
 glyphname = Ccircumflex;
 layers = (
 {
@@ -3872,7 +3889,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{421, 0}";
+position = "{391, 0}";
 },
 {
 name = center;
@@ -3920,7 +3937,7 @@ width = 811;
 anchors = (
 {
 name = bottom;
-position = "{364, 0}";
+position = "{354, 0}";
 },
 {
 name = center;
@@ -3968,7 +3985,7 @@ width = 759;
 anchors = (
 {
 name = bottom;
-position = "{391, 0}";
+position = "{381, 0}";
 },
 {
 name = center;
@@ -4018,7 +4035,7 @@ rightKerningGroup = O;
 unicode = 0044;
 },
 {
-color = 4;
+color = 9;
 glyphname = DZcaron;
 layers = (
 {
@@ -4064,7 +4081,7 @@ width = 1442;
 unicode = 01C4;
 },
 {
-color = 4;
+color = 9;
 glyphname = DZcaron.ss01;
 layers = (
 {
@@ -4109,7 +4126,7 @@ width = 1442;
 );
 },
 {
-color = 10;
+color = 9;
 glyphname = Eth;
 layers = (
 {
@@ -4243,6 +4260,7 @@ width = 759;
 unicode = 010E;
 },
 {
+color = 9;
 glyphname = Dcroat;
 layers = (
 {
@@ -4445,7 +4463,7 @@ name = D;
 },
 {
 name = dotbelowcomb.case;
-transform = "{1, 0, 0, 1, 345, 0}";
+transform = "{1, 0, 0, 1, 315, 0}";
 }
 );
 layerId = UUID0;
@@ -4458,7 +4476,7 @@ name = D;
 },
 {
 name = dotbelowcomb.case;
-transform = "{1, 0, 0, 1, 274, 0}";
+transform = "{1, 0, 0, 1, 264, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -4471,7 +4489,7 @@ name = D;
 },
 {
 name = dotbelowcomb.case;
-transform = "{1, 0, 0, 1, 223, 0}";
+transform = "{1, 0, 0, 1, 213, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -4481,7 +4499,7 @@ width = 759;
 unicode = 1E0C;
 },
 {
-color = 4;
+color = 9;
 glyphname = Dlinebelow;
 layers = (
 {
@@ -4491,7 +4509,7 @@ name = D;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 262, 0}";
+transform = "{1, 0, 0, 1, 232, 0}";
 }
 );
 layerId = UUID0;
@@ -4504,7 +4522,7 @@ name = D;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 213, 0}";
+transform = "{1, 0, 0, 1, 203, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -4517,7 +4535,7 @@ name = D;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 164, 0}";
+transform = "{1, 0, 0, 1, 154, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -4527,7 +4545,7 @@ width = 759;
 unicode = 1E0E;
 },
 {
-color = 4;
+color = 9;
 glyphname = Dzcaron;
 layers = (
 {
@@ -4573,7 +4591,7 @@ width = 1327;
 unicode = 01C5;
 },
 {
-color = 4;
+color = 9;
 glyphname = Dzcaron.ss01;
 layers = (
 {
@@ -5272,7 +5290,7 @@ name = E;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 287, 182}";
+transform = "{1, 0, 0, 1, 297, 182}";
 }
 );
 layerId = UUID0;
@@ -5318,7 +5336,7 @@ name = E.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 241, 182}";
+transform = "{1, 0, 0, 1, 251, 182}";
 }
 );
 layerId = UUID0;
@@ -5353,6 +5371,7 @@ width = 675;
 );
 },
 {
+color = 9;
 glyphname = Ebreve;
 layers = (
 {
@@ -5398,6 +5417,7 @@ width = 690;
 unicode = 0114;
 },
 {
+color = 9;
 glyphname = Ebreve.ss01;
 layers = (
 {
@@ -5648,6 +5668,7 @@ width = 675;
 );
 },
 {
+color = 9;
 glyphname = Ecircumflex;
 layers = (
 {
@@ -5693,6 +5714,7 @@ width = 690;
 unicode = 00CA;
 },
 {
+color = 9;
 glyphname = Ecircumflex.ss01;
 layers = (
 {
@@ -5859,7 +5881,7 @@ transform = "{1, 0, 0, 1, 231, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 173, 170}";
+transform = "{1, 0, 0, 1, 173, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -5917,7 +5939,7 @@ transform = "{1, 0, 0, 1, 210, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 152, 170}";
+transform = "{1, 0, 0, 1, 152, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -6857,6 +6879,7 @@ width = 675;
 );
 },
 {
+color = 9;
 glyphname = Emacron;
 layers = (
 {
@@ -6902,6 +6925,7 @@ width = 690;
 unicode = 0112;
 },
 {
+color = 9;
 glyphname = Emacron.ss01;
 layers = (
 {
@@ -7128,6 +7152,7 @@ width = 675;
 );
 },
 {
+color = 9;
 glyphname = Eogonek;
 layers = (
 {
@@ -7173,7 +7198,7 @@ width = 690;
 unicode = 0118;
 },
 {
-color = 10;
+color = 9;
 glyphname = Eogonek.ss01;
 layers = (
 {
@@ -7684,7 +7709,6 @@ leftMetricsKey = U;
 rightKerningGroup = F.ss01;
 },
 {
-color = 4;
 glyphname = G;
 layers = (
 {
@@ -7861,7 +7885,6 @@ rightKerningGroup = G;
 unicode = 0047;
 },
 {
-color = 4;
 glyphname = G.ss01;
 layers = (
 {
@@ -8043,6 +8066,7 @@ leftKerningGroup = O;
 rightKerningGroup = G;
 },
 {
+color = 9;
 glyphname = Gbreve;
 layers = (
 {
@@ -8088,6 +8112,7 @@ width = 738;
 unicode = 011E;
 },
 {
+color = 9;
 glyphname = Gbreve.ss01;
 layers = (
 {
@@ -8223,6 +8248,7 @@ width = 738;
 );
 },
 {
+color = 9;
 glyphname = Gcircumflex;
 layers = (
 {
@@ -8268,6 +8294,7 @@ width = 738;
 unicode = 011C;
 },
 {
+color = 9;
 glyphname = Gcircumflex.ss01;
 layers = (
 {
@@ -8502,7 +8529,7 @@ leftKerningGroup = O;
 rightKerningGroup = G;
 },
 {
-color = 4;
+color = 9;
 glyphname = Gmacron;
 layers = (
 {
@@ -8548,7 +8575,7 @@ width = 738;
 unicode = 1E20;
 },
 {
-color = 4;
+color = 9;
 glyphname = Gmacron.ss01;
 layers = (
 {
@@ -8713,7 +8740,7 @@ rightKerningGroup = H;
 unicode = 0048;
 },
 {
-color = 10;
+color = 9;
 glyphname = Hbar;
 layers = (
 {
@@ -8900,7 +8927,7 @@ rightKerningGroup = H;
 unicode = 0126;
 },
 {
-color = 4;
+color = 9;
 glyphname = Hbrevebelow;
 layers = (
 {
@@ -8946,6 +8973,7 @@ width = 781;
 unicode = 1E2A;
 },
 {
+color = 9;
 glyphname = Hcircumflex;
 layers = (
 {
@@ -9306,7 +9334,7 @@ leftKerningGroup = I.ss01;
 rightKerningGroup = I.ss01;
 },
 {
-color = 10;
+color = 2;
 glyphname = IJ;
 layers = (
 {
@@ -9356,7 +9384,7 @@ rightMetricsKey = I;
 unicode = 0132;
 },
 {
-color = 10;
+color = 2;
 glyphname = IJ.ss01;
 layers = (
 {
@@ -9413,7 +9441,7 @@ name = I;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 74, 182}";
+transform = "{1, 0, 0, 1, 84, 182}";
 }
 );
 layerId = UUID0;
@@ -9459,7 +9487,7 @@ name = I.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 160, 182}";
+transform = "{1, 0, 0, 1, 170, 182}";
 }
 );
 layerId = UUID0;
@@ -9494,7 +9522,7 @@ width = 524;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = Iacute_J.loclNLD;
 layers = (
 {
@@ -9631,7 +9659,7 @@ width = 735;
 rightMetricsKey = "=J";
 },
 {
-color = 10;
+color = 9;
 glyphname = Iacute_J.loclNLD.ss01;
 layers = (
 {
@@ -9734,6 +9762,7 @@ width = 1093;
 rightMetricsKey = "=J";
 },
 {
+color = 9;
 glyphname = Ibreve;
 layers = (
 {
@@ -9779,6 +9808,7 @@ width = 332;
 unicode = 012C;
 },
 {
+color = 9;
 glyphname = Ibreve.ss01;
 layers = (
 {
@@ -9823,6 +9853,7 @@ width = 524;
 );
 },
 {
+color = 9;
 glyphname = Icircumflex;
 layers = (
 {
@@ -9868,6 +9899,7 @@ width = 332;
 unicode = 00CE;
 },
 {
+color = 9;
 glyphname = Icircumflex.ss01;
 layers = (
 {
@@ -10644,7 +10676,7 @@ width = 524;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = Imacron;
 layers = (
 {
@@ -10690,6 +10722,7 @@ width = 332;
 unicode = 012A;
 },
 {
+color = 9;
 glyphname = Imacron.ss01;
 layers = (
 {
@@ -10734,6 +10767,7 @@ width = 524;
 );
 },
 {
+color = 9;
 glyphname = Iogonek;
 layers = (
 {
@@ -10779,6 +10813,7 @@ width = 332;
 unicode = 012E;
 },
 {
+color = 9;
 glyphname = Iogonek.ss01;
 layers = (
 {
@@ -11153,7 +11188,7 @@ name = J;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 140, 182}";
+transform = "{1, 0, 0, 1, 150, 182}";
 }
 );
 layerId = UUID0;
@@ -11198,7 +11233,7 @@ name = J.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 135, 182}";
+transform = "{1, 0, 0, 1, 145, 182}";
 }
 );
 layerId = UUID0;
@@ -11233,6 +11268,7 @@ width = 569;
 );
 },
 {
+color = 9;
 glyphname = Jcircumflex;
 layers = (
 {
@@ -11278,7 +11314,7 @@ width = 569;
 unicode = 0134;
 },
 {
-color = 4;
+color = 9;
 glyphname = Jcircumflex.ss01;
 layers = (
 {
@@ -11520,7 +11556,6 @@ rightKerningGroup = X;
 unicode = 0136;
 },
 {
-color = 4;
 glyphname = L;
 layers = (
 {
@@ -11652,7 +11687,7 @@ rightKerningGroup = L;
 unicode = 004C;
 },
 {
-color = 4;
+color = 2;
 glyphname = LJ;
 layers = (
 {
@@ -11698,7 +11733,7 @@ width = 1153;
 unicode = 01C7;
 },
 {
-color = 4;
+color = 2;
 glyphname = LJ.ss01;
 layers = (
 {
@@ -11753,7 +11788,7 @@ name = L;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 84, 182}";
+transform = "{1, 0, 0, 1, 94, 182}";
 }
 );
 layerId = UUID0;
@@ -11981,7 +12016,7 @@ width = 584;
 unicode = 1E36;
 },
 {
-color = 4;
+color = 2;
 glyphname = Lj;
 layers = (
 {
@@ -12027,7 +12062,7 @@ width = 924;
 unicode = 01C8;
 },
 {
-color = 4;
+color = 9;
 glyphname = Llinebelow;
 layers = (
 {
@@ -12073,7 +12108,7 @@ width = 584;
 unicode = 1E3A;
 },
 {
-color = 10;
+color = 9;
 glyphname = Lslash;
 layers = (
 {
@@ -12984,7 +13019,7 @@ leftKerningGroup = N.ss01;
 rightKerningGroup = N.ss01;
 },
 {
-color = 4;
+color = 2;
 glyphname = NJ;
 layers = (
 {
@@ -13030,7 +13065,7 @@ width = 1350;
 unicode = 01CA;
 },
 {
-color = 4;
+color = 2;
 glyphname = NJ.ss01;
 layers = (
 {
@@ -13085,7 +13120,7 @@ name = N;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 351, 182}";
+transform = "{1, 0, 0, 1, 361, 182}";
 }
 );
 layerId = UUID0;
@@ -13131,7 +13166,7 @@ name = N.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 332, 182}";
+transform = "{1, 0, 0, 1, 342, 182}";
 }
 );
 layerId = UUID0;
@@ -13908,7 +13943,7 @@ leftKerningGroup = H;
 rightKerningGroup = H;
 },
 {
-color = 4;
+color = 2;
 glyphname = Nj;
 layers = (
 {
@@ -13954,7 +13989,7 @@ width = 1121;
 unicode = 01CB;
 },
 {
-color = 4;
+color = 2;
 glyphname = Nj.ss01;
 layers = (
 {
@@ -13999,7 +14034,7 @@ width = 1101;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = Nlinebelow;
 layers = (
 {
@@ -14045,7 +14080,7 @@ width = 781;
 unicode = 1E48;
 },
 {
-color = 10;
+color = 9;
 glyphname = Nlinebelow.ss01;
 layers = (
 {
@@ -14416,7 +14451,7 @@ name = O;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 345, 182}";
+transform = "{1, 0, 0, 1, 355, 182}";
 }
 );
 layerId = UUID0;
@@ -14452,6 +14487,7 @@ width = 800;
 unicode = 00D3;
 },
 {
+color = 9;
 glyphname = Obreve;
 layers = (
 {
@@ -14497,6 +14533,7 @@ width = 800;
 unicode = 014E;
 },
 {
+color = 9;
 glyphname = Ocircumflex;
 layers = (
 {
@@ -14602,7 +14639,7 @@ transform = "{1, 0, 0, 1, 333, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 275, 184}";
+transform = "{1, 0, 0, 1, 275, 182}";
 }
 );
 layerId = UUID0;
@@ -14619,7 +14656,7 @@ transform = "{1, 0, 0, 1, 288, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 230, 170}";
+transform = "{1, 0, 0, 1, 230, 169}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -15180,7 +15217,7 @@ name = Ohorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 345, 182}";
+transform = "{1, 0, 0, 1, 355, 182}";
 }
 );
 layerId = UUID0;
@@ -15492,6 +15529,7 @@ width = 800;
 unicode = 020E;
 },
 {
+color = 9;
 glyphname = Omacron;
 layers = (
 {
@@ -15629,7 +15667,7 @@ width = 800;
 unicode = 1E50;
 },
 {
-color = 10;
+color = 9;
 glyphname = Oogonek;
 layers = (
 {
@@ -15948,7 +15986,7 @@ name = Oslash;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 346, 182}";
+transform = "{1, 0, 0, 1, 356, 182}";
 }
 );
 layerId = UUID0;
@@ -17546,7 +17584,7 @@ name = R;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 277, 182}";
+transform = "{1, 0, 0, 1, 287, 182}";
 }
 );
 layerId = UUID0;
@@ -17816,7 +17854,7 @@ width = 725;
 unicode = 0212;
 },
 {
-color = 4;
+color = 9;
 glyphname = Rlinebelow;
 layers = (
 {
@@ -18040,7 +18078,7 @@ name = S;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 223, 182}";
+transform = "{1, 0, 0, 1, 233, 182}";
 }
 );
 layerId = UUID0;
@@ -18211,9 +18249,7 @@ width = 342;
 }
 );
 leftKerningGroup = superior;
-leftMetricsKey = "=i";
 rightKerningGroup = superior;
-rightMetricsKey = "=i";
 unicode = A78B;
 },
 {
@@ -18355,6 +18391,7 @@ width = 664;
 unicode = 015E;
 },
 {
+color = 9;
 glyphname = Scircumflex;
 layers = (
 {
@@ -18554,7 +18591,7 @@ transform = "{1, 0, 0, 1, 221, 0}";
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 221, 184}";
+transform = "{1, 0, 0, 1, 221, 182}";
 }
 );
 layerId = UUID0;
@@ -18598,7 +18635,6 @@ width = 664;
 unicode = 1E68;
 },
 {
-color = 4;
 glyphname = Germandbls;
 layers = (
 {
@@ -18798,7 +18834,6 @@ width = 600;
 unicode = 1E9E;
 },
 {
-color = 4;
 glyphname = Schwa;
 layers = (
 {
@@ -19029,7 +19064,6 @@ width = 800;
 unicode = 018F;
 },
 {
-color = 4;
 glyphname = Schwa.ss01;
 layers = (
 {
@@ -19547,7 +19581,7 @@ leftKerningGroup = T;
 rightKerningGroup = T;
 },
 {
-color = 10;
+color = 9;
 glyphname = Tbar;
 layers = (
 {
@@ -19593,7 +19627,7 @@ width = 641;
 unicode = 0166;
 },
 {
-color = 10;
+color = 9;
 glyphname = Tbar.ss01;
 layers = (
 {
@@ -20006,7 +20040,7 @@ width = 712;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = Tlinebelow;
 layers = (
 {
@@ -20052,7 +20086,7 @@ width = 641;
 unicode = 1E6E;
 },
 {
-color = 4;
+color = 9;
 glyphname = Tlinebelow.ss01;
 layers = (
 {
@@ -20454,7 +20488,7 @@ name = U;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 323, 182}";
+transform = "{1, 0, 0, 1, 333, 182}";
 }
 );
 layerId = UUID0;
@@ -20500,7 +20534,7 @@ name = U.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 332, 182}";
+transform = "{1, 0, 0, 1, 342, 182}";
 }
 );
 layerId = UUID0;
@@ -20535,6 +20569,7 @@ width = 761;
 );
 },
 {
+color = 9;
 glyphname = Ubreve;
 layers = (
 {
@@ -20580,6 +20615,7 @@ width = 741;
 unicode = 016C;
 },
 {
+color = 9;
 glyphname = Ubreve.ss01;
 layers = (
 {
@@ -20624,6 +20660,7 @@ width = 761;
 );
 },
 {
+color = 9;
 glyphname = Ucircumflex;
 layers = (
 {
@@ -20669,6 +20706,7 @@ width = 741;
 unicode = 00DB;
 },
 {
+color = 9;
 glyphname = Ucircumflex.ss01;
 layers = (
 {
@@ -21299,7 +21337,7 @@ name = Uhorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 323, 182}";
+transform = "{1, 0, 0, 1, 333, 182}";
 }
 );
 layerId = UUID0;
@@ -21345,7 +21383,7 @@ name = Uhorn.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 332, 182}";
+transform = "{1, 0, 0, 1, 342, 182}";
 }
 );
 layerId = UUID0;
@@ -21926,6 +21964,7 @@ width = 761;
 );
 },
 {
+color = 9;
 glyphname = Umacron;
 layers = (
 {
@@ -21971,6 +22010,7 @@ width = 741;
 unicode = 016A;
 },
 {
+color = 9;
 glyphname = Umacron.ss01;
 layers = (
 {
@@ -22106,7 +22146,7 @@ width = 761;
 );
 },
 {
-color = 10;
+color = 9;
 glyphname = Uogonek;
 layers = (
 {
@@ -22292,6 +22332,7 @@ rightKerningGroup = U;
 unicode = 0172;
 },
 {
+color = 9;
 glyphname = Uogonek.ss01;
 layers = (
 {
@@ -23202,7 +23243,7 @@ name = W;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 430, 182}";
+transform = "{1, 0, 0, 1, 440, 182}";
 }
 );
 layerId = UUID0;
@@ -23248,7 +23289,7 @@ name = W.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 537, 182}";
+transform = "{1, 0, 0, 1, 547, 182}";
 }
 );
 layerId = UUID0;
@@ -23283,6 +23324,7 @@ width = 1134;
 );
 },
 {
+color = 9;
 glyphname = Wcircumflex;
 layers = (
 {
@@ -23328,6 +23370,7 @@ width = 1151;
 unicode = 0174;
 },
 {
+color = 9;
 glyphname = Wcircumflex.ss01;
 layers = (
 {
@@ -23990,7 +24033,7 @@ name = Y;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 239, 182}";
+transform = "{1, 0, 0, 1, 249, 182}";
 }
 );
 layerId = UUID0;
@@ -24036,7 +24079,7 @@ name = Y.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 303, 182}";
+transform = "{1, 0, 0, 1, 313, 182}";
 }
 );
 layerId = UUID0;
@@ -24071,6 +24114,7 @@ width = 746;
 );
 },
 {
+color = 9;
 glyphname = Ycircumflex;
 layers = (
 {
@@ -24116,6 +24160,7 @@ width = 719;
 unicode = 0176;
 },
 {
+color = 9;
 glyphname = Ycircumflex.ss01;
 layers = (
 {
@@ -24615,7 +24660,7 @@ width = 746;
 );
 },
 {
-color = 10;
+color = 9;
 glyphname = Ymacron;
 layers = (
 {
@@ -24661,7 +24706,7 @@ width = 719;
 unicode = 0232;
 },
 {
-color = 4;
+color = 9;
 glyphname = Ymacron.ss01;
 layers = (
 {
@@ -25066,7 +25111,7 @@ name = Z;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 267, 182}";
+transform = "{1, 0, 0, 1, 277, 182}";
 }
 );
 layerId = UUID0;
@@ -25112,7 +25157,7 @@ name = Z.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 267, 182}";
+transform = "{1, 0, 0, 1, 277, 182}";
 }
 );
 layerId = UUID0;
@@ -25846,7 +25891,7 @@ name = a;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 211, 0}";
+transform = "{1, 0, 0, 1, 221, 0}";
 }
 );
 layerId = UUID0;
@@ -25892,7 +25937,7 @@ name = a.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 268, 0}";
+transform = "{1, 0, 0, 1, 278, 0}";
 }
 );
 layerId = UUID0;
@@ -25927,6 +25972,7 @@ width = 685;
 );
 },
 {
+color = 9;
 glyphname = abreve;
 layers = (
 {
@@ -25972,6 +26018,7 @@ width = 613;
 unicode = 0103;
 },
 {
+color = 9;
 glyphname = abreve.ss01;
 layers = (
 {
@@ -26495,6 +26542,7 @@ width = 685;
 );
 },
 {
+color = 9;
 glyphname = acircumflex;
 layers = (
 {
@@ -26540,6 +26588,7 @@ width = 613;
 unicode = 00E2;
 },
 {
+color = 9;
 glyphname = acircumflex.ss01;
 layers = (
 {
@@ -27609,6 +27658,7 @@ width = 685;
 );
 },
 {
+color = 9;
 glyphname = amacron;
 layers = (
 {
@@ -27654,6 +27704,7 @@ width = 613;
 unicode = 0101;
 },
 {
+color = 9;
 glyphname = amacron.ss01;
 layers = (
 {
@@ -27698,6 +27749,7 @@ width = 685;
 );
 },
 {
+color = 9;
 glyphname = aogonek;
 layers = (
 {
@@ -27743,6 +27795,7 @@ width = 613;
 unicode = 0105;
 },
 {
+color = 9;
 glyphname = aogonek.ss01;
 layers = (
 {
@@ -29870,7 +29923,7 @@ name = ae;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 430, 0}";
+transform = "{1, 0, 0, 1, 440, 0}";
 }
 );
 layerId = UUID0;
@@ -29916,7 +29969,7 @@ name = ae.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 423, 0}";
+transform = "{1, 0, 0, 1, 433, 0}";
 }
 );
 layerId = UUID0;
@@ -30267,7 +30320,7 @@ name = c;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 215, 0}";
+transform = "{1, 0, 0, 1, 225, 0}";
 }
 );
 layerId = UUID0;
@@ -30409,7 +30462,7 @@ transform = "{1, 0, 0, 1, 148, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 225, 0}";
+transform = "{1, 0, 0, 1, 235, 0}";
 }
 );
 layerId = UUID0;
@@ -30453,6 +30506,7 @@ width = 561;
 unicode = 1E09;
 },
 {
+color = 9;
 glyphname = ccircumflex;
 layers = (
 {
@@ -30744,7 +30798,7 @@ rightKerningGroup = l;
 unicode = 0064;
 },
 {
-color = 10;
+color = 9;
 glyphname = eth;
 layers = (
 {
@@ -30974,6 +31028,7 @@ rightKerningGroup = l;
 unicode = 010F;
 },
 {
+color = 9;
 glyphname = dcroat;
 layers = (
 {
@@ -31144,7 +31199,7 @@ width = 690;
 unicode = 1E0D;
 },
 {
-color = 4;
+color = 9;
 glyphname = dlinebelow;
 layers = (
 {
@@ -31190,7 +31245,7 @@ width = 690;
 unicode = 1E0F;
 },
 {
-color = 10;
+color = 9;
 glyphname = dzcaron;
 layers = (
 {
@@ -31236,7 +31291,7 @@ width = 1258;
 unicode = 01C6;
 },
 {
-color = 10;
+color = 9;
 glyphname = dzcaron.ss01;
 layers = (
 {
@@ -31699,7 +31754,7 @@ name = e;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 231, 0}";
+transform = "{1, 0, 0, 1, 241, 0}";
 }
 );
 layerId = UUID0;
@@ -31745,7 +31800,7 @@ name = e.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 232, 0}";
+transform = "{1, 0, 0, 1, 242, 0}";
 }
 );
 layerId = UUID0;
@@ -31780,6 +31835,7 @@ width = 608;
 );
 },
 {
+color = 9;
 glyphname = ebreve;
 layers = (
 {
@@ -31825,6 +31881,7 @@ width = 614;
 unicode = 0115;
 },
 {
+color = 9;
 glyphname = ebreve.ss01;
 layers = (
 {
@@ -32075,6 +32132,7 @@ width = 608;
 );
 },
 {
+color = 9;
 glyphname = ecircumflex;
 layers = (
 {
@@ -32120,6 +32178,7 @@ width = 614;
 unicode = 00EA;
 },
 {
+color = 9;
 glyphname = ecircumflex.ss01;
 layers = (
 {
@@ -33284,6 +33343,7 @@ width = 608;
 );
 },
 {
+color = 9;
 glyphname = emacron;
 layers = (
 {
@@ -33329,6 +33389,7 @@ width = 614;
 unicode = 0113;
 },
 {
+color = 9;
 glyphname = emacron.ss01;
 layers = (
 {
@@ -33555,7 +33616,7 @@ width = 608;
 );
 },
 {
-color = 10;
+color = 9;
 glyphname = eogonek;
 layers = (
 {
@@ -33752,7 +33813,7 @@ rightKerningGroup = e;
 unicode = 0119;
 },
 {
-color = 10;
+color = 9;
 glyphname = eogonek.ss01;
 layers = (
 {
@@ -34031,7 +34092,6 @@ width = 608;
 );
 },
 {
-color = 4;
 glyphname = schwa;
 layers = (
 {
@@ -34068,7 +34128,6 @@ width = 614;
 unicode = 0259;
 },
 {
-color = 4;
 glyphname = schwa.ss01;
 layers = (
 {
@@ -34607,6 +34666,7 @@ rightKerningGroup = j;
 unicode = 0067;
 },
 {
+color = 9;
 glyphname = gbreve;
 layers = (
 {
@@ -34698,6 +34758,7 @@ width = 654;
 unicode = 01E7;
 },
 {
+color = 9;
 glyphname = gcircumflex;
 layers = (
 {
@@ -34743,7 +34804,7 @@ width = 654;
 unicode = 011D;
 },
 {
-color = 4;
+color = 9;
 glyphname = gcommaaccent;
 layers = (
 {
@@ -34839,7 +34900,7 @@ rightKerningGroup = j;
 unicode = 0121;
 },
 {
-color = 4;
+color = 9;
 glyphname = gmacron;
 layers = (
 {
@@ -35056,7 +35117,7 @@ rightKerningGroup = n;
 unicode = 0068;
 },
 {
-color = 10;
+color = 9;
 glyphname = hbar;
 layers = (
 {
@@ -35152,7 +35213,7 @@ rightMetricsKey = h;
 unicode = 0127;
 },
 {
-color = 4;
+color = 9;
 glyphname = hbrevebelow;
 layers = (
 {
@@ -35198,6 +35259,7 @@ width = 687;
 unicode = 1E2B;
 },
 {
+color = 9;
 glyphname = hcircumflex;
 layers = (
 {
@@ -35461,7 +35523,7 @@ name = idotless;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 56, 0}";
+transform = "{1, 0, 0, 1, 66, 0}";
 }
 );
 layerId = UUID0;
@@ -35497,7 +35559,7 @@ width = 335;
 unicode = 00ED;
 },
 {
-color = 4;
+color = 9;
 glyphname = iacute_j.loclNLD;
 layers = (
 {
@@ -35632,6 +35694,7 @@ leftMetricsKey = iacute;
 rightMetricsKey = iacute;
 },
 {
+color = 9;
 glyphname = ibreve;
 layers = (
 {
@@ -35677,6 +35740,7 @@ width = 335;
 unicode = 012D;
 },
 {
+color = 9;
 glyphname = icircumflex;
 layers = (
 {
@@ -36088,7 +36152,7 @@ width = 335;
 unicode = 020B;
 },
 {
-color = 10;
+color = 2;
 glyphname = ij;
 layers = (
 {
@@ -36138,6 +36202,7 @@ rightMetricsKey = i;
 unicode = 0133;
 },
 {
+color = 9;
 glyphname = imacron;
 layers = (
 {
@@ -36566,7 +36631,6 @@ width = 274;
 );
 leftKerningGroup = j;
 rightKerningGroup = j;
-rightMetricsKey = i;
 unicode = 0237;
 },
 {
@@ -36580,7 +36644,7 @@ name = jdotless;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 51, 0}";
+transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
@@ -36615,6 +36679,7 @@ width = 340;
 );
 },
 {
+color = 9;
 glyphname = jcircumflex;
 layers = (
 {
@@ -37176,7 +37241,7 @@ width = 259;
 anchors = (
 {
 name = bottom;
-position = "{187, 0}";
+position = "{227, 0}";
 },
 {
 name = center;
@@ -37221,7 +37286,7 @@ width = 374;
 anchors = (
 {
 name = bottom;
-position = "{156.526, 0}";
+position = "{197, 0}";
 },
 {
 name = center;
@@ -37277,7 +37342,7 @@ name = l;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 61, 225}";
+transform = "{1, 0, 0, 1, 71, 225}";
 }
 );
 layerId = UUID0;
@@ -37323,7 +37388,7 @@ name = l.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 48, 225}";
+transform = "{1, 0, 0, 1, 58, 225}";
 }
 );
 layerId = UUID0;
@@ -37619,7 +37684,7 @@ rightKerningGroup = l;
 unicode = 0140;
 },
 {
-color = 4;
+color = 9;
 glyphname = ldot.ss01;
 layers = (
 {
@@ -37749,7 +37814,7 @@ name = l.ss01;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 46, 0}";
+transform = "{1, 0, 0, 1, 86, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -37758,7 +37823,7 @@ width = 374;
 );
 },
 {
-color = 4;
+color = 2;
 glyphname = lj;
 layers = (
 {
@@ -37804,7 +37869,7 @@ width = 685;
 unicode = 01C9;
 },
 {
-color = 4;
+color = 2;
 glyphname = lj.ss01;
 layers = (
 {
@@ -37849,7 +37914,7 @@ width = 714;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = llinebelow;
 layers = (
 {
@@ -37895,7 +37960,7 @@ width = 345;
 unicode = 1E3B;
 },
 {
-color = 4;
+color = 9;
 glyphname = llinebelow.ss01;
 layers = (
 {
@@ -37918,7 +37983,7 @@ name = l.ss01;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, -21, 0}";
+transform = "{1, 0, 0, 1, 19, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -37931,7 +37996,7 @@ name = l.ss01;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, -13, 0}";
+transform = "{1, 0, 0, 1, 27, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -37940,7 +38005,7 @@ width = 374;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = lslash;
 layers = (
 {
@@ -38134,7 +38199,7 @@ rightMetricsKey = "=t";
 unicode = 0142;
 },
 {
-color = 4;
+color = 9;
 glyphname = lslash.ss01;
 layers = (
 {
@@ -38651,7 +38716,7 @@ name = n;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 278, 0}";
+transform = "{1, 0, 0, 1, 288, 0}";
 }
 );
 layerId = UUID0;
@@ -38687,7 +38752,7 @@ width = 682;
 unicode = 0144;
 },
 {
-color = 4;
+color = 9;
 glyphname = napostrophe;
 layers = (
 {
@@ -39104,7 +39169,7 @@ rightKerningGroup = i;
 unicode = 014B;
 },
 {
-color = 4;
+color = 2;
 glyphname = nj;
 layers = (
 {
@@ -39150,7 +39215,7 @@ width = 1022;
 unicode = 01CC;
 },
 {
-color = 4;
+color = 9;
 glyphname = nlinebelow;
 layers = (
 {
@@ -39649,7 +39714,7 @@ name = o;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 239, 0}";
+transform = "{1, 0, 0, 1, 249, 0}";
 }
 );
 layerId = UUID0;
@@ -39689,6 +39754,7 @@ rightMetricsKey = o;
 unicode = 00F3;
 },
 {
+color = 9;
 glyphname = obreve;
 layers = (
 {
@@ -39734,6 +39800,7 @@ width = 648;
 unicode = 014F;
 },
 {
+color = 9;
 glyphname = ocircumflex;
 layers = (
 {
@@ -40429,7 +40496,7 @@ name = ohorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 239, 0}";
+transform = "{1, 0, 0, 1, 249, 0}";
 }
 );
 layerId = UUID0;
@@ -40741,6 +40808,7 @@ width = 648;
 unicode = 020F;
 },
 {
+color = 9;
 glyphname = omacron;
 layers = (
 {
@@ -40878,7 +40946,7 @@ width = 648;
 unicode = 1E51;
 },
 {
-color = 10;
+color = 9;
 glyphname = oogonek;
 layers = (
 {
@@ -41190,7 +41258,7 @@ name = oslash;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 239, 0}";
+transform = "{1, 0, 0, 1, 249, 0}";
 }
 );
 layerId = UUID0;
@@ -42430,7 +42498,6 @@ rightKerningGroup = q;
 unicode = 0071;
 },
 {
-color = 4;
 glyphname = r;
 layers = (
 {
@@ -42563,7 +42630,7 @@ name = r;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 152, 0}";
+transform = "{1, 0, 0, 1, 162, 0}";
 }
 );
 layerId = UUID0;
@@ -42831,7 +42898,7 @@ width = 457;
 unicode = 0213;
 },
 {
-color = 4;
+color = 9;
 glyphname = rlinebelow;
 layers = (
 {
@@ -42840,8 +42907,9 @@ components = (
 name = r;
 },
 {
+alignment = -1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, -39, 0}";
+transform = "{1, 0, 0, 1, 17, 0}";
 }
 );
 layerId = UUID0;
@@ -42853,8 +42921,9 @@ components = (
 name = r;
 },
 {
+alignment = -1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, -38, 0}";
+transform = "{1, 0, 0, 1, -8, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -43247,7 +43316,7 @@ name = s;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 149, 0}";
+transform = "{1, 0, 0, 1, 159, 0}";
 }
 );
 layerId = UUID0;
@@ -43418,9 +43487,7 @@ width = 334;
 }
 );
 leftKerningGroup = superior;
-leftMetricsKey = "=i";
 rightKerningGroup = superior;
-rightMetricsKey = "=i";
 unicode = A78C;
 },
 {
@@ -43562,6 +43629,7 @@ width = 552;
 unicode = 015F;
 },
 {
+color = 9;
 glyphname = scircumflex;
 layers = (
 {
@@ -43963,7 +44031,6 @@ rightMetricsKey = B;
 unicode = 00DF;
 },
 {
-color = 4;
 glyphname = t;
 layers = (
 {
@@ -44024,7 +44091,7 @@ width = 362;
 anchors = (
 {
 name = bottom;
-position = "{272, 0}";
+position = "{282, 0}";
 },
 {
 name = center;
@@ -44078,7 +44145,7 @@ width = 460;
 anchors = (
 {
 name = bottom;
-position = "{244.684, 0}";
+position = "{255, 0}";
 },
 {
 name = center;
@@ -44134,7 +44201,6 @@ rightKerningGroup = t;
 unicode = 0074;
 },
 {
-color = 4;
 glyphname = t.ss01;
 layers = (
 {
@@ -44201,7 +44267,7 @@ width = 331;
 anchors = (
 {
 name = bottom;
-position = "{227, 0}";
+position = "{244, 0}";
 },
 {
 name = center;
@@ -44255,7 +44321,7 @@ width = 422;
 anchors = (
 {
 name = bottom;
-position = "{223, 0}";
+position = "{233, 0}";
 },
 {
 name = center;
@@ -44311,7 +44377,7 @@ rightKerningGroup = t;
 rightMetricsKey = t;
 },
 {
-color = 10;
+color = 9;
 glyphname = tbar;
 layers = (
 {
@@ -44595,7 +44661,7 @@ rightKerningGroup = t;
 unicode = 0167;
 },
 {
-color = 10;
+color = 9;
 glyphname = tbar.ss01;
 layers = (
 {
@@ -45275,7 +45341,7 @@ name = t;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 131, 0}";
+transform = "{1, 0, 0, 1, 141, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -45321,7 +45387,7 @@ name = t.ss01;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 86, 0}";
+transform = "{1, 0, 0, 1, 103, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -45330,7 +45396,7 @@ width = 422;
 );
 },
 {
-color = 4;
+color = 9;
 glyphname = tlinebelow;
 layers = (
 {
@@ -45353,7 +45419,7 @@ name = t;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 67, 0}";
+transform = "{1, 0, 0, 1, 77, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -45366,7 +45432,7 @@ name = t;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 72, 0}";
+transform = "{1, 0, 0, 1, 82, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -45376,7 +45442,7 @@ width = 460;
 unicode = 1E6F;
 },
 {
-color = 4;
+color = 9;
 glyphname = tlinebelow.ss01;
 layers = (
 {
@@ -45399,7 +45465,7 @@ name = t.ss01;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 45, 0}";
+transform = "{1, 0, 0, 1, 55, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -45412,7 +45478,7 @@ name = t.ss01;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 27, 0}";
+transform = "{1, 0, 0, 1, 44, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -45796,7 +45862,7 @@ name = u;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 255, 0}";
+transform = "{1, 0, 0, 1, 265, 0}";
 }
 );
 layerId = UUID0;
@@ -45832,6 +45898,7 @@ width = 672;
 unicode = 00FA;
 },
 {
+color = 9;
 glyphname = ubreve;
 layers = (
 {
@@ -45877,6 +45944,7 @@ width = 672;
 unicode = 016D;
 },
 {
+color = 9;
 glyphname = ucircumflex;
 layers = (
 {
@@ -46238,7 +46306,7 @@ name = uhorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 252, 0}";
+transform = "{1, 0, 0, 1, 262, 0}";
 }
 );
 layerId = UUID0;
@@ -46550,6 +46618,7 @@ width = 672;
 unicode = 0217;
 },
 {
+color = 9;
 glyphname = umacron;
 layers = (
 {
@@ -46641,6 +46710,7 @@ width = 672;
 unicode = 1E7B;
 },
 {
+color = 9;
 glyphname = uogonek;
 layers = (
 {
@@ -47197,7 +47267,7 @@ name = w;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 345, 0}";
+transform = "{1, 0, 0, 1, 355, 0}";
 }
 );
 layerId = UUID0;
@@ -47243,7 +47313,7 @@ name = w.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 415, 0}";
+transform = "{1, 0, 0, 1, 425, 0}";
 }
 );
 layerId = UUID0;
@@ -47278,6 +47348,7 @@ width = 988;
 );
 },
 {
+color = 9;
 glyphname = wcircumflex;
 layers = (
 {
@@ -47323,6 +47394,7 @@ width = 977;
 unicode = 0175;
 },
 {
+color = 9;
 glyphname = wcircumflex.ss01;
 layers = (
 {
@@ -48009,7 +48081,7 @@ name = y;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 169, 0}";
+transform = "{1, 0, 0, 1, 179, 0}";
 }
 );
 layerId = UUID0;
@@ -48055,7 +48127,7 @@ name = y.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 247, 0}";
+transform = "{1, 0, 0, 1, 257, 0}";
 }
 );
 layerId = UUID0;
@@ -48090,6 +48162,7 @@ width = 679;
 );
 },
 {
+color = 9;
 glyphname = ycircumflex;
 layers = (
 {
@@ -48135,6 +48208,7 @@ width = 624;
 unicode = 0177;
 },
 {
+color = 9;
 glyphname = ycircumflex.ss01;
 layers = (
 {
@@ -48589,7 +48663,7 @@ width = 679;
 );
 },
 {
-color = 10;
+color = 9;
 glyphname = ymacron;
 layers = (
 {
@@ -48635,7 +48709,7 @@ width = 624;
 unicode = 0233;
 },
 {
-color = 10;
+color = 9;
 glyphname = ymacron.ss01;
 layers = (
 {
@@ -49114,7 +49188,7 @@ name = z;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 191, 0}";
+transform = "{1, 0, 0, 1, 201, 0}";
 }
 );
 layerId = UUID0;
@@ -49160,7 +49234,7 @@ name = z.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 199, 0}";
+transform = "{1, 0, 0, 1, 209, 0}";
 }
 );
 layerId = UUID0;
@@ -49830,6 +49904,7 @@ leftMetricsKey = T;
 rightMetricsKey = h;
 },
 {
+color = 2;
 glyphname = c_h;
 layers = (
 {
@@ -49876,6 +49951,7 @@ leftMetricsKey = c;
 rightMetricsKey = h;
 },
 {
+color = 2;
 glyphname = c_t;
 layers = (
 {
@@ -49922,7 +49998,7 @@ leftMetricsKey = c;
 rightMetricsKey = t;
 },
 {
-color = 10;
+color = 2;
 glyphname = f_f;
 layers = (
 {
@@ -49969,7 +50045,7 @@ leftMetricsKey = f;
 rightMetricsKey = f;
 },
 {
-color = 4;
+color = 2;
 glyphname = f_f_i;
 layers = (
 {
@@ -50016,7 +50092,7 @@ leftMetricsKey = f;
 rightMetricsKey = i;
 },
 {
-color = 4;
+color = 2;
 glyphname = f_f_i.ss01;
 layers = (
 {
@@ -50061,7 +50137,7 @@ width = 1091;
 );
 },
 {
-color = 4;
+color = 2;
 glyphname = f_f_ij;
 layers = (
 {
@@ -50108,7 +50184,7 @@ leftMetricsKey = f;
 rightMetricsKey = ij;
 },
 {
-color = 4;
+color = 2;
 glyphname = f_f_ij.ss01;
 layers = (
 {
@@ -50153,7 +50229,7 @@ width = 1431;
 );
 },
 {
-color = 4;
+color = 2;
 glyphname = f_f_l;
 layers = (
 {
@@ -50200,7 +50276,7 @@ leftMetricsKey = f;
 rightMetricsKey = l;
 },
 {
-color = 4;
+color = 2;
 glyphname = f_f_l.ss01;
 layers = (
 {
@@ -50628,7 +50704,7 @@ leftMetricsKey = f.ss01;
 rightMetricsKey = l.ss01;
 },
 {
-color = 4;
+color = 2;
 glyphname = f_ij;
 layers = (
 {
@@ -50777,7 +50853,7 @@ leftMetricsKey = f;
 rightMetricsKey = ij;
 },
 {
-color = 4;
+color = 2;
 glyphname = f_ij.ss01;
 layers = (
 {
@@ -50911,7 +50987,7 @@ leftMetricsKey = f.ss01;
 rightMetricsKey = ij;
 },
 {
-color = 10;
+color = 2;
 glyphname = fi;
 layers = (
 {
@@ -51113,7 +51189,7 @@ rightMetricsKey = i;
 unicode = FB01;
 },
 {
-color = 10;
+color = 2;
 glyphname = fi.ss01;
 layers = (
 {
@@ -51314,7 +51390,7 @@ rightKerningGroup = idotless;
 rightMetricsKey = i;
 },
 {
-color = 10;
+color = 2;
 glyphname = fl;
 layers = (
 {
@@ -51626,6 +51702,7 @@ rightKerningGroup = l;
 rightMetricsKey = l.ss01;
 },
 {
+color = 2;
 glyphname = s_t;
 layers = (
 {
@@ -51672,108 +51749,7 @@ leftMetricsKey = s;
 rightMetricsKey = t;
 },
 {
-color = 10;
-glyphname = Oogonek.sc;
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"481 -3 OFFCURVE",
-"419 -70 OFFCURVE",
-"419 -125 CURVE SMOOTH",
-"419 -171 OFFCURVE",
-"455 -194 OFFCURVE",
-"497 -194 CURVE SMOOTH",
-"521 -194 OFFCURVE",
-"548 -187 OFFCURVE",
-"571 -172 CURVE",
-"561 -156 LINE",
-"542 -168 OFFCURVE",
-"519 -174 OFFCURVE",
-"498 -174 CURVE SMOOTH",
-"466 -174 OFFCURVE",
-"439 -159 OFFCURVE",
-"439 -125 CURVE SMOOTH",
-"439 -79 OFFCURVE",
-"497 -17 OFFCURVE",
-"591 49 CURVE",
-"581 66 LINE"
-);
-}
-);
-};
-components = (
-{
-name = o.sc;
-},
-{
-name = ogonekcomb.curve;
-transform = "{1, 0, 0, 1, 310, 0}";
-}
-);
-layerId = UUID0;
-width = 713;
-userData = {
-RMXScaler = {
-adjustSpace = 18;
-height = 80;
-width = 81;
-};
-};
-},
-{
-components = (
-{
-name = o.sc;
-},
-{
-name = ogonekcomb.curve;
-transform = "{1, 0, 0, 1, 294, 0}";
-}
-);
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 695;
-userData = {
-RMXScaler = {
-adjustSpace = 10;
-height = 82;
-weight = -3;
-width = 82;
-};
-};
-},
-{
-components = (
-{
-name = o.sc;
-},
-{
-name = ogonekcomb.curve;
-transform = "{1, 0, 0, 1, 268, 0}";
-}
-);
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 689;
-userData = {
-RMXScaler = {
-adjustSpace = 6;
-height = 83;
-weight = -17;
-width = 84;
-};
-};
-}
-);
-userData = {
-RMXScaler = {
-source = Oogonek;
-};
-};
-},
-{
+color = 9;
 glyphname = Ubreve.sc.ss01;
 layers = (
 {
@@ -51818,7 +51794,6 @@ width = 695;
 );
 },
 {
-color = 1;
 glyphname = a.sc;
 layers = (
 {
@@ -51995,7 +51970,6 @@ source = A;
 };
 },
 {
-color = 1;
 glyphname = a.sc.ss01;
 layers = (
 {
@@ -52245,7 +52219,7 @@ name = a.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 228, 42}";
+transform = "{1, 0, 0, 1, 238, 42}";
 }
 );
 layerId = UUID0;
@@ -52290,7 +52264,7 @@ name = a.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 265, 42}";
+transform = "{1, 0, 0, 1, 275, 42}";
 }
 );
 layerId = UUID0;
@@ -52325,6 +52299,7 @@ width = 666;
 );
 },
 {
+color = 9;
 glyphname = abreve.sc;
 layers = (
 {
@@ -52369,6 +52344,7 @@ width = 669;
 );
 },
 {
+color = 9;
 glyphname = abreve.sc.ss01;
 layers = (
 {
@@ -52887,6 +52863,7 @@ width = 666;
 );
 },
 {
+color = 9;
 glyphname = acircumflex.sc;
 layers = (
 {
@@ -52931,6 +52908,7 @@ width = 669;
 );
 },
 {
+color = 9;
 glyphname = acircumflex.sc.ss01;
 layers = (
 {
@@ -53989,6 +53967,7 @@ width = 666;
 );
 },
 {
+color = 9;
 glyphname = amacron.sc;
 layers = (
 {
@@ -54033,6 +54012,7 @@ width = 669;
 );
 },
 {
+color = 9;
 glyphname = amacron.sc.ss01;
 layers = (
 {
@@ -54077,6 +54057,7 @@ width = 666;
 );
 },
 {
+color = 9;
 glyphname = aogonek.sc;
 layers = (
 {
@@ -54121,6 +54102,7 @@ width = 669;
 );
 },
 {
+color = 9;
 glyphname = aogonek.sc.ss01;
 layers = (
 {
@@ -54651,7 +54633,7 @@ name = ae.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 427, 42}";
+transform = "{1, 0, 0, 1, 437, 42}";
 }
 );
 layerId = UUID0;
@@ -54686,7 +54668,6 @@ width = 987;
 );
 },
 {
-color = 1;
 glyphname = b.sc;
 layers = (
 {
@@ -54884,7 +54865,6 @@ source = B;
 };
 },
 {
-color = 1;
 glyphname = c.sc;
 layers = (
 {
@@ -55071,7 +55051,7 @@ name = c.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 248, 42}";
+transform = "{1, 0, 0, 1, 258, 42}";
 }
 );
 layerId = UUID0;
@@ -55210,7 +55190,7 @@ transform = "{1, 0, 0, 1, 205, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 270, 42}";
+transform = "{1, 0, 0, 1, 280, 42}";
 }
 );
 layerId = UUID0;
@@ -55253,6 +55233,7 @@ width = 595;
 );
 },
 {
+color = 9;
 glyphname = ccircumflex.sc;
 layers = (
 {
@@ -55342,14 +55323,13 @@ width = 595;
 );
 },
 {
-color = 1;
 glyphname = d.sc;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{356, 0}";
+position = "{336, 0}";
 },
 {
 name = center;
@@ -55522,6 +55502,7 @@ source = D;
 };
 },
 {
+color = 9;
 glyphname = eth.sc;
 layers = (
 {
@@ -55734,6 +55715,7 @@ width = 674;
 );
 },
 {
+color = 9;
 glyphname = dcroat.sc;
 layers = (
 {
@@ -55950,7 +55932,7 @@ name = d.sc;
 },
 {
 name = dotbelowcomb.sc;
-transform = "{1, 0, 0, 1, 280, 0}";
+transform = "{1, 0, 0, 1, 260, 0}";
 }
 );
 layerId = UUID0;
@@ -55985,6 +55967,7 @@ width = 674;
 );
 },
 {
+color = 9;
 glyphname = dlinebelow.sc;
 layers = (
 {
@@ -55994,7 +55977,7 @@ name = d.sc;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 197, 0}";
+transform = "{1, 0, 0, 1, 177, 0}";
 }
 );
 layerId = UUID0;
@@ -56029,6 +56012,7 @@ width = 674;
 );
 },
 {
+color = 9;
 glyphname = dzcaron.sc;
 layers = (
 {
@@ -56073,6 +56057,7 @@ width = 1282;
 );
 },
 {
+color = 9;
 glyphname = dzcaron.sc.ss01;
 layers = (
 {
@@ -56117,7 +56102,6 @@ width = 1309;
 );
 },
 {
-color = 1;
 glyphname = e.sc;
 layers = (
 {
@@ -56276,7 +56260,6 @@ source = E;
 };
 },
 {
-color = 1;
 glyphname = e.sc.ss01;
 layers = (
 {
@@ -56632,7 +56615,7 @@ name = e.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 236, 42}";
+transform = "{1, 0, 0, 1, 246, 42}";
 }
 );
 layerId = UUID0;
@@ -56677,7 +56660,7 @@ name = e.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 219, 42}";
+transform = "{1, 0, 0, 1, 229, 42}";
 }
 );
 layerId = UUID0;
@@ -56712,6 +56695,7 @@ width = 585;
 );
 },
 {
+color = 9;
 glyphname = ebreve.sc;
 layers = (
 {
@@ -56756,6 +56740,7 @@ width = 635;
 );
 },
 {
+color = 9;
 glyphname = ebreve.sc.ss01;
 layers = (
 {
@@ -57004,6 +56989,7 @@ width = 585;
 );
 },
 {
+color = 9;
 glyphname = ecircumflex.sc;
 layers = (
 {
@@ -57048,6 +57034,7 @@ width = 635;
 );
 },
 {
+color = 9;
 glyphname = ecircumflex.sc.ss01;
 layers = (
 {
@@ -58196,6 +58183,7 @@ width = 585;
 );
 },
 {
+color = 9;
 glyphname = emacron.sc;
 layers = (
 {
@@ -58240,6 +58228,7 @@ width = 635;
 );
 },
 {
+color = 9;
 glyphname = emacron.sc.ss01;
 layers = (
 {
@@ -58464,6 +58453,7 @@ width = 585;
 );
 },
 {
+color = 9;
 glyphname = eogonek.sc;
 layers = (
 {
@@ -58508,6 +58498,7 @@ width = 635;
 );
 },
 {
+color = 9;
 glyphname = eogonek.sc.ss01;
 layers = (
 {
@@ -58642,7 +58633,6 @@ width = 585;
 );
 },
 {
-color = 4;
 glyphname = schwa.sc;
 layers = (
 {
@@ -58912,7 +58902,6 @@ source = Schwa;
 };
 },
 {
-color = 4;
 glyphname = schwa.sc.ss01;
 layers = (
 {
@@ -59063,7 +59052,6 @@ source = Schwa.ss01;
 };
 },
 {
-color = 1;
 glyphname = f.sc;
 layers = (
 {
@@ -59162,7 +59150,6 @@ source = F;
 };
 },
 {
-color = 1;
 glyphname = f.sc.ss01;
 layers = (
 {
@@ -59306,7 +59293,6 @@ source = F.ss01;
 };
 },
 {
-color = 1;
 glyphname = g.sc;
 layers = (
 {
@@ -59510,7 +59496,6 @@ source = G;
 };
 },
 {
-color = 1;
 glyphname = g.sc.ss01;
 layers = (
 {
@@ -59720,6 +59705,7 @@ source = G.ss01;
 };
 },
 {
+color = 9;
 glyphname = gbreve.sc;
 layers = (
 {
@@ -59764,6 +59750,7 @@ width = 651;
 );
 },
 {
+color = 9;
 glyphname = gbreve.sc.ss01;
 layers = (
 {
@@ -59898,6 +59885,7 @@ width = 656;
 );
 },
 {
+color = 9;
 glyphname = gcircumflex.sc;
 layers = (
 {
@@ -59942,6 +59930,7 @@ width = 651;
 );
 },
 {
+color = 9;
 glyphname = gcircumflex.sc.ss01;
 layers = (
 {
@@ -60166,6 +60155,7 @@ width = 656;
 );
 },
 {
+color = 9;
 glyphname = gmacron.sc;
 layers = (
 {
@@ -60210,6 +60200,7 @@ width = 651;
 );
 },
 {
+color = 9;
 glyphname = gmacron.sc.ss01;
 layers = (
 {
@@ -60254,7 +60245,6 @@ width = 656;
 );
 },
 {
-color = 1;
 glyphname = h.sc;
 layers = (
 {
@@ -60401,6 +60391,7 @@ source = H;
 };
 },
 {
+color = 9;
 glyphname = hbar.sc;
 layers = (
 {
@@ -60574,6 +60565,7 @@ source = Hbar;
 };
 },
 {
+color = 9;
 glyphname = hbrevebelow.sc;
 layers = (
 {
@@ -60618,6 +60610,7 @@ width = 714;
 );
 },
 {
+color = 9;
 glyphname = hcircumflex.sc;
 layers = (
 {
@@ -60707,7 +60700,6 @@ width = 714;
 );
 },
 {
-color = 1;
 glyphname = i.sc;
 layers = (
 {
@@ -60842,7 +60834,6 @@ source = I;
 };
 },
 {
-color = 1;
 glyphname = i.sc.ss01;
 layers = (
 {
@@ -61105,7 +61096,7 @@ name = i.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 64, 42}";
+transform = "{1, 0, 0, 1, 74, 42}";
 }
 );
 layerId = UUID0;
@@ -61150,7 +61141,7 @@ name = i.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 100, 42}";
+transform = "{1, 0, 0, 1, 110, 42}";
 }
 );
 layerId = UUID0;
@@ -61185,6 +61176,145 @@ width = 461;
 );
 },
 {
+color = 9;
+glyphname = iacute_j.loclNLD.sc;
+layers = (
+{
+components = (
+{
+name = idotless.sc;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 74, 42}";
+},
+{
+name = j.sc;
+transform = "{1, 0, 0, 1, 256, 0}";
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 391, 42}";
+}
+);
+layerId = UUID0;
+width = 676;
+},
+{
+components = (
+{
+name = idotless.sc;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 63, 43}";
+},
+{
+name = j.sc;
+transform = "{1, 0, 0, 1, 299, 0}";
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 435, 43}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 763;
+},
+{
+components = (
+{
+name = idotless.sc;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 50, 35}";
+},
+{
+name = j.sc;
+transform = "{1, 0, 0, 1, 344, 0}";
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 481, 35}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 865;
+}
+);
+},
+{
+color = 9;
+glyphname = iacute_j.loclNLD.sc.ss01;
+layers = (
+{
+components = (
+{
+name = idotless.sc.ss01;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 110, 42}";
+},
+{
+name = j.sc.ss01;
+transform = "{1, 0, 0, 1, 328, 0}";
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 447, 42}";
+}
+);
+layerId = UUID0;
+width = 740;
+},
+{
+components = (
+{
+name = idotless.sc.ss01;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 116, 43}";
+},
+{
+name = j.sc.ss01;
+transform = "{1, 0, 0, 1, 403, 0}";
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 533, 43}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 861;
+},
+{
+components = (
+{
+name = idotless.sc.ss01;
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 109, 35}";
+},
+{
+name = j.sc.ss01;
+transform = "{1, 0, 0, 1, 461, 0}";
+},
+{
+name = acutecomb;
+transform = "{1, 0, 0, 1, 583, 35}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 986;
+}
+);
+},
+{
+color = 9;
 glyphname = ibreve.sc;
 layers = (
 {
@@ -61229,6 +61359,7 @@ width = 344;
 );
 },
 {
+color = 9;
 glyphname = ibreve.sc.ss01;
 layers = (
 {
@@ -61273,6 +61404,7 @@ width = 461;
 );
 },
 {
+color = 9;
 glyphname = icircumflex.sc;
 layers = (
 {
@@ -61317,6 +61449,7 @@ width = 344;
 );
 },
 {
+color = 9;
 glyphname = icircumflex.sc.ss01;
 layers = (
 {
@@ -62081,6 +62214,97 @@ width = 461;
 );
 },
 {
+color = 2;
+glyphname = ij.sc;
+layers = (
+{
+components = (
+{
+name = i.sc;
+},
+{
+name = j.sc;
+transform = "{1, 0, 0, 1, 256, 0}";
+}
+);
+layerId = UUID0;
+width = 676;
+},
+{
+components = (
+{
+name = i.sc;
+},
+{
+name = j.sc;
+transform = "{1, 0, 0, 1, 299, 0}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 763;
+},
+{
+components = (
+{
+name = i.sc;
+},
+{
+name = j.sc;
+transform = "{1, 0, 0, 1, 344, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 865;
+}
+);
+},
+{
+color = 2;
+glyphname = ij.sc.ss01;
+layers = (
+{
+components = (
+{
+name = i.sc.ss01;
+},
+{
+name = j.sc.ss01;
+transform = "{1, 0, 0, 1, 328, 0}";
+}
+);
+layerId = UUID0;
+width = 740;
+},
+{
+components = (
+{
+name = i.sc.ss01;
+},
+{
+name = j.sc.ss01;
+transform = "{1, 0, 0, 1, 403, 0}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 861;
+},
+{
+components = (
+{
+name = i.sc.ss01;
+},
+{
+name = j.sc.ss01;
+transform = "{1, 0, 0, 1, 461, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 986;
+}
+);
+},
+{
+color = 9;
 glyphname = imacron.sc;
 layers = (
 {
@@ -62125,6 +62349,7 @@ width = 344;
 );
 },
 {
+color = 9;
 glyphname = imacron.sc.ss01;
 layers = (
 {
@@ -62169,6 +62394,7 @@ width = 461;
 );
 },
 {
+color = 9;
 glyphname = iogonek.sc;
 layers = (
 {
@@ -62213,6 +62439,7 @@ width = 344;
 );
 },
 {
+color = 9;
 glyphname = iogonek.sc.ss01;
 layers = (
 {
@@ -62347,7 +62574,6 @@ width = 461;
 );
 },
 {
-color = 1;
 glyphname = j.sc;
 layers = (
 {
@@ -62488,7 +62714,6 @@ source = J;
 };
 },
 {
-color = 1;
 glyphname = j.sc.ss01;
 layers = (
 {
@@ -62639,7 +62864,7 @@ name = j.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 125, 42}";
+transform = "{1, 0, 0, 1, 135, 42}";
 }
 );
 layerId = UUID0;
@@ -62684,7 +62909,7 @@ name = j.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 109, 42}";
+transform = "{1, 0, 0, 1, 119, 42}";
 }
 );
 layerId = UUID0;
@@ -62719,6 +62944,7 @@ width = 525;
 );
 },
 {
+color = 9;
 glyphname = jcircumflex.sc;
 layers = (
 {
@@ -62763,6 +62989,7 @@ width = 521;
 );
 },
 {
+color = 9;
 glyphname = jcircumflex.sc.ss01;
 layers = (
 {
@@ -62807,7 +63034,6 @@ width = 525;
 );
 },
 {
-color = 1;
 glyphname = k.sc;
 layers = (
 {
@@ -63002,7 +63228,6 @@ width = 675;
 );
 },
 {
-color = 1;
 glyphname = kgreenlandic.sc;
 layers = (
 {
@@ -63167,7 +63392,6 @@ source = K;
 };
 },
 {
-color = 1;
 glyphname = l.sc;
 layers = (
 {
@@ -63318,7 +63542,7 @@ name = l.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 72, 42}";
+transform = "{1, 0, 0, 1, 82, 42}";
 }
 );
 layerId = UUID0;
@@ -63534,6 +63758,7 @@ width = 524;
 );
 },
 {
+color = 2;
 glyphname = lj.sc;
 layers = (
 {
@@ -63578,6 +63803,7 @@ width = 1045;
 );
 },
 {
+color = 9;
 glyphname = llinebelow.sc;
 layers = (
 {
@@ -63622,6 +63848,7 @@ width = 524;
 );
 },
 {
+color = 9;
 glyphname = lslash.sc;
 layers = (
 {
@@ -63789,7 +64016,6 @@ source = Lslash;
 };
 },
 {
-color = 1;
 glyphname = m.sc;
 layers = (
 {
@@ -63915,7 +64141,6 @@ source = M;
 };
 },
 {
-color = 1;
 glyphname = m.sc.ss01;
 layers = (
 {
@@ -64242,7 +64467,6 @@ width = 1026;
 );
 },
 {
-color = 1;
 glyphname = n.sc;
 layers = (
 {
@@ -64371,7 +64595,6 @@ source = N;
 };
 },
 {
-color = 1;
 glyphname = n.sc.ss01;
 layers = (
 {
@@ -64567,7 +64790,7 @@ name = n.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 288, 42}";
+transform = "{1, 0, 0, 1, 298, 42}";
 }
 );
 layerId = UUID0;
@@ -64612,7 +64835,7 @@ name = n.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 274, 42}";
+transform = "{1, 0, 0, 1, 284, 42}";
 }
 );
 layerId = UUID0;
@@ -65434,6 +65657,7 @@ source = Eng.ss01;
 };
 },
 {
+color = 2;
 glyphname = nj.sc;
 layers = (
 {
@@ -65478,6 +65702,7 @@ width = 1235;
 );
 },
 {
+color = 2;
 glyphname = nj.sc.ss01;
 layers = (
 {
@@ -65522,6 +65747,7 @@ width = 1220;
 );
 },
 {
+color = 9;
 glyphname = nlinebelow.sc;
 layers = (
 {
@@ -65566,6 +65792,7 @@ width = 714;
 );
 },
 {
+color = 9;
 glyphname = nlinebelow.sc.ss01;
 layers = (
 {
@@ -65700,7 +65927,6 @@ width = 695;
 );
 },
 {
-color = 1;
 glyphname = o.sc;
 layers = (
 {
@@ -65715,7 +65941,7 @@ position = "{356, 281}";
 },
 {
 name = ogonek;
-position = "{505, 0}";
+position = "{522, 0}";
 },
 {
 name = top;
@@ -65962,7 +66188,7 @@ name = o.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 292, 42}";
+transform = "{1, 0, 0, 1, 302, 42}";
 }
 );
 layerId = UUID0;
@@ -65997,6 +66223,7 @@ width = 689;
 );
 },
 {
+color = 9;
 glyphname = obreve.sc;
 layers = (
 {
@@ -66041,6 +66268,7 @@ width = 689;
 );
 },
 {
+color = 9;
 glyphname = ocircumflex.sc;
 layers = (
 {
@@ -66692,7 +66920,7 @@ name = ohorn.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 292, 42}";
+transform = "{1, 0, 0, 1, 302, 42}";
 }
 );
 layerId = UUID0;
@@ -66997,6 +67225,7 @@ width = 689;
 );
 },
 {
+color = 9;
 glyphname = omacron.sc;
 layers = (
 {
@@ -67131,6 +67360,7 @@ width = 689;
 );
 },
 {
+color = 9;
 glyphname = oogonek.sc;
 layers = (
 {
@@ -67140,7 +67370,7 @@ name = o.sc;
 },
 {
 name = ogonekcomb.curve;
-transform = "{1, 0, 0, 1, 310, 0}";
+transform = "{1, 0, 0, 1, 327, 0}";
 }
 );
 layerId = UUID0;
@@ -67425,7 +67655,7 @@ name = oslash.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 296, 42}";
+transform = "{1, 0, 0, 1, 306, 42}";
 }
 );
 layerId = UUID0;
@@ -67855,7 +68085,6 @@ source = OE;
 };
 },
 {
-color = 1;
 glyphname = p.sc;
 layers = (
 {
@@ -68148,7 +68377,6 @@ source = Thorn;
 };
 },
 {
-color = 1;
 glyphname = q.sc;
 layers = (
 {
@@ -68553,7 +68781,6 @@ source = Q;
 };
 },
 {
-color = 1;
 glyphname = q.sc.ss01;
 layers = (
 {
@@ -68955,7 +69182,6 @@ source = Q.ss01;
 };
 },
 {
-color = 1;
 glyphname = r.sc;
 layers = (
 {
@@ -69166,7 +69392,7 @@ name = r.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 228, 42}";
+transform = "{1, 0, 0, 1, 238, 42}";
 }
 );
 layerId = UUID0;
@@ -69426,6 +69652,7 @@ width = 648;
 );
 },
 {
+color = 9;
 glyphname = rlinebelow.sc;
 layers = (
 {
@@ -69470,7 +69697,6 @@ width = 648;
 );
 },
 {
-color = 1;
 glyphname = s.sc;
 layers = (
 {
@@ -69675,7 +69901,7 @@ name = s.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 186, 42}";
+transform = "{1, 0, 0, 1, 196, 42}";
 }
 );
 layerId = UUID0;
@@ -69890,6 +70116,7 @@ width = 603;
 );
 },
 {
+color = 9;
 glyphname = scircumflex.sc;
 layers = (
 {
@@ -70303,7 +70530,6 @@ source = Germandbls;
 };
 },
 {
-color = 1;
 glyphname = t.sc;
 layers = (
 {
@@ -70438,7 +70664,6 @@ source = T;
 };
 },
 {
-color = 1;
 glyphname = t.sc.ss01;
 layers = (
 {
@@ -70618,6 +70843,7 @@ source = T.ss01;
 };
 },
 {
+color = 9;
 glyphname = tbar.sc;
 layers = (
 {
@@ -70662,6 +70888,7 @@ width = 542;
 );
 },
 {
+color = 9;
 glyphname = tbar.sc.ss01;
 layers = (
 {
@@ -71156,6 +71383,7 @@ width = 571;
 );
 },
 {
+color = 9;
 glyphname = tlinebelow.sc;
 layers = (
 {
@@ -71200,6 +71428,7 @@ width = 542;
 );
 },
 {
+color = 9;
 glyphname = tlinebelow.sc.ss01;
 layers = (
 {
@@ -71255,7 +71484,7 @@ position = "{328, 0}";
 },
 {
 name = ogonek;
-position = "{474, 0}";
+position = "{486, 0}";
 },
 {
 name = top;
@@ -71656,7 +71885,7 @@ name = u.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 264, 42}";
+transform = "{1, 0, 0, 1, 274, 42}";
 }
 );
 layerId = UUID0;
@@ -71701,7 +71930,7 @@ name = u.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 273, 42}";
+transform = "{1, 0, 0, 1, 283, 42}";
 }
 );
 layerId = UUID0;
@@ -71736,6 +71965,7 @@ width = 695;
 );
 },
 {
+color = 9;
 glyphname = ubreve.sc;
 layers = (
 {
@@ -71780,6 +72010,7 @@ width = 661;
 );
 },
 {
+color = 9;
 glyphname = ubreve.sc.ss01;
 layers = (
 {
@@ -71824,6 +72055,7 @@ width = 695;
 );
 },
 {
+color = 9;
 glyphname = ucircumflex.sc;
 layers = (
 {
@@ -71868,6 +72100,7 @@ width = 661;
 );
 },
 {
+color = 9;
 glyphname = ucircumflex.sc.ss01;
 layers = (
 {
@@ -72462,7 +72695,7 @@ name = uhorn.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 264, 42}";
+transform = "{1, 0, 0, 1, 274, 42}";
 }
 );
 layerId = UUID0;
@@ -72507,7 +72740,7 @@ name = uhorn.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 273, 42}";
+transform = "{1, 0, 0, 1, 283, 42}";
 }
 );
 layerId = UUID0;
@@ -73082,6 +73315,7 @@ width = 695;
 );
 },
 {
+color = 9;
 glyphname = umacron.sc;
 layers = (
 {
@@ -73126,6 +73360,7 @@ width = 661;
 );
 },
 {
+color = 9;
 glyphname = umacron.sc.ss01;
 layers = (
 {
@@ -73260,6 +73495,7 @@ width = 695;
 );
 },
 {
+color = 9;
 glyphname = uogonek.sc;
 layers = (
 {
@@ -73269,7 +73505,7 @@ name = u.sc;
 },
 {
 name = ogonekcomb.curve;
-transform = "{1, 0, 0, 1, 279, 0}";
+transform = "{1, 0, 0, 1, 291, 0}";
 }
 );
 layerId = UUID0;
@@ -73304,6 +73540,7 @@ width = 661;
 );
 },
 {
+color = 9;
 glyphname = uogonek.sc.ss01;
 layers = (
 {
@@ -73618,7 +73855,6 @@ width = 695;
 );
 },
 {
-color = 1;
 glyphname = v.sc;
 layers = (
 {
@@ -73708,7 +73944,6 @@ source = V;
 };
 },
 {
-color = 1;
 glyphname = w.sc;
 layers = (
 {
@@ -73846,7 +74081,6 @@ source = W;
 };
 },
 {
-color = 1;
 glyphname = w.sc.ss01;
 layers = (
 {
@@ -74042,7 +74276,7 @@ name = w.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 363, 42}";
+transform = "{1, 0, 0, 1, 373, 42}";
 }
 );
 layerId = UUID0;
@@ -74087,7 +74321,7 @@ name = w.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 441, 42}";
+transform = "{1, 0, 0, 1, 451, 42}";
 }
 );
 layerId = UUID0;
@@ -74122,6 +74356,7 @@ width = 990;
 );
 },
 {
+color = 9;
 glyphname = wcircumflex.sc;
 layers = (
 {
@@ -74166,6 +74401,7 @@ width = 969;
 );
 },
 {
+color = 9;
 glyphname = wcircumflex.sc.ss01;
 layers = (
 {
@@ -74390,7 +74626,6 @@ width = 990;
 );
 },
 {
-color = 1;
 glyphname = x.sc;
 layers = (
 {
@@ -74495,7 +74730,6 @@ source = X;
 };
 },
 {
-color = 1;
 glyphname = y.sc;
 layers = (
 {
@@ -74642,7 +74876,6 @@ source = Y;
 };
 },
 {
-color = 1;
 glyphname = y.sc.ss01;
 layers = (
 {
@@ -74862,7 +75095,7 @@ name = y.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 186, 42}";
+transform = "{1, 0, 0, 1, 196, 42}";
 }
 );
 layerId = UUID0;
@@ -74907,7 +75140,7 @@ name = y.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 237, 42}";
+transform = "{1, 0, 0, 1, 247, 42}";
 }
 );
 layerId = UUID0;
@@ -74942,6 +75175,7 @@ width = 673;
 );
 },
 {
+color = 9;
 glyphname = ycircumflex.sc;
 layers = (
 {
@@ -74986,6 +75220,7 @@ width = 596;
 );
 },
 {
+color = 9;
 glyphname = ycircumflex.sc.ss01;
 layers = (
 {
@@ -75480,6 +75715,7 @@ width = 673;
 );
 },
 {
+color = 9;
 glyphname = ymacron.sc;
 layers = (
 {
@@ -75524,6 +75760,7 @@ width = 596;
 );
 },
 {
+color = 9;
 glyphname = ymacron.sc.ss01;
 layers = (
 {
@@ -75658,7 +75895,6 @@ width = 673;
 );
 },
 {
-color = 1;
 glyphname = z.sc;
 layers = (
 {
@@ -75787,7 +76023,6 @@ source = Z;
 };
 },
 {
-color = 1;
 glyphname = z.sc.ss01;
 layers = (
 {
@@ -75980,7 +76215,7 @@ name = z.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 191, 42}";
+transform = "{1, 0, 0, 1, 201, 42}";
 }
 );
 layerId = UUID0;
@@ -76025,7 +76260,7 @@ name = z.sc.ss01;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 204, 42}";
+transform = "{1, 0, 0, 1, 214, 42}";
 }
 );
 layerId = UUID0;
@@ -108779,7 +109014,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{64, 517}";
+position = "{54, 517}";
 },
 {
 name = top;
@@ -111841,6 +112076,7 @@ width = 490;
 unicode = 0324;
 },
 {
+color = 1;
 glyphname = commaaccentcomb;
 layers = (
 {
@@ -112226,6 +112462,7 @@ width = 342;
 unicode = 0327;
 },
 {
+color = 1;
 glyphname = ogonekcomb;
 layers = (
 {
@@ -112372,6 +112609,7 @@ width = 322;
 unicode = 0328;
 },
 {
+color = 9;
 glyphname = brevebelowcomb;
 layers = (
 {
@@ -112440,6 +112678,7 @@ rightMetricsKey = "=breve";
 unicode = 032E;
 },
 {
+color = 1;
 glyphname = macronbelowcomb;
 layers = (
 {
@@ -112452,7 +112691,7 @@ position = "{159, 0}";
 components = (
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 30, -742}";
+transform = "{1, 0, 0, 1, 30, -767}";
 }
 );
 layerId = UUID0;
@@ -112468,7 +112707,7 @@ position = "{178, 0}";
 components = (
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 30, -784}";
+transform = "{1, 0, 0, 1, 30, -797}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -112484,7 +112723,7 @@ position = "{200, 0}";
 components = (
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 30, -835}";
+transform = "{1, 0, 0, 1, 30, -837}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -112494,6 +112733,7 @@ width = 400;
 unicode = 0331;
 },
 {
+color = 1;
 glyphname = strokeshortcomb;
 layers = (
 {
@@ -112563,6 +112803,7 @@ width = 437;
 unicode = 0335;
 },
 {
+color = 1;
 glyphname = strokelongcomb;
 layers = (
 {
@@ -112734,6 +112975,7 @@ width = 373;
 unicode = 0338;
 },
 {
+color = 1;
 glyphname = commaaccentcomb.alt;
 layers = (
 {
@@ -112903,347 +113145,6 @@ nodes = (
 "26 618 OFFCURVE",
 "19 629 OFFCURVE",
 "7 632 CURVE"
-);
-}
-);
-width = 0;
-}
-);
-},
-{
-glyphname = hookabovecomb.case;
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{113, 531}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"49 669 LINE",
-"67 681 OFFCURVE",
-"83 689 OFFCURVE",
-"101 689 CURVE SMOOTH",
-"128 689 OFFCURVE",
-"140 675 OFFCURVE",
-"140 656 CURVE SMOOTH",
-"140 631 OFFCURVE",
-"120 596 OFFCURVE",
-"86 567 CURVE",
-"163 567 LINE",
-"193 596 OFFCURVE",
-"208 633 OFFCURVE",
-"208 665 CURVE SMOOTH",
-"208 713 OFFCURVE",
-"176 753 OFFCURVE",
-"111 753 CURVE SMOOTH",
-"80 753 OFFCURVE",
-"47 741 OFFCURVE",
-"20 723 CURVE"
-);
-}
-);
-};
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-paths = (
-{
-closed = 1;
-nodes = (
-"70 773 OFFCURVE",
-"35 763 OFFCURVE",
-"7 744 CURVE",
-"43 687 LINE",
-"56 696 OFFCURVE",
-"68 699 OFFCURVE",
-"78 699 CURVE SMOOTH",
-"93 699 OFFCURVE",
-"106 688 OFFCURVE",
-"106 673 CURVE SMOOTH",
-"106 652 OFFCURVE",
-"92 619 OFFCURVE",
-"65 592 CURVE",
-"127 565 LINE",
-"169 602 OFFCURVE",
-"203 652 OFFCURVE",
-"203 692 CURVE SMOOTH",
-"203 747 OFFCURVE",
-"156 773 OFFCURVE",
-"103 773 CURVE SMOOTH"
-);
-}
-);
-width = 228;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{87, 517}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"40 634 LINE",
-"42 660 OFFCURVE",
-"61 676 OFFCURVE",
-"88 676 CURVE SMOOTH",
-"118 676 OFFCURVE",
-"134 658 OFFCURVE",
-"134 634 CURVE SMOOTH",
-"134 609 OFFCURVE",
-"118 591 OFFCURVE",
-"90 569 CURVE",
-"110 561 LINE",
-"137 582 OFFCURVE",
-"154 604 OFFCURVE",
-"154 634 CURVE SMOOTH",
-"154 671 OFFCURVE",
-"127 696 OFFCURVE",
-"88 696 CURVE SMOOTH",
-"52 696 OFFCURVE",
-"24 674 OFFCURVE",
-"20 642 CURVE"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"63 723 OFFCURVE",
-"41 714 OFFCURVE",
-"21 701 CURVE",
-"32 685 LINE",
-"49 696 OFFCURVE",
-"66 703 OFFCURVE",
-"85 703 CURVE SMOOTH",
-"120 703 OFFCURVE",
-"139 680 OFFCURVE",
-"139 652 CURVE SMOOTH",
-"139 625 OFFCURVE",
-"119 592 OFFCURVE",
-"85 568 CURVE",
-"105 560 LINE",
-"139 585 OFFCURVE",
-"159 620 OFFCURVE",
-"159 652 CURVE SMOOTH",
-"159 691 OFFCURVE",
-"134 723 OFFCURVE",
-"85 723 CURVE SMOOTH"
-);
-}
-);
-width = 174;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{132, 547}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"86 827 OFFCURVE",
-"45 810 OFFCURVE",
-"0 783 CURVE",
-"54 700 LINE",
-"66 710 OFFCURVE",
-"81 715 OFFCURVE",
-"93 715 CURVE SMOOTH",
-"111 715 OFFCURVE",
-"121 705 OFFCURVE",
-"121 687 CURVE SMOOTH",
-"121 666 OFFCURVE",
-"103 638 OFFCURVE",
-"74 614 CURVE",
-"166 577 LINE",
-"225 621 OFFCURVE",
-"260 673 OFFCURVE",
-"260 721 CURVE SMOOTH",
-"260 782 OFFCURVE",
-"215 827 OFFCURVE",
-"138 827 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-paths = (
-{
-closed = 1;
-nodes = (
-"91 827 OFFCURVE",
-"46 812 OFFCURVE",
-"0 783 CURVE",
-"54 700 LINE",
-"66 710 OFFCURVE",
-"81 715 OFFCURVE",
-"93 715 CURVE SMOOTH",
-"110 715 OFFCURVE",
-"121 705 OFFCURVE",
-"121 688 CURVE SMOOTH",
-"121 666 OFFCURVE",
-"104 639 OFFCURVE",
-"74 614 CURVE",
-"166 577 LINE",
-"227 623 OFFCURVE",
-"260 672 OFFCURVE",
-"260 725 CURVE SMOOTH",
-"260 782 OFFCURVE",
-"222 827 OFFCURVE",
-"139 827 CURVE SMOOTH"
-);
-}
-);
-width = 267;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{0, 547}";
-}
-);
-associatedMasterId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-layerId = "72E44443-70A6-458D-A672-18CC9B7F89E8";
-name = "Bold Aug 12 16, 02:28";
-paths = (
-{
-closed = 1;
-nodes = (
-"-30 672 LINE",
-"-29 693 OFFCURVE",
-"-19 707 OFFCURVE",
-"0 707 CURVE SMOOTH",
-"17 707 OFFCURVE",
-"27 693 OFFCURVE",
-"27 675 CURVE SMOOTH",
-"27 651 OFFCURVE",
-"10 628 OFFCURVE",
-"-17 602 CURVE",
-"54 578 LINE",
-"90 611 OFFCURVE",
-"115 646 OFFCURVE",
-"115 688 CURVE SMOOTH",
-"115 742 OFFCURVE",
-"75 782 OFFCURVE",
-"5 782 CURVE SMOOTH",
-"-65 782 OFFCURVE",
-"-115 743 OFFCURVE",
-"-115 672 CURVE"
-);
-},
-{
-closed = 0;
-nodes = (
-"-119 702 LINE",
-"-30 672 LINE"
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{0, 531}";
-}
-);
-associatedMasterId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-layerId = "A31CA513-7820-4A94-955F-7624879D339B";
-name = "Regular Aug 12 16, 02:29";
-paths = (
-{
-closed = 1;
-nodes = (
-"-49 654 LINE",
-"-45 681 OFFCURVE",
-"-28 699 OFFCURVE",
-"2 699 CURVE SMOOTH",
-"30 699 OFFCURVE",
-"45 681 OFFCURVE",
-"45 659 CURVE SMOOTH",
-"45 628 OFFCURVE",
-"22 605 OFFCURVE",
-"-14 577 CURVE",
-"41 559 LINE",
-"80 590 OFFCURVE",
-"103 619 OFFCURVE",
-"103 662 CURVE SMOOTH",
-"103 715 OFFCURVE",
-"64 754 OFFCURVE",
-"3 754 CURVE SMOOTH",
-"-59 754 OFFCURVE",
-"-104 717 OFFCURVE",
-"-104 654 CURVE"
-);
-},
-{
-closed = 0;
-nodes = (
-"-104 672 LINE",
-"-49 654 LINE"
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{0, 517}";
-}
-);
-associatedMasterId = UUID0;
-layerId = "B1CA64F7-9867-442B-A691-1BB37327B136";
-name = "Light Aug 12 16, 02:29";
-paths = (
-{
-closed = 1;
-nodes = (
-"-47 614 LINE",
-"-45 640 OFFCURVE",
-"-26 656 OFFCURVE",
-"1 656 CURVE SMOOTH",
-"31 656 OFFCURVE",
-"47 638 OFFCURVE",
-"47 614 CURVE SMOOTH",
-"47 589 OFFCURVE",
-"31 571 OFFCURVE",
-"3 549 CURVE",
-"23 541 LINE",
-"50 562 OFFCURVE",
-"67 584 OFFCURVE",
-"67 614 CURVE SMOOTH",
-"67 651 OFFCURVE",
-"40 676 OFFCURVE",
-"1 676 CURVE SMOOTH",
-"-38 676 OFFCURVE",
-"-67 651 OFFCURVE",
-"-67 614 CURVE"
-);
-},
-{
-closed = 0;
-nodes = (
-"-67 622 LINE",
-"-47 614 LINE"
 );
 }
 );
@@ -113486,6 +113387,7 @@ width = 342;
 );
 },
 {
+color = 1;
 glyphname = ogonekcomb.curve;
 layers = (
 {
@@ -115448,138 +115350,7 @@ source = hookabovecomb.loclVIET.001;
 };
 },
 {
-color = 3;
-glyphname = dotbelowcomb.loclVIET;
-layers = (
-{
-anchors = (
-{
-name = _bottom;
-position = "{76, 0}";
-},
-{
-name = bottom;
-position = "{76, -117}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"62 -65 OFFCURVE",
-"50 -77 OFFCURVE",
-"50 -91 CURVE SMOOTH",
-"50 -105 OFFCURVE",
-"62 -117 OFFCURVE",
-"76 -117 CURVE SMOOTH",
-"90 -117 OFFCURVE",
-"102 -105 OFFCURVE",
-"102 -91 CURVE SMOOTH",
-"102 -77 OFFCURVE",
-"90 -65 OFFCURVE",
-"76 -65 CURVE SMOOTH"
-);
-}
-);
-};
-components = (
-{
-name = dotbelowcomb;
-}
-);
-layerId = UUID0;
-width = 152;
-},
-{
-anchors = (
-{
-name = _bottom;
-position = "{141, 0}";
-},
-{
-name = bottom;
-position = "{141, -233}";
-}
-);
-background = {
-anchors = (
-{
-name = _bottom;
-position = "{141, 0}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"87 -51 OFFCURVE",
-"49 -89 OFFCURVE",
-"50 -143 CURVE SMOOTH",
-"51 -196 OFFCURVE",
-"87 -235 OFFCURVE",
-"141 -235 CURVE SMOOTH",
-"195 -235 OFFCURVE",
-"233 -196 OFFCURVE",
-"233 -143 CURVE SMOOTH",
-"233 -89 OFFCURVE",
-"195 -51 OFFCURVE",
-"141 -51 CURVE SMOOTH"
-);
-}
-);
-};
-components = (
-{
-name = dotbelowcomb;
-}
-);
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 282;
-},
-{
-anchors = (
-{
-name = _bottom;
-position = "{117, 0}";
-},
-{
-name = bottom;
-position = "{117, -184}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"78 -50 OFFCURVE",
-"50 -78 OFFCURVE",
-"50 -117 CURVE SMOOTH",
-"50 -155 OFFCURVE",
-"78 -184 OFFCURVE",
-"117 -184 CURVE SMOOTH",
-"155 -184 OFFCURVE",
-"184 -155 OFFCURVE",
-"184 -117 CURVE SMOOTH",
-"184 -78 OFFCURVE",
-"155 -50 OFFCURVE",
-"117 -50 CURVE SMOOTH"
-);
-}
-);
-};
-components = (
-{
-name = dotbelowcomb;
-}
-);
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 234;
-}
-);
-},
-{
+color = 1;
 glyphname = horncomb.narrow;
 layers = (
 {
@@ -115837,6 +115608,7 @@ width = 0;
 );
 },
 {
+color = 11;
 glyphname = strokeshortcomb.narrow;
 layers = (
 {
@@ -115905,6 +115677,7 @@ width = 337;
 );
 },
 {
+color = 1;
 glyphname = caroncomb.alt.short;
 layers = (
 {
@@ -115973,6 +115746,7 @@ width = 248;
 );
 },
 {
+color = 1;
 glyphname = apostrophemod;
 layers = (
 {
@@ -116019,8 +115793,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"25 440 LINE",
-"98 440 LINE",
+"35 440 LINE",
+"108 440 LINE",
 "123 700 LINE",
 "35 700 LINE"
 );
@@ -116034,8 +115808,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 437 LINE",
-"145 437 LINE",
+"50 437 LINE",
+"165 437 LINE",
 "195 701 LINE",
 "50 701 LINE"
 );
@@ -116083,6 +115857,7 @@ width = 91;
 unicode = 02BC;
 },
 {
+color = 11;
 glyphname = commaturnedmod;
 layers = (
 {
@@ -116152,6 +115927,7 @@ width = 258;
 unicode = 02BB;
 },
 {
+color = 11;
 glyphname = firsttonechinese;
 layers = (
 {
@@ -116192,6 +115968,7 @@ rightMetricsKey = macron;
 unicode = 02C9;
 },
 {
+color = 11;
 glyphname = fourthtonechinese;
 layers = (
 {
@@ -116246,6 +116023,7 @@ width = 350;
 unicode = 02CB;
 },
 {
+color = 11;
 glyphname = ringhalfleft;
 layers = (
 {
@@ -116254,24 +116032,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"114 559 OFFCURVE",
-"63 609 OFFCURVE",
-"63 667 CURVE SMOOTH",
-"63 725 OFFCURVE",
-"114 776 OFFCURVE",
-"175 776 CURVE",
-"175 756 LINE",
-"125 756 OFFCURVE",
-"83 715 OFFCURVE",
-"83 667 CURVE SMOOTH",
-"83 619 OFFCURVE",
-"125 579 OFFCURVE",
-"175 579 CURVE",
-"175 559 LINE"
+"136 559 OFFCURVE",
+"85 609 OFFCURVE",
+"85 667 CURVE SMOOTH",
+"85 725 OFFCURVE",
+"136 776 OFFCURVE",
+"197 776 CURVE",
+"197 756 LINE",
+"147 756 OFFCURVE",
+"105 715 OFFCURVE",
+"105 667 CURVE SMOOTH",
+"105 619 OFFCURVE",
+"147 579 OFFCURVE",
+"197 579 CURVE",
+"197 559 LINE"
 );
 }
 );
-width = 350;
+width = 267;
 },
 {
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -116279,24 +116057,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"110 568 OFFCURVE",
-"57 621 OFFCURVE",
-"57 684 CURVE SMOOTH",
-"57 747 OFFCURVE",
-"110 800 OFFCURVE",
-"175 800 CURVE",
-"175 750 LINE",
-"138 750 OFFCURVE",
-"107 720 OFFCURVE",
-"107 684 CURVE SMOOTH",
-"107 648 OFFCURVE",
-"138 618 OFFCURVE",
-"175 618 CURVE",
-"175 568 LINE"
+"113 568 OFFCURVE",
+"60 621 OFFCURVE",
+"60 684 CURVE SMOOTH",
+"60 747 OFFCURVE",
+"113 800 OFFCURVE",
+"178 800 CURVE",
+"178 750 LINE",
+"141 750 OFFCURVE",
+"110 720 OFFCURVE",
+"110 684 CURVE SMOOTH",
+"110 648 OFFCURVE",
+"141 618 OFFCURVE",
+"178 618 CURVE",
+"178 568 LINE"
 );
 }
 );
-width = 350;
+width = 242;
 },
 {
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -116304,30 +116082,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"106 579 OFFCURVE",
-"51 634 OFFCURVE",
-"51 703 CURVE SMOOTH",
-"51 772 OFFCURVE",
-"106 827 OFFCURVE",
-"175 827 CURVE",
-"175 742 LINE",
-"153 742 OFFCURVE",
-"136 725 OFFCURVE",
-"136 703 CURVE SMOOTH",
-"136 681 OFFCURVE",
-"153 664 OFFCURVE",
-"175 664 CURVE",
-"175 579 LINE"
+"90 579 OFFCURVE",
+"35 634 OFFCURVE",
+"35 703 CURVE SMOOTH",
+"35 772 OFFCURVE",
+"90 827 OFFCURVE",
+"159 827 CURVE",
+"159 742 LINE",
+"137 742 OFFCURVE",
+"120 725 OFFCURVE",
+"120 703 CURVE SMOOTH",
+"120 681 OFFCURVE",
+"137 664 OFFCURVE",
+"159 664 CURVE",
+"159 579 LINE"
 );
 }
 );
-width = 350;
+width = 212;
 }
 );
-leftMetricsKey = ring;
 unicode = 02BF;
 },
 {
+color = 11;
 glyphname = ringhalfright;
 layers = (
 {
@@ -116336,24 +116114,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"236 559 OFFCURVE",
-"288 609 OFFCURVE",
-"288 667 CURVE SMOOTH",
-"288 725 OFFCURVE",
-"236 776 OFFCURVE",
-"175 776 CURVE SMOOTH",
-"175 756 LINE",
-"225 756 OFFCURVE",
-"268 715 OFFCURVE",
-"268 667 CURVE SMOOTH",
-"268 619 OFFCURVE",
-"225 579 OFFCURVE",
-"175 579 CURVE SMOOTH",
-"175 559 LINE"
+"131 559 OFFCURVE",
+"183 609 OFFCURVE",
+"183 667 CURVE SMOOTH",
+"183 725 OFFCURVE",
+"131 776 OFFCURVE",
+"70 776 CURVE SMOOTH",
+"70 756 LINE",
+"120 756 OFFCURVE",
+"163 715 OFFCURVE",
+"163 667 CURVE SMOOTH",
+"163 619 OFFCURVE",
+"120 579 OFFCURVE",
+"70 579 CURVE SMOOTH",
+"70 559 LINE"
 );
 }
 );
-width = 350;
+width = 268;
 },
 {
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -116361,24 +116139,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"240 568 OFFCURVE",
-"293 621 OFFCURVE",
-"293 684 CURVE SMOOTH",
-"293 747 OFFCURVE",
-"240 800 OFFCURVE",
-"175 800 CURVE SMOOTH",
-"175 750 LINE",
-"212 750 OFFCURVE",
-"243 720 OFFCURVE",
-"243 684 CURVE SMOOTH",
-"243 648 OFFCURVE",
-"212 618 OFFCURVE",
-"175 618 CURVE SMOOTH",
-"175 568 LINE"
+"129 568 OFFCURVE",
+"182 621 OFFCURVE",
+"182 684 CURVE SMOOTH",
+"182 747 OFFCURVE",
+"129 800 OFFCURVE",
+"64 800 CURVE SMOOTH",
+"64 750 LINE",
+"101 750 OFFCURVE",
+"132 720 OFFCURVE",
+"132 684 CURVE SMOOTH",
+"132 648 OFFCURVE",
+"101 618 OFFCURVE",
+"64 618 CURVE SMOOTH",
+"64 568 LINE"
 );
 }
 );
-width = 350;
+width = 243;
 },
 {
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -116386,30 +116164,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"244 579 OFFCURVE",
-"299 634 OFFCURVE",
-"299 703 CURVE SMOOTH",
-"299 772 OFFCURVE",
-"244 827 OFFCURVE",
-"175 827 CURVE SMOOTH",
-"175 742 LINE",
-"197 742 OFFCURVE",
-"214 725 OFFCURVE",
-"214 703 CURVE SMOOTH",
-"214 681 OFFCURVE",
-"197 664 OFFCURVE",
-"175 664 CURVE SMOOTH",
-"175 579 LINE"
+"122 579 OFFCURVE",
+"177 634 OFFCURVE",
+"177 703 CURVE SMOOTH",
+"177 772 OFFCURVE",
+"122 827 OFFCURVE",
+"53 827 CURVE SMOOTH",
+"53 742 LINE",
+"75 742 OFFCURVE",
+"92 725 OFFCURVE",
+"92 703 CURVE SMOOTH",
+"92 681 OFFCURVE",
+"75 664 OFFCURVE",
+"53 664 CURVE SMOOTH",
+"53 579 LINE"
 );
 }
 );
-width = 350;
+width = 213;
 }
 );
-rightMetricsKey = ring;
 unicode = 02BE;
 },
 {
+color = 11;
 glyphname = secondtonechinese;
 layers = (
 {
@@ -116446,6 +116224,7 @@ width = 350;
 unicode = 02CA;
 },
 {
+color = 11;
 glyphname = verticallinelowmod;
 layers = (
 {
@@ -116497,6 +116276,7 @@ width = 188;
 unicode = 02CC;
 },
 {
+color = 11;
 glyphname = verticallinemod;
 layers = (
 {
@@ -116639,7 +116419,7 @@ width = 350;
 unicode = 00B4;
 },
 {
-color = 5;
+color = 9;
 glyphname = breve;
 layers = (
 {
@@ -117033,7 +116813,7 @@ width = 294;
 unicode = 00B8;
 },
 {
-color = 5;
+color = 9;
 glyphname = circumflex;
 layers = (
 {
@@ -118669,6 +118449,7 @@ width = 342;
 );
 },
 {
+color = 1;
 glyphname = ogonekcomb.curve.sc;
 layers = (
 {
@@ -121037,6 +120818,104 @@ layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 width = 653;
 }
 );
+},
+{
+color = 9;
+glyphname = Napostrophe;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = apostrophemod;
+},
+{
+name = N;
+transform = "{1, 0, 0, 1, 29, 0}";
+}
+);
+layerId = UUID0;
+width = 828;
+},
+{
+components = (
+{
+alignment = -1;
+name = apostrophemod;
+},
+{
+name = N;
+transform = "{1, 0, 0, 1, 202, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 983;
+},
+{
+components = (
+{
+alignment = -1;
+name = apostrophemod;
+},
+{
+name = N;
+transform = "{1, 0, 0, 1, 112, 0}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 904;
+}
+);
+leftMetricsKey = "=apostrophemod";
+},
+{
+color = 9;
+glyphname = Napostrophe.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = apostrophemod;
+},
+{
+name = N.ss01;
+transform = "{1, 0, 0, 1, 29, 0}";
+}
+);
+layerId = UUID0;
+width = 821;
+},
+{
+components = (
+{
+alignment = -1;
+name = apostrophemod;
+},
+{
+name = N.ss01;
+transform = "{1, 0, 0, 1, 202, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 963;
+},
+{
+components = (
+{
+alignment = -1;
+name = apostrophemod;
+},
+{
+name = N.ss01;
+transform = "{1, 0, 0, 1, 112, 0}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 881;
+}
+);
+leftMetricsKey = "=apostrophemod";
 }
 );
 instances = (
