@@ -1,7 +1,7 @@
 {
 .appVersion = "942";
 DisplayStrings = (
-"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/gravecomb_macroncomb/acutecomb_dotaccentcomb/acutecomb_macroncomb/caroncomb_dotaccentcomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_dieresiscomb/macroncomb_gravecomb/macroncomb_acutecomb \012/ringcomb_acutecomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
+"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/punctuationspace/acutecomb.loclVIET/gravecomb.loclVIET/gravecomb_macroncomb/acutecomb_dotaccentcomb/acutecomb_macroncomb/caroncomb_dotaccentcomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_dieresiscomb/macroncomb_gravecomb/macroncomb_acutecomb \012/ringcomb_acutecomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
 );
 classes = (
 {
@@ -108452,7 +108452,7 @@ width = 470;
 );
 },
 {
-color = 0;
+color = 6;
 glyphname = dieresiscomb_macroncomb;
 layers = (
 {
@@ -108675,7 +108675,7 @@ width = 282;
 unicode = 0307;
 },
 {
-color = 0;
+color = 6;
 glyphname = dotaccentcomb_macroncomb;
 layers = (
 {
@@ -108845,11 +108845,11 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{159, 517}";
+position = "{132, 517}";
 },
 {
 name = top;
-position = "{159, 772}";
+position = "{132, 772}";
 }
 );
 components = (
@@ -108860,7 +108860,7 @@ name = gravecomb.loclVIET;
 {
 alignment = 1;
 name = macroncomb.loclVIET;
-transform = "{1, 0, 0, 1, -25, 108}";
+transform = "{1, 0, 0, 1, -25, 133}";
 }
 );
 layerId = UUID0;
@@ -108870,11 +108870,11 @@ width = 261;
 anchors = (
 {
 name = _top;
-position = "{179, 531}";
+position = "{130, 531}";
 },
 {
 name = top;
-position = "{179, 832}";
+position = "{130, 816}";
 }
 );
 components = (
@@ -108885,7 +108885,7 @@ name = gravecomb.loclVIET;
 {
 alignment = 1;
 name = macroncomb.loclVIET;
-transform = "{1, 0, 0, 1, -49, 144}";
+transform = "{1, 0, 0, 1, -49, 154}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -108895,11 +108895,11 @@ width = 317;
 anchors = (
 {
 name = _top;
-position = "{235, 547}";
+position = "{190, 547}";
 },
 {
 name = top;
-position = "{235, 929}";
+position = "{190, 925}";
 }
 );
 components = (
@@ -109012,7 +109012,7 @@ position = "{107, 517}";
 },
 {
 name = top;
-position = "{107, 805}";
+position = "{107, 804}";
 }
 );
 components = (
@@ -109021,9 +109021,9 @@ alignment = 1;
 name = acutecomb.loclVIET;
 },
 {
-alignment = 1;
+alignment = -1;
 name = dotaccentcomb.loclVIET;
-transform = "{1, 0, 0, 1, 11, 108}";
+transform = "{1, 0, 0, 1, 11, 118}";
 }
 );
 layerId = UUID0;
@@ -109048,7 +109048,7 @@ name = acutecomb.loclVIET;
 {
 alignment = 1;
 name = dotaccentcomb.loclVIET;
-transform = "{1, 0, 0, 1, 12, 144}";
+transform = "{1, 0, 0, 1, 12, 154}";
 }
 );
 guideLines = (
@@ -109109,7 +109109,7 @@ name = acutecomb.loclVIET;
 {
 alignment = 1;
 name = macroncomb.loclVIET;
-transform = "{1, 0, 0, 1, -72, 108}";
+transform = "{1, 0, 0, 1, -72, 133}";
 }
 );
 layerId = UUID0;
@@ -109134,7 +109134,7 @@ name = acutecomb.loclVIET;
 {
 alignment = 1;
 name = macroncomb.loclVIET;
-transform = "{1, 0, 0, 1, -49, 144}";
+transform = "{1, 0, 0, 1, -49, 154}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -117507,7 +117507,7 @@ position = "{130, 517}";
 },
 {
 name = top;
-position = "{134, 625}";
+position = "{134, 650}";
 }
 );
 background = {
@@ -117545,7 +117545,7 @@ position = "{179, 531}";
 },
 {
 name = top;
-position = "{129, 675}";
+position = "{129, 685}";
 }
 );
 background = {
@@ -117609,9 +117609,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"52 698 LINE",
+"33 694 LINE",
 "206 601 LINE",
-"327 633 LINE",
+"328 632 LINE",
 "172 775 LINE"
 );
 }
@@ -117642,7 +117642,7 @@ position = "{77, 517}";
 },
 {
 name = top;
-position = "{87, 625}";
+position = "{87, 650}";
 }
 );
 background = {
@@ -117752,7 +117752,7 @@ position = "{92, 531}";
 },
 {
 name = top;
-position = "{129, 675}";
+position = "{129, 685}";
 }
 );
 background = {
@@ -117783,10 +117783,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"18 626 LINE",
-"102 602 LINE",
-"240 676 LINE",
-"142 738 LINE"
+"18 624 LINE",
+"102 600 LINE",
+"240 674 LINE",
+"142 736 LINE"
 );
 }
 );
