@@ -1,8 +1,7 @@
 {
 .appVersion = "942";
 DisplayStrings = (
-/strokelongcomb/strokeshortcomb,
-/commaturnedmod
+"/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb.loclVIET/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/gravecomb_macroncomb/acutecomb_dotaccentcomb/acutecomb_macroncomb/caroncomb_dotaccentcomb/ringcomb_acutecomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb_dieresiscomb/macroncomb_gravecomb/macroncomb_acutecomb \012/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb \012\012/dieresiscomb_gravecomb.case/dieresiscomb_acutecomb.case/dieresiscomb_macroncomb.case/dotaccentcomb_macroncomb.case/gravecomb_macroncomb.case/acutecomb_dotaccentcomb.case/acutecomb_macroncomb.case/caroncomb_dotaccentcomb.case/tildecomb_dieresiscomb.case/tildecomb_acutecomb.case/tildecomb_macroncomb.case/macroncomb_dieresiscomb.case/macroncomb_gravecomb.case/macroncomb_acutecomb.case \012/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case"
 );
 classes = (
 {
@@ -113307,6 +113306,17 @@ name = top;
 position = "{143, 973}";
 }
 );
+background = {
+anchors = (
+{
+name = _top;
+position = "{143, 699}";
+},
+{
+name = top;
+position = "{143, 973}";
+}
+);
 components = (
 {
 alignment = 1;
@@ -113317,8 +113327,15 @@ name = gravecomb.loclVIET;
 transform = "{1, 0, 0, 1, 21, 239}";
 }
 );
+};
+components = (
+{
+name = dieresiscomb_gravecomb;
+transform = "{1, 0, 0, 1, 2, 152}";
+}
+);
 layerId = UUID0;
-width = 302;
+width = 290;
 },
 {
 anchors = (
@@ -113331,6 +113348,7 @@ name = top;
 position = "{186, 1046}";
 }
 );
+background = {
 components = (
 {
 alignment = 1;
@@ -113339,6 +113357,13 @@ name = dieresiscomb.case.loclVIET;
 {
 name = gravecomb.loclVIET;
 transform = "{1, 0, 0, 1, 20, 303}";
+}
+);
+};
+components = (
+{
+name = dieresiscomb_gravecomb;
+transform = "{1, 0, 0, 1, -8, 159}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -113355,6 +113380,7 @@ name = top;
 position = "{235, 1142}";
 }
 );
+background = {
 components = (
 {
 alignment = 1;
@@ -113363,6 +113389,13 @@ name = dieresiscomb.case.loclVIET;
 {
 name = gravecomb.loclVIET;
 transform = "{1, 0, 0, 1, 15, 367}";
+}
+);
+};
+components = (
+{
+name = dieresiscomb_gravecomb;
+transform = "{1, 0, 0, 1, 0, 151}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
