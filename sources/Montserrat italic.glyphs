@@ -1,7 +1,9 @@
 {
 .appVersion = "942";
 DisplayStrings = (
-"/ebreve/ebreve.ss01/edblgrave/edblgrave.ss01/einvertedbreve/einvertedbreve.ss01/gcaron/gcircumflex/hcircumflex/ibreve/idblgrave/iinvertedbreve/jcircumflex/obreve/odblgrave/odieresismacron/odotaccentmacron/oinvertedbreve/oogonek/oslashacute/otildemacron/rdblgrave/rinvertedbreve/scircumflex/ubreve/ubreve.ss01/udblgrave/udblgrave.ss01/uinvertedbreve/uinvertedbreve.ss01/ymacron/ymacron.ss01 \012/idotless i\U00ED/ibreve \U00EE/idblgrave \U00EF/idotaccent \U00EC/ihookabove/breveinvertedcomb/breveinvertedcomb.narrow/iinvertedbreve/itilde \U00EF"
+"/ebreve/ebreve.ss01/edblgrave/edblgrave.ss01/einvertedbreve/einvertedbreve.ss01/gcaron/gcircumflex/hcircumflex/ibreve/idblgrave/iinvertedbreve/jcircumflex/obreve/odblgrave/odieresismacron/odotaccentmacron/oinvertedbreve/oogonek/oslashacute/otildemacron/rdblgrave/rinvertedbreve/scircumflex/ubreve/ubreve.ss01/udblgrave/udblgrave.ss01/uinvertedbreve/uinvertedbreve.ss01/ymacron/ymacron.ss01 \012/idotless i\U00ED/ibreve \U00EE/idblgrave \U00EF/idotaccent \U00EC/ihookabove/breveinvertedcomb/breveinvertedcomb.narrow/iinvertedbreve/itilde \U00EF",
+"/periodcentered.loclCAT L/periodcentered.loclCAT.case",
+/dotbelowcomb.case/dieresisbelowcomb.case
 );
 copyright = "Copyright (c) 2011-2015, Julieta Ulanovsky (julieta.ulanovsky@gmail.com)";
 customParameters = (
@@ -200,7 +202,7 @@ descender = -194;
 guideLines = (
 {
 angle = 79;
-position = "{255, 500}";
+position = "{298, 500}";
 },
 {
 angle = 79;
@@ -290,7 +292,7 @@ position = "{544, 444}";
 },
 {
 angle = 79;
-position = "{250, 500}";
+position = "{275, 490}";
 },
 {
 position = "{251, 712}";
@@ -380,7 +382,7 @@ position = "{280, -60}";
 },
 {
 angle = 79;
-position = "{190, 67}";
+position = "{210, 78}";
 }
 );
 horizontalStems = (
@@ -78415,6 +78417,42 @@ width = 288;
 },
 {
 color = 1;
+glyphname = periodcentered.loclCAT.case;
+layers = (
+{
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 7, -273}";
+}
+);
+layerId = UUID0;
+width = 477;
+},
+{
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -18, -273}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 375;
+},
+{
+components = (
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -28, -273}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 394;
+}
+);
+},
+{
+color = 1;
 glyphname = slash.case;
 layers = (
 {
@@ -113423,6 +113461,80 @@ transform = "{1, 0, 0, 1, -177, -882}";
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 340;
+}
+);
+},
+{
+glyphname = dieresisbelowcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{200, 0}";
+},
+{
+name = bottom;
+position = "{174, -131}";
+},
+{
+name = top;
+position = "{337, 700}";
+}
+);
+components = (
+{
+name = dieresisbelowcomb;
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{181, 0}";
+},
+{
+name = bottom;
+position = "{142, -191}";
+},
+{
+name = top;
+position = "{316, 700}";
+}
+);
+components = (
+{
+name = dieresisbelowcomb;
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 600;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{194, 0}";
+},
+{
+name = bottom;
+position = "{146, -241}";
+},
+{
+name = top;
+position = "{331, 701}";
+}
+);
+components = (
+{
+name = dieresisbelowcomb;
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 498;
 }
 );
 },
