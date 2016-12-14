@@ -3,7 +3,7 @@
 DisplayStrings = (
 /IJ/IJ.ss01/Idotaccent.ss01/aeacute.ss01,
 /leftRightArrow/upDownArrow,
-A/macroncomb.case/macroncomb.narrow.case/Amacron/Amacron.ss01/Emacron/Emacron.ss01/Emacronacute/Emacronacute.ss01/Emacrongrave/Emacrongrave.ss01/Gmacron/Gmacron.ss01/Imacron/Imacron.ss01/Odieresismacron/Odotaccentmacron/Omacron/Omacronacute/Omacrongrave/Otildemacron/Umacron/Umacron.ss01/Umacrondieresis/Umacrondieresis.ss01/Ymacron/Ymacron.ss01/amacron/amacron.ss01/emacron/emacron.ss01/emacronacute/emacronacute.ss01/emacrongrave/emacrongrave.ss01/gmacron/imacron/odieresismacron/odotaccentmacron/omacron/omacronacute/omacrongrave/otildemacron/umacron/umacrondieresis/umacrondieresis.ss01/ymacron/ymacron.ss01/amacron.sc/amacron.sc.ss01/emacron.sc/emacron.sc.ss01/emacronacute.sc/emacronacute.sc.ss01/emacrongrave.sc/emacrongrave.sc.ss01/gmacron.sc/gmacron.sc.ss01/imacron.sc/imacron.sc.ss01/odieresismacron.sc/odotaccentmacron.sc/omacron.sc/omacronacute.sc/omacrongrave.sc/otildemacron.sc/umacron.sc/umacron.sc.ss01/umacrondieresis.sc/umacrondieresis.sc.ss01/ymacron.sc/ymacron.sc.ss01
+"A/macroncomb.case/macroncomb.case.narrow/Amacron/Amacron.ss01/Emacron/Emacron.ss01/Emacronacute/Emacronacute.ss01/Emacrongrave/Emacrongrave.ss01/Gmacron/Gmacron.ss01/Imacron/Imacron.ss01/Odieresismacron/Odotaccentmacron/Omacron/Omacronacute/Omacrongrave/Otildemacron/Umacron/Umacron.ss01/Umacrondieresis/Umacrondieresis.ss01/Ymacron/Ymacron.ss01/amacron \012/macroncomb/macroncomb.narrow/a.ss01/amacron.ss01/emacron/emacron.ss01/emacronacute/emacronacute.ss01/emacrongrave/emacrongrave.ss01/gmacron/imacron/odieresismacron/odotaccentmacron/omacron/omacronacute/omacrongrave/otildemacron/umacron/umacrondieresis/umacrondieresis.ss01/ymacron/ymacron.ss01 \012/macroncomb/macroncomb/macroncomb.sc/macroncomb.sc.narrow/amacron.sc/amacron.sc.ss01/emacron.sc/emacron.sc.ss01/emacronacute.sc/emacronacute.sc.ss01/emacrongrave.sc/emacrongrave.sc.ss01/gmacron.sc/gmacron.sc.ss01/imacron.sc/imacron.sc.ss01/odieresismacron.sc/odotaccentmacron.sc/omacron.sc/omacronacute.sc/omacrongrave.sc/otildemacron.sc/umacron.sc/umacron.sc.ss01/umacrondieresis.sc/umacrondieresis.sc.ss01/ymacron.sc/ymacron.sc.ss01"
 );
 copyright = "Copyright (c) 2011-2015, Julieta Ulanovsky (julieta.ulanovsky@gmail.com)";
 customParameters = (
@@ -10719,7 +10719,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.narrow.case;
+name = macroncomb.case.narrow;
 transform = "{1, 0, 0, 1, -128, 0}";
 }
 );
@@ -10732,7 +10732,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.narrow.case;
+name = macroncomb.case.narrow;
 transform = "{1, 0, 0, 1, -80, 0}";
 }
 );
@@ -10745,7 +10745,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.narrow.case;
+name = macroncomb.case.narrow;
 transform = "{1, 0, 0, 1, -76, 0}";
 }
 );
@@ -26881,7 +26881,7 @@ position = "{649, -6}";
 },
 {
 name = top;
-position = "{400, 547}";
+position = "{380, 547}";
 }
 );
 background = {
@@ -26999,7 +26999,7 @@ position = "{645, 16}";
 },
 {
 name = top;
-position = "{371, 531}";
+position = "{361, 531}";
 }
 );
 background = {
@@ -29313,7 +29313,7 @@ name = a.ss01;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 87, 0}";
+transform = "{1, 0, 0, 1, 77, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -29326,7 +29326,7 @@ name = a.ss01;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 108, 0}";
+transform = "{1, 0, 0, 1, 88, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -38417,7 +38417,7 @@ components = (
 name = idotless;
 },
 {
-name = macroncomb;
+name = macroncomb.narrow;
 transform = "{1, 0, 0, 1, -147, 0}";
 }
 );
@@ -38430,7 +38430,7 @@ components = (
 name = idotless;
 },
 {
-name = macroncomb;
+name = macroncomb.narrow;
 transform = "{1, 0, 0, 1, -89, 0}";
 }
 );
@@ -38443,7 +38443,7 @@ components = (
 name = idotless;
 },
 {
-name = macroncomb;
+name = macroncomb.narrow;
 transform = "{1, 0, 0, 1, -69, 0}";
 }
 );
@@ -67464,7 +67464,7 @@ components = (
 name = i.sc;
 },
 {
-name = macroncomb.sc;
+name = macroncomb.sc.narrow;
 transform = "{1, 0, 0, 1, -133, 17}";
 }
 );
@@ -67477,7 +67477,7 @@ components = (
 name = i.sc;
 },
 {
-name = macroncomb.sc;
+name = macroncomb.sc.narrow;
 transform = "{1, 0, 0, 1, -92, 18}";
 }
 );
@@ -67490,7 +67490,7 @@ components = (
 name = i.sc;
 },
 {
-name = macroncomb.sc;
+name = macroncomb.sc.narrow;
 transform = "{1, 0, 0, 1, -86, 35}";
 }
 );
@@ -124602,10 +124602,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"237 657 LINE",
-"454 657 LINE",
-"458 677 LINE",
-"241 677 LINE"
+"217 657 LINE",
+"474 657 LINE",
+"478 677 LINE",
+"221 677 LINE"
 );
 }
 );
@@ -124650,10 +124650,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"178 646 LINE",
-"433 646 LINE",
-"447 716 LINE",
-"192 716 LINE"
+"158 646 LINE",
+"453 646 LINE",
+"467 716 LINE",
+"172 716 LINE"
 );
 }
 );
@@ -124698,10 +124698,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"159 634 LINE",
-"459 634 LINE",
-"484 762 LINE",
-"184 762 LINE"
+"149 634 LINE",
+"469 634 LINE",
+"494 762 LINE",
+"174 762 LINE"
 );
 }
 );
@@ -134317,141 +134317,6 @@ width = 355;
 );
 },
 {
-color = 9;
-glyphname = macroncomb.narrow.case;
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{354, 699}";
-},
-{
-name = top;
-position = "{363, 744}";
-}
-);
-background = {
-anchors = (
-{
-name = _top;
-position = "{370, 699}";
-},
-{
-name = top;
-position = "{370, 744}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"261 781 LINE",
-"478 781 LINE",
-"478 801 LINE",
-"261 801 LINE"
-);
-}
-);
-};
-components = (
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 24, 124}";
-}
-);
-layerId = UUID0;
-width = 531;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{318, 700}";
-},
-{
-name = top;
-position = "{339, 812}";
-}
-);
-background = {
-anchors = (
-{
-name = _top;
-position = "{331, 700}";
-},
-{
-name = top;
-position = "{331, 812}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"203 769 LINE",
-"458 769 LINE",
-"458 839 LINE",
-"203 839 LINE"
-);
-}
-);
-};
-components = (
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 25, 123}";
-}
-);
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 459;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{322, 701}";
-},
-{
-name = top;
-position = "{357, 880}";
-}
-);
-background = {
-anchors = (
-{
-name = _top;
-position = "{332, 701}";
-},
-{
-name = top;
-position = "{332, 880}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"182 752 LINE",
-"482 752 LINE",
-"482 880 LINE",
-"182 880 LINE"
-);
-}
-);
-};
-components = (
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 23, 118}";
-}
-);
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 472;
-}
-);
-},
-{
 color = 11;
 glyphname = ogonekcomb.curve;
 layers = (
@@ -138889,6 +138754,156 @@ source = tildecomb;
 };
 },
 {
+color = 9;
+glyphname = macroncomb.narrow;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{319, 517}";
+},
+{
+name = top;
+position = "{339, 620}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{346, 517}";
+},
+{
+name = top;
+position = "{346, 620}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"237 657 LINE",
+"454 657 LINE",
+"454 677 LINE",
+"237 677 LINE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"237 657 LINE",
+"454 657 LINE",
+"458 677 LINE",
+"241 677 LINE"
+);
+}
+);
+width = 531;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{284, 531}";
+},
+{
+name = top;
+position = "{314, 689}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{306, 531}";
+},
+{
+name = top;
+position = "{306, 689}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"178 646 LINE",
+"433 646 LINE",
+"433 716 LINE",
+"178 716 LINE"
+);
+}
+);
+};
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
+{
+closed = 1;
+nodes = (
+"178 646 LINE",
+"433 646 LINE",
+"447 716 LINE",
+"192 716 LINE"
+);
+}
+);
+width = 459;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{292, 547}";
+},
+{
+name = top;
+position = "{335, 770}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{309, 547}";
+},
+{
+name = top;
+position = "{309, 770}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"159 634 LINE",
+"459 634 LINE",
+"459 762 LINE",
+"159 762 LINE"
+);
+}
+);
+};
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"159 634 LINE",
+"459 634 LINE",
+"484 762 LINE",
+"184 762 LINE"
+);
+}
+);
+width = 473;
+}
+);
+},
+{
 color = 11;
 glyphname = breveinvertedcomb.narrow;
 layers = (
@@ -139513,6 +139528,141 @@ nodes = (
 }
 );
 width = 499;
+}
+);
+},
+{
+color = 9;
+glyphname = macroncomb.case.narrow;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{354, 699}";
+},
+{
+name = top;
+position = "{363, 744}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{370, 699}";
+},
+{
+name = top;
+position = "{370, 744}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"261 781 LINE",
+"478 781 LINE",
+"478 801 LINE",
+"261 801 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 24, 124}";
+}
+);
+layerId = UUID0;
+width = 531;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{318, 700}";
+},
+{
+name = top;
+position = "{339, 812}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{331, 700}";
+},
+{
+name = top;
+position = "{331, 812}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"203 769 LINE",
+"458 769 LINE",
+"458 839 LINE",
+"203 839 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 25, 123}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 459;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{322, 701}";
+},
+{
+name = top;
+position = "{357, 880}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{332, 701}";
+},
+{
+name = top;
+position = "{332, 880}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"182 752 LINE",
+"482 752 LINE",
+"482 880 LINE",
+"182 880 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 23, 118}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 472;
 }
 );
 },
@@ -143425,6 +143575,72 @@ width = 508;
 }
 );
 unicode = 02DC;
+},
+{
+color = 9;
+glyphname = macroncomb.sc.narrow;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{333, 542}";
+},
+{
+name = top;
+position = "{352, 652}";
+}
+);
+components = (
+{
+name = macroncomb.narrow;
+transform = "{1, 0, 0, 1, -5, -24}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{303, 547}";
+},
+{
+name = top;
+position = "{330, 742}";
+}
+);
+components = (
+{
+name = macroncomb.narrow;
+transform = "{1, 0, 0, 1, -4, -20}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 473;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{298, 556}";
+},
+{
+name = top;
+position = "{325, 695}";
+}
+);
+components = (
+{
+name = macroncomb.narrow;
+transform = "{1, 0, 0, 1, -4, -20}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 600;
+}
+);
 },
 {
 color = 0;
