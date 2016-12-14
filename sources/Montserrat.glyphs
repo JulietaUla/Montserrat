@@ -31632,10 +31632,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"308 599 LINE",
-"638 599 LINE",
+"308 619 LINE",
 "638 619 LINE",
-"308 619 LINE"
+"638 639 LINE",
+"308 639 LINE"
 );
 }
 );
@@ -31670,10 +31670,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"285 581 LINE",
-"690 581 LINE",
-"690 679 LINE",
-"285 679 LINE"
+"285 603 LINE",
+"690 603 LINE",
+"690 701 LINE",
+"285 701 LINE"
 );
 }
 );
@@ -31703,10 +31703,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"307 581 LINE",
-"662 581 LINE",
-"662 647 LINE",
-"307 647 LINE"
+"307 601 LINE",
+"662 601 LINE",
+"662 667 LINE",
+"307 667 LINE"
 );
 }
 );
@@ -36066,10 +36066,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"35 599 LINE",
-"365 599 LINE",
+"35 619 LINE",
 "365 619 LINE",
-"35 619 LINE"
+"365 639 LINE",
+"35 639 LINE"
 );
 }
 );
@@ -36099,10 +36099,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 581 LINE",
-"405 581 LINE",
-"405 679 LINE",
-"0 679 LINE"
+"0 603 LINE",
+"405 603 LINE",
+"405 701 LINE",
+"0 701 LINE"
 );
 }
 );
@@ -36119,10 +36119,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"20 581 LINE",
-"375 581 LINE",
-"375 647 LINE",
-"20 647 LINE"
+"20 601 LINE",
+"375 601 LINE",
+"375 667 LINE",
+"20 667 LINE"
 );
 }
 );
@@ -62490,7 +62490,7 @@ name = i.sc;
 },
 {
 name = acutecomb.sc;
-transform = "{1, 0, 0, 1, 57, 35}";
+transform = "{1, 0, 0, 1, 67, 35}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -62535,7 +62535,7 @@ name = i.sc.ss01;
 },
 {
 name = acutecomb.sc;
-transform = "{1, 0, 0, 1, 116, 35}";
+transform = "{1, 0, 0, 1, 126, 35}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -132654,7 +132654,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -132679,7 +132678,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -132700,7 +132698,6 @@ name = Light;
 weightClass = Light;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -132740,7 +132737,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -132761,7 +132757,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -132784,7 +132779,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Update Features";
@@ -133619,7 +133613,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -134432,7 +134425,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -135241,7 +135233,6 @@ name = Light;
 weightClass = Light;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -136857,7 +136848,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -137666,7 +137656,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -138477,7 +138466,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
