@@ -5,7 +5,7 @@ DisplayStrings = (
 /leftRightArrow/upDownArrow,
 "A/macroncomb.case/macroncomb.case.narrow/Amacron/Amacron.ss01/Emacron/Emacron.ss01/Emacronacute/Emacronacute.ss01/Emacrongrave/Emacrongrave.ss01/Gmacron/Gmacron.ss01/Imacron/Imacron.ss01/Odieresismacron/Odotaccentmacron/Omacron/Omacronacute/Omacrongrave/Otildemacron/Umacron/Umacron.ss01/Umacrondieresis/Umacrondieresis.ss01/Ymacron/Ymacron.ss01/amacron \012/macroncomb/macroncomb.narrow/a.ss01/amacron.ss01/emacron/emacron.ss01/emacronacute/emacronacute.ss01/emacrongrave/emacrongrave.ss01/gmacron/imacron/odieresismacron/odotaccentmacron/omacron/omacronacute/omacrongrave/otildemacron/umacron/umacrondieresis/umacrondieresis.ss01/ymacron/ymacron.ss01 \012/macroncomb/macroncomb/macroncomb.sc/macroncomb.sc.narrow/amacron.sc/amacron.sc.ss01/emacron.sc/emacron.sc.ss01/emacronacute.sc/emacronacute.sc.ss01/emacrongrave.sc/emacrongrave.sc.ss01/gmacron.sc/gmacron.sc.ss01/imacron.sc/imacron.sc.ss01/odieresismacron.sc/odotaccentmacron.sc/omacron.sc/omacronacute.sc/omacrongrave.sc/otildemacron.sc/umacron.sc/umacron.sc.ss01/umacrondieresis.sc/umacrondieresis.sc.ss01/ymacron.sc/ymacron.sc.ss01",
 /aogonek/aogonek.ss01/eogonek/eogonek.ss01/iogonek/oogonek/uogonek/uogonek.ss01,
-/guillemetleft.sc/guillemetright.sc/guilsinglleft.sc/guilsinglright.sc
+"/guillemetleft.sc/guillemetright.sc/guilsinglleft.sc/h.sc/guilsinglright.sc  \U00ABH\U00BB\012/guillemetleft.sc/h.sc/guillemetright.sc \012/guilsinglleft.sc/h.sc/guilsinglright.sc  /quotedblleft.sc/h.sc/quotedblright.sc  /quoteright.sc/quotedblright.sc/quotedblleft.sc/h.sc/quotedblright.sc"
 );
 classes = (
 {
@@ -211,14 +211,17 @@ descender = -194;
 guideLines = (
 {
 angle = 79;
-position = "{321, 491}";
+position = "{222, 481}";
 },
 {
-position = "{226, 542}";
+position = "{204, 246}";
 },
 {
 angle = 180;
 position = "{132, 624}";
+},
+{
+position = "{204, 374}";
 }
 );
 horizontalStems = (
@@ -297,13 +300,16 @@ position = "{544, 444}";
 },
 {
 angle = 79;
-position = "{76, 485}";
+position = "{88, 485}";
 },
 {
 position = "{187, -70}";
 },
 {
-position = "{226, 556}";
+position = "{223, 257}";
+},
+{
+position = "{223, 406}";
 }
 );
 horizontalStems = (
@@ -383,14 +389,14 @@ angle = 79;
 position = "{881, 415}";
 },
 {
-position = "{106, 681}";
+position = "{100, 444}";
 },
 {
 angle = 79;
-position = "{-19, 61}";
+position = "{-17, 61}";
 },
 {
-position = "{280, 582}";
+position = "{159, 273}";
 }
 );
 horizontalStems = (
@@ -102869,94 +102875,101 @@ width = 296;
 );
 },
 {
+color = 1;
 glyphname = guillemetleft.sc;
 layers = (
 {
 components = (
 {
-name = guilsinglleft;
+name = guilsinglleft.sc;
 },
 {
-name = guilsinglleft;
+name = guilsinglleft.sc;
 transform = "{1, 0, 0, 1, 113, 0}";
 }
 );
 layerId = UUID0;
-width = 381;
+width = 449;
 },
 {
 components = (
 {
-name = guilsinglleft;
+name = guilsinglleft.sc;
 },
 {
-name = guilsinglleft;
-transform = "{1, 0, 0, 1, 259, 0}";
+name = guilsinglleft.sc;
+transform = "{1, 0, 0, 1, 239, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 545;
+width = 559;
 },
 {
 components = (
 {
-name = guilsinglleft;
+name = guilsinglleft.sc;
 },
 {
-name = guilsinglleft;
+name = guilsinglleft.sc;
 transform = "{1, 0, 0, 1, 180, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 457;
+width = 463;
 }
 );
+leftMetricsKey = "=guilsinglleft.sc";
+rightMetricsKey = "=guilsinglleft.sc";
 },
 {
+color = 1;
 glyphname = guillemetright.sc;
 layers = (
 {
 components = (
 {
-name = guilsinglright;
+name = guilsinglright.sc;
 },
 {
-name = guilsinglright;
+name = guilsinglright.sc;
 transform = "{1, 0, 0, 1, 113, 0}";
 }
 );
 layerId = UUID0;
-width = 381;
+width = 448;
 },
 {
 components = (
 {
-name = guilsinglright;
+name = guilsinglright.sc;
 },
 {
-name = guilsinglright;
-transform = "{1, 0, 0, 1, 259, 0}";
+name = guilsinglright.sc;
+transform = "{1, 0, 0, 1, 239, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 544;
+width = 559;
 },
 {
 components = (
 {
-name = guilsinglright;
+name = guilsinglright.sc;
 },
 {
-name = guilsinglright;
+name = guilsinglright.sc;
 transform = "{1, 0, 0, 1, 180, 0}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 468;
+width = 463;
 }
 );
+leftMetricsKey = "=guilsinglright.sc";
+rightMetricsKey = "=guilsinglright.sc";
 },
 {
+color = 1;
 glyphname = guilsinglleft.sc;
 layers = (
 {
@@ -102965,16 +102978,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"196 403 LINE",
-"56 247 LINE",
-"134 94 LINE",
-"158 94 LINE",
-"81 245 LINE",
-"220 403 LINE"
+"225 374 LINE",
+"111 248 LINE",
+"175 125 LINE",
+"197 125 LINE",
+"134 246 LINE",
+"247 374 LINE"
 );
 }
 );
-width = 268;
+width = 336;
+userData = {
+RMXScaler = {
+adjustSpace = 18;
+height = 80;
+width = 81;
+};
+};
 },
 {
 background = {
@@ -102982,12 +103002,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"146 466 LINE",
-"-17 273 LINE",
-"68 78 LINE",
-"248 78 LINE",
-"181 273 LINE",
-"326 466 LINE"
+"185 466 LINE",
+"22 273 LINE",
+"107 78 LINE",
+"287 78 LINE",
+"220 273 LINE",
+"365 466 LINE"
 );
 }
 );
@@ -102997,16 +103017,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"146 466 LINE",
-"-17 273 LINE",
-"68 78 LINE",
-"248 78 LINE",
-"168 265 LINE",
-"326 466 LINE"
+"165 444 LINE",
+"26 280 LINE",
+"98 114 LINE",
+"263 114 LINE",
+"195 273 LINE",
+"330 444 LINE"
 );
 }
 );
-width = 286;
+width = 320;
+userData = {
+RMXScaler = {
+adjustSpace = 6;
+height = 83;
+weight = -17;
+width = 84;
+};
+};
 },
 {
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
@@ -103014,51 +103042,65 @@ paths = (
 {
 closed = 1;
 nodes = (
-"172 432 LINE",
-"22 259 LINE",
-"104 87 LINE",
-"200 87 LINE",
-"123 256 LINE",
-"268 432 LINE"
+"169 406 LINE",
+"44 261 LINE",
+"112 116 LINE",
+"204 116 LINE",
+"140 257 LINE",
+"261 406 LINE"
 );
 }
 );
-width = 277;
+width = 283;
+userData = {
+RMXScaler = {
+adjustSpace = 10;
+height = 82;
+weight = -3;
+width = 82;
+};
+};
 }
 );
+userData = {
+RMXScaler = {
+source = guilsinglleft;
+};
+};
 },
 {
+color = 1;
 glyphname = guilsinglright.sc;
 layers = (
 {
 components = (
 {
-name = guilsinglleft;
-transform = "{-1, 0, 0, -1, 264, 497}";
+name = guilsinglleft.sc;
+transform = "{-1, 0, 0, -1, 333, 499}";
 }
 );
 layerId = UUID0;
-width = 268;
+width = 335;
 },
 {
 components = (
 {
-name = guilsinglleft;
-transform = "{-1, 0, 0, -1, 285, 544}";
+name = guilsinglleft.sc;
+transform = "{-1, 0, 0, -1, 323, 558}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 285;
+width = 320;
 },
 {
 components = (
 {
-name = guilsinglleft;
-transform = "{-1, 0, 0, -1, 309, 519}";
+name = guilsinglleft.sc;
+transform = "{-1, 0, 0, -1, 281, 522}";
 }
 );
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 288;
+width = 283;
 }
 );
 },
