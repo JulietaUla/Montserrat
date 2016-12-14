@@ -2,7 +2,8 @@
 .appVersion = "942";
 DisplayStrings = (
 /IJ/IJ.ss01/Idotaccent.ss01/aeacute.ss01,
-/leftRightArrow/upDownArrow
+/leftRightArrow/upDownArrow,
+A/macroncomb.case/macroncomb.narrow.case/Amacron/Amacron.ss01/Emacron/Emacron.ss01/Emacronacute/Emacronacute.ss01/Emacrongrave/Emacrongrave.ss01/Gmacron/Gmacron.ss01/Imacron/Imacron.ss01/Odieresismacron/Odotaccentmacron/Omacron/Omacronacute/Omacrongrave/Otildemacron/Umacron/Umacron.ss01/Umacrondieresis/Umacrondieresis.ss01/Ymacron/Ymacron.ss01/amacron/amacron.ss01/emacron/emacron.ss01/emacronacute/emacronacute.ss01/emacrongrave/emacrongrave.ss01/gmacron/imacron/odieresismacron/odotaccentmacron/omacron/omacronacute/omacrongrave/otildemacron/umacron/umacrondieresis/umacrondieresis.ss01/ymacron/ymacron.ss01/amacron.sc/amacron.sc.ss01/emacron.sc/emacron.sc.ss01/emacronacute.sc/emacronacute.sc.ss01/emacrongrave.sc/emacrongrave.sc.ss01/gmacron.sc/gmacron.sc.ss01/imacron.sc/imacron.sc.ss01/odieresismacron.sc/odotaccentmacron.sc/omacron.sc/omacronacute.sc/omacrongrave.sc/otildemacron.sc/umacron.sc/umacron.sc.ss01/umacrondieresis.sc/umacrondieresis.sc.ss01/ymacron.sc/ymacron.sc.ss01
 );
 copyright = "Copyright (c) 2011-2015, Julieta Ulanovsky (julieta.ulanovsky@gmail.com)";
 customParameters = (
@@ -10718,7 +10719,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.case;
+name = macroncomb.narrow.case;
 transform = "{1, 0, 0, 1, -128, 0}";
 }
 );
@@ -10731,7 +10732,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.case;
+name = macroncomb.narrow.case;
 transform = "{1, 0, 0, 1, -80, 0}";
 }
 );
@@ -10744,7 +10745,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.case;
+name = macroncomb.narrow.case;
 transform = "{1, 0, 0, 1, -76, 0}";
 }
 );
@@ -132307,35 +132308,39 @@ position = "{363, 744}";
 }
 );
 background = {
-anchors = (
-{
-name = _top;
-position = "{370, 699}";
-},
-{
-name = top;
-position = "{370, 744}";
-}
-);
 paths = (
 {
 closed = 1;
 nodes = (
 "261 781 LINE",
 "478 781 LINE",
-"478 801 LINE",
-"261 801 LINE"
+"482 801 LINE",
+"265 801 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"212 781 LINE",
+"529 781 LINE",
+"529 801 LINE",
+"212 801 LINE"
 );
 }
 );
 };
-components = (
+layerId = UUID0;
+paths = (
 {
-name = macroncomb;
-transform = "{1, 0, 0, 1, 24, 124}";
+closed = 1;
+nodes = (
+"211 781 LINE",
+"528 781 LINE",
+"532 801 LINE",
+"215 801 LINE"
+);
 }
 );
-layerId = UUID0;
 width = 531;
 },
 {
@@ -132350,35 +132355,39 @@ position = "{339, 812}";
 }
 );
 background = {
-anchors = (
-{
-name = _top;
-position = "{331, 700}";
-},
-{
-name = top;
-position = "{331, 812}";
-}
-);
 paths = (
+{
+closed = 1;
+nodes = (
+"184 769 LINE",
+"490 769 LINE",
+"490 839 LINE",
+"184 839 LINE"
+);
+},
 {
 closed = 1;
 nodes = (
 "203 769 LINE",
 "458 769 LINE",
-"458 839 LINE",
-"203 839 LINE"
+"472 839 LINE",
+"217 839 LINE"
 );
 }
 );
 };
-components = (
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+paths = (
 {
-name = macroncomb;
-transform = "{1, 0, 0, 1, 25, 123}";
+closed = 1;
+nodes = (
+"183 769 LINE",
+"478 769 LINE",
+"492 839 LINE",
+"197 839 LINE"
+);
 }
 );
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 width = 459;
 },
 {
@@ -132393,35 +132402,39 @@ position = "{357, 880}";
 }
 );
 background = {
-anchors = (
-{
-name = _top;
-position = "{332, 701}";
-},
-{
-name = top;
-position = "{332, 880}";
-}
-);
 paths = (
+{
+closed = 1;
+nodes = (
+"152 752 LINE",
+"532 752 LINE",
+"532 880 LINE",
+"152 880 LINE"
+);
+},
 {
 closed = 1;
 nodes = (
 "182 752 LINE",
 "482 752 LINE",
-"482 880 LINE",
-"182 880 LINE"
+"507 880 LINE",
+"207 880 LINE"
 );
 }
 );
 };
-components = (
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
 {
-name = macroncomb;
-transform = "{1, 0, 0, 1, 23, 118}";
+closed = 1;
+nodes = (
+"152 752 LINE",
+"512 752 LINE",
+"537 880 LINE",
+"177 880 LINE"
+);
 }
 );
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 472;
 }
 );
@@ -134300,6 +134313,141 @@ name = cedillacomb;
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 355;
+}
+);
+},
+{
+color = 9;
+glyphname = macroncomb.narrow.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{354, 699}";
+},
+{
+name = top;
+position = "{363, 744}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{370, 699}";
+},
+{
+name = top;
+position = "{370, 744}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"261 781 LINE",
+"478 781 LINE",
+"478 801 LINE",
+"261 801 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 24, 124}";
+}
+);
+layerId = UUID0;
+width = 531;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{318, 700}";
+},
+{
+name = top;
+position = "{339, 812}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{331, 700}";
+},
+{
+name = top;
+position = "{331, 812}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"203 769 LINE",
+"458 769 LINE",
+"458 839 LINE",
+"203 839 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 25, 123}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 459;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{322, 701}";
+},
+{
+name = top;
+position = "{357, 880}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{332, 701}";
+},
+{
+name = top;
+position = "{332, 880}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"182 752 LINE",
+"482 752 LINE",
+"482 880 LINE",
+"182 880 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 23, 118}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 472;
 }
 );
 },
