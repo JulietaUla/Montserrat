@@ -1,7 +1,7 @@
 {
 .appVersion = "942";
 DisplayStrings = (
-"/ogonekcomb/dotbelowcomb/commaaccentcomb/cedillacomb.case/cedillacomb.sc/cedillacomb \U00B8/ogonekcomb/ogonekcomb.curve/ogonekcomb.curve.sc \012\012/Uogonek  /Uogonek  \U00C7 /Scedilla  /Tcedilla  /Tcommaaccent"
+/macroncomb.narrow.case
 );
 classes = (
 {
@@ -57,7 +57,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb gravecomb_macroncomb acutecomb acutecomb_dotaccentcomb acutecomb_macroncomb hungarumlautcomb circumflexcomb caroncomb caroncomb_dotaccentcomb brevecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb dotbelowcomb dieresisbelowcomb cedillacomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dieresiscomb_gravecomb.case dieresiscomb_acutecomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case gravecomb_macroncomb.case acutecomb.case acutecomb_dotaccentcomb.case acutecomb_macroncomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case caroncomb_dotaccentcomb.case brevecomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_dieresiscomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case dotbelowcomb.case dieresisbelowcomb.case cedillacomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case gravecomb.case by dieresiscomb_gravecomb.case;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub gravecomb.case macroncomb.case by gravecomb_macroncomb.case;\012	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;\012	sub acutecomb.case macroncomb.case by acutecomb_macroncomb.case;\012	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012	sub dieresiscomb.sc gravecomb.sc by dieresiscomb_gravecomb.sc;\012	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;\012	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;\012	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;\012	sub gravecomb.sc macroncomb.sc by gravecomb_macroncomb.sc;\012	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;\012	sub acutecomb.sc macroncomb.sc by acutecomb_macroncomb.sc;\012	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;\012	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;\012	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;\012	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;\012	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;\012	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;\012	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case gravecomb.case by dieresiscomb_gravecomb.case;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub gravecomb.case macroncomb.case by gravecomb_macroncomb.case;\012	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;\012	sub acutecomb.case macroncomb.case by acutecomb_macroncomb.case;\012	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012	sub dieresiscomb.sc gravecomb.sc by dieresiscomb_gravecomb.sc;\012	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;\012	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;\012	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;\012	sub gravecomb.sc macroncomb.sc by gravecomb_macroncomb.sc;\012	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;\012	sub acutecomb.sc macroncomb.sc by acutecomb_macroncomb.sc;\012	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;\012	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;\012	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;\012	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;\012	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;\012	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;\012	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;\012	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;\012	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;\012	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;\012	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;\012	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;\012	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;\012	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;\012	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;\012	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;\012	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;\012	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;\012	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;\012	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;\012	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;\012} ccmp_latn_2;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb gravecomb_macroncomb acutecomb acutecomb_dotaccentcomb acutecomb_macroncomb hungarumlautcomb circumflexcomb caroncomb caroncomb_dotaccentcomb brevecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb dotbelowcomb dieresisbelowcomb cedillacomb macroncomb.narrow brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dieresiscomb_gravecomb.case dieresiscomb_acutecomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case gravecomb_macroncomb.case acutecomb.case acutecomb_dotaccentcomb.case acutecomb_macroncomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case caroncomb_dotaccentcomb.case brevecomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_dieresiscomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case dotbelowcomb.case dieresisbelowcomb.case cedillacomb.case macroncomb.narrow.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case gravecomb.case by dieresiscomb_gravecomb.case;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub gravecomb.case macroncomb.case by gravecomb_macroncomb.case;\012	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;\012	sub acutecomb.case macroncomb.case by acutecomb_macroncomb.case;\012	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012	sub dieresiscomb.sc gravecomb.sc by dieresiscomb_gravecomb.sc;\012	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;\012	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;\012	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;\012	sub gravecomb.sc macroncomb.sc by gravecomb_macroncomb.sc;\012	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;\012	sub acutecomb.sc macroncomb.sc by acutecomb_macroncomb.sc;\012	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;\012	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;\012	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;\012	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;\012	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;\012	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;\012	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub gravecomb macroncomb by gravecomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub acutecomb macroncomb by acutecomb_macroncomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case gravecomb.case by dieresiscomb_gravecomb.case;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub gravecomb.case macroncomb.case by gravecomb_macroncomb.case;\012	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;\012	sub acutecomb.case macroncomb.case by acutecomb_macroncomb.case;\012	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012	sub dieresiscomb.sc gravecomb.sc by dieresiscomb_gravecomb.sc;\012	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;\012	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;\012	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;\012	sub gravecomb.sc macroncomb.sc by gravecomb_macroncomb.sc;\012	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;\012	sub acutecomb.sc macroncomb.sc by acutecomb_macroncomb.sc;\012	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;\012	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;\012	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;\012	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;\012	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;\012	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;\012	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;\012	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;\012	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;\012	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;\012	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;\012	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;\012	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;\012	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;\012	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;\012	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;\012	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;\012	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;\012	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;\012	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;\012	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;\012} ccmp_latn_2;\012";
 name = ccmp;
 },
 {
@@ -132,7 +132,7 @@ name = smcp;
 },
 {
 automatic = 1;
-code = "sub backslash by backslash.case;\012sub periodcentered by periodcentered.case;\012sub bullet by bullet.case;\012sub periodcentered.loclCAT by periodcentered.loclCAT.case;\012sub slash by slash.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub emdash by emdash.case;\012sub endash by endash.case;\012sub hyphen by hyphen.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub upArrow by upArrow.case;\012sub rightArrow by rightArrow.case;\012sub downArrow by downArrow.case;\012sub leftArrow by leftArrow.case;\012sub at by at.case;\012sub dieresiscomb by dieresiscomb.case;\012sub dieresiscomb_gravecomb by dieresiscomb_gravecomb.case;\012sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;\012sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;\012sub gravecomb by gravecomb.case;\012sub gravecomb_macroncomb by gravecomb_macroncomb.case;\012sub acutecomb by acutecomb.case;\012sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.case;\012sub acutecomb_macroncomb by acutecomb_macroncomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.case;\012sub brevecomb by brevecomb.case;\012sub tildecomb by tildecomb.case;\012sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.case;\012sub tildecomb_acutecomb by tildecomb_acutecomb.case;\012sub tildecomb_macroncomb by tildecomb_macroncomb.case;\012sub macroncomb by macroncomb.case;\012sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.case;\012sub macroncomb_gravecomb by macroncomb_gravecomb.case;\012sub macroncomb_acutecomb by macroncomb_acutecomb.case;\012sub hookabovecomb by hookabovecomb.case;\012sub dblgravecomb by dblgravecomb.case;\012sub breveinvertedcomb by breveinvertedcomb.case;\012sub dotbelowcomb by dotbelowcomb.case;\012sub dieresisbelowcomb by dieresisbelowcomb.case;\012sub cedillacomb by cedillacomb.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
+code = "sub backslash by backslash.case;\012sub periodcentered by periodcentered.case;\012sub bullet by bullet.case;\012sub periodcentered.loclCAT by periodcentered.loclCAT.case;\012sub slash by slash.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub emdash by emdash.case;\012sub endash by endash.case;\012sub hyphen by hyphen.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub upArrow by upArrow.case;\012sub rightArrow by rightArrow.case;\012sub downArrow by downArrow.case;\012sub leftArrow by leftArrow.case;\012sub at by at.case;\012sub dieresiscomb by dieresiscomb.case;\012sub dieresiscomb_gravecomb by dieresiscomb_gravecomb.case;\012sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;\012sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;\012sub gravecomb by gravecomb.case;\012sub gravecomb_macroncomb by gravecomb_macroncomb.case;\012sub acutecomb by acutecomb.case;\012sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.case;\012sub acutecomb_macroncomb by acutecomb_macroncomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.case;\012sub brevecomb by brevecomb.case;\012sub tildecomb by tildecomb.case;\012sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.case;\012sub tildecomb_acutecomb by tildecomb_acutecomb.case;\012sub tildecomb_macroncomb by tildecomb_macroncomb.case;\012sub macroncomb by macroncomb.case;\012sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.case;\012sub macroncomb_gravecomb by macroncomb_gravecomb.case;\012sub macroncomb_acutecomb by macroncomb_acutecomb.case;\012sub hookabovecomb by hookabovecomb.case;\012sub dblgravecomb by dblgravecomb.case;\012sub breveinvertedcomb by breveinvertedcomb.case;\012sub dotbelowcomb by dotbelowcomb.case;\012sub dieresisbelowcomb by dieresisbelowcomb.case;\012sub cedillacomb by cedillacomb.case;\012sub macroncomb.narrow by macroncomb.narrow.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
 name = case;
 },
 {
@@ -10811,7 +10811,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.case.narrow;
+name = macroncomb.narrow.case;
 transform = "{1, 0, 0, 1, 9, 0}";
 }
 );
@@ -10824,7 +10824,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.case.narrow;
+name = macroncomb.narrow.case;
 transform = "{1, 0, 0, 1, 3, 0}";
 }
 );
@@ -10837,7 +10837,7 @@ components = (
 name = I;
 },
 {
-name = macroncomb.case.narrow;
+name = macroncomb.narrow.case;
 transform = "{1, 0, 0, 1, -4, 0}";
 }
 );
@@ -60187,7 +60187,7 @@ name = e.sc.ss01;
 },
 {
 name = ogonekcomb.curve.sc;
-transform = "{1, 0, 0, 1, 251, 0}";
+transform = "{1, 0, 0, 1, 250, 0}";
 }
 );
 layerId = UUID0;
@@ -120317,6 +120317,121 @@ width = 342;
 },
 {
 color = 6;
+glyphname = macroncomb.narrow.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{129, 699}";
+},
+{
+name = top;
+position = "{129, 744}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"20 781 LINE",
+"237 781 LINE",
+"237 801 LINE",
+"20 801 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 0, 124}";
+}
+);
+layerId = UUID0;
+width = 257;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{148, 700}";
+},
+{
+name = top;
+position = "{148, 812}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{148, 700}";
+},
+{
+name = top;
+position = "{148, 812}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"20 769 LINE",
+"275 769 LINE",
+"275 839 LINE",
+"20 839 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 0, 123}";
+}
+);
+layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
+width = 295;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{170, 701}";
+},
+{
+name = top;
+position = "{170, 880}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"20 752 LINE",
+"320 752 LINE",
+"320 880 LINE",
+"20 880 LINE"
+);
+}
+);
+};
+components = (
+{
+name = macroncomb;
+transform = "{1, 0, 0, 1, 0, 118}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 340;
+}
+);
+},
+{
+color = 6;
 glyphname = ogonekcomb.curve;
 layers = (
 {
@@ -124289,121 +124404,6 @@ nodes = (
 }
 );
 width = 337;
-}
-);
-},
-{
-color = 6;
-glyphname = macroncomb.case.narrow;
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{129, 699}";
-},
-{
-name = top;
-position = "{129, 744}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"20 781 LINE",
-"237 781 LINE",
-"237 801 LINE",
-"20 801 LINE"
-);
-}
-);
-};
-components = (
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 0, 124}";
-}
-);
-layerId = UUID0;
-width = 257;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{148, 700}";
-},
-{
-name = top;
-position = "{148, 812}";
-}
-);
-background = {
-anchors = (
-{
-name = _top;
-position = "{148, 700}";
-},
-{
-name = top;
-position = "{148, 812}";
-}
-);
-paths = (
-{
-closed = 1;
-nodes = (
-"20 769 LINE",
-"275 769 LINE",
-"275 839 LINE",
-"20 839 LINE"
-);
-}
-);
-};
-components = (
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 0, 123}";
-}
-);
-layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
-width = 295;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{170, 701}";
-},
-{
-name = top;
-position = "{170, 880}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"20 752 LINE",
-"320 752 LINE",
-"320 880 LINE",
-"20 880 LINE"
-);
-}
-);
-};
-components = (
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 0, 118}";
-}
-);
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 340;
 }
 );
 },
