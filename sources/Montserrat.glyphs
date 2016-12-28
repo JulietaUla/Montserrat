@@ -135189,7 +135189,6 @@ width = 600;
 );
 instances = (
 {
-exports = 0;
 customParameters = (
 {
 name = "Update Features";
@@ -135205,7 +135204,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -135230,7 +135228,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -135270,7 +135267,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -135291,7 +135287,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -135312,7 +135307,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -135335,7 +135329,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Update Features";
@@ -135352,7 +135345,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = "Update Features";
@@ -135368,11 +135360,14 @@ name = Black;
 weightClass = Black;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -135762,16 +135757,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -136169,14 +136154,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "New Parameter";
-value = "New Value";
 }
 );
 interpolationWeight = 20;
@@ -136188,7 +136165,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -136203,6 +136179,10 @@ name = weightClass;
 value = 275;
 },
 {
+name = "Update Features";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A.ss01=A",
@@ -136590,16 +136570,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -136997,10 +136967,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 40;
@@ -137013,7 +136979,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -137022,6 +136987,10 @@ value = 80;
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -137411,16 +137380,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -137818,10 +137777,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 75;
@@ -137844,6 +137799,10 @@ name = familyName;
 value = "Montserrat Alternates";
 },
 {
+name = "Update Features";
+value = 1;
+},
+{
 name = "Rename Glyphs";
 value = (
 "A.ss01=A",
@@ -138624,24 +138583,10 @@ zacute.sc.ss01,
 zcaron.sc.ss01,
 zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
-zero.ss01,
-one.ss01,
-two.ss01,
-three.ss01,
-four.ss01,
-five.ss01,
-six.ss01,
-seven.ss01,
-eight.ss01,
-nine.ss01,
 numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 110;
@@ -138653,7 +138598,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -138662,6 +138606,10 @@ value = 133;
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -139051,16 +138999,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -139458,10 +139396,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 125;
@@ -139474,7 +139408,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -139483,6 +139416,10 @@ value = 153;
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -139872,16 +139809,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -140279,10 +140206,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 147;
@@ -140295,7 +140218,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = InterpolationWeightY;
@@ -140304,6 +140226,10 @@ value = 173;
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -140693,16 +140619,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -141100,10 +141016,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 170;
@@ -141118,11 +141030,14 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -141512,16 +141427,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -141919,10 +141824,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 193;
@@ -141935,11 +141836,14 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = familyName;
 value = "Montserrat Alternates";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = "Rename Glyphs";
@@ -142329,16 +142233,6 @@ value = (
 "zcaron.sc.ss01=zcaron.sc",
 "zdotaccent.sc.ss01=zdotaccent.sc",
 "zdotbelow.sc.ss01=zdotbelow.sc",
-"zero.osf=zero",
-"one.osf=one",
-"two.osf=two",
-"three.osf=three",
-"four.osf=four",
-"five.osf=five",
-"six.osf=six",
-"seven.osf=seven",
-"eight.osf=eight",
-"nine.osf=nine",
 "numero.ss01=numero",
 "Napostrophe.ss01=Napostrophe",
 "Tdieresis.ss01=Tdieresis"
@@ -142736,10 +142630,6 @@ numero.ss01,
 Napostrophe.ss01,
 Tdieresis.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 215;
