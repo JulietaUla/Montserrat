@@ -152422,10 +152422,6 @@ instances = (
 {
 customParameters = (
 {
-name = weightClass;
-value = 100;
-},
-{
 name = "Update Features";
 value = 1;
 }
@@ -152448,7 +152444,7 @@ value = 44;
 },
 {
 name = weightClass;
-value = 200;
+value = "275";
 },
 {
 name = "Update Features";
@@ -152462,9 +152458,9 @@ UUID0 = "{0.777778, 0.733333}";
 "1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = "{0.222222, 0.266667}";
 };
 isItalic = 1;
-linkStyle = "Ultra Light";
-name = "Ultra Light Italic";
-weightClass = UltraLight;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -152549,8 +152545,8 @@ instanceInterpolations = {
 "1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = "{0.647619, 0.590476}";
 };
 isItalic = 1;
-linkStyle = "Semi Bold";
-name = "Semi Bold Italic";
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -152590,8 +152586,8 @@ instanceInterpolations = {
 "1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = 0.209524;
 };
 isItalic = 1;
-linkStyle = "Extra Bold";
-name = "Extra Bold Italic";
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
@@ -152614,8 +152610,8 @@ weightClass = Black;
 {
 customParameters = (
 {
-name = weightClass;
-value = "100";
+name = "Update Features";
+value = 1;
 },
 {
 name = familyName;
@@ -153466,10 +153462,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 20;
@@ -153490,7 +153482,11 @@ value = "44";
 },
 {
 name = weightClass;
-value = "200";
+value = "275";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = familyName;
@@ -154341,10 +154337,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 40;
@@ -154354,15 +154346,19 @@ UUID0 = "{0.777778, 0.733333}";
 "1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = "{0.222222, 0.266667}";
 };
 isItalic = 1;
-linkStyle = "Ultra Light";
-name = "Ultra Light Italic";
-weightClass = UltraLight;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = ExtraLight;
 },
 {
 customParameters = (
 {
 name = InterpolationWeightY;
 value = "80";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = familyName;
@@ -155213,10 +155209,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 75;
@@ -155237,6 +155229,10 @@ name = InterpolationWeightY;
 value = "117";
 },
 {
+name = "Update Features";
+value = 1;
+},
+{
 name = familyName;
 value = "Montserrat Alternates";
 },
@@ -156085,10 +156081,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 110;
@@ -156108,6 +156100,10 @@ name = InterpolationWeightY;
 value = "133";
 },
 {
+name = "Update Features";
+value = 1;
+},
+{
 name = familyName;
 value = "Montserrat Alternates";
 },
@@ -156956,10 +156952,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 125;
@@ -156980,6 +156972,10 @@ name = InterpolationWeightY;
 value = "153";
 },
 {
+name = "Update Features";
+value = 1;
+},
+{
 name = familyName;
 value = "Montserrat Alternates";
 },
@@ -157828,10 +157824,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 147;
@@ -157841,8 +157833,8 @@ instanceInterpolations = {
 "1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = "{0.647619, 0.590476}";
 };
 isItalic = 1;
-linkStyle = "Semi Bold";
-name = "Semi Bold Italic";
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
@@ -157850,6 +157842,10 @@ customParameters = (
 {
 name = InterpolationWeightY;
 value = "173";
+},
+{
+name = "Update Features";
+value = 1;
 },
 {
 name = familyName;
@@ -158700,10 +158696,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 170;
@@ -158721,6 +158713,10 @@ weightClass = Bold;
 {
 customParameters = (
 {
+name = "Update Features";
+value = 1;
+},
+{
 name = familyName;
 value = "Montserrat Alternates";
 },
@@ -159569,10 +159565,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 193;
@@ -159582,12 +159574,16 @@ instanceInterpolations = {
 "1C84A7F3-C40A-4DC1-B8B4-102D183C348F" = 0.209524;
 };
 isItalic = 1;
-linkStyle = "Extra Bold";
-name = "Extra Bold Italic";
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
 customParameters = (
+{
+name = "Update Features";
+value = 1;
+},
 {
 name = familyName;
 value = "Montserrat Alternates";
@@ -160437,10 +160433,6 @@ zdotaccent.sc.ss01,
 zdotbelow.sc.ss01,
 numero.ss01
 );
-},
-{
-name = "Update Features";
-value = 1;
 }
 );
 interpolationWeight = 215;
