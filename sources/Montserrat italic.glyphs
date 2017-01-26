@@ -1,7 +1,8 @@
 {
-.appVersion = "957";
+.appVersion = "965";
 DisplayStrings = (
-"hombre.omn\U00EDvoro"
+"hombre.omn\U00EDvoro",
+/OE/oe/oe.ss01/oe.sc
 );
 classes = (
 {
@@ -40440,20 +40441,8 @@ color = 6;
 glyphname = oe;
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{565, 517}";
-}
-);
 layerId = UUID0;
 paths = (
-{
-closed = 0;
-nodes = (
-"392 206 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -40525,20 +40514,8 @@ nodes = (
 width = 1077;
 },
 {
-anchors = (
-{
-name = top;
-position = "{536, 547}";
-}
-);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
-{
-closed = 0;
-nodes = (
-"315 237 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -40610,20 +40587,8 @@ nodes = (
 width = 1007;
 },
 {
-anchors = (
-{
-name = top;
-position = "{552, 531}";
-}
-);
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 paths = (
-{
-closed = 0;
-nodes = (
-"357 220 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -54276,20 +54241,6 @@ color = 6;
 glyphname = oe.ss01;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{878, 0}";
-},
-{
-name = ogonek;
-position = "{1116, 10}";
-},
-{
-name = top;
-position = "{929, 517}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -54363,20 +54314,6 @@ nodes = (
 width = 1051;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{903, 0}";
-},
-{
-name = ogonek;
-position = "{1145, 10}";
-},
-{
-name = top;
-position = "{956, 531}";
-}
-);
 layerId = "1C84A7F3-C40A-4DC1-B8B4-102D183C348F";
 paths = (
 {
@@ -54450,20 +54387,6 @@ nodes = (
 width = 1028;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{934, 0}";
-},
-{
-name = ogonek;
-position = "{1182, 10}";
-},
-{
-name = top;
-position = "{988, 547}";
-}
-);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -155628,6 +155551,7 @@ leftKerningGroup = prime;
 rightKerningGroup = prime;
 },
 {
+export = 0;
 glyphname = areas;
 layers = (
 {
