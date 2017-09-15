@@ -1,7 +1,9 @@
 
 # Reference
 # Script, Category, Subcategory, value, referenceGlyph, filter
-*,Letter,Uppercase,1.25,H,*,
+
+# Letters
+*,Letter,Uppercase,1.17,H,*,
 *,Letter,Smallcaps,1.1,h.sc,*,
 *,Letter,Lowercase,1,x,*,
 *,Letter,Lowercase,0.7,m.sups,.sups,
