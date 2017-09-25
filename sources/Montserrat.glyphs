@@ -7,7 +7,7 @@ DisplayStrings = (
 "ES/E.ss01/Reversedze-cy/Ze-cy 3",
 "/De-cy/De-cy.loclBGR/De-cy.loclBGR V",
 "/El-cy.loclBGR/Ef-cy JO/Ef-cy.loclBGR/Ef-cy.loclBGR/Ghestroke-cy/Ghestroke-cy.loclBSH",
-"/Zedescender-cy/Zedescender-cy.loclBSH/Esdescender-cy.loclBSH/Esdescender-cy.loclCHU"
+"/Zedescender-cy/Zedescender-cy.loclBSH/Esdescender-cy.loclBSH/Esdescender-cy.loclCHU  "
 );
 classes = (
 {
@@ -75663,13 +75663,13 @@ unicode = 0416;
 {
 color = 1;
 glyphname = "Ze-cy";
-lastChange = "2017-09-25 13:57:02 +0000";
+lastChange = "2017-09-25 15:01:14 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{307, 0}";
+position = "{287, 0}";
 },
 {
 name = top;
@@ -75759,7 +75759,7 @@ width = 614;
 anchors = (
 {
 name = bottom;
-position = "{328, 0}";
+position = "{307, 0}";
 },
 {
 name = top;
@@ -81653,7 +81653,7 @@ unicode = 0496;
 },
 {
 glyphname = "Zedescender-cy";
-lastChange = "2017-09-25 14:32:38 +0000";
+lastChange = "2017-09-25 15:01:35 +0000";
 layers = (
 {
 components = (
@@ -81662,7 +81662,7 @@ name = "Ze-cy";
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 7, 0}";
+transform = "{1, 0, 0, 1, -13, 0}";
 }
 );
 layerId = UUID0;
@@ -81675,7 +81675,7 @@ name = "Ze-cy";
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 28, 0}";
+transform = "{1, 0, 0, 1, 7, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -87378,71 +87378,99 @@ width = 656;
 },
 {
 glyphname = "Zedescender-cy.loclBSH";
-lastChange = "2017-09-25 14:32:38 +0000";
+lastChange = "2017-09-25 15:01:35 +0000";
 layers = (
 {
 components = (
 {
 name = "Ze-cy";
-},
-{
-name = cedillacomb;
-transform = "{1, 0, 0, 1, 7, 0}";
 }
 );
 layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"302 -165 LINE",
+"302 0 LINE",
+"282 0 LINE",
+"282 -165 LINE"
+);
+}
+);
 width = 614;
 },
 {
 components = (
 {
 name = "Ze-cy";
-},
-{
-name = cedillacomb;
-transform = "{1, 0, 0, 1, 28, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"409 -137 LINE",
+"409 20 LINE",
+"193 20 LINE",
+"193 -137 LINE"
+);
+}
+);
 width = 655;
 }
 );
 },
 {
 glyphname = "Esdescender-cy.loclBSH";
-lastChange = "2017-09-25 14:32:38 +0000";
+lastChange = "2017-09-25 15:01:35 +0000";
 layers = (
 {
 components = (
 {
 name = "Es-cy";
-},
-{
-name = "descender-cy.case";
-transform = "{1, 0, 0, 1, 711, 0}";
 }
 );
 layerId = UUID0;
-width = 848;
+paths = (
+{
+closed = 1;
+nodes = (
+"432 -165 LINE",
+"432 0 LINE",
+"412 0 LINE",
+"412 -165 LINE"
+);
+}
+);
+width = 711;
 },
 {
 components = (
 {
 name = "Es-cy";
-},
-{
-name = "descender-cy.case";
-transform = "{1, 0, 0, 1, 744, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 1156;
+paths = (
+{
+closed = 1;
+nodes = (
+"504 -137 LINE",
+"504 20 LINE",
+"288 20 LINE",
+"288 -137 LINE"
+);
+}
+);
+width = 744;
 }
 );
 },
 {
 glyphname = "Esdescender-cy.loclCHU";
-lastChange = "2017-09-25 14:32:38 +0000";
+lastChange = "2017-09-25 15:01:35 +0000";
 layers = (
 {
 components = (
@@ -87450,12 +87478,12 @@ components = (
 name = "Es-cy";
 },
 {
-name = "descender-cy.case";
-transform = "{1, 0, 0, 1, 711, 0}";
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 108, 0}";
 }
 );
 layerId = UUID0;
-width = 848;
+width = 711;
 },
 {
 components = (
@@ -87463,12 +87491,12 @@ components = (
 name = "Es-cy";
 },
 {
-name = "descender-cy.case";
-transform = "{1, 0, 0, 1, 744, 0}";
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 92, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 1156;
+width = 744;
 }
 );
 },
