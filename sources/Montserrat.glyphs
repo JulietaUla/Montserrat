@@ -1,7 +1,6 @@
 {
 .appVersion = "1064";
 DisplayStrings = (
-"Hab\U00EDa esto antes: \012/Ohorn/Cheabkhasian-cy/Schwa-cy/Dzhe-cy/Chedescenderabkhasian-cy/Esdescender-cy/E.ss01/Haabkhasian-cy/Haabkhasian-cy O\012/Che-cy/Shha-cy/Che-cy/Che-cy/Chedescender-cy/Chekhakassian-cy \012/Enghe-cy/Pemiddlehook-cy/Tse-cy/Tetse-cy \012/descender-cy.case/Zhe-cy/Zhedescender-cy K/Ka-cy/Kadescender-cy/Endescender-cy/Pedescender-cy/Tedescender-cy/Hadescender-cy/Chedescender-cy/Gedescender-cy/Eldescender-cy/Shhadescender-cy \012/descTail-cy.case/Iishorttail-cy/Eltail-cy/Entail-cy/Emtail-cy \012/Hardsign-cy/Kabashkir-cy/Kadescender-cy/Kastroke-cy/Kaverticalstroke-cy RE/Yusbig-cy/Zhe-cy Y/Yusbig-cy/Cheverticalstroke-cy",
 "/Kahook-cy/Enhook-cy/Gestrokehook-cy/Hahook-cy/Elhook-cy",
 "WA/We-cy",
 "ES/E.ss01/Reversedze-cy/Ze-cy 3",
@@ -10,7 +9,8 @@ DisplayStrings = (
 "/Zedescender-cy/Zedescender-cy.loclBSH/Esdescender-cy.loclBSH/Esdescender-cy.loclCHU  ",
 "/Kaverticalstroke-cy/Kastroke-cy/Cheverticalstroke-cy/Semisoftsign-cy/Ertick-cy/Ertick-cy",
 "/Tetse-cy/Eltail-cy/iishorttail-cy/iishorttail-cy/pedescender-cy/tetse-cy/chedescender-cy/eltail-cy/enhook-cy/endescender-cy/entail-cy/Chedescender-cy/Chekhakassian-cy/chekhakassian-cy/chedescender-cy/emtail-cy",
-"T/Tetse-cy/te-cy/tse-cy/tetse-cy"
+"T/Tetse-cy/te-cy/tse-cy/tetse-cy",
+nonoants
 );
 classes = (
 {
@@ -149018,13 +149018,17 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = InterpolationWeightY;
+value = 73;
 }
 );
 interpolationWeight = 64;
 interpolationWidth = 0;
 instanceInterpolations = {
-"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = 0.21463;
-UUID0 = 0.78537;
+"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = "{0.21463, 0.25854}";
+UUID0 = "{0.78537, 0.74146}";
 };
 name = Light;
 weightClass = Light;
@@ -149034,13 +149038,17 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = InterpolationWeightY;
+value = 100;
 }
 );
 interpolationWeight = 90;
 interpolationWidth = 0;
 instanceInterpolations = {
-"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = 0.34146;
-UUID0 = 0.65854;
+"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = "{0.34146, 0.39024}";
+UUID0 = "{0.65854, 0.60976}";
 };
 name = Regular;
 },
@@ -149049,13 +149057,17 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = InterpolationWeightY;
+value = 137;
 }
 );
 interpolationWeight = 125;
 interpolationWidth = 0;
 instanceInterpolations = {
-"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = 0.51220;
-UUID0 = 0.48780;
+"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = "{0.51220, 0.57073}";
+UUID0 = "{0.48780, 0.42927}";
 };
 name = Medium;
 weightClass = Medium;
@@ -149065,13 +149077,17 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = InterpolationWeightY;
+value = 155;
 }
 );
 interpolationWeight = 147;
 interpolationWidth = 0;
 instanceInterpolations = {
-"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = 0.61951;
-UUID0 = 0.38049;
+"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = "{0.61951, 0.65854}";
+UUID0 = "{0.38049, 0.34146}";
 };
 name = SemiBold;
 weightClass = SemiBold;
@@ -149081,13 +149097,17 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = InterpolationWeightY;
+value = 175;
 }
 );
 interpolationWeight = 170;
 interpolationWidth = 0;
 instanceInterpolations = {
-"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = 0.73171;
-UUID0 = 0.26829;
+"5DA6E103-6A94-47F2-987D-4952DB8EA68E" = "{0.73171, 0.75610}";
+UUID0 = "{0.26829, 0.24390}";
 };
 isBold = 1;
 linkStyle = Regular;
