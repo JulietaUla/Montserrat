@@ -7,7 +7,9 @@ DisplayStrings = (
 "ES/E.ss01/Reversedze-cy/Ze-cy 3",
 "/De-cy/De-cy.loclBGR/De-cy.loclBGR V",
 "/El-cy.loclBGR/Ef-cy JO/Ef-cy.loclBGR/Ef-cy.loclBGR/Ghestroke-cy/Ghestroke-cy.loclBSH",
-"/Zedescender-cy/Zedescender-cy.loclBSH/Esdescender-cy.loclBSH/Esdescender-cy.loclCHU  "
+"/Zedescender-cy/Zedescender-cy.loclBSH/Esdescender-cy.loclBSH/Esdescender-cy.loclCHU  ",
+"/Kaverticalstroke-cy/Kastroke-cy/Cheverticalstroke-cy/Semisoftsign-cy/Ertick-cy/Ertick-cy",
+"/Softsign-cy"
 );
 classes = (
 {
@@ -81927,7 +81929,7 @@ unicode = 049C;
 {
 color = 3;
 glyphname = "Kastroke-cy";
-lastChange = "2017-09-20 19:09:16 +0000";
+lastChange = "2017-09-26 13:10:26 +0000";
 layers = (
 {
 components = (
@@ -81940,10 +81942,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"334 575 LINE",
-"334 594 LINE",
-"-16 594 LINE",
-"-16 575 LINE"
+"335 575 LINE",
+"335 594 LINE",
+"-15 594 LINE",
+"-15 575 LINE"
 );
 }
 );
@@ -83252,7 +83254,7 @@ unicode = 04B6;
 },
 {
 glyphname = "Cheverticalstroke-cy";
-lastChange = "2017-09-20 14:57:23 +0000";
+lastChange = "2017-09-26 13:06:00 +0000";
 layers = (
 {
 components = (
@@ -86770,31 +86772,225 @@ width = 1206;
 unicode = 051C;
 },
 {
+color = 0;
 glyphname = "Semisoftsign-cy";
-lastChange = "2017-09-18 14:34:53 +0000";
+lastChange = "2017-09-26 13:14:43 +0000";
 layers = (
 {
+components = (
+{
+name = "Softsign-cy";
+}
+);
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"380 575 LINE",
+"380 594 LINE",
+"-15 594 LINE",
+"-15 575 LINE"
+);
+}
+);
+width = 690;
 },
 {
+components = (
+{
+name = "Softsign-cy";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"460 552 LINE",
+"460 630 LINE",
+"-5 634 LINE",
+"-5 552 LINE"
+);
+}
+);
+width = 738;
+},
+{
+associatedMasterId = UUID0;
+components = (
+{
+name = "Softsign-cy";
+}
+);
+layerId = "C00C170D-9E19-4561-9165-CC64B4188A8A";
+name = "{170}";
+paths = (
+{
+closed = 1;
+nodes = (
+"440 524 LINE",
+"440 624 LINE",
+"-8 624 LINE",
+"-8 524 LINE"
+);
+}
+);
+width = 725;
 }
 );
 unicode = 048C;
 },
 {
+color = 0;
 glyphname = "Ertick-cy";
-lastChange = "2017-09-18 14:34:53 +0000";
+lastChange = "2017-09-26 13:14:43 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"153 0 LINE",
+"153 249 LINE",
+"144 240 LINE",
+"370 240 LINE SMOOTH",
+"542 240 OFFCURVE",
+"645 325 OFFCURVE",
+"645 470 CURVE SMOOTH",
+"645 615 OFFCURVE",
+"542 700 OFFCURVE",
+"370 700 CURVE SMOOTH",
+"133 700 LINE",
+"133 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"153 689 LINE",
+"144 681 LINE",
+"372 681 LINE SMOOTH",
+"536 681 OFFCURVE",
+"625 604 OFFCURVE",
+"625 470 CURVE SMOOTH",
+"625 336 OFFCURVE",
+"536 259 OFFCURVE",
+"372 259 CURVE SMOOTH",
+"144 259 LINE",
+"153 251 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"373 470 LINE",
+"358 457 LINE",
+"623 113 LINE",
+"638 126 LINE"
+);
+}
+);
+width = 710;
 },
 {
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"293 0 LINE",
+"293 203 LINE",
+"238 152 LINE",
+"394 152 LINE SMOOTH",
+"589 152 OFFCURVE",
+"713 254 OFFCURVE",
+"713 426 CURVE SMOOTH",
+"713 598 OFFCURVE",
+"589 700 OFFCURVE",
+"394 700 CURVE SMOOTH",
+"57 700 LINE",
+"57 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"293 575 LINE",
+"238 518 LINE",
+"379 518 LINE SMOOTH",
+"444 518 OFFCURVE",
+"475 487 OFFCURVE",
+"475 426 CURVE SMOOTH",
+"475 365 OFFCURVE",
+"444 334 OFFCURVE",
+"379 334 CURVE SMOOTH",
+"238 334 LINE",
+"293 277 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"395 455 LINE",
+"335 404 LINE",
+"575 82 LINE",
+"638 135 LINE"
+);
+}
+);
+width = 743;
+},
+{
+associatedMasterId = UUID0;
+layerId = "C230FC70-C759-4821-BF35-0DD2CCD9D608";
+name = "{170}";
+paths = (
+{
+closed = 1;
+nodes = (
+"255 0 LINE",
+"255 215 LINE",
+"213 176 LINE",
+"388 176 LINE SMOOTH",
+"576 176 OFFCURVE",
+"695 273 OFFCURVE",
+"695 438 CURVE SMOOTH",
+"695 603 OFFCURVE",
+"576 700 OFFCURVE",
+"388 700 CURVE SMOOTH",
+"77 700 LINE",
+"77 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"255 606 LINE",
+"213 562 LINE",
+"377 562 LINE SMOOTH",
+"469 562 OFFCURVE",
+"515 518 OFFCURVE",
+"515 438 CURVE SMOOTH",
+"515 357 OFFCURVE",
+"469 314 OFFCURVE",
+"377 314 CURVE SMOOTH",
+"213 314 LINE",
+"255 270 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"399 462 LINE",
+"311 401 LINE",
+"552 72 LINE",
+"642 135 LINE"
+);
+}
+);
+width = 734;
 }
 );
 unicode = 048E;
