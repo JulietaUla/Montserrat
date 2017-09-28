@@ -33,3 +33,6 @@
 # Devanagari
 devanagari,Letter,Other,1,devaHeight,*,
 devanagari,Letter,Ligature,1,devaHeight,*,
+
+
+*,*,*,1,*,*,
