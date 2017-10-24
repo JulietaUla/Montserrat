@@ -2,7 +2,7 @@
 .appVersion = "983";
 DisplayStrings = (
 "/Chedescenderabkhasian-cy/chedescenderabkhasian-cy",
-"/Cheabkhasian-cy/Chedescenderabkhasian-cy",
+"  /Acaron/Ezh/Ezhcaron/Gstroke/Hcaron/Kcaron/Ucaron/Acaron.ss01/Gstroke.ss01/Ucaron.ss01/acaron 3/kastroke-cy/gstroke.sc/ezh.sc/dzeabkhasian-cy/ezh/ezhcaron/gstroke/hcaron/kcaron/longs/ucaron/acaron.ss01/acaron.sc/ezh.sc/ezhcaron.sc/gstroke.sc/hcaron.sc/kcaron.sc/f.sc/longs.sc/longs \012\012/ucaron.sc/acaron.sc.ss01/gstroke.sc.ss01/ucaron.sc.ss01/kastroke-cy/kelvin/leftanglebracket-math/rightanglebracket-math/hryvnia/commercialMinusSign/commaturnedmod",
 "/Cheabkhasian-cy/cheabkhasian-cy/Chedescenderabkhasian-cy/chedescenderabkhasian-cy"
 );
 classes = (
@@ -7113,9 +7113,20 @@ unicode = 1E20;
 {
 color = 8;
 glyphname = Gstroke;
-lastChange = "2017-10-23 15:08:57 +0000";
+lastChange = "2017-10-24 10:10:34 +0000";
 layers = (
 {
+background = {
+components = (
+{
+name = G;
+},
+{
+name = strokeshortcomb.case;
+transform = "{1, 0, 0, 1, 300, -123}";
+}
+);
+};
 components = (
 {
 name = G;
@@ -7135,6 +7146,73 @@ layerId = UUID0;
 width = 804;
 },
 {
+background = {
+anchors = (
+{
+name = _center;
+position = "{595, 271.88}";
+},
+{
+name = bottom;
+position = "{410, 0}";
+},
+{
+name = top;
+position = "{424, 701}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"523 -16 OFFCURVE",
+"640 15 OFFCURVE",
+"725 73 CURVE",
+"593 235 LINE",
+"536 191 OFFCURVE",
+"487 175 OFFCURVE",
+"434 175 CURVE SMOOTH",
+"333 175 OFFCURVE",
+"267 245 OFFCURVE",
+"267 350 CURVE SMOOTH",
+"267 458 OFFCURVE",
+"333 525 OFFCURVE",
+"437 525 CURVE SMOOTH",
+"499 525 OFFCURVE",
+"550 499 OFFCURVE",
+"594 448 CURVE",
+"745 581 LINE",
+"674 668 OFFCURVE",
+"563 716 OFFCURVE",
+"425 716 CURVE SMOOTH",
+"194 716 OFFCURVE",
+"29 565 OFFCURVE",
+"29 350 CURVE SMOOTH",
+"29 135 OFFCURVE",
+"194 -16 OFFCURVE",
+"420 -16 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"725 73 LINE",
+"725 369 LINE",
+"520 369 LINE",
+"520 103 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"801.8 205.24 LINE",
+"801.8 338.52 LINE",
+"388.2 338.52 LINE",
+"388.2 205.24 LINE"
+);
+}
+);
+};
 components = (
 {
 name = G;
@@ -7154,6 +7232,17 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 816;
 },
 {
+background = {
+components = (
+{
+name = G;
+},
+{
+name = strokeshortcomb.case;
+transform = "{0.95, 0, 0, 1, 306, -118}";
+}
+);
+};
 components = (
 {
 name = G;
@@ -84027,7 +84116,7 @@ rightKerningGroup = g.sc;
 {
 color = 8;
 glyphname = gstroke.sc;
-lastChange = "2017-10-23 15:08:57 +0000";
+lastChange = "2017-10-24 11:44:09 +0000";
 layers = (
 {
 components = (
@@ -84044,18 +84133,9 @@ layerId = UUID0;
 width = 668;
 },
 {
-background = {
-components = (
-{
-name = strokeshortcomb;
-transform = "{0.8154, 0, 0, 0.7001, 266, -54}";
-}
-);
-};
 components = (
 {
 name = g.sc;
-transform = "{1, 0, 0, 1, -2, 0}";
 },
 {
 name = strokeshortcomb;
@@ -84063,13 +84143,12 @@ transform = "{0.8432, 0, 0, 0.7530, 252, -92}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 696;
+width = 695;
 },
 {
 components = (
 {
 name = g.sc;
-transform = "{1, 0, 0, 1, 5, 0}";
 },
 {
 name = strokeshortcomb;
