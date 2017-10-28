@@ -6,7 +6,7 @@ DisplayStrings = (
 "aoe     /a.ss01 o/e.ss01 \012won    /w.ss01 omen\012/w.sc/o.sc/n.sc     /o.sc/i.sc/w.sc.ss01/m.sc.ss01/mdotbelow.sc.ss01  \012WON  /W.ss01 O/M.ss01/A.ss01/N.ss01  \012men   /m.sc/o.sc/n.sc \012/M.ss01 E/E.ss01/N.ss01",
 "e\U00E6/oe e/e.ss01/ae.ss01/oe.ss01/schwa.sc/schwa.sc.ss01",
 "a/eogonek a/e.ss01 a/eogonek.ss01 \012merengue",
-"MERENGUE\012MONONO\012"
+/w.sc.ss01
 );
 classes = (
 {
@@ -46,7 +46,7 @@ value = "strokes\012softsigns\012tick";
 date = "2017-10-17 18:36:54 +0000";
 designer = "Julieta Ulanovsky";
 designerURL = "http://www.zkysky.com.ar/";
-familyName = "Montserrat Cyr";
+familyName = Montserrat;
 featurePrefixes = (
 {
 automatic = 1;
@@ -115607,7 +115607,7 @@ rightKerningGroup = h.sc;
 {
 color = 3;
 glyphname = w.sc.ss01;
-lastChange = "2017-10-27 19:32:20 +0000";
+lastChange = "2017-10-28 12:52:24 +0000";
 layers = (
 {
 anchors = (
@@ -115806,6 +115806,16 @@ nodes = (
 width = 1062;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{526, 0}";
+},
+{
+name = top;
+position = "{526, 569}";
+}
+);
 background = {
 anchors = (
 {
@@ -115901,7 +115911,7 @@ nodes = (
 );
 }
 );
-width = 1051;
+width = 1019;
 },
 {
 anchors = (
