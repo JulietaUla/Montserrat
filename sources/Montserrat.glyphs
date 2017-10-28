@@ -7,7 +7,7 @@ DisplayStrings = (
 "/A-cy/Ve-cy/Ie-cy/Io-cy/Iishort-cy/Em-cy/En-cy/O-cy/Er-cy/Es-cy/Shcha-cy/Yeru-cy/a-cy/ie-cy/io-cy/iishort-cy/o-cy/er-cy/es-cy/u-cy/ha-cy/shcha-cy",
 "a/eogonek a/e.ss01 a/eogonek.ss01 \012merengue",
 /w.sc.ss01,
-"/schwadieresis-cy.ss01/yerudieresis-cy.ss01/yerudieresis-cy"
+"\U00FC/udieresis.sc.ss01.alt"
 );
 classes = (
 {
@@ -175929,46 +175929,46 @@ rightKerningGroup = e;
 },
 {
 glyphname = "io-cy.ss01";
-lastChange = "2017-10-27 14:02:00 +0000";
+lastChange = "2017-10-28 14:34:21 +0000";
 layers = (
 {
 components = (
 {
-name = "ie-cy";
+name = "ie-cy.ss01";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 1, 0}";
+transform = "{1, 0, 0, 1, -10, 0}";
 }
 );
 layerId = UUID0;
-width = 613;
+width = 588;
 },
 {
 components = (
 {
-name = "ie-cy";
+name = "ie-cy.ss01";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 23, 0}";
+transform = "{1, 0, 0, 1, 31, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 656;
+width = 653;
 },
 {
 components = (
 {
-name = "ie-cy";
+name = "ie-cy.ss01";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 10, 0}";
+transform = "{1, 0, 0, 1, 7, 0}";
 }
 );
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
-width = 634;
+width = 616;
 }
 );
 leftKerningGroup = o;
