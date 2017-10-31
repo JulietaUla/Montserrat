@@ -29,3 +29,9 @@ Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Fo
 - Updated OS/2 winMetrics to Google's latest vertical metrics recommendations (https://groups.google.com/d/msg/googlefonts-discuss/W4PHxnLk3JY/KoMyM2CfAwAJ)
 - Added 'useTypoMetrics' flag
 - Added OpenType features consistent with character-set expansion
+
+### Version 7.200
+Google commissioned Jacques Le Bailly @fonthausen to do an extensive revision of the latin character set.
+We applied a new weight distribution across the variables. 
+Now Montserrat has extended Cyrillic support (GF Cyrillic Pro).
+More detais about migration in https://github.com/JulietaUla/Montserrat/releases/tag/v7.200
