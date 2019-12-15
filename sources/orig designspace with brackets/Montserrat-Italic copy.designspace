@@ -13,8 +13,44 @@
       <map input="900" output="226"/>
     </axis>
   </axes>
+  <rules>
+    <rule name="BRACKET.120.226">
+      <conditionset>
+        <condition name="Weight" minimum="120" maximum="226"/>
+      </conditionset>
+      <sub name="naira" with="naira.BRACKET.120"/>
+    </rule>
+    <rule name="BRACKET.130.226">
+      <conditionset>
+        <condition name="Weight" minimum="130" maximum="226"/>
+      </conditionset>
+      <sub name="peso" with="peso.BRACKET.130"/>
+      <sub name="won" with="won.BRACKET.130"/>
+    </rule>
+    <rule name="BRACKET.133.226">
+      <conditionset>
+        <condition name="Weight" minimum="133" maximum="226"/>
+      </conditionset>
+      <sub name="Udieresis.alt" with="Udieresis.alt.BRACKET.133"/>
+      <sub name="Udieresis.ss01.alt" with="Udieresis.ss01.alt.BRACKET.133"/>
+      <sub name="udieresis.sc.alt" with="udieresis.sc.alt.BRACKET.133"/>
+      <sub name="udieresis.sc.ss01.alt" with="udieresis.sc.ss01.alt.BRACKET.133"/>
+    </rule>
+    <rule name="BRACKET.170.226">
+      <conditionset>
+        <condition name="Weight" minimum="170" maximum="226"/>
+      </conditionset>
+      <sub name="Q.ss01" with="Q.ss01.BRACKET.170"/>
+      <sub name="cedi" with="cedi.BRACKET.170"/>
+      <sub name="cent" with="cent.BRACKET.170"/>
+      <sub name="colonsign" with="colonsign.BRACKET.170"/>
+      <sub name="dollar" with="dollar.BRACKET.170"/>
+      <sub name="guarani" with="guarani.BRACKET.170"/>
+      <sub name="q.sc.ss01" with="q.sc.ss01.BRACKET.170"/>
+    </rule>
+  </rules>
   <sources>
-    <source filename="Montserrat-Light.ufo" name="Montserrat Light" familyname="Montserrat" stylename="Light">
+    <source filename="Montserrat-LightItalic.ufo" name="Montserrat Light Italic" familyname="Montserrat" stylename="Light Italic">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -23,19 +59,24 @@
         <dimension name="Weight" xvalue="20"/>
       </location>
     </source>
-    <source filename="Montserrat-SemiBold.ufo" name="Montserrat SemiBold" familyname="Montserrat" stylename="SemiBold">
+    <source filename="Montserrat-LightItalic.ufo" name="Montserrat Light Italic {170} Sep 19 17, 22:59" layer="{170} Sep 19 17, 22:59">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+    </source>
+    <source filename="Montserrat-SemiBoldItalic.ufo" name="Montserrat SemiBold Italic" familyname="Montserrat" stylename="SemiBold Italic">
       <location>
         <dimension name="Weight" xvalue="110"/>
       </location>
     </source>
-    <source filename="Montserrat-Bold.ufo" name="Montserrat Bold" familyname="Montserrat" stylename="Bold">
+    <source filename="Montserrat-BoldItalic.ufo" name="Montserrat Bold Italic" familyname="Montserrat" stylename="Bold Italic">
       <location>
         <dimension name="Weight" xvalue="226"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Montserrat Thin" familyname="Montserrat" stylename="Thin" filename="instance_ufos/Montserrat-Thin.ufo">
+    <instance name="Montserrat Thin Italic" familyname="Montserrat" stylename="Thin Italic" filename="instance_ufos/Montserrat-ThinItalic.ufo" stylemapfamilyname="Montserrat Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="20"/>
       </location>
@@ -70,7 +111,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat ExtraLight" familyname="Montserrat" stylename="ExtraLight" filename="instance_ufos/Montserrat-ExtraLight.ufo">
+    <instance name="Montserrat ExtraLight Italic" familyname="Montserrat" stylename="ExtraLight Italic" filename="instance_ufos/Montserrat-ExtraLightItalic.ufo" stylemapfamilyname="Montserrat ExtraLight" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="33"/>
       </location>
@@ -93,7 +134,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.14444</real>
             <key>UUID0</key>
             <real>0.85556</real>
@@ -107,7 +148,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Light" familyname="Montserrat" stylename="Light" filename="instance_ufos/Montserrat-Light.ufo">
+    <instance name="Montserrat Light Italic" familyname="Montserrat" stylename="Light Italic" filename="instance_ufos/Montserrat-LightItalic.ufo" stylemapfamilyname="Montserrat Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="50"/>
       </location>
@@ -130,7 +171,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.33333</real>
             <key>UUID0</key>
             <real>0.66667</real>
@@ -144,7 +185,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Regular" familyname="Montserrat" stylename="Regular" filename="instance_ufos/Montserrat-Regular.ufo">
+    <instance name="Montserrat Italic" familyname="Montserrat" stylename="Italic" filename="instance_ufos/Montserrat-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="71"/>
       </location>
@@ -167,7 +208,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.56667</real>
             <key>UUID0</key>
             <real>0.43333</real>
@@ -181,7 +222,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Medium" familyname="Montserrat" stylename="Medium" filename="instance_ufos/Montserrat-Medium.ufo">
+    <instance name="Montserrat Medium Italic" familyname="Montserrat" stylename="Medium Italic" filename="instance_ufos/Montserrat-MediumItalic.ufo" stylemapfamilyname="Montserrat Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="96"/>
       </location>
@@ -204,7 +245,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.84444</real>
             <key>UUID0</key>
             <real>0.15556</real>
@@ -218,7 +259,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat SemiBold" familyname="Montserrat" stylename="SemiBold" filename="instance_ufos/Montserrat-SemiBold.ufo">
+    <instance name="Montserrat SemiBold Italic" familyname="Montserrat" stylename="SemiBold Italic" filename="instance_ufos/Montserrat-SemiBoldItalic.ufo" stylemapfamilyname="Montserrat SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="125"/>
       </location>
@@ -243,7 +284,7 @@
           <dict>
             <key>5DA6E103-6A94-47F2-987D-4952DB8EA68E</key>
             <real>0.12931</real>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.87069</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
@@ -255,7 +296,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Bold" familyname="Montserrat" stylename="Bold" filename="instance_ufos/Montserrat-Bold.ufo">
+    <instance name="Montserrat Bold Italic" familyname="Montserrat" stylename="Bold Italic" filename="instance_ufos/Montserrat-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="156"/>
       </location>
@@ -280,7 +321,7 @@
           <dict>
             <key>5DA6E103-6A94-47F2-987D-4952DB8EA68E</key>
             <real>0.39655</real>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.60345</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
@@ -292,7 +333,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat ExtraBold" familyname="Montserrat" stylename="ExtraBold" filename="instance_ufos/Montserrat-ExtraBold.ufo">
+    <instance name="Montserrat ExtraBold Italic" familyname="Montserrat" stylename="ExtraBold Italic" filename="instance_ufos/Montserrat-ExtraBoldItalic.ufo" stylemapfamilyname="Montserrat ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>
@@ -317,7 +358,7 @@
           <dict>
             <key>5DA6E103-6A94-47F2-987D-4952DB8EA68E</key>
             <real>0.68966</real>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.31034</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
@@ -329,7 +370,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Black" familyname="Montserrat" stylename="Black" filename="instance_ufos/Montserrat-Black.ufo">
+    <instance name="Montserrat Black Italic" familyname="Montserrat" stylename="Black Italic" filename="instance_ufos/Montserrat-BlackItalic.ufo" stylemapfamilyname="Montserrat Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="226"/>
       </location>
@@ -364,7 +405,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates Thin" familyname="Montserrat Alternates" stylename="Thin" filename="instance_ufos/MontserratAlternates-Thin.ufo">
+    <instance name="Montserrat Alternates Thin Italic" familyname="Montserrat Alternates" stylename="Thin Italic" filename="instance_ufos/MontserratAlternates-ThinItalic.ufo" stylemapfamilyname="Montserrat Alternates Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="20"/>
       </location>
@@ -627,6 +668,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -671,6 +736,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -1096,6 +1166,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -1140,6 +1234,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -1337,7 +1436,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates ExtraLight" familyname="Montserrat Alternates" stylename="ExtraLight" filename="instance_ufos/MontserratAlternates-ExtraLight.ufo">
+    <instance name="Montserrat Alternates ExtraLight Italic" familyname="Montserrat Alternates" stylename="ExtraLight Italic" filename="instance_ufos/MontserratAlternates-ExtraLightItalic.ufo" stylemapfamilyname="Montserrat Alternates ExtraLight" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="33"/>
       </location>
@@ -1600,6 +1699,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -1644,6 +1767,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -2069,6 +2197,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -2113,6 +2265,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -2298,7 +2455,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.14444</real>
             <key>UUID0</key>
             <real>0.85556</real>
@@ -2312,7 +2469,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates Light" familyname="Montserrat Alternates" stylename="Light" filename="instance_ufos/MontserratAlternates-Light.ufo">
+    <instance name="Montserrat Alternates Light Italic" familyname="Montserrat Alternates" stylename="Light Italic" filename="instance_ufos/MontserratAlternates-LightItalic.ufo" stylemapfamilyname="Montserrat Alternates Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="50"/>
       </location>
@@ -2575,6 +2732,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -2619,6 +2800,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -3044,6 +3230,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -3088,6 +3298,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -3273,7 +3488,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.33333</real>
             <key>UUID0</key>
             <real>0.66667</real>
@@ -3287,7 +3502,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates Regular" familyname="Montserrat Alternates" stylename="Regular" filename="instance_ufos/MontserratAlternates-Regular.ufo">
+    <instance name="Montserrat Alternates Italic" familyname="Montserrat Alternates" stylename="Italic" filename="instance_ufos/MontserratAlternates-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="71"/>
       </location>
@@ -3550,6 +3765,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -3594,6 +3833,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -4019,6 +4263,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -4063,6 +4331,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -4248,7 +4521,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.56667</real>
             <key>UUID0</key>
             <real>0.43333</real>
@@ -4262,7 +4535,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates Medium" familyname="Montserrat Alternates" stylename="Medium" filename="instance_ufos/MontserratAlternates-Medium.ufo">
+    <instance name="Montserrat Alternates Medium Italic" familyname="Montserrat Alternates" stylename="Medium Italic" filename="instance_ufos/MontserratAlternates-MediumItalic.ufo" stylemapfamilyname="Montserrat Alternates Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="96"/>
       </location>
@@ -4525,6 +4798,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -4569,6 +4866,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -4994,6 +5296,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -5038,6 +5364,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -5223,7 +5554,7 @@
           <true/>
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.84444</real>
             <key>UUID0</key>
             <real>0.15556</real>
@@ -5237,7 +5568,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates SemiBold" familyname="Montserrat Alternates" stylename="SemiBold" filename="instance_ufos/MontserratAlternates-SemiBold.ufo">
+    <instance name="Montserrat Alternates SemiBold Italic" familyname="Montserrat Alternates" stylename="SemiBold Italic" filename="instance_ufos/MontserratAlternates-SemiBoldItalic.ufo" stylemapfamilyname="Montserrat Alternates SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="125"/>
       </location>
@@ -5500,6 +5831,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -5544,6 +5899,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -5969,6 +6329,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -6013,6 +6397,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -6200,7 +6589,7 @@
           <dict>
             <key>5DA6E103-6A94-47F2-987D-4952DB8EA68E</key>
             <real>0.12931</real>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.87069</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
@@ -6212,7 +6601,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates Bold" familyname="Montserrat Alternates" stylename="Bold" filename="instance_ufos/MontserratAlternates-Bold.ufo">
+    <instance name="Montserrat Alternates Bold Italic" familyname="Montserrat Alternates" stylename="Bold Italic" filename="instance_ufos/MontserratAlternates-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="156"/>
       </location>
@@ -6475,6 +6864,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -6519,6 +6932,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -6944,6 +7362,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -6988,6 +7430,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -7175,7 +7622,7 @@
           <dict>
             <key>5DA6E103-6A94-47F2-987D-4952DB8EA68E</key>
             <real>0.39655</real>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.60345</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
@@ -7187,7 +7634,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates ExtraBold" familyname="Montserrat Alternates" stylename="ExtraBold" filename="instance_ufos/MontserratAlternates-ExtraBold.ufo">
+    <instance name="Montserrat Alternates ExtraBold Italic" familyname="Montserrat Alternates" stylename="ExtraBold Italic" filename="instance_ufos/MontserratAlternates-ExtraBoldItalic.ufo" stylemapfamilyname="Montserrat Alternates ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>
@@ -7450,6 +7897,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -7494,6 +7965,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -7919,6 +8395,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -7963,6 +8463,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -8150,7 +8655,7 @@
           <dict>
             <key>5DA6E103-6A94-47F2-987D-4952DB8EA68E</key>
             <real>0.68966</real>
-            <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+            <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
             <real>0.31034</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
@@ -8162,7 +8667,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Montserrat Alternates Black" familyname="Montserrat Alternates" stylename="Black" filename="instance_ufos/MontserratAlternates-Black.ufo">
+    <instance name="Montserrat Alternates Black Italic" familyname="Montserrat Alternates" stylename="Black Italic" filename="instance_ufos/MontserratAlternates-BlackItalic.ufo" stylemapfamilyname="Montserrat Alternates Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="226"/>
       </location>
@@ -8425,6 +8930,30 @@
                 <string>wcircumflex.ss01=wcircumflex</string>
                 <string>wacute.ss01=wacute</string>
                 <string>w.ss01=w</string>
+                <string>utildeacute.ss01=utildeacute</string>
+                <string>utilde.ss01=utilde</string>
+                <string>uring.ss01=uring</string>
+                <string>uogonek.ss01=uogonek</string>
+                <string>umacrondieresis.ss01=umacrondieresis</string>
+                <string>umacron.ss01=umacron</string>
+                <string>uinvertedbreve.ss01=uinvertedbreve</string>
+                <string>uhungarumlaut.ss01=uhungarumlaut</string>
+                <string>uhorntilde.ss01=uhorntilde</string>
+                <string>uhornhookabove.ss01=uhornhookabove</string>
+                <string>uhorngrave.ss01=uhorngrave</string>
+                <string>uhorndotbelow.ss01=uhorndotbelow</string>
+                <string>uhornacute.ss01=uhornacute</string>
+                <string>uhorn.ss01=uhorn</string>
+                <string>uhookabove.ss01=uhookabove</string>
+                <string>ugrave.ss01=ugrave</string>
+                <string>udotbelow.ss01=udotbelow</string>
+                <string>udieresis.ss01=udieresis</string>
+                <string>udblgrave.ss01=udblgrave</string>
+                <string>ucircumflex.ss01=ucircumflex</string>
+                <string>ucaron.ss01=ucaron</string>
+                <string>ubreve.ss01=ubreve</string>
+                <string>uacute.ss01=uacute</string>
+                <string>u.ss01=u</string>
                 <string>tlinebelow.ss01=tlinebelow</string>
                 <string>tdotbelow.ss01=tdotbelow</string>
                 <string>tdieresis.ss01=tdieresis</string>
@@ -8469,6 +8998,11 @@
                 <string>eacute.ss01=eacute</string>
                 <string>e.ss01=e</string>
                 <string>dzcaron.ss01=dzcaron</string>
+                <string>dlinebelow.ss01=dlinebelow</string>
+                <string>ddotbelow.ss01=ddotbelow</string>
+                <string>dcroat.ss01=dcroat</string>
+                <string>dcaron.ss01=dcaron</string>
+                <string>d.ss01=d</string>
                 <string>aeacute.ss01=aeacute</string>
                 <string>ae.ss01=ae</string>
                 <string>atilde.ss01=atilde</string>
@@ -8894,6 +9428,30 @@
                 <string>wcircumflex.ss01</string>
                 <string>wacute.ss01</string>
                 <string>w.ss01</string>
+                <string>utildeacute.ss01</string>
+                <string>utilde.ss01</string>
+                <string>uring.ss01</string>
+                <string>uogonek.ss01</string>
+                <string>umacrondieresis.ss01</string>
+                <string>umacron.ss01</string>
+                <string>uinvertedbreve.ss01</string>
+                <string>uhungarumlaut.ss01</string>
+                <string>uhorntilde.ss01</string>
+                <string>uhornhookabove.ss01</string>
+                <string>uhorngrave.ss01</string>
+                <string>uhorndotbelow.ss01</string>
+                <string>uhornacute.ss01</string>
+                <string>uhorn.ss01</string>
+                <string>uhookabove.ss01</string>
+                <string>ugrave.ss01</string>
+                <string>udotbelow.ss01</string>
+                <string>udieresis.ss01</string>
+                <string>udblgrave.ss01</string>
+                <string>ucircumflex.ss01</string>
+                <string>ucaron.ss01</string>
+                <string>ubreve.ss01</string>
+                <string>uacute.ss01</string>
+                <string>u.ss01</string>
                 <string>tlinebelow.ss01</string>
                 <string>tdotbelow.ss01</string>
                 <string>tdieresis.ss01</string>
@@ -8938,6 +9496,11 @@
                 <string>eacute.ss01</string>
                 <string>e.ss01</string>
                 <string>dzcaron.ss01</string>
+                <string>dlinebelow.ss01</string>
+                <string>ddotbelow.ss01</string>
+                <string>dcroat.ss01</string>
+                <string>dcaron.ss01</string>
+                <string>d.ss01</string>
                 <string>aeacute.ss01</string>
                 <string>ae.ss01</string>
                 <string>atilde.ss01</string>
@@ -9166,7 +9729,7 @@
           <key>tH</key>
           <string>165</string>
         </dict>
-        <key>708134FE-A11E-43C9-84F0-594DA15B6BD1</key>
+        <key>C4221BDF-4AE8-4E40-821A-B2476087DE1A</key>
         <dict>
           <key>HH</key>
           <string>99</string>
