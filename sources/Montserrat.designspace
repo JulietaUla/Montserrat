@@ -13,6 +13,47 @@
       <map input="900" output="226"/>
     </axis>
   </axes>
+  <rules>
+    <rule name="BRACKET.120.226">
+      <conditionset>
+        <condition name="Weight" minimum="120" maximum="226"/>
+      </conditionset>
+      <sub name="naira" with="naira.BRACKET.120"/>
+    </rule>
+    <rule name="BRACKET.130.226">
+      <conditionset>
+        <condition name="Weight" minimum="130" maximum="226"/>
+      </conditionset>
+      <sub name="peso" with="peso.BRACKET.130"/>
+      <sub name="won" with="won.BRACKET.130"/>
+    </rule>
+    <rule name="BRACKET.133.226">
+      <conditionset>
+        <condition name="Weight" minimum="133" maximum="226"/>
+      </conditionset>
+      <sub name="Udieresis.alt" with="Udieresis.alt.BRACKET.133"/>
+      <sub name="Udieresis.ss01.alt" with="Udieresis.ss01.alt.BRACKET.133"/>
+      <sub name="udieresis.sc.alt" with="udieresis.sc.alt.BRACKET.133"/>
+      <sub name="udieresis.sc.ss01.alt" with="udieresis.sc.ss01.alt.BRACKET.133"/>
+    </rule>
+    <rule name="BRACKET.170.226">
+      <conditionset>
+        <condition name="Weight" minimum="170" maximum="226"/>
+      </conditionset>
+      <sub name="Q.ss01" with="Q.ss01.BRACKET.170"/>
+      <sub name="q.sc.ss01" with="q.sc.ss01.BRACKET.170"/>
+    </rule>
+    <rule name="BRACKET.179.226">
+      <conditionset>
+        <condition name="Weight" minimum="179" maximum="226"/>
+      </conditionset>
+      <sub name="cedi" with="cedi.BRACKET.179"/>
+      <sub name="cent" with="cent.BRACKET.179"/>
+      <sub name="colonsign" with="colonsign.BRACKET.179"/>
+      <sub name="dollar" with="dollar.BRACKET.179"/>
+      <sub name="guarani" with="guarani.BRACKET.179"/>
+    </rule>
+  </rules>
   <sources>
     <source filename="Montserrat-Light.ufo" name="Montserrat Light" familyname="Montserrat" stylename="Light">
       <lib copy="1"/>
@@ -21,6 +62,11 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="20"/>
+      </location>
+    </source>
+    <source filename="Montserrat-Light.ufo" name="Montserrat Light {170} Sep 19 17, 22:59" layer="{170} Sep 19 17, 22:59">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
       </location>
     </source>
     <source filename="Montserrat-SemiBold.ufo" name="Montserrat SemiBold" familyname="Montserrat" stylename="SemiBold">
