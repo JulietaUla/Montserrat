@@ -12,8 +12,510 @@
       <map input="800" output="190"/>
       <map input="900" output="226"/>
     </axis>
+    <axis tag="ALTS" name="Alternates" minimum="0" maximum="1" default="0">
+      <map input="0" output="0"/>
+      <map input="1" output="2"/>
+    </axis>
   </axes>
   <rules>
+    <rule name="BRACKET.Alternates">
+      <conditionset>
+          <condition name="Alternates" minimum="1" maximum="2"/>
+      </conditionset>
+      <sub name="A-cy" with="A-cy.ss01"/>
+      <sub name="A" with="A.ss01"/>
+      <sub name="AE" with="AE.ss01"/>
+      <sub name="AEacute" with="AEacute.ss01"/>
+      <sub name="Aacute" with="Aacute.ss01"/>
+      <sub name="Abreve-cy" with="Abreve-cy.ss01"/>
+      <sub name="Abreve" with="Abreve.ss01"/>
+      <sub name="Abreveacute" with="Abreveacute.ss01"/>
+      <sub name="Abrevedotbelow" with="Abrevedotbelow.ss01"/>
+      <sub name="Abrevegrave" with="Abrevegrave.ss01"/>
+      <sub name="Abrevehookabove" with="Abrevehookabove.ss01"/>
+      <sub name="Abrevetilde" with="Abrevetilde.ss01"/>
+      <sub name="Acaron" with="Acaron.ss01"/>
+      <sub name="Acircumflex" with="Acircumflex.ss01"/>
+      <sub name="Acircumflexacute" with="Acircumflexacute.ss01"/>
+      <sub name="Acircumflexdotbelow" with="Acircumflexdotbelow.ss01"/>
+      <sub name="Acircumflexgrave" with="Acircumflexgrave.ss01"/>
+      <sub name="Acircumflexhookabove" with="Acircumflexhookabove.ss01"/>
+      <sub name="Acircumflextilde" with="Acircumflextilde.ss01"/>
+      <sub name="Adblgrave" with="Adblgrave.ss01"/>
+      <sub name="Adieresis-cy" with="Adieresis-cy.ss01"/>
+      <sub name="Adieresis" with="Adieresis.ss01"/>
+      <sub name="Adotbelow" with="Adotbelow.ss01"/>
+      <sub name="Agrave" with="Agrave.ss01"/>
+      <sub name="Ahookabove" with="Ahookabove.ss01"/>
+      <sub name="Aie-cy" with="Aie-cy.ss01"/>
+      <sub name="Ainvertedbreve" with="Ainvertedbreve.ss01"/>
+      <sub name="Amacron" with="Amacron.ss01"/>
+      <sub name="Aogonek" with="Aogonek.ss01"/>
+      <sub name="Aring" with="Aring.ss01"/>
+      <sub name="Aringacute" with="Aringacute.ss01"/>
+      <sub name="Atilde" with="Atilde.ss01"/>
+      <sub name="DZcaron" with="DZcaron.ss01"/>
+      <sub name="De-cy" with="De-cy.ss01"/>
+      <sub name="Dzcaron" with="Dzcaron.ss01"/>
+      <sub name="E" with="E.ss01"/>
+      <sub name="Eacute" with="Eacute.ss01"/>
+      <sub name="Ebreve" with="Ebreve.ss01"/>
+      <sub name="Ecaron" with="Ecaron.ss01"/>
+      <sub name="Ecedillabreve" with="Ecedillabreve.ss01"/>
+      <sub name="Ecircumflex" with="Ecircumflex.ss01"/>
+      <sub name="Ecircumflexacute" with="Ecircumflexacute.ss01"/>
+      <sub name="Ecircumflexdotbelow" with="Ecircumflexdotbelow.ss01"/>
+      <sub name="Ecircumflexgrave" with="Ecircumflexgrave.ss01"/>
+      <sub name="Ecircumflexhookabove" with="Ecircumflexhookabove.ss01"/>
+      <sub name="Ecircumflextilde" with="Ecircumflextilde.ss01"/>
+      <sub name="Edblgrave" with="Edblgrave.ss01"/>
+      <sub name="Edieresis" with="Edieresis.ss01"/>
+      <sub name="Edotaccent" with="Edotaccent.ss01"/>
+      <sub name="Edotbelow" with="Edotbelow.ss01"/>
+      <sub name="Ef-cy" with="Ef-cy.ss01"/>
+      <sub name="Egrave" with="Egrave.ss01"/>
+      <sub name="Ehookabove" with="Ehookabove.ss01"/>
+      <sub name="Einvertedbreve" with="Einvertedbreve.ss01"/>
+      <sub name="El-cy" with="El-cy.ss01"/>
+      <sub name="Emacron" with="Emacron.ss01"/>
+      <sub name="Emacronacute" with="Emacronacute.ss01"/>
+      <sub name="Emacrongrave" with="Emacrongrave.ss01"/>
+      <sub name="Eng" with="Eng.ss01"/>
+      <sub name="Eogonek" with="Eogonek.ss01"/>
+      <sub name="Er-cy" with="Er-cy.ss01"/>
+      <sub name="Etilde" with="Etilde.ss01"/>
+      <sub name="F" with="F.ss01"/>
+      <sub name="G" with="G.ss01"/>
+      <sub name="Gbreve" with="Gbreve.ss01"/>
+      <sub name="Gcaron" with="Gcaron.ss01"/>
+      <sub name="Gcircumflex" with="Gcircumflex.ss01"/>
+      <sub name="Gcommaaccent" with="Gcommaaccent.ss01"/>
+      <sub name="Gdotaccent" with="Gdotaccent.ss01"/>
+      <sub name="Gmacron" with="Gmacron.ss01"/>
+      <sub name="Gstroke" with="Gstroke.ss01"/>
+      <sub name="Hardsign-cy" with="Hardsign-cy.ss01"/>
+      <sub name="I" with="I.ss01"/>
+      <sub name="IJ" with="IJ.ss01"/>
+      <sub name="Iacute" with="Iacute.ss01"/>
+      <sub name="Iacute_J.loclNLD" with="Iacute_J.loclNLD.ss01"/>
+      <sub name="Ibreve" with="Ibreve.ss01"/>
+      <sub name="Icircumflex" with="Icircumflex.ss01"/>
+      <sub name="Idblgrave" with="Idblgrave.ss01"/>
+      <sub name="Idieresis-cy" with="Idieresis-cy.ss01"/>
+      <sub name="Idieresis" with="Idieresis.ss01"/>
+      <sub name="Idieresisacute" with="Idieresisacute.ss01"/>
+      <sub name="Idotaccent" with="Idotaccent.ss01"/>
+      <sub name="Idotbelow" with="Idotbelow.ss01"/>
+      <sub name="Ie-cy" with="Ie-cy.ss01"/>
+      <sub name="Iebreve-cy" with="Iebreve-cy.ss01"/>
+      <sub name="Iegrave-cy" with="Iegrave-cy.ss01"/>
+      <sub name="Igrave" with="Igrave.ss01"/>
+      <sub name="Ihookabove" with="Ihookabove.ss01"/>
+      <sub name="Ii-cy" with="Ii-cy.ss01"/>
+      <sub name="Iigrave-cy" with="Iigrave-cy.ss01"/>
+      <sub name="Iinvertedbreve" with="Iinvertedbreve.ss01"/>
+      <sub name="Iishort-cy" with="Iishort-cy.ss01"/>
+      <sub name="Iishorttail-cy" with="Iishorttail-cy.ss01"/>
+      <sub name="Imacron-cy" with="Imacron-cy.ss01"/>
+      <sub name="Imacron" with="Imacron.ss01"/>
+      <sub name="Io-cy" with="Io-cy.ss01"/>
+      <sub name="Iogonek" with="Iogonek.ss01"/>
+      <sub name="Itilde" with="Itilde.ss01"/>
+      <sub name="J" with="J.ss01"/>
+      <sub name="Jacute" with="Jacute.ss01"/>
+      <sub name="Jcircumflex" with="Jcircumflex.ss01"/>
+      <sub name="Je-cy" with="Je-cy.ss01"/>
+      <sub name="LJ" with="LJ.ss01"/>
+      <sub name="Lje-cy" with="Lje-cy.ss01"/>
+      <sub name="M" with="M.ss01"/>
+      <sub name="Mdotbelow" with="Mdotbelow.ss01"/>
+      <sub name="N" with="N.ss01"/>
+      <sub name="NJ" with="NJ.ss01"/>
+      <sub name="Nacute" with="Nacute.ss01"/>
+      <sub name="Ncaron" with="Ncaron.ss01"/>
+      <sub name="Ncommaaccent" with="Ncommaaccent.ss01"/>
+      <sub name="Ndotaccent" with="Ndotaccent.ss01"/>
+      <sub name="Ndotbelow" with="Ndotbelow.ss01"/>
+      <sub name="Nj" with="Nj.ss01"/>
+      <sub name="Nje-cy" with="Nje-cy.ss01"/>
+      <sub name="Nlinebelow" with="Nlinebelow.ss01"/>
+      <sub name="Ntilde" with="Ntilde.ss01"/>
+      <sub name="Q" with="Q.ss01"/>
+      <sub name="Qa-cy" with="Qa-cy.ss01"/>
+      <sub name="Schwa-cy" with="Schwa-cy.ss01"/>
+      <sub name="Schwa" with="Schwa.ss01"/>
+      <sub name="Schwadieresis-cy" with="Schwadieresis-cy.ss01"/>
+      <sub name="Semisoftsign-cy" with="Semisoftsign-cy.ss01"/>
+      <sub name="Softsign-cy" with="Softsign-cy.ss01"/>
+      <sub name="T" with="T.ss01"/>
+      <sub name="Tbar" with="Tbar.ss01"/>
+      <sub name="Tcaron" with="Tcaron.ss01"/>
+      <sub name="Tcedilla" with="Tcedilla.ss01"/>
+      <sub name="Tcommaaccent" with="Tcommaaccent.ss01"/>
+      <sub name="Tdieresis" with="Tdieresis.ss01"/>
+      <sub name="Tdotbelow" with="Tdotbelow.ss01"/>
+      <sub name="Te-cy" with="Te-cy.ss01"/>
+      <sub name="Tedescender-cy" with="Tedescender-cy.ss01"/>
+      <sub name="Tlinebelow" with="Tlinebelow.ss01"/>
+      <sub name="U-cy" with="U-cy.ss01"/>
+      <sub name="U" with="U.ss01"/>
+      <sub name="Uacute" with="Uacute.ss01"/>
+      <sub name="Ubreve" with="Ubreve.ss01"/>
+      <sub name="Ucaron" with="Ucaron.ss01"/>
+      <sub name="Ucircumflex" with="Ucircumflex.ss01"/>
+      <sub name="Udblgrave" with="Udblgrave.ss01"/>
+      <sub name="Udieresis-cy" with="Udieresis-cy.ss01"/>
+      <sub name="Udieresis.alt" with="Udieresis.ss01.alt"/>
+      <sub name="Udieresis" with="Udieresis.ss01"/>
+      <sub name="Udotbelow" with="Udotbelow.ss01"/>
+      <sub name="Ugrave" with="Ugrave.ss01"/>
+      <sub name="Uhookabove" with="Uhookabove.ss01"/>
+      <sub name="Uhorn" with="Uhorn.ss01"/>
+      <sub name="Uhornacute" with="Uhornacute.ss01"/>
+      <sub name="Uhorndotbelow" with="Uhorndotbelow.ss01"/>
+      <sub name="Uhorngrave" with="Uhorngrave.ss01"/>
+      <sub name="Uhornhookabove" with="Uhornhookabove.ss01"/>
+      <sub name="Uhorntilde" with="Uhorntilde.ss01"/>
+      <sub name="Uhungarumlaut-cy" with="Uhungarumlaut-cy.ss01"/>
+      <sub name="Uhungarumlaut" with="Uhungarumlaut.ss01"/>
+      <sub name="Uinvertedbreve" with="Uinvertedbreve.ss01"/>
+      <sub name="Umacron-cy" with="Umacron-cy.ss01"/>
+      <sub name="Umacron" with="Umacron.ss01"/>
+      <sub name="Umacrondieresis" with="Umacrondieresis.ss01"/>
+      <sub name="Uogonek" with="Uogonek.ss01"/>
+      <sub name="Uring" with="Uring.ss01"/>
+      <sub name="Ushort-cy" with="Ushort-cy.ss01"/>
+      <sub name="Utilde" with="Utilde.ss01"/>
+      <sub name="Utildeacute" with="Utildeacute.ss01"/>
+      <sub name="W" with="W.ss01"/>
+      <sub name="Wacute" with="Wacute.ss01"/>
+      <sub name="Wcircumflex" with="Wcircumflex.ss01"/>
+      <sub name="Wdieresis" with="Wdieresis.ss01"/>
+      <sub name="Wgrave" with="Wgrave.ss01"/>
+      <sub name="Y" with="Y.ss01"/>
+      <sub name="Yacute" with="Yacute.ss01"/>
+      <sub name="Yat-cy" with="Yat-cy.ss01"/>
+      <sub name="Ycircumflex" with="Ycircumflex.ss01"/>
+      <sub name="Ydieresis" with="Ydieresis.ss01"/>
+      <sub name="Ydotaccent" with="Ydotaccent.ss01"/>
+      <sub name="Ydotbelow" with="Ydotbelow.ss01"/>
+      <sub name="Yeru-cy" with="Yeru-cy.ss01"/>
+      <sub name="Yerudieresis-cy" with="Yerudieresis-cy.ss01"/>
+      <sub name="Ygrave" with="Ygrave.ss01"/>
+      <sub name="Yhookabove" with="Yhookabove.ss01"/>
+      <sub name="Ymacron" with="Ymacron.ss01"/>
+      <sub name="Ytilde" with="Ytilde.ss01"/>
+      <sub name="Z" with="Z.ss01"/>
+      <sub name="Zacute" with="Zacute.ss01"/>
+      <sub name="Zcaron" with="Zcaron.ss01"/>
+      <sub name="Zdotaccent" with="Zdotaccent.ss01"/>
+      <sub name="Zdotbelow" with="Zdotbelow.ss01"/>
+      <sub name="a-cy" with="a-cy.ss01"/>
+      <sub name="a.sc" with="a.sc.ss01"/>
+      <sub name="a" with="a.ss01"/>
+      <sub name="aacute.sc" with="aacute.sc.ss01"/>
+      <sub name="aacute" with="aacute.ss01"/>
+      <sub name="abreve-cy" with="abreve-cy.ss01"/>
+      <sub name="abreve.sc" with="abreve.sc.ss01"/>
+      <sub name="abreve" with="abreve.ss01"/>
+      <sub name="abreveacute.sc" with="abreveacute.sc.ss01"/>
+      <sub name="abreveacute" with="abreveacute.ss01"/>
+      <sub name="abrevedotbelow.sc" with="abrevedotbelow.sc.ss01"/>
+      <sub name="abrevedotbelow" with="abrevedotbelow.ss01"/>
+      <sub name="abrevegrave.sc" with="abrevegrave.sc.ss01"/>
+      <sub name="abrevegrave" with="abrevegrave.ss01"/>
+      <sub name="abrevehookabove.sc" with="abrevehookabove.sc.ss01"/>
+      <sub name="abrevehookabove" with="abrevehookabove.ss01"/>
+      <sub name="abrevetilde.sc" with="abrevetilde.sc.ss01"/>
+      <sub name="abrevetilde" with="abrevetilde.ss01"/>
+      <sub name="acaron.sc" with="acaron.sc.ss01"/>
+      <sub name="acaron" with="acaron.ss01"/>
+      <sub name="acircumflex.sc" with="acircumflex.sc.ss01"/>
+      <sub name="acircumflex" with="acircumflex.ss01"/>
+      <sub name="acircumflexacute.sc" with="acircumflexacute.sc.ss01"/>
+      <sub name="acircumflexacute" with="acircumflexacute.ss01"/>
+      <sub name="acircumflexdotbelow.sc" with="acircumflexdotbelow.sc.ss01"/>
+      <sub name="acircumflexdotbelow" with="acircumflexdotbelow.ss01"/>
+      <sub name="acircumflexgrave.sc" with="acircumflexgrave.sc.ss01"/>
+      <sub name="acircumflexgrave" with="acircumflexgrave.ss01"/>
+      <sub name="acircumflexhookabove.sc" with="acircumflexhookabove.sc.ss01"/>
+      <sub name="acircumflexhookabove" with="acircumflexhookabove.ss01"/>
+      <sub name="acircumflextilde.sc" with="acircumflextilde.sc.ss01"/>
+      <sub name="acircumflextilde" with="acircumflextilde.ss01"/>
+      <sub name="adblgrave.sc" with="adblgrave.sc.ss01"/>
+      <sub name="adblgrave" with="adblgrave.ss01"/>
+      <sub name="adieresis-cy" with="adieresis-cy.ss01"/>
+      <sub name="adieresis.sc" with="adieresis.sc.ss01"/>
+      <sub name="adieresis" with="adieresis.ss01"/>
+      <sub name="adotbelow.sc" with="adotbelow.sc.ss01"/>
+      <sub name="adotbelow" with="adotbelow.ss01"/>
+      <sub name="ae.sc" with="ae.sc.ss01"/>
+      <sub name="ae" with="ae.ss01"/>
+      <sub name="aeacute.sc" with="aeacute.sc.ss01"/>
+      <sub name="aeacute" with="aeacute.ss01"/>
+      <sub name="agrave.sc" with="agrave.sc.ss01"/>
+      <sub name="agrave" with="agrave.ss01"/>
+      <sub name="ahookabove.sc" with="ahookabove.sc.ss01"/>
+      <sub name="ahookabove" with="ahookabove.ss01"/>
+      <sub name="aie-cy" with="aie-cy.ss01"/>
+      <sub name="ainvertedbreve.sc" with="ainvertedbreve.sc.ss01"/>
+      <sub name="ainvertedbreve" with="ainvertedbreve.ss01"/>
+      <sub name="amacron.sc" with="amacron.sc.ss01"/>
+      <sub name="amacron" with="amacron.ss01"/>
+      <sub name="aogonek.sc" with="aogonek.sc.ss01"/>
+      <sub name="aogonek" with="aogonek.ss01"/>
+      <sub name="aring.sc" with="aring.sc.ss01"/>
+      <sub name="aring" with="aring.ss01"/>
+      <sub name="aringacute.sc" with="aringacute.sc.ss01"/>
+      <sub name="aringacute" with="aringacute.ss01"/>
+      <sub name="atilde.sc" with="atilde.sc.ss01"/>
+      <sub name="atilde" with="atilde.ss01"/>
+      <sub name="d" with="d.ss01"/>
+      <sub name="dcaron" with="dcaron.ss01"/>
+      <sub name="dcroat" with="dcroat.ss01"/>
+      <sub name="ddotbelow" with="ddotbelow.ss01"/>
+      <sub name="de-cy" with="de-cy.ss01"/>
+      <sub name="dlinebelow" with="dlinebelow.ss01"/>
+      <sub name="dzcaron.sc" with="dzcaron.sc.ss01"/>
+      <sub name="dzcaron" with="dzcaron.ss01"/>
+      <sub name="e.sc" with="e.sc.ss01"/>
+      <sub name="e" with="e.ss01"/>
+      <sub name="eacute.sc" with="eacute.sc.ss01"/>
+      <sub name="eacute" with="eacute.ss01"/>
+      <sub name="ebreve.sc" with="ebreve.sc.ss01"/>
+      <sub name="ebreve" with="ebreve.ss01"/>
+      <sub name="ecaron.sc" with="ecaron.sc.ss01"/>
+      <sub name="ecaron" with="ecaron.ss01"/>
+      <sub name="ecedillabreve.sc" with="ecedillabreve.sc.ss01"/>
+      <sub name="ecedillabreve" with="ecedillabreve.ss01"/>
+      <sub name="ecircumflex.sc" with="ecircumflex.sc.ss01"/>
+      <sub name="ecircumflex" with="ecircumflex.ss01"/>
+      <sub name="ecircumflexacute.sc" with="ecircumflexacute.sc.ss01"/>
+      <sub name="ecircumflexacute" with="ecircumflexacute.ss01"/>
+      <sub name="ecircumflexdotbelow.sc" with="ecircumflexdotbelow.sc.ss01"/>
+      <sub name="ecircumflexdotbelow" with="ecircumflexdotbelow.ss01"/>
+      <sub name="ecircumflexgrave.sc" with="ecircumflexgrave.sc.ss01"/>
+      <sub name="ecircumflexgrave" with="ecircumflexgrave.ss01"/>
+      <sub name="ecircumflexhookabove.sc" with="ecircumflexhookabove.sc.ss01"/>
+      <sub name="ecircumflexhookabove" with="ecircumflexhookabove.ss01"/>
+      <sub name="ecircumflextilde.sc" with="ecircumflextilde.sc.ss01"/>
+      <sub name="ecircumflextilde" with="ecircumflextilde.ss01"/>
+      <sub name="edblgrave.sc" with="edblgrave.sc.ss01"/>
+      <sub name="edblgrave" with="edblgrave.ss01"/>
+      <sub name="edieresis.sc" with="edieresis.sc.ss01"/>
+      <sub name="edieresis" with="edieresis.ss01"/>
+      <sub name="edotaccent.sc" with="edotaccent.sc.ss01"/>
+      <sub name="edotaccent" with="edotaccent.ss01"/>
+      <sub name="edotbelow.sc" with="edotbelow.sc.ss01"/>
+      <sub name="edotbelow" with="edotbelow.ss01"/>
+      <sub name="egrave.sc" with="egrave.sc.ss01"/>
+      <sub name="egrave" with="egrave.ss01"/>
+      <sub name="ehookabove.sc" with="ehookabove.sc.ss01"/>
+      <sub name="ehookabove" with="ehookabove.ss01"/>
+      <sub name="einvertedbreve.sc" with="einvertedbreve.sc.ss01"/>
+      <sub name="einvertedbreve" with="einvertedbreve.ss01"/>
+      <sub name="emacron.sc" with="emacron.sc.ss01"/>
+      <sub name="emacron" with="emacron.ss01"/>
+      <sub name="emacronacute.sc" with="emacronacute.sc.ss01"/>
+      <sub name="emacronacute" with="emacronacute.ss01"/>
+      <sub name="emacrongrave.sc" with="emacrongrave.sc.ss01"/>
+      <sub name="emacrongrave" with="emacrongrave.ss01"/>
+      <sub name="eng.sc" with="eng.sc.ss01"/>
+      <sub name="eogonek.sc" with="eogonek.sc.ss01"/>
+      <sub name="eogonek" with="eogonek.ss01"/>
+      <sub name="er-cy" with="er-cy.ss01"/>
+      <sub name="etilde.sc" with="etilde.sc.ss01"/>
+      <sub name="etilde" with="etilde.ss01"/>
+      <sub name="f.sc" with="f.sc.ss01"/>
+      <sub name="f" with="f.ss01"/>
+      <sub name="fi" with="fi.ss01"/>
+      <sub name="fl" with="fl.ss01"/>
+      <sub name="g.sc" with="g.sc.ss01"/>
+      <sub name="gbreve.sc" with="gbreve.sc.ss01"/>
+      <sub name="gcaron.sc" with="gcaron.sc.ss01"/>
+      <sub name="gcircumflex.sc" with="gcircumflex.sc.ss01"/>
+      <sub name="gcommaaccent.sc" with="gcommaaccent.sc.ss01"/>
+      <sub name="gdotaccent.sc" with="gdotaccent.sc.ss01"/>
+      <sub name="gmacron.sc" with="gmacron.sc.ss01"/>
+      <sub name="gstroke.sc" with="gstroke.sc.ss01"/>
+      <sub name="hardsign-cy" with="hardsign-cy.ss01"/>
+      <sub name="i.sc" with="i.sc.ss01"/>
+      <sub name="iacute.sc" with="iacute.sc.ss01"/>
+      <sub name="iacute_j.loclNLD.sc" with="iacute_j.loclNLD.sc.ss01"/>
+      <sub name="ibreve.sc" with="ibreve.sc.ss01"/>
+      <sub name="icircumflex.sc" with="icircumflex.sc.ss01"/>
+      <sub name="idblgrave.sc" with="idblgrave.sc.ss01"/>
+      <sub name="idieresis-cy" with="idieresis-cy.ss01"/>
+      <sub name="idieresis.sc" with="idieresis.sc.ss01"/>
+      <sub name="idieresisacute.sc" with="idieresisacute.sc.ss01"/>
+      <sub name="idotbelow.sc" with="idotbelow.sc.ss01"/>
+      <sub name="idotless.sc" with="idotless.sc.ss01"/>
+      <sub name="ie-cy" with="ie-cy.ss01"/>
+      <sub name="iebreve-cy" with="iebreve-cy.ss01"/>
+      <sub name="iegrave-cy" with="iegrave-cy.ss01"/>
+      <sub name="igrave.sc" with="igrave.sc.ss01"/>
+      <sub name="ihookabove.sc" with="ihookabove.sc.ss01"/>
+      <sub name="ii-cy" with="ii-cy.ss01"/>
+      <sub name="iigrave-cy" with="iigrave-cy.ss01"/>
+      <sub name="iinvertedbreve.sc" with="iinvertedbreve.sc.ss01"/>
+      <sub name="iishort-cy" with="iishort-cy.ss01"/>
+      <sub name="iishorttail-cy" with="iishorttail-cy.ss01"/>
+      <sub name="ij.sc" with="ij.sc.ss01"/>
+      <sub name="imacron-cy" with="imacron-cy.ss01"/>
+      <sub name="imacron.sc" with="imacron.sc.ss01"/>
+      <sub name="io-cy" with="io-cy.ss01"/>
+      <sub name="iogonek.sc" with="iogonek.sc.ss01"/>
+      <sub name="itilde.sc" with="itilde.sc.ss01"/>
+      <sub name="j.sc" with="j.sc.ss01"/>
+      <sub name="jacute.sc" with="jacute.sc.ss01"/>
+      <sub name="jcircumflex.sc" with="jcircumflex.sc.ss01"/>
+      <sub name="l" with="l.ss01"/>
+      <sub name="lacute" with="lacute.ss01"/>
+      <sub name="lcaron" with="lcaron.ss01"/>
+      <sub name="lcommaaccent" with="lcommaaccent.ss01"/>
+      <sub name="ldot" with="ldot.ss01"/>
+      <sub name="ldotbelow" with="ldotbelow.ss01"/>
+      <sub name="lj.sc" with="lj.sc.ss01"/>
+      <sub name="lj" with="lj.ss01"/>
+      <sub name="lje-cy" with="lje-cy.ss01"/>
+      <sub name="llinebelow" with="llinebelow.ss01"/>
+      <sub name="lslash" with="lslash.ss01"/>
+      <sub name="m.sc" with="m.sc.ss01"/>
+      <sub name="mdotbelow.sc" with="mdotbelow.sc.ss01"/>
+      <sub name="n.sc" with="n.sc.ss01"/>
+      <sub name="nacute.sc" with="nacute.sc.ss01"/>
+      <sub name="ncaron.sc" with="ncaron.sc.ss01"/>
+      <sub name="ncommaaccent.sc" with="ncommaaccent.sc.ss01"/>
+      <sub name="ndotaccent.sc" with="ndotaccent.sc.ss01"/>
+      <sub name="ndotbelow.sc" with="ndotbelow.sc.ss01"/>
+      <sub name="nj.sc" with="nj.sc.ss01"/>
+      <sub name="nje-cy" with="nje-cy.ss01"/>
+      <sub name="nlinebelow.sc" with="nlinebelow.sc.ss01"/>
+      <sub name="ntilde.sc" with="ntilde.sc.ss01"/>
+      <sub name="numero" with="numero.ss01"/>
+      <sub name="oe" with="oe.ss01"/>
+      <sub name="q.sc" with="q.sc.ss01"/>
+      <sub name="schwa-cy" with="schwa-cy.ss01"/>
+      <sub name="schwa.sc" with="schwa.sc.ss01"/>
+      <sub name="schwa" with="schwa.ss01"/>
+      <sub name="schwadieresis-cy" with="schwadieresis-cy.ss01"/>
+      <sub name="semisoftsign-cy" with="semisoftsign-cy.ss01"/>
+      <sub name="softsign-cy" with="softsign-cy.ss01"/>
+      <sub name="t.sc" with="t.sc.ss01"/>
+      <sub name="t" with="t.ss01"/>
+      <sub name="tbar.sc" with="tbar.sc.ss01"/>
+      <sub name="tbar" with="tbar.ss01"/>
+      <sub name="tcaron.sc" with="tcaron.sc.ss01"/>
+      <sub name="tcaron" with="tcaron.ss01"/>
+      <sub name="tcedilla.sc" with="tcedilla.sc.ss01"/>
+      <sub name="tcedilla" with="tcedilla.ss01"/>
+      <sub name="tcommaaccent.sc" with="tcommaaccent.sc.ss01"/>
+      <sub name="tcommaaccent" with="tcommaaccent.ss01"/>
+      <sub name="tdieresis.sc" with="tdieresis.sc.ss01"/>
+      <sub name="tdieresis" with="tdieresis.ss01"/>
+      <sub name="tdotbelow.sc" with="tdotbelow.sc.ss01"/>
+      <sub name="tdotbelow" with="tdotbelow.ss01"/>
+      <sub name="te-cy" with="te-cy.ss01"/>
+      <sub name="tlinebelow.sc" with="tlinebelow.sc.ss01"/>
+      <sub name="tlinebelow" with="tlinebelow.ss01"/>
+      <sub name="u-cy" with="u-cy.ss01"/>
+      <sub name="u.sc" with="u.sc.ss01"/>
+      <sub name="u" with="u.ss01"/>
+      <sub name="uacute.sc" with="uacute.sc.ss01"/>
+      <sub name="uacute" with="uacute.ss01"/>
+      <sub name="ubreve.sc" with="ubreve.sc.ss01"/>
+      <sub name="ubreve" with="ubreve.ss01"/>
+      <sub name="ucaron.sc" with="ucaron.sc.ss01"/>
+      <sub name="ucaron" with="ucaron.ss01"/>
+      <sub name="ucircumflex.sc" with="ucircumflex.sc.ss01"/>
+      <sub name="ucircumflex" with="ucircumflex.ss01"/>
+      <sub name="udblgrave.sc" with="udblgrave.sc.ss01"/>
+      <sub name="udblgrave" with="udblgrave.ss01"/>
+      <sub name="udieresis-cy" with="udieresis-cy.ss01"/>
+      <sub name="udieresis.sc.alt" with="udieresis.sc.ss01.alt"/>
+      <sub name="udieresis.sc" with="udieresis.sc.ss01"/>
+      <sub name="udieresis" with="udieresis.ss01"/>
+      <sub name="udotbelow.sc" with="udotbelow.sc.ss01"/>
+      <sub name="udotbelow" with="udotbelow.ss01"/>
+      <sub name="ugrave.sc" with="ugrave.sc.ss01"/>
+      <sub name="ugrave" with="ugrave.ss01"/>
+      <sub name="uhookabove.sc" with="uhookabove.sc.ss01"/>
+      <sub name="uhookabove" with="uhookabove.ss01"/>
+      <sub name="uhorn.sc" with="uhorn.sc.ss01"/>
+      <sub name="uhorn" with="uhorn.ss01"/>
+      <sub name="uhornacute.sc" with="uhornacute.sc.ss01"/>
+      <sub name="uhornacute" with="uhornacute.ss01"/>
+      <sub name="uhorndotbelow.sc" with="uhorndotbelow.sc.ss01"/>
+      <sub name="uhorndotbelow" with="uhorndotbelow.ss01"/>
+      <sub name="uhorngrave.sc" with="uhorngrave.sc.ss01"/>
+      <sub name="uhorngrave" with="uhorngrave.ss01"/>
+      <sub name="uhornhookabove.sc" with="uhornhookabove.sc.ss01"/>
+      <sub name="uhornhookabove" with="uhornhookabove.ss01"/>
+      <sub name="uhorntilde.sc" with="uhorntilde.sc.ss01"/>
+      <sub name="uhorntilde" with="uhorntilde.ss01"/>
+      <sub name="uhungarumlaut-cy" with="uhungarumlaut-cy.ss01"/>
+      <sub name="uhungarumlaut.sc" with="uhungarumlaut.sc.ss01"/>
+      <sub name="uhungarumlaut" with="uhungarumlaut.ss01"/>
+      <sub name="uinvertedbreve.sc" with="uinvertedbreve.sc.ss01"/>
+      <sub name="uinvertedbreve" with="uinvertedbreve.ss01"/>
+      <sub name="umacron-cy" with="umacron-cy.ss01"/>
+      <sub name="umacron.sc" with="umacron.sc.ss01"/>
+      <sub name="umacron" with="umacron.ss01"/>
+      <sub name="umacrondieresis.sc" with="umacrondieresis.sc.ss01"/>
+      <sub name="umacrondieresis" with="umacrondieresis.ss01"/>
+      <sub name="uogonek.sc" with="uogonek.sc.ss01"/>
+      <sub name="uogonek" with="uogonek.ss01"/>
+      <sub name="uring.sc" with="uring.sc.ss01"/>
+      <sub name="uring" with="uring.ss01"/>
+      <sub name="ushort-cy" with="ushort-cy.ss01"/>
+      <sub name="utilde.sc" with="utilde.sc.ss01"/>
+      <sub name="utilde" with="utilde.ss01"/>
+      <sub name="utildeacute.sc" with="utildeacute.sc.ss01"/>
+      <sub name="utildeacute" with="utildeacute.ss01"/>
+      <sub name="w.sc" with="w.sc.ss01"/>
+      <sub name="w" with="w.ss01"/>
+      <sub name="wacute.sc" with="wacute.sc.ss01"/>
+      <sub name="wacute" with="wacute.ss01"/>
+      <sub name="wcircumflex.sc" with="wcircumflex.sc.ss01"/>
+      <sub name="wcircumflex" with="wcircumflex.ss01"/>
+      <sub name="wdieresis.sc" with="wdieresis.sc.ss01"/>
+      <sub name="wdieresis" with="wdieresis.ss01"/>
+      <sub name="wgrave.sc" with="wgrave.sc.ss01"/>
+      <sub name="wgrave" with="wgrave.ss01"/>
+      <sub name="y.sc" with="y.sc.ss01"/>
+      <sub name="y" with="y.ss01"/>
+      <sub name="yacute.sc" with="yacute.sc.ss01"/>
+      <sub name="yacute" with="yacute.ss01"/>
+      <sub name="yat-cy" with="yat-cy.ss01"/>
+      <sub name="ycircumflex.sc" with="ycircumflex.sc.ss01"/>
+      <sub name="ycircumflex" with="ycircumflex.ss01"/>
+      <sub name="ydieresis.sc" with="ydieresis.sc.ss01"/>
+      <sub name="ydieresis" with="ydieresis.ss01"/>
+      <sub name="ydotaccent.sc" with="ydotaccent.sc.ss01"/>
+      <sub name="ydotaccent" with="ydotaccent.ss01"/>
+      <sub name="ydotbelow.sc" with="ydotbelow.sc.ss01"/>
+      <sub name="ydotbelow" with="ydotbelow.ss01"/>
+      <sub name="yeru-cy" with="yeru-cy.ss01"/>
+      <sub name="yerudieresis-cy" with="yerudieresis-cy.ss01"/>
+      <sub name="ygrave.sc" with="ygrave.sc.ss01"/>
+      <sub name="ygrave" with="ygrave.ss01"/>
+      <sub name="yhookabove.sc" with="yhookabove.sc.ss01"/>
+      <sub name="yhookabove" with="yhookabove.ss01"/>
+      <sub name="ymacron.sc" with="ymacron.sc.ss01"/>
+      <sub name="ymacron" with="ymacron.ss01"/>
+      <sub name="ytilde.sc" with="ytilde.sc.ss01"/>
+      <sub name="ytilde" with="ytilde.ss01"/>
+      <sub name="z.sc" with="z.sc.ss01"/>
+      <sub name="z" with="z.ss01"/>
+      <sub name="zacute.sc" with="zacute.sc.ss01"/>
+      <sub name="zacute" with="zacute.ss01"/>
+      <sub name="zcaron.sc" with="zcaron.sc.ss01"/>
+      <sub name="zcaron" with="zcaron.ss01"/>
+      <sub name="zdotaccent.sc" with="zdotaccent.sc.ss01"/>
+      <sub name="zdotaccent" with="zdotaccent.ss01"/>
+      <sub name="zdotbelow.sc" with="zdotbelow.sc.ss01"/>
+      <sub name="zdotbelow" with="zdotbelow.ss01"/>
+    </rule>
     <rule name="BRACKET.120.226">
       <conditionset>
         <condition name="Weight" minimum="120" maximum="226"/>
@@ -57,16 +559,37 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="20"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
     </source>
     <source filename="Montserrat-SemiBoldItalic.ufo" name="Montserrat SemiBold Italic" familyname="Montserrat" stylename="SemiBold Italic">
       <location>
         <dimension name="Weight" xvalue="110"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
     </source>
     <source filename="Montserrat-BlackItalic.ufo" name="Montserrat Black Italic" familyname="Montserrat" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="226"/>
+        <dimension name="Alternates" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Montserrat-ThinItalic.ufo" name="Montserrat Alternates Thin Italic" familyname="Montserrat Alternates" stylename="Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Alternates" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="Montserrat-SemiBoldItalic.ufo" name="Montserrat SemiBold Italic" familyname="Montserrat Alternates" stylename="SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Alternates" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="Montserrat-BlackItalic.ufo" name="Montserrat Black Italic" familyname="Montserrat Alternates" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="226"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
     </source>
   </sources>
@@ -74,6 +597,7 @@
     <instance name="Montserrat Thin Italic" familyname="Montserrat" stylename="Thin Italic" filename="instance_ufos/Montserrat-ThinItalic.ufo" stylemapfamilyname="Montserrat Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="20"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -109,6 +633,7 @@
     <instance name="Montserrat ExtraLight Italic" familyname="Montserrat" stylename="ExtraLight Italic" filename="instance_ufos/Montserrat-ExtraLightItalic.ufo" stylemapfamilyname="Montserrat ExtraLight" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="33"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -146,6 +671,7 @@
     <instance name="Montserrat Light Italic" familyname="Montserrat" stylename="Light Italic" filename="instance_ufos/Montserrat-LightItalic.ufo" stylemapfamilyname="Montserrat Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="50"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -183,6 +709,7 @@
     <instance name="Montserrat Italic" familyname="Montserrat" stylename="Italic" filename="instance_ufos/Montserrat-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="71"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -220,6 +747,7 @@
     <instance name="Montserrat Medium Italic" familyname="Montserrat" stylename="Medium Italic" filename="instance_ufos/Montserrat-MediumItalic.ufo" stylemapfamilyname="Montserrat Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="96"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -257,6 +785,7 @@
     <instance name="Montserrat SemiBold Italic" familyname="Montserrat" stylename="SemiBold Italic" filename="instance_ufos/Montserrat-SemiBoldItalic.ufo" stylemapfamilyname="Montserrat SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="125"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -294,6 +823,7 @@
     <instance name="Montserrat Bold Italic" familyname="Montserrat" stylename="Bold Italic" filename="instance_ufos/Montserrat-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="156"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -331,6 +861,7 @@
     <instance name="Montserrat ExtraBold Italic" familyname="Montserrat" stylename="ExtraBold Italic" filename="instance_ufos/Montserrat-ExtraBoldItalic.ufo" stylemapfamilyname="Montserrat ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="190"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -368,6 +899,7 @@
     <instance name="Montserrat Black Italic" familyname="Montserrat" stylename="Black Italic" filename="instance_ufos/Montserrat-BlackItalic.ufo" stylemapfamilyname="Montserrat Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="226"/>
+        <dimension name="Alternates" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -403,6 +935,7 @@
     <instance name="Montserrat Alternates Thin Italic" familyname="Montserrat Alternates" stylename="Thin Italic" filename="instance_ufos/MontserratAlternates-ThinItalic.ufo" stylemapfamilyname="Montserrat Alternates Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="20"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -1434,6 +1967,7 @@
     <instance name="Montserrat Alternates ExtraLight Italic" familyname="Montserrat Alternates" stylename="ExtraLight Italic" filename="instance_ufos/MontserratAlternates-ExtraLightItalic.ufo" stylemapfamilyname="Montserrat Alternates ExtraLight" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="33"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -2467,6 +3001,7 @@
     <instance name="Montserrat Alternates Light Italic" familyname="Montserrat Alternates" stylename="Light Italic" filename="instance_ufos/MontserratAlternates-LightItalic.ufo" stylemapfamilyname="Montserrat Alternates Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="50"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -3500,6 +4035,7 @@
     <instance name="Montserrat Alternates Italic" familyname="Montserrat Alternates" stylename="Italic" filename="instance_ufos/MontserratAlternates-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="71"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -4533,6 +5069,7 @@
     <instance name="Montserrat Alternates Medium Italic" familyname="Montserrat Alternates" stylename="Medium Italic" filename="instance_ufos/MontserratAlternates-MediumItalic.ufo" stylemapfamilyname="Montserrat Alternates Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="96"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -5566,6 +6103,7 @@
     <instance name="Montserrat Alternates SemiBold Italic" familyname="Montserrat Alternates" stylename="SemiBold Italic" filename="instance_ufos/MontserratAlternates-SemiBoldItalic.ufo" stylemapfamilyname="Montserrat Alternates SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="125"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -6599,6 +7137,7 @@
     <instance name="Montserrat Alternates Bold Italic" familyname="Montserrat Alternates" stylename="Bold Italic" filename="instance_ufos/MontserratAlternates-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="156"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -7632,6 +8171,7 @@
     <instance name="Montserrat Alternates ExtraBold Italic" familyname="Montserrat Alternates" stylename="ExtraBold Italic" filename="instance_ufos/MontserratAlternates-ExtraBoldItalic.ufo" stylemapfamilyname="Montserrat Alternates ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="190"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -8665,6 +9205,7 @@
     <instance name="Montserrat Alternates Black Italic" familyname="Montserrat Alternates" stylename="Black Italic" filename="instance_ufos/MontserratAlternates-BlackItalic.ufo" stylemapfamilyname="Montserrat Alternates Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="226"/>
+        <dimension name="Alternates" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
