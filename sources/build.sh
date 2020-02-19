@@ -14,8 +14,8 @@ echo $(pwd)
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
-fontmake -m Montserrat.designspace -o variable --output-path ../fonts/vf/Montserrat[wght].ttf
-fontmake -m Montserrat-Italic.designspace -o variable --output-path ../fonts/vf/Montserrat-Italic[wght].ttf
+fontmake -m Montserrat.designspace -o variable --output-path ../fonts/vf/Montserrat[wght][ALTS].ttf
+fontmake -m Montserrat-Italic.designspace -o variable --output-path ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos/
 
@@ -26,6 +26,13 @@ for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
 done
+
+echo "Instanciate single axis VFs"
+fonttools varLib.instancer -o ../fonts/vf/Montserrat[wght].ttf ../fonts/vf/Montserrat[wght][ALTS].ttf "ALTS=drop"
+fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/Montserrat[wght][ALTS].ttf "ALTS=1"
+fonttools varLib.instancer -o ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf "ALTS=drop"
+fonttools varLib.instancer -o ../fonts/vf/Montserrat-ItalicAlternates[wght].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf "ALTS=1"
+rm ../fonts/vf/Montserrat[wght][ALTS].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf
 
 vfs=$(ls ../fonts/vf/*\[wght\].ttf)
 
