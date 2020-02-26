@@ -7,10 +7,10 @@ DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 cd $DIR
 echo $(pwd)
 
-#echo "Generating Static fonts"
-#mkdir -p ../fonts
-#fontmake -m Montserrat.designspace -i -o ttf --output-dir ../fonts/ttf/
-#fontmake -m Montserrat.designspace -i -o otf --output-dir ../fonts/otf/
+echo "Generating Static fonts"
+mkdir -p ../fonts/ttf ../fonts/otf
+fontmake -m Montserrat.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake -m Montserrat.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
