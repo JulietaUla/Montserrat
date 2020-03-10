@@ -31,7 +31,7 @@ echo "Instanciate single axis VFs"
 fonttools varLib.instancer -o ../fonts/vf/Montserrat[wght].ttf ../fonts/vf/Montserrat[wght][ALTS].ttf "ALTS=drop"
 fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/Montserrat[wght][ALTS].ttf "ALTS=1"
 fonttools varLib.instancer -o ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf "ALTS=drop"
-fonttools varLib.instancer -o ../fonts/vf/Montserrat-ItalicAlternates[wght].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf "ALTS=1"
+fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf "ALTS=1"
 rm ../fonts/vf/Montserrat[wght][ALTS].ttf ../fonts/vf/Montserrat-Italic[wght][ALTS].ttf
 
 vfs=$(ls ../fonts/vf/*\[wght\].ttf)
