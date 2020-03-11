@@ -32,8 +32,8 @@ done
 echo "Instanciate single axis VFs"
 fonttools varLib.instancer -o ../fonts/vf/Montserrat[wght].ttf ../fonts/vf/Montserrat[ALTS,wght].ttf "ALTS=drop"
 fonttools varLib.instancer -o ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[ALTS,wght].ttf "ALTS=drop"
-fonttools varLib.instancer -o ../fonts/vf/Montserrat-Alternates[wght].ttf ../fonts/vf/Montserrat[ALTS,wght].ttf "ALTS=1"
-fonttools varLib.instancer -o ../fonts/vf/Montserrat-AlternatesItalic[wght].ttf ../fonts/vf/Montserrat-Italic[ALTS,wght].ttf "ALTS=1"
+fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates-[wght].ttf ../fonts/vf/Montserrat[ALTS,wght].ttf "ALTS=1"
+fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[ALTS,wght].ttf "ALTS=1"
 rm ../fonts/vf/Montserrat[ALTS,wght].ttf ../fonts/vf/Montserrat-Italic[ALTS,wght].ttf
 
 vfs=$(ls ../fonts/vf/*\[wght\].ttf)
@@ -54,8 +54,8 @@ echo "Fixing VF Meta"
 # done
 statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/Montserrat[wght].ttf ../fonts/vf/Montserrat[wght].ttf;
 statmake --stylespace Montserrat-Italic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght].ttf;
-statmake --stylespace Montserrat-Alternates.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/Montserrat-Alternates[wght].ttf ../fonts/vf/Montserrat-Alternates[wght].ttf;
-statmake --stylespace Montserrat-AlternatesItalic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/Montserrat-AlternatesItalic[wght].ttf ../fonts/vf/Montserrat-AlternatesItalic[wght].ttf;
+statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/MontserratAlternates-[wght].ttf ../fonts/vf/MontserratAlternates-[wght].ttf;
+statmake --stylespace Montserrat-Italic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttf;
 
 echo "Dropping MVAR"
 for vf in $vfs
