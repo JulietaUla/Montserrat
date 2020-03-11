@@ -60,12 +60,7 @@ statmake --stylespace Montserrat-AlternatesItalic.stylespace --designspace Monts
 echo "Dropping MVAR"
 for vf in $vfs
 do
-	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/vf/$rtrip.ttx;
-	rm $vf;
-	ttx $new_file
-	rm $new_file
+	gftools fix-unwanted-tables -t MVAR $vf;
 done
 
 echo "Fixing Hinting"
