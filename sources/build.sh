@@ -9,10 +9,10 @@ echo $(pwd)
 
 echo "Generating Static fonts"
 mkdir -p ../fonts/ttf ../fonts/otf
-fontmake -m Montserrat.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake -m Montserrat-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake -m Montserrat.designspace -i -o otf --output-dir ../fonts/otf/
-fontmake -m Montserrat-Italic.designspace -i -o otf --output-dir ../fonts/otf/
+# fontmake -m Montserrat.designspace -i -o ttf --output-dir ../fonts/ttf/
+# fontmake -m Montserrat-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
+# fontmake -m Montserrat.designspace -i -o otf --output-dir ../fonts/otf/
+# fontmake -m Montserrat-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
@@ -35,6 +35,15 @@ fonttools varLib.instancer -o ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/v
 fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/Montserrat[ALTS,wght].ttf "ALTS=1"
 fonttools varLib.instancer -o ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[ALTS,wght].ttf "ALTS=1"
 rm ../fonts/vf/Montserrat[ALTS,wght].ttf ../fonts/vf/Montserrat-Italic[ALTS,wght].ttf
+ttx -t name ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttf
+sed -i".bak" "s/Montserrat$/Montserrat Alternates/;s/Montserrat Thin/Montserrat Alternates Thin/;s/Montserrat-Thin/MontserratAlternates-Thin/" ../fonts/vf/MontserratAlternates[wght].ttx;
+sed -i".bak" "s/Montserrat$/Montserrat Alternates/;s/Montserrat Thin/Montserrat Alternates Thin/;s/Montserrat-Thin/MontserratAlternates-Thin/" ../fonts/vf/MontserratAlternates-Italic[wght].ttx;
+ttx -m ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/MontserratAlternates[wght].ttx
+ttx -m ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttx
+mv ../fonts/vf/MontserratAlternates[wght]#1.ttf ../fonts/vf/MontserratAlternates[wght].ttf
+mv ../fonts/vf/MontserratAlternates-Italic[wght]#1.ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttf
+rm ../fonts/vf/*.ttx
+rm ../fonts/vf/*.bak
 
 vfs=$(ls ../fonts/vf/*\[wght\].ttf)
 
@@ -54,7 +63,7 @@ echo "Fixing VF Meta"
 # done
 statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/Montserrat[wght].ttf ../fonts/vf/Montserrat[wght].ttf;
 statmake --stylespace Montserrat-Italic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght].ttf;
-statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/MontserratAlternates-[wght].ttf ../fonts/vf/MontserratAlternates-[wght].ttf;
+statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/MontserratAlternates[wght].ttf;
 statmake --stylespace Montserrat-Italic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttf;
 
 echo "Dropping MVAR"
