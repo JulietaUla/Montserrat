@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
     <axis tag="ALTS" name="Alternates" minimum="0" maximum="1" default="0"/>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
@@ -14,7 +14,7 @@
       <map input="900" output="226"/>
     </axis>
   </axes>
-  <rules>
+  <rules processing="last">
     <rule name="BRACKET.Alternates">
       <conditionset>
           <condition name="Alternates" minimum="1" maximum="1"/>
