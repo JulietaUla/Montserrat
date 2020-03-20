@@ -62,9 +62,9 @@ echo "Fixing VF Meta"
 # 	mv "$vf.fix" $vf;
 # done
 statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/Montserrat[wght].ttf ../fonts/vf/Montserrat[wght].ttf;
-statmake --stylespace Montserrat-Italic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght].ttf;
-statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/MontserratAlternates[wght].ttf;
-statmake --stylespace Montserrat-Italic.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttf;
+statmake --stylespace Montserrat.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/vf/Montserrat-Italic[wght].ttf ../fonts/vf/Montserrat-Italic[wght].ttf;
+statmake --stylespace Montserrat.stylespace --designspace MontserratAlternates.designspace --output-path ../fonts/vf/MontserratAlternates[wght].ttf ../fonts/vf/MontserratAlternates[wght].ttf;
+statmake --stylespace Montserrat.stylespace --designspace MontserratAlternates-Italic.designspace --output-path ../fonts/vf/MontserratAlternates-Italic[wght].ttf ../fonts/vf/MontserratAlternates-Italic[wght].ttf;
 
 echo "Dropping MVAR"
 for vf in $vfs
