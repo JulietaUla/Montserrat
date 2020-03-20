@@ -63,10 +63,10 @@ echo "Fixing VF Meta"
 # do
 # 	mv "$vf.fix" $vf;
 # done
-statmake --stylespace Montserrat.stylespace --designspace Montserrat.designspace --output-path ../fonts/variable/Montserrat[wght].ttf ../fonts/variable/Montserrat[wght].ttf;
-statmake --stylespace Montserrat.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/variable/Montserrat-Italic[wght].ttf ../fonts/variable/Montserrat-Italic[wght].ttf;
-statmake --stylespace Montserrat.stylespace --designspace MontserratAlternates.designspace --output-path ../fonts/variable/MontserratAlternates[wght].ttf ../fonts/variable/MontserratAlternates[wght].ttf;
-statmake --stylespace Montserrat.stylespace --designspace MontserratAlternates-Italic.designspace --output-path ../fonts/variable/MontserratAlternates-Italic[wght].ttf ../fonts/variable/MontserratAlternates-Italic[wght].ttf;
+statmake --stylespace stat.stylespace --designspace Montserrat.designspace --output-path ../fonts/variable/Montserrat[wght].ttf ../fonts/variable/Montserrat[wght].ttf;
+statmake --stylespace stat.stylespace --designspace Montserrat-Italic.designspace --output-path ../fonts/variable/Montserrat-Italic[wght].ttf ../fonts/variable/Montserrat-Italic[wght].ttf;
+statmake --stylespace stat.stylespace --designspace MontserratAlternates.designspace --output-path ../fonts/variable/MontserratAlternates[wght].ttf ../fonts/variable/MontserratAlternates[wght].ttf;
+statmake --stylespace stat.stylespace --designspace MontserratAlternates-Italic.designspace --output-path ../fonts/variable/MontserratAlternates-Italic[wght].ttf ../fonts/variable/MontserratAlternates-Italic[wght].ttf;
 
 echo "Dropping MVAR"
 for vf in $vfs
