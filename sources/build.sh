@@ -13,8 +13,8 @@ fontmake -m Montserrat.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake -m Montserrat-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake -m MontserratAlternates.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake -m MontserratAlternates-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
-# fontmake -m Montserrat.designspace -i -o otf --output-dir ../fonts/otf/
-# fontmake -m Montserrat-Italic.designspace -i -o otf --output-dir ../fonts/otf/
+fontmake -m Montserrat.designspace -i -o otf --output-dir ../fonts/otf/
+fontmake -m Montserrat-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
