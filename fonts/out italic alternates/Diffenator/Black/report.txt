@@ -1,0 +1,309 @@
+**Diffenator**
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+****names new: 11****
+
+id                  string              
+(256, 1, 0, 0)      Alternates          
+(256, 3, 1, 1033... Alternates          
+(276, 3, 1, 1033... Thin                
+(277, 3, 1, 1033... ExtraLight          
+(278, 3, 1, 1033... Light               
+(279, 3, 1, 1033... Regular             
+(280, 3, 1, 1033... Medium              
+(281, 3, 1, 1033... SemiBold            
+(282, 3, 1, 1033... Bold                
+(283, 3, 1, 1033... ExtraBold           
+(284, 3, 1, 1033... Black               
+
+****names modified: 6****
+
+id                  string_a            string_b            
+(1, 3, 1, 1033)     Montserrat Alter... Montserrat Alter... 
+(3, 3, 1, 1033)     7.200;ULA ;Monts... 8.000;ULA;Montse... 
+(4, 3, 1, 1033)     Montserrat Alter... Montserrat Alter... 
+(5, 3, 1, 1033)     Version 7.200       Version 8.000       
+(6, 3, 1, 1033)     MontserratAltern... MontserratAltern... 
+(17, 3, 1, 1033)... Black               Thin                
+
+****attribs modified: 12****
+
+table               attrib              value_a             value_b             
+OS/2                ulUnicodeRange1     536871439           2684355327          
+OS/2                ulUnicodeRange2     3                   1073750139          
+OS/2                panose              0-0-10-0-0-0-0-0... 0-0-0-0-0-0-0-0-... 
+OS/2                yStrikeoutPositi... 328                 310                 
+OS/2                sxHeight            547                 517                 
+head                xMax                1723                1529                
+head                modified            2017/10/31 15:00... 2020/03/25 16:31... 
+head                yMax                1106                1021                
+head                xMin                -931                -170                
+head                fontRevision        7.19999694824218... 8.0                 
+head                yMin                -270                -259                
+post                underlinePositio... -75                 -100                
+
+****glyphs new: 632****
+
+glyph               area                string              
+A.ss01              -407977             A                   
+AE.ss01             -616375             Æ                   
+AEacute.ss01        -645575             Ǽ                   
+Aacute.ss01         -437177             Á                   
+Abreve.ss01         -457573             Ă                   
+Acircumflex.ss01... -455797             Â                   
+Adieresis.ss01      -458993             Ä                   
+Agrave.ss01         -437177             À                   
+Amacron.ss01        -457537             Ā                   
+Aogonek.ss01        -455347             Ą                   
+Aring.ss01          -457988             Å                   
+Aringacute.ss01     -478249             Ǻ                   
+Atilde.ss01         -464764             Ã                   
+E.ss01              -330084             E                   
+Eacute.ss01         -359284             É                   
+Ebreve.ss01         -379680             Ĕ                   
+Ecaron.ss01         -377904             Ě                   
+Ecircumflex.ss01... -377904             Ê                   
+Edieresis.ss01      -381100             Ë                   
+Edotaccent.ss01     -371742             Ė                   
+
+****glyphs missing: 175****
+
+glyph               area                string              
+aacute.sc           -322950             Á                   
+abreve.sc           -343321             Ă                   
+acircumflex.sc      -338482             Â                   
+adieresis.sc        -344759             Ä                   
+ae.sc               -428721             Æ                   
+aeacute.sc          -457921             Ǽ                   
+agrave.sc           -322950             À                   
+amacron.sc          -343310             Ā                   
+aogonek.sc          -341118             Ą                   
+aring.sc            -343660             Å                   
+aringacute.sc       -359089             Ǻ                   
+atilde.sc           -350480             Ã                   
+e.sc                -253439             E                   
+eacute.sc           -282639             É                   
+ebreve.sc           -303010             Ĕ                   
+ecaron.sc           -298171             Ě                   
+ecircumflex.sc      -298171             Ê                   
+edieresis.sc        -304448             Ë                   
+edotaccent.sc       -295097             Ė                   
+egrave.sc           -282639             È                   
+
+****glyphs modified: 1125****
+
+glyph               diff                string              
+verticalbarcy.ca... 1.0                                     
+uni02BC             0.8714              ʼ                   
+M                   0.7865              M                   
+uni03030308         0.7677              ̃̈                  
+uni03060303         0.75                ̆̃                  
+Y                   0.7447              Y                   
+uni1EC8             0.7396              Ỉ                   
+Iacute              0.7348              Í                   
+Iogonek             0.7319              Į                   
+uni1EF8             0.7242              Ỹ                   
+Ydieresis           0.72                Ÿ                   
+Ycircumflex         0.72                Ŷ                   
+uni0232             0.7193              Ȳ                   
+uni0442             0.7143              т                   
+Yacute              0.7095              Ý                   
+uni04F2             0.7089              Ӳ                   
+uni0423             0.7083              У                   
+uni03030308.case... 0.7071              ̃̈                  
+Ygrave              0.6989              Ỳ                   
+Idotaccent          0.6957              İ                   
+
+****kerns new: 76042****
+
+left                right               value               string              
+uni0490             periodcentered.s... -210                Ґ                   
+uni04A4             periodcentered.s... -210                Ҥ                   
+uni0413             periodcentered.s... -210                Г                   
+uni0403             periodcentered.s... -210                Ѓ                   
+uni04F6             periodcentered.s... -210                Ӷ                   
+lcaron              uni043A.loclBGR     180                 ľк                  
+lcaron              uni049F             180                 ľҟ                  
+lcaron              lcaron              180                 ľľ                  
+lcaron              uni0527             180                 ľԧ                  
+lcaron              uni1E37             180                 ľḷ                  
+lcaron              k                   180                 ľk                  
+lcaron              hcircumflex         180                 ľĥ                  
+lcaron              uni04CF             180                 ľӏ                  
+lcaron              uni021F             180                 ľȟ                  
+lcaron              germandbls          180                 ľß                  
+lcaron              h                   180                 ľh                  
+lcaron              uni044E.loclBGR     180                 ľю                  
+lcaron              lslash              180                 ľł                  
+lcaron              b                   180                 ľb                  
+lcaron              i                   180                 ľi                  
+
+****kerns missing: 22916****
+
+left                right               value               string              
+dcaron              f                   180                 ďf                  
+uni04F6             uni1EA3             -130                Ӷả                  
+uni04A4             uni04D1             -130                Ҥӑ                  
+uni0403             uni1EAB             -130                Ѓẫ                  
+uni0403             uni1EB5             -130                Ѓẵ                  
+uni0490             uni0430             -130                Ґа                  
+uni0490             uni1EAB             -130                Ґẫ                  
+uni0403             uni04D1             -130                Ѓӑ                  
+uni0490             acircumflex         -130                Ґâ                  
+uni0490             uni1EAF             -130                Ґắ                  
+uni0403             uni1EA5             -130                Ѓấ                  
+uni04F6             atilde              -130                Ӷã                  
+uni0413             uni0430             -130                Га                  
+uni04F6             adieresis           -130                Ӷä                  
+uni04A4             uni1EB3             -130                Ҥẳ                  
+uni0490             uni1EA7             -130                Ґầ                  
+uni04F6             uni1EAB             -130                Ӷẫ                  
+uni0403             uni04D3             -130                Ѓӓ                  
+uni0413             uni1EB1             -130                Гằ                  
+uni0413             acircumflex         -130                Гâ                  
+
+****kerns modified: 18684****
+
+left                right               diff                string              
+dcaron              i                   160.0               ďi                  
+degree              a.sc                -90.0               °A                  
+a.sc                ordfeminine         -90.0               Aª                  
+a.sc                degree              -90.0               A°                  
+ordfeminine         a.sc                -90.0               ªA                  
+a.sc                ordmasculine        -90.0               Aº                  
+a.sc                asterisk            -90.0               A*                  
+asterisk            a.sc                -90.0               *A                  
+uni2116             a.sc                -90.0               №A                  
+ordmasculine        a.sc                -90.0               ºA                  
+Ydieresis           uni04BD             -80.0               Ÿҽ                  
+uni1EF6             uni04BF             -80.0               Ỷҿ                  
+Ygrave              uni04BD             -80.0               Ỳҽ                  
+uni1EB7             question            -80.0               ặ?                  
+uni1E8E             uni04BD             -80.0               Ẏҽ                  
+uni1EA1             question            -80.0               ạ?                  
+slash.case          i                   80.0                /i                  
+uni1EAD             question            -80.0               ậ?                  
+adieresis           question            -80.0               ä?                  
+four                Ygrave              -80.0               4Ỳ                  
+
+****metrics modified: 278****
+
+glyph               diff_adv            
+uni0336.sc          1000.0              
+uni0338.sc          648.0               
+uni0335.sc          600.0               
+uni0442             453.0               
+verticalbarcy       399.0               
+uni1E42             258.0               
+M                   258.0               
+Icircumflex         166.0               
+Idieresis           166.0               
+uni1EC8             166.0               
+Ibreve              166.0               
+uni1ECA             166.0               
+Idotaccent          166.0               
+Imacron             166.0               
+uni0208             166.0               
+Iogonek             166.0               
+I                   166.0               
+Iacute              166.0               
+Igrave              166.0               
+uni1E2E             166.0               
+
+****marks_new: 189****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+ustraitcy           332                 5                   uni0336.sc          437                 358                 
+t                   207                 261                 uni0336.sc          437                 358                 
+dcroat.sc           193                 292                 uni0336.sc          437                 358                 
+d.sc                190                 295                 uni0336.sc          437                 358                 
+uni044C             175                 452                 uni0336             500                 433                 
+ustraitcy           332                 5                   uni0338.sc          337                 291                 
+l.sc                168                 337                 uni0336.sc          437                 358                 
+uni04AD             295                 238                 uni0336.sc          437                 358                 
+l                   163                 370                 uni0336.sc          437                 358                 
+Dcroat              182                 351                 uni0336.sc          437                 358                 
+uni0442             295                 238                 uni0336.sc          437                 358                 
+uni04CF             166                 370                 uni0336.sc          437                 358                 
+D                   206                 355                 uni0336.sc          437                 358                 
+L                   175                 400                 uni0336.sc          437                 358                 
+ustraitcy           332                 5                   uni0335.sc          254                 296                 
+uni01EB             336                 274                 uni0336.sc          437                 358                 
+o                   336                 274                 uni0336.sc          437                 358                 
+Y                   349                 266                 uni0336.sc          437                 358                 
+uni044B             175                 452                 uni0336.sc          437                 358                 
+uni044C             175                 452                 uni0336.sc          437                 358                 
+
+****marks_missing: 56054****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+uni04B1             0                   0                   uni03080301.case... -300                701                 
+uni052E             0                   0                   uni03080301.case... -300                701                 
+dcroat              0                   0                   uni03080301.case... -300                701                 
+uni043F             0                   0                   uni03080301.case... -300                701                 
+uni0425             0                   0                   uni03080301.case... -300                701                 
+uni1E43             0                   0                   uni03080301.case... -300                701                 
+uni04AF             0                   0                   uni03080301.case... -300                701                 
+uni0404             0                   0                   uni03080301.case... -300                701                 
+uni0429             0                   0                   uni03080301.case... -300                701                 
+uni041F             0                   0                   uni03080301.case... -300                701                 
+m                   0                   0                   uni03080301.case... -300                701                 
+uni1E0D             0                   0                   uni03080301.case... -300                701                 
+uni0449             0                   0                   uni03080301.case... -300                701                 
+uni052F             0                   0                   uni03080301.case... -300                701                 
+uni041B             0                   0                   uni03080301.case... -300                701                 
+uni0525             0                   0                   uni03080301.case... -300                701                 
+uni04BA             0                   0                   uni03080301.case... -300                701                 
+uni04C6             0                   0                   uni03080301.case... -300                701                 
+uni0513             0                   0                   uni03080301.case... -300                701                 
+uni04B2             0                   0                   uni03080301.case... -300                701                 
+
+****marks_modified: 9858****
+
+base_glyph          mark_glyph          diff_x              diff_y              
+uni044B             uni0336             -825.0              452.0               
+uni044B             uni0338.case        -625.0              452.0               
+uni0422             uni0336             -1024.0             15.0                
+T                   uni0336             -1014.0             15.0                
+h.sc                uni0336             -1000.0             0.0                 
+uni04AF             uni0336             -1000.0             0.0                 
+uni01EB             uni0336             -1000.0             0.0                 
+o                   uni0336             -1000.0             0.0                 
+O                   uni0336             -1000.0             0.0                 
+uni043D             uni0336             -1000.0             0.0                 
+h                   uni0336             -1000.0             0.0                 
+uni045B             uni0336             -1000.0             0.0                 
+L                   uni0336             -1000.0             0.0                 
+lslash.sc           uni0336             -1000.0             0.0                 
+o.sc                uni0336             -1000.0             0.0                 
+uni04CF             uni0336             -1000.0             0.0                 
+uni04E8             uni0336             -1000.0             0.0                 
+D                   uni0336             -1000.0             0.0                 
+Dcroat              uni0336             -1000.0             0.0                 
+uni0462             uni0336             -1000.0             0.0                 
+
+****mkmks_missing: 4161****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+uni030A0301         -300                547                 uni03070304.case... -300                1073                
+uni0302             -300                547                 uni03010307.case... -300                1073                
+acutecomb           -300                547                 uni03010307.case... -300                1073                
+uni030A0301         -300                547                 uni03010307.case... -300                1073                
+gravecomb           -300                547                 uni03010307.case... -300                1073                
+uni03040300         -300                547                 uni03010307.case... -300                1073                
+uni03020300         -300                547                 uni03070304.case... -300                1073                
+uni0312             -300                547                 uni03070304.case... -300                1073                
+uni0304             -300                547                 uni03010307.case... -300                1073                
+uni03080304         -300                547                 uni03010307.case... -300                1073                
+uni03060301         -300                547                 uni03070304.case... -300                1073                
+hookabovecomb       -300                547                 uni03070304.case... -300                1073                
+uni03060301         -300                547                 uni03010307.case... -300                1073                
+uni0312             -300                547                 uni03010307.case... -300                1073                
+uni03020301         -300                547                 uni03070304.case... -300                1073                
+uni03030304         -300                547                 uni03070304.case... -300                1073                
+uni03030304         -300                547                 uni03010307.case... -300                1073                
+uni0311             -300                547                 uni03010307.case... -300                1073                
+acutecomb           -300                547                 uni03070304.case... -300                1073                
+uni0302             -300                547                 uni03070304.case... -300                1073                

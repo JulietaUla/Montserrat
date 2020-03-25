@@ -1,0 +1,323 @@
+# Diffenator
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+### names new: 11
+
+id | string
+--- | --- | 
+(256, 1, 0, 0) | Alternates
+(256, 3, 1, 1033) | Alternates
+(276, 3, 1, 1033) | Thin
+(277, 3, 1, 1033) | ExtraLight
+(278, 3, 1, 1033) | Light
+(279, 3, 1, 1033) | Regular
+(280, 3, 1, 1033) | Medium
+(281, 3, 1, 1033) | SemiBold
+(282, 3, 1, 1033) | Bold
+(283, 3, 1, 1033) | ExtraBold
+(284, 3, 1, 1033) | Black
+
+### names modified: 6
+
+id | string_a | string_b
+--- | --- | --- | 
+(1, 3, 1, 1033) | Montserrat Alternates SemiBold | Montserrat Alternates Thin
+(3, 3, 1, 1033) | 7.200;ULA ;MontserratAlternates-SemiBold | 8.000;ULA;MontserratAlternates-Thin
+(4, 3, 1, 1033) | Montserrat Alternates SemiBold | Montserrat Alternates Thin
+(5, 3, 1, 1033) | Version 7.200 | Version 8.000
+(6, 3, 1, 1033) | MontserratAlternates-SemiBold | MontserratAlternates-Thin
+(17, 3, 1, 1033) | SemiBold | Thin
+
+### attribs modified: 12
+
+table | attrib | value_a | value_b
+--- | --- | --- | --- | 
+OS/2 | ulUnicodeRange1 | 536871439 | 2684355327
+OS/2 | ulUnicodeRange2 | 3 | 1073750139
+OS/2 | panose | 0-0-7-0-0-0-0-0-0-0 | 0-0-0-0-0-0-0-0-0-0
+OS/2 | yStrikeoutPosition | 320 | 310
+OS/2 | sxHeight | 534 | 517
+head | xMax | 1618 | 1529
+head | modified | 2017/10/31 15:00:00 | 2020/03/25 16:30:11
+head | yMax | 1064 | 1021
+head | xMin | -861 | -170
+head | fontRevision | 7.1999969482421875 | 8.0
+head | yMin | -265 | -259
+post | underlinePosition | -75 | -100
+
+### glyphs new: 623
+
+glyph | area | string
+--- | --- | --- | 
+A.ss01 | -250013 | A
+AE.ss01 | -376648 | Æ
+AEacute.ss01 | -394182 | Ǽ
+Aacute.ss01 | -267547 | Á
+Abreve.ss01 | -278718 | Ă
+Acircumflex.ss01 | -279442 | Â
+Adieresis.ss01 | -273194 | Ä
+Agrave.ss01 | -267547 | À
+Amacron.ss01 | -275842 | Ā
+Aogonek.ss01 | -279810 | Ą
+Aring.ss01 | -279511 | Å
+Aringacute.ss01 | -290025 | Ǻ
+Atilde.ss01 | -280728 | Ã
+E.ss01 | -203155 | E
+Eacute.ss01 | -220689 | É
+Ebreve.ss01 | -231861 | Ĕ
+Ecaron.ss01 | -232619 | Ě
+Ecircumflex.ss01 | -232585 | Ê
+Edieresis.ss01 | -226336 | Ë
+Edotaccent.ss01 | -219399 | Ė
+
+### glyphs missing: 175
+
+glyph | area | string
+--- | --- | --- | 
+aacute.sc | -202332 | Á
+abreve.sc | -213625 | Ă
+acircumflex.sc | -212329 | Â
+adieresis.sc | -208091 | Ä
+ae.sc | -272772 | Æ
+aeacute.sc | -290240 | Ǽ
+agrave.sc | -202332 | À
+amacron.sc | -210815 | Ā
+aogonek.sc | -214687 | Ą
+aring.sc | -214354 | Å
+aringacute.sc | -222989 | Ǻ
+atilde.sc | -215499 | Ã
+e.sc | -155308 | E
+eacute.sc | -172775 | É
+ebreve.sc | -184068 | Ĕ
+ecaron.sc | -182772 | Ě
+ecircumflex.sc | -182772 | Ê
+edieresis.sc | -178534 | Ë
+edotaccent.sc | -171445 | Ė
+egrave.sc | -172775 | È
+
+### glyphs modified: 1131
+
+glyph | diff | string
+--- | --- | --- | 
+verticalbarcy.case | 1.0 | 
+uni02BC | 0.9688 | ʼ
+l | 0.8571 | l
+M | 0.8565 | M
+Igrave | 0.8355 | Ì
+Idotaccent | 0.8347 | İ
+uni1ECA | 0.8306 | Ị
+lcommaaccent | 0.8286 | ļ
+uni1E37 | 0.8261 | ḷ
+uni03080300 | 0.8254 | ̈̀
+I | 0.8182 | I
+uni0434 | 0.809 | д
+a | 0.7952 | a
+uni1EC8 | 0.7945 | Ỉ
+fl | 0.7917 | ﬂ
+Iogonek | 0.7866 | Į
+uni030A | 0.7857 | ̊
+Iacute | 0.7792 | Í
+uni03080300.case | 0.7778 | ̈̀
+uni1EB5 | 0.7758 | ẵ
+
+### kerns new: 80150
+
+left | right | value | string
+--- | --- | --- | --- | 
+uni0403 | periodcentered.sc | -205 | Ѓ
+uni04F6 | periodcentered.sc | -205 | Ӷ
+uni0490 | periodcentered.sc | -205 | Ґ
+uni04A4 | periodcentered.sc | -205 | Ҥ
+uni0413 | periodcentered.sc | -205 | Г
+uni0413 | uni04DB | -145 | Гӛ
+uni0403 | uni04DB | -145 | Ѓӛ
+uni04F6 | uni04DB | -145 | Ӷӛ
+uni0490 | uni04DB | -145 | Ґӛ
+uni04A4 | uni04DB | -145 | Ҥӛ
+uni04A4 | Aring | -135 | ҤÅ
+uni0413 | Aogonek | -135 | ГĄ
+uni0403 | Atilde | -135 | ЃÃ
+uni0413 | uni1EB0 | -135 | ГẰ
+uni0403 | Agrave | -135 | ЃÀ
+uni04F6 | Adieresis | -135 | ӶÄ
+uni0403 | uni1EB0 | -135 | ЃẰ
+uni04A4 | uni1EA0 | -135 | ҤẠ
+uni0413 | uni1EA2 | -135 | ГẢ
+uni04F6 | Agrave | -135 | ӶÀ
+
+### kerns missing: 20437
+
+left | right | value | string
+--- | --- | --- | --- | 
+uni04F6 | uni1EA3 | -145 | Ӷả
+uni04A4 | uni04D1 | -145 | Ҥӑ
+uni0403 | uni1EAB | -145 | Ѓẫ
+uni0403 | uni1EB5 | -145 | Ѓẵ
+uni0490 | uni0430 | -145 | Ґа
+uni0490 | uni1EAB | -145 | Ґẫ
+uni0403 | uni04D1 | -145 | Ѓӑ
+uni0490 | acircumflex | -145 | Ґâ
+uni0490 | uni1EAF | -145 | Ґắ
+uni0403 | uni1EA5 | -145 | Ѓấ
+uni04F6 | atilde | -145 | Ӷã
+uni0413 | uni0430 | -145 | Га
+uni04F6 | adieresis | -145 | Ӷä
+uni04A4 | uni1EB3 | -145 | Ҥẳ
+uni0490 | uni1EA7 | -145 | Ґầ
+uni04F6 | uni1EAB | -145 | Ӷẫ
+uni0403 | uni04D3 | -145 | Ѓӓ
+uni0413 | uni1EB1 | -145 | Гằ
+uni0413 | acircumflex | -145 | Гâ
+uni04F6 | aringacute | -145 | Ӷǻ
+
+### kerns modified: 38350
+
+left | right | diff | string
+--- | --- | --- | --- | 
+A | asterisk | -90.0 | A*
+ordmasculine | uni0200 | -90.0 | ºȀ
+ordfeminine | uni0200 | -90.0 | ªȀ
+ordfeminine | uni1EAE | -90.0 | ªẮ
+uni1EA2 | asterisk | -90.0 | Ả*
+Aring | asterisk | -90.0 | Å*
+ordfeminine | uni1EA2 | -90.0 | ªẢ
+uni1EAA | asterisk | -90.0 | Ẫ*
+uni2116 | uni1EB4 | -90.0 | №Ẵ
+uni0200 | ordmasculine | -90.0 | Ȁº
+Acircumflex | asterisk | -90.0 | Â*
+uni1EA6 | asterisk | -90.0 | Ầ*
+asterisk | uni1EB0 | -90.0 | *Ằ
+ordmasculine | uni1EB6 | -90.0 | ºẶ
+Aacute | ordmasculine | -90.0 | Áº
+uni1EAC | ordmasculine | -90.0 | Ậº
+ordfeminine | Acircumflex | -90.0 | ªÂ
+uni2116 | Aringacute | -90.0 | №Ǻ
+uni0200 | ordfeminine | -90.0 | Ȁª
+asterisk | Amacron | -90.0 | *Ā
+
+### metrics modified: 326
+
+glyph | diff_adv
+--- | --- | 
+verticalbarcy | 934.0
+uni0336.sc | 902.0
+uni0338.sc | 627.0
+uni0335.sc | 600.0
+uni0442 | 533.0
+M | 270.0
+uni1E42 | 269.0
+Icircumflex | 150.0
+Idieresis | 150.0
+uni1EC8 | 150.0
+Ibreve | 150.0
+uni1ECA | 150.0
+Idotaccent | 150.0
+Imacron | 150.0
+uni0208 | 150.0
+Iogonek | 150.0
+I | 150.0
+Iacute | 150.0
+Igrave | 150.0
+uni1E2E | 150.0
+
+### marks_new: 189
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+ustraitcy | 295 | 5 | uni0336.sc | 382 | 355
+ustraitcy | 295 | 5 | uni0338.sc | 334 | 286
+uni044C | 158 | 444 | uni0336 | 451 | 436
+l.sc | 151 | 315 | uni0336.sc | 382 | 355
+t | 190 | 282 | uni0336.sc | 382 | 355
+d.sc | 184 | 290 | uni0336.sc | 382 | 355
+dcroat.sc | 191 | 287 | uni0336.sc | 382 | 355
+ustraitcy | 295 | 5 | uni0335.sc | 249 | 292
+l | 145 | 361 | uni0336.sc | 382 | 355
+uni04AD | 259 | 248 | uni0336.sc | 382 | 355
+uni0442 | 259 | 248 | uni0336.sc | 382 | 355
+uni04CF | 147 | 361 | uni0336.sc | 382 | 355
+L | 159 | 382 | uni0336.sc | 382 | 355
+Dcroat | 194 | 350 | uni0336.sc | 382 | 355
+D | 203 | 356 | uni0336.sc | 382 | 355
+Y | 327 | 253 | uni0336.sc | 382 | 355
+l.sc | 151 | 315 | uni0338.sc | 334 | 286
+uni044C | 158 | 444 | uni0338.case | 403 | 350
+uni01EB | 321 | 267 | uni0336.sc | 382 | 355
+o | 321 | 267 | uni0336.sc | 382 | 355
+
+### marks_missing: 56054
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+uni052F | 0 | 0 | uni03020309.case | -300 | 700
+uni0462 | 0 | 0 | uni03060303.case | -300 | 700
+uni0448 | 0 | 0 | uni03010304.case | -300 | 700
+uni052E | 0 | 0 | uni03020300.case | -300 | 700
+uni0462 | 0 | 0 | hookabovecomb.case | -300 | 700
+uni0425 | 0 | 0 | uni03060301.case | -300 | 700
+uni0462 | 0 | 0 | uni03060300.case | -300 | 700
+uni04C6 | 0 | 0 | uni03060301.case | -300 | 700
+uni1E0F | 0 | 0 | tildecomb_acutecomb.case | -300 | 700
+uni0429 | 0 | 0 | gravecomb.case | -300 | 700
+uni043B | 0 | 0 | uni030B.case | -300 | 700
+uni04B2 | 0 | 0 | uni03020303.case | -300 | 700
+uni0454 | 0 | 0 | uni03060309.case | -300 | 700
+uni0425 | 0 | 0 | uni03080304.case | -300 | 700
+uni04B3 | 0 | 0 | uni03060301.case | -300 | 700
+uni04B1 | 0 | 0 | uni03080301.case | -300 | 700
+uni04B1 | 0 | 0 | uni03070304.case | -300 | 700
+uni0445 | 0 | 0 | uni0304.case | -300 | 700
+uni052E | 0 | 0 | hookabovecomb.case | -300 | 700
+uni0513 | 0 | 0 | uni0304.case | -300 | 700
+
+### marks_modified: 9858
+
+base_glyph | mark_glyph | diff_x | diff_y
+--- | --- | --- | --- | 
+uni044B | uni0336 | -744.0 | 444.0
+uni044B | uni0338.case | -658.0 | 444.0
+Y | dotbelowcomb | -936.0 | 0.0
+Y | uni0327 | -936.0 | 0.0
+Y | uni032E | -936.0 | 0.0
+Y | uni0324 | -936.0 | 0.0
+Y | uni0331 | -936.0 | 0.0
+Y | uni0326 | -936.0 | 0.0
+uni0422 | uni0336 | -917.0 | 10.0
+T | uni0336 | -909.0 | 10.0
+uni044B | uni0338 | -469.0 | 444.0
+h.sc | uni0336 | -902.0 | 0.0
+uni04AF | uni0336 | -902.0 | 0.0
+uni01EB | uni0336 | -902.0 | 0.0
+o | uni0336 | -902.0 | 0.0
+O | uni0336 | -902.0 | 0.0
+uni043D | uni0336 | -902.0 | 0.0
+h | uni0336 | -902.0 | 0.0
+uni045B | uni0336 | -902.0 | 0.0
+L | uni0336 | -902.0 | 0.0
+
+### mkmks_missing: 4161
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+uni030A0301 | -300 | 534 | uni03070304.case | -300 | 992
+uni0302 | -300 | 534 | uni03010307.case | -300 | 992
+acutecomb | -300 | 534 | uni03010307.case | -300 | 992
+uni030A0301 | -300 | 534 | uni03010307.case | -300 | 992
+gravecomb | -300 | 534 | uni03010307.case | -300 | 992
+uni03040300 | -300 | 534 | uni03010307.case | -300 | 992
+uni03020300 | -300 | 534 | uni03070304.case | -300 | 992
+uni0312 | -300 | 534 | uni03070304.case | -300 | 992
+uni0304 | -300 | 534 | uni03010307.case | -300 | 992
+uni03080304 | -300 | 534 | uni03010307.case | -300 | 992
+uni03060301 | -300 | 534 | uni03070304.case | -300 | 992
+hookabovecomb | -300 | 534 | uni03070304.case | -300 | 992
+uni03060301 | -300 | 534 | uni03010307.case | -300 | 992
+uni0312 | -300 | 534 | uni03010307.case | -300 | 992
+uni03020301 | -300 | 534 | uni03070304.case | -300 | 992
+uni03030304 | -300 | 534 | uni03070304.case | -300 | 992
+uni03030304 | -300 | 534 | uni03010307.case | -300 | 992
+uni0311 | -300 | 534 | uni03010307.case | -300 | 992
+acutecomb | -300 | 534 | uni03070304.case | -300 | 992
+uni0302 | -300 | 534 | uni03070304.case | -300 | 992
