@@ -16,7 +16,7 @@
         <key>name</key>
         <string>propagateAnchors</string>
         <key>pre</key>
-        <true/>
+        <integer>1</integer>
       </dict>
     </array>
     <key>com.schriftgestaltung.Glyphs.glyphUserData.a.sc</key>
@@ -1068,11 +1068,13 @@
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Master Name</key>
+    <string>Black Italic</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
@@ -1095,12 +1097,8 @@
     <integer>226</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
-    <key>com.schriftgestaltung.fontMasterID</key>
-    <string>5DA6E103-6A94-47F2-987D-4952DB8EA68E</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>2</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -3097,20 +3095,6 @@
       <string>verticalbar-cy</string>
       <string>verticalbar-cy.case</string>
       <string>NULL</string>
-      <string>Udieresis.alt.BRACKET.133</string>
-      <string>Udieresis.ss01.alt.BRACKET.133</string>
-      <string>Q.ss01.BRACKET.170</string>
-      <string>udieresis.sc.alt.BRACKET.133</string>
-      <string>udieresis.sc.ss01.alt.BRACKET.133</string>
-      <string>q.sc.ss01.BRACKET.170</string>
-      <string>cedi.BRACKET.170</string>
-      <string>cent.BRACKET.170</string>
-      <string>colonsign.BRACKET.170</string>
-      <string>dollar.BRACKET.170</string>
-      <string>guarani.BRACKET.170</string>
-      <string>naira.BRACKET.120</string>
-      <string>peso.BRACKET.130</string>
-      <string>won.BRACKET.130</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -4039,7 +4023,7 @@
       <key>cedi</key>
       <string>uni20B5</string>
       <key>cedi.BRACKET.170</key>
-      <string>uni20B5.BRACKET.170</string>
+      <string>uni20B5</string>
       <key>cedillacomb</key>
       <string>uni0327</string>
       <key>che-cy</key>
@@ -4085,7 +4069,7 @@
       <key>colonsign</key>
       <string>colonmonetary</string>
       <key>colonsign.BRACKET.170</key>
-      <string>colonmonetary.BRACKET.170</string>
+      <string>colonmonetary</string>
       <key>commaaccentcomb</key>
       <string>uni0326</string>
       <key>commaaccentcomb.alt</key>
@@ -4425,7 +4409,7 @@
       <key>guarani</key>
       <string>uni20B2</string>
       <key>guarani.BRACKET.170</key>
-      <string>uni20B2.BRACKET.170</string>
+      <string>uni20B2</string>
       <key>guillemetleft</key>
       <string>guillemotleft</string>
       <key>guillemetleft.case</key>
@@ -4701,7 +4685,7 @@
       <key>naira</key>
       <string>uni20A6</string>
       <key>naira.BRACKET.120</key>
-      <string>uni20A6.BRACKET.120</string>
+      <string>uni20A6</string>
       <key>nbspace</key>
       <string>uni00A0</string>
       <key>ncommaaccent</key>
@@ -4869,7 +4853,7 @@
       <key>peso</key>
       <string>uni20B1</string>
       <key>peso.BRACKET.130</key>
-      <string>uni20B1.BRACKET.130</string>
+      <string>uni20B1</string>
       <key>primemod</key>
       <string>uni02B9</string>
       <key>punctuationspace</key>
@@ -5257,7 +5241,7 @@
       <key>won</key>
       <string>uni20A9</string>
       <key>won.BRACKET.130</key>
-      <string>uni20A9.BRACKET.130</string>
+      <string>uni20A9</string>
       <key>yat-cy</key>
       <string>uni0463</string>
       <key>yat-cy.ss01</key>
