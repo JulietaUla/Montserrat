@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="schwadieresis-cy" format="2">
+  <advance width="633"/>
+  <unicode hex="04DB"/>
+  <anchor x="324" y="0" name="bottom"/>
+  <anchor x="109" y="532" name="ogonek"/>
+  <anchor x="324" y="683" name="top"/>
+  <outline>
+    <component base="schwa-cy"/>
+    <component base="dieresiscomb" xOffset="24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresiscomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
