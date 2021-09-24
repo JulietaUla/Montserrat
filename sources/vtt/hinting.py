@@ -2,10 +2,13 @@ import fontTools
 from fontTools.ttLib import TTFont, newTable
 import vttLib
 from vttmisc import tsi1
+import shutil
+import gftools
 
-
-vttSource = ["sources/vtt/Montserrat[wght].ttf", "sources/vtt/Montserrat-Italic[wght].ttf"]
+vttSource = ["sources/vtt/Montserrat[wght]-VTT.ttf", "sources/vtt/Montserrat-Italic[wght]-VTT.ttf"]
 newSource = ["fonts/variable/Montserrat[wght].ttf","fonts/variable/Montserrat-Italic[wght].ttf"]
+
+print ("INFO:Integrating hinting sources and compiling")
 
 for i,source in enumerate(newSource):
 
@@ -16,6 +19,10 @@ for i,source in enumerate(newSource):
         newFont[table] = fontTools.ttLib.newTable(table)
         newFont[table] = vttFont[table]
 
-    #vttLib.compile_instructions(newFont, ship=True)
+    vttLib.compile_instructions(newFont, ship=True)
+
+    newFont["head"].flags |= 1 << 3
+
     newFont.save(source.replace(".ttf","-VTT.ttf"))
 
+    shutil.move(source.replace(".ttf","-VTT.ttf"), source)
