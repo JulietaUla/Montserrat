@@ -4,8 +4,8 @@ import vttLib
 from vttmisc import tsi1
 
 
-vttSource = ["VTT/Montserrat[wght].ttf", "VTT/Montserrat-Italic[wght].ttf"]
-newSource = ["../fonts/variable/Montserrat[wght].ttf","../fonts/variable/Montserrat-Italic[wght].ttf"]
+vttSource = ["sources/vtt/Montserrat[wght].ttf", "sources/vtt/Montserrat-Italic[wght].ttf"]
+newSource = ["fonts/variable/Montserrat[wght].ttf","fonts/variable/Montserrat-Italic[wght].ttf"]
 
 for i,source in enumerate(newSource):
 
