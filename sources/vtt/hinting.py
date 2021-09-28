@@ -5,7 +5,7 @@ from vttmisc import tsi1
 import shutil
 import gftools
 
-vttSource = ["sources/VTT/Montserrat[wght]-VTT.ttf", "sources/VTT/Montserrat-Italic[wght]-VTT.ttf"]
+vttSource = ["sources/vtt/Montserrat[wght]-VTT.ttf", "sources/vtt/Montserrat-Italic[wght]-VTT.ttf"]
 newSource = ["fonts/variable/Montserrat[wght].ttf","fonts/variable/Montserrat-Italic[wght].ttf"]
 
 print ("INFO:Integrating hinting sources and compiling")
