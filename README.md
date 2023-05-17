@@ -15,6 +15,28 @@ In 2015, a full set of weights and italics were developed by Julieta in collabor
 In 2017, Jacques Le Bailly reworked the entire Latin design, and in parallel Juan Pablo del Peral and Sol Matas developed the initial Cyrillic extension with review and advise from Maria Doreuli and Alexei Vanyashin. 
 Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Foley. Special thanks also to Thomas Linard, Valeria Dulitzky, Belén Quirós, and Germán Rozo.
 
+## Building
+
+Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+
+If you particularly want to build fonts manually on your own computer, you will need to install the [`yq` utility](https://github.com/mikefarah/yq). On OS X with Homebrew, type `brew install yq`; on Linux, try `snap install yq`; if all else fails, try the instructions on the linked page.
+
+Then:
+
+* `make build` will produce font files.
+* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+* `make proof` will generate HTML proof files.
+
+## License
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at
+http://scripts.sil.org/OFL
+
+## Repository Layout
+
+This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+
 ## Changelog
 
 ### Version 3.100
@@ -35,3 +57,8 @@ Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Fo
 - We applied a new weight distribution across the variables. 
 - Now Montserrat has extended Cyrillic support (GF Cyrillic Pro).
 - More detais about migration in https://github.com/JulietaUla/Montserrat/releases/tag/v7.200
+
+### Version 8.000
+- Variable font wow includes hand hinting by Mike Duggan
+- Added necessary glyphs for Navajo
+- Other small glyph / OT fixes
