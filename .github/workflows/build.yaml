@@ -5,13 +5,17 @@ on: [push]
 jobs:
   font-render:
     runs-on: ubuntu-latest
-    name: Check fonts on different browsers
+    name: Diff fonts against Google Fonts
     steps:
       - uses: actions/checkout@v2
       - uses: f-actions/diffenator2@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path: "./fonts/ttf/*.ttf"
+          fetch-before: "googlefonts"
+          path-before: "*.ttf"
+          run-diffenator: true
+          run-diffbrowsers: true
   build:
     runs-on: ubuntu-latest
     steps:
