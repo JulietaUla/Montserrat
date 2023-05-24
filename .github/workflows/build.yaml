@@ -28,17 +28,12 @@ jobs:
       - name: Check with fontbakery
         run: make test
         continue-on-error: true
-      - name: Gather
-        run: |
-          mkdir for-gh-pages
-          mv fontbakery-report.html for-gh-pages
-          mv proof/* for-gh-pages
       - name: Archive artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Artifacts
           path: |
-            for-gh-pages
+            fontbakery
       - name: Remove temp folder
         run: |
-          rm -rf for-gh-pages
+          rm -rf fontbakery
