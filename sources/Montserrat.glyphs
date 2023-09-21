@@ -16,7 +16,9 @@ DisplayStrings = (
 "/Cacute/Nacute Ó",
 "/Cacute \012/Nacute \012Ó\012/Sacute \012/Zacute \012/Nacute.ss01 \012/Zacute.ss01 \012/cacute \012/nacute \012ó\012/sacute \012/zacute \012/zacute.ss01 \012/cacute.sc \012/nacute.sc \012/oacute.sc \012/sacute.sc \012/zacute.sc \012/zacute.sc.ss01 \012",
 "/o.sc/o.sc/bilabialclick.sc/bilabialclick/space",
-"/pemiddlehook-cy"
+"/pemiddlehook-cy",
+"/_hookcomb/ghook/iota-latin",
+""
 );
 classes = (
 {
@@ -260864,23 +260866,6 @@ width = 301;
 );
 leftKerningGroup = prime;
 rightKerningGroup = prime;
-},
-{
-glyphname = ringhalfrightcomb;
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
-width = 600;
-},
-{
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 600;
-}
-);
 },
 {
 glyphname = "verticalbar-cy";
