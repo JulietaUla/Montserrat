@@ -17,7 +17,7 @@ DisplayStrings = (
 "/Cacute \012/Nacute \012Ó\012/Sacute \012/Zacute \012/Nacute.ss01 \012/Zacute.ss01 \012/cacute \012/nacute \012ó\012/sacute \012/zacute \012/zacute.ss01 \012/cacute.sc \012/nacute.sc \012/oacute.sc \012/sacute.sc \012/zacute.sc \012/zacute.sc.ss01 \012",
 "/o.sc/o.sc/bilabialclick.sc/bilabialclick/space",
 "/pemiddlehook-cy",
-"/ramshorn/uniA7CB/ramshorn.sc"
+"/h.sc/lmiddletilde.sc/h.sc/o.sc/h.sc/o.sc \012/ramshorn/uniA7CB/ramshorn.sc"
 );
 classes = (
 {
@@ -135460,21 +135460,21 @@ weight = -3;
 width = 82.6;
 };
 };
-width = 495;
+width = 496;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{280, 0}";
+position = "{358, 0}";
 },
 {
 name = top;
-position = "{153, 582}";
+position = "{231, 582}";
 },
 {
 name = topright;
-position = "{356, 582}";
+position = "{434, 582}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -135482,37 +135482,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"521 0 LINE",
-"521 170 LINE",
-"268 170 LINE",
-"268 582 LINE",
-"38 582 LINE",
-"38 0 LINE"
+"599 0 LINE",
+"599 170 LINE",
+"346 170 LINE",
+"346 582 LINE",
+"116 582 LINE",
+"116 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"372 258 OFFCURVE",
-"413 325 OFFCURVE",
-"414 412 CURVE",
-"312 412 LINE",
-"310 389 OFFCURVE",
-"297 377 OFFCURVE",
-"277 377 CURVE SMOOTH",
-"237 377 OFFCURVE",
-"91 424 OFFCURVE",
-"19 424 CURVE SMOOTH",
-"-63 424 OFFCURVE",
-"-106 360 OFFCURVE",
-"-108 267 CURVE",
-"-6 267 LINE",
-"-4 288 OFFCURVE",
-"6 305 OFFCURVE",
-"30 305 CURVE SMOOTH",
-"69 305 OFFCURVE",
-"215 258 OFFCURVE",
-"287 258 CURVE SMOOTH"
+"450 258 OFFCURVE",
+"491 325 OFFCURVE",
+"492 412 CURVE",
+"390 412 LINE",
+"388 389 OFFCURVE",
+"375 377 OFFCURVE",
+"355 377 CURVE SMOOTH",
+"315 377 OFFCURVE",
+"169 424 OFFCURVE",
+"97 424 CURVE SMOOTH",
+"15 424 OFFCURVE",
+"-28 360 OFFCURVE",
+"-30 267 CURVE",
+"72 267 LINE",
+"74 288 OFFCURVE",
+"84 305 OFFCURVE",
+"108 305 CURVE SMOOTH",
+"147 305 OFFCURVE",
+"293 258 OFFCURVE",
+"365 258 CURVE SMOOTH"
 );
 }
 );
@@ -135523,11 +135523,12 @@ weight = -6;
 width = 84.8;
 };
 };
-width = 529;
+width = 606;
 }
 );
 leftKerningGroup = lbar.sc;
 rightKerningGroup = l.sc;
+rightMetricsKey = l.sc;
 userData = {
 RMXScaler = {
 source = Lmiddletilde;
