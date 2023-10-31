@@ -1,21 +1,29 @@
-import fontmake.instantiator
-import fontTools.designspaceLib
 from glyphsLib.cli import main
-import os, shutil
+import os
 from pathlib import Path
-import ufoLib2
 
+path = "sources/masters"
 sources = [
     Path("sources/Montserrat.glyphs"),
     Path("sources/Montserrat-Italic.glyphs"),
+    Path("sources/MontserratSubrayada.glyphs"),
+    Path("sources/MontserratSubrayada-Italic.glyphs"),
 ]
 
 try:
-    os.mkdir("sources/masters")
-except:
-    pass
+    os.mkdir(path)
+except Exception:
+    print(f"folder {path} already existed")
 
-sourceURL = Path("sources/masters")
+sourceURL = Path(path)
 
 for s in sources:
-    main(("glyphs2ufo", str(s), "--write-public-skip-export-glyphs", "--output-dir", str(sourceURL)))
+    main(
+        (
+            "glyphs2ufo",
+            str(s),
+            "--write-public-skip-export-glyphs",
+            "--output-dir",
+            str(sourceURL),
+        )
+    )
