@@ -18,6 +18,7 @@ except Exception:
 sourceURL = Path(path)
 
 for s in sources:
+    print(s)
     main(
         (
             "glyphs2ufo",
