@@ -5,7 +5,7 @@ DisplayStrings = (
 "/Mturned",
 p,
 "/ramshorn",
-"/vhook"
+"/ereversed"
 );
 classes = (
 {
@@ -24958,7 +24958,7 @@ name = P;
 },
 {
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 53, 0}";
+transform = "{1, 0, 0, 1, 55, 0}";
 }
 );
 layerId = UUID0;
@@ -67180,6 +67180,16 @@ unicode = 01DD;
 glyphname = schwa;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{233, 0}";
+},
+{
+name = top;
+position = "{336, 517}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -67235,6 +67245,16 @@ nodes = (
 width = 589;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{270, 0}";
+},
+{
+name = top;
+position = "{379, 547}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -67290,6 +67310,16 @@ nodes = (
 width = 648;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{255, 0}";
+},
+{
+name = top;
+position = "{360, 532}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -84407,7 +84437,7 @@ width = 671;
 anchors = (
 {
 name = bottom;
-position = "{333, -130}";
+position = "{325, -170}";
 },
 {
 name = top;
@@ -84487,7 +84517,7 @@ width = 700;
 anchors = (
 {
 name = bottom;
-position = "{315, -100}";
+position = "{311, -120}";
 },
 {
 name = top;

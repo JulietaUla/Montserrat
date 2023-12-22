@@ -2,7 +2,8 @@
 .appVersion = "3151";
 DisplayStrings = (
 "/Omega-latin",
-"/vhook"
+"o/schwa/gravecomb",
+p
 );
 classes = (
 {
@@ -67298,11 +67299,27 @@ unicode = 01DD;
 glyphname = schwa;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{293, 0}";
+},
+{
+name = top;
+position = "{293, 517}";
+}
+);
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
+"431 -3 OFFCURVE",
+"533 105 OFFCURVE",
+"533 258 CURVE SMOOTH",
+"533 411 OFFCURVE",
+"424 520 OFFCURVE",
+"275 520 CURVE SMOOTH",
 "201 520 OFFCURVE",
 "131 491 OFFCURVE",
 "85 435 CURVE",
@@ -67329,36 +67346,46 @@ nodes = (
 "54 253 CURVE SMOOTH",
 "54 103 OFFCURVE",
 "158 -3 OFFCURVE",
-"294 -3 CURVE SMOOTH",
-"431 -3 OFFCURVE",
-"533 105 OFFCURVE",
-"533 258 CURVE SMOOTH",
-"533 411 OFFCURVE",
-"424 520 OFFCURVE",
-"275 520 CURVE SMOOTH"
+"294 -3 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"589 -3 LINE",
 "589 16 LINE",
 "-2 16 LINE",
-"-2 -3 LINE",
-"589 -3 LINE"
+"-2 -3 LINE"
 );
 }
 );
 width = 587;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{326, 0}";
+},
+{
+name = top;
+position = "{326, 547}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
 closed = 1;
 nodes = (
-"192 557 OFFCURVE",
-"117 513 OFFCURVE",
-"64 455 CURVE",
+"499 -10 OFFCURVE",
+"632 107 OFFCURVE",
+"632 273 CURVE SMOOTH",
+"632 464 OFFCURVE",
+"462 558 OFFCURVE",
+"299 558 CURVE SMOOTH",
+"208 558 OFFCURVE",
+"118 528 OFFCURVE",
+"62 469 CURVE",
 "180 350 LINE",
 "216 377 OFFCURVE",
 "244 390 OFFCURVE",
@@ -67382,42 +67409,52 @@ nodes = (
 "21 273 CURVE SMOOTH",
 "21 88 OFFCURVE",
 "160 -10 OFFCURVE",
-"322 -10 CURVE SMOOTH",
-"499 -10 OFFCURVE",
-"632 107 OFFCURVE",
-"632 273 CURVE SMOOTH",
-"632 436 OFFCURVE",
-"502 557 OFFCURVE",
-"301 557 CURVE SMOOTH"
+"322 -10 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"655 -17 LINE",
 "655 73 LINE",
 "-2 73 LINE",
-"-2 -17 LINE",
-"655 -17 LINE"
+"-2 -17 LINE"
 );
 }
 );
 width = 653;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{308, 0}";
+},
+{
+name = top;
+position = "{308, 532}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
 closed = 1;
 nodes = (
-"197 542 OFFCURVE",
-"123 512 OFFCURVE",
-"75 456 CURVE",
-"135 385 LINE",
-"173 426 OFFCURVE",
-"223 446 OFFCURVE",
-"284 446 CURVE SMOOTH",
-"395 446 OFFCURVE",
-"469 377 OFFCURVE",
+"462 -6 OFFCURVE",
+"577 108 OFFCURVE",
+"577 266 CURVE SMOOTH",
+"577 425 OFFCURVE",
+"462 538 OFFCURVE",
+"287 538 CURVE SMOOTH",
+"197 538 OFFCURVE",
+"123 508 OFFCURVE",
+"75 452 CURVE",
+"135 381 LINE",
+"173 422 OFFCURVE",
+"223 442 OFFCURVE",
+"284 442 CURVE SMOOTH",
+"395 442 OFFCURVE",
+"469 373 OFFCURVE",
 "469 272 CURVE SMOOTH",
 "469 254 LINE SMOOTH",
 "469 155 OFFCURVE",
@@ -67435,22 +67472,16 @@ nodes = (
 "40 270 CURVE SMOOTH",
 "40 105 OFFCURVE",
 "150 -6 OFFCURVE",
-"306 -6 CURVE SMOOTH",
-"462 -6 OFFCURVE",
-"577 108 OFFCURVE",
-"577 266 CURVE SMOOTH",
-"577 429 OFFCURVE",
-"462 542 OFFCURVE",
-"287 542 CURVE SMOOTH"
+"306 -6 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"619 -10 LINE",
 "619 40 LINE",
 "-2 40 LINE",
-"-2 -10 LINE",
-"619 -10 LINE"
+"-2 -10 LINE"
 );
 }
 );
@@ -84642,7 +84673,7 @@ width = 671;
 anchors = (
 {
 name = bottom;
-position = "{414, -130}";
+position = "{414, -170}";
 },
 {
 name = top;
@@ -84728,7 +84759,7 @@ width = 700;
 anchors = (
 {
 name = bottom;
-position = "{387, -100}";
+position = "{387, -120}";
 },
 {
 name = top;

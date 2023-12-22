@@ -8,7 +8,7 @@ DisplayStrings = (
 "A/braceright.case HH/Placeholder HHH/Placeholder OOO/Placeholder OOO/Placeholder H\012/eopen/ezhreversed.sc/eopen.sc \012/Vhook/Nlongrightleg/Nhookleft/Lbelt/Eldescender-cy/Reversedze-cy W/Rtail/Kabashkir-cy/Bhook.loclXPE/Hturned/Gstroke/Fhook/Ldoublebar/N.ss01/Kastroke-cy/Jstroke.ss01/J.ss01 J/IJ.ss01/IJ/Germandbls/Eng.ss01/uniA7DC/Yturned Y/Hahook-cy/F.ss01/Istroke/Esh/Chook/Pstroke/Obarred-cy/Ezhreversed/Vhook/Nlongrightleg/Nhookleft/Lbelt/Eldescender-cy/Reversedze-cy W/Rtail/Kabashkir-cy/Bhook.loclXPE \012",
 "/ldot l/space l/periodcentered.loclCAT l/space l·l/space \012/ldot.ss01/l.ss01/space/l.ss01/periodcentered.loclCAT/l.ss01/space/l.ss01 ·/l.ss01 \012L/periodcentered.loclCAT.case L/space L/Ldot L/space \012/l.sc/periodcentered.loclCAT.sc/l.sc/space/ldot.sc/l.sc/space",
 "/Tbar/Tbar.ss01",
-"/vhook"
+"/Ereversed/ereversed.sc/ereversed/space"
 );
 classes = (
 {
@@ -57737,10 +57737,6 @@ name = bottom;
 position = "{241, 0}";
 },
 {
-name = ogonek;
-position = "{164, 517}";
-},
-{
 name = top;
 position = "{343, 517}";
 }
@@ -57794,10 +57790,6 @@ name = bottom;
 position = "{247, 0}";
 },
 {
-name = ogonek;
-position = "{160, 532}";
-},
-{
 name = top;
 position = "{354, 530}";
 }
@@ -57849,10 +57841,6 @@ anchors = (
 {
 name = bottom;
 position = "{255, 0}";
-},
-{
-name = ogonek;
-position = "{148, 547}";
 },
 {
 name = top;
@@ -58723,6 +58711,16 @@ unicode = 01DD;
 glyphname = schwa;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{233, 0}";
+},
+{
+name = top;
+position = "{336, 517}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -58766,6 +58764,16 @@ nodes = (
 width = 589;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{270, 0}";
+},
+{
+name = top;
+position = "{379, 547}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -58809,6 +58817,16 @@ nodes = (
 width = 648;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{255, 0}";
+},
+{
+name = top;
+position = "{360, 532}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -71919,7 +71937,7 @@ width = 671;
 anchors = (
 {
 name = bottom;
-position = "{333, -130}";
+position = "{325, -170}";
 },
 {
 name = top;
@@ -71981,7 +71999,7 @@ width = 700;
 anchors = (
 {
 name = bottom;
-position = "{315, -100}";
+position = "{311, -120}";
 },
 {
 name = top;
@@ -120178,6 +120196,7 @@ name = p.sc;
 },
 {
 name = acutecomb;
+transform = "{1, 0, 0, 1, 8, 42}";
 }
 );
 layerId = UUID0;
@@ -120221,6 +120240,7 @@ name = p.sc;
 },
 {
 name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 8, 42}";
 }
 );
 layerId = UUID0;
