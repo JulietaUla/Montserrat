@@ -3,7 +3,10 @@
 DisplayStrings = (
 "/iogonek.dotless/idotbelow.dotless/itildebelow.dotless",
 "/jcrossedtail/jcrossedtail.dotless",
-"/jcrossedtail.dotless/jcrossedtail"
+"±",
+"/Astroke",
+"DZ\012/DZ/space/Dz/space/dz/space/dz.sc \012/DZcaron/space/Dzcaron/space/dzcaron/space/dzcaron.sc \012/DZ.ss01/space/Dz.ss01/space/dz.ss01/space/dz.sc.ss01 \012/DZcaron.ss01/space/Dzcaron.ss01/space/dzcaron.ss01/space/dzcaron.sc.ss01/space",
+"fi/space fj/space gj/space kjkikl/ereversed-cy/je-cy nj\012y/lslash yv/lbar ynojot/space \012kvwxyz/space fijlu/t.ss01 tr\012/caroncomb.alt.short/tcaron/tcaron.ss01"
 );
 classes = (
 {
@@ -55,10 +58,6 @@ Name = Weight;
 Tag = wght;
 }
 );
-},
-{
-name = note;
-value = "istroke.dotless, should be idotlessstroke or idotless.stroke? lleva o no dot?\012what is Ismallstroke?\012\012Added: \012*** FALTAN AGREGAR TODAS LAS SM. MEJOR HACERLO AL FINAL CUANDO TENGAMOS LAS ALTERNATES.***\012Astroke.sc\012Bstroke.sc\012Cstroke.sc\012Estroke.sc\012Istroke.sc\012Jstroke.sc\012Kstroke.sc\012Pstroke.sc\012Rstroke.sc\012Sobliquestroke.sc\012Tdiagonalstroke.sc\012Ystroke.sc\012Zstroke.sc\012\012gstroke.sc\012gstroke.sc.ss01\012\012\012Los .loc que hay si hay referentes.\012Si hay un nuevo texto o web de testeo\012\012Si hay referentes de itálicas  o cambios de estructura.\012Si tiene font  que se puedan usar de testeo. Scriptguide.\012\012Los alternates ¿que hacemos?\012\012Vamos a tener que agregar todas las small caps al final.\012\012*** NEW***\012\0121- What is /I.uc?\012\0122- Is voicingmod like a ‘caron’ located below the baseline, or is it like a ‘v’ inferior?\012\0123- What’s de difference between brevecomb and brevecomb.greek?\012\0124- What anchor are you using for commaaboverightcomb? I am using _topright. Is this correct?\012\0125- Ʒ Ƹ Do they extend below baseline as the descenders? \012\012El letterspacer hace lio a veces, por ejemplo cambió el espaciado de ʔ y de ʔ\012Ahora se superponen con letras. Son signos dificiles. Hay que hacerlo a mano o meter mucho kerning.\012\012¿hay mejor forma de solucionar el espaciado de ʝ? por ejemplo: nʝonjo\012\012\012*** Letterspacer***\012\012Copiar espaciado de master\012recuperar L·L l·l catalana, que es nuevo\012\012\012\012*** ALTERNATES:*** \012\0121- Grammatical differences between A and Alpha-latin?\012\012\0122- Differences between E and Ɛ.\012The Montserrat alternate style has an E.ss01 that it exactly the shape of Ɛ.\012When people use the alternate style, both letters will look the same.\012\012\012NAV: I understand this is NAVAJO and it should not be included in our scope which is African extension?\012(These glyphs were originally in the character list Eben shared with us)\012\012The glyphs with the ogonek for NAV, have different suffixes\012\012A E have the latn:\012Aogonek.latnNAV\012Eogonek.latnNAV\012\012\012While this group has a locl suffix:\012Aogonek.loclNAV\012Eogonek.loclNAV\012Iogonek.loclNAV\012Oogonek.loclNAV\012Uogonek.loclNAV\012aogonek.loclNAV\012eogonek.loclNAV\012iogonek.loclNAV\012oogonek.loclNAV\012uogonek.loclNAV\012\012Same question with MAH suffixes:\012Ncommaaccent.latnMAH\012Ncommaaccent.loclMAH\012\012\012Faltan:\012- Creversed\012- Dhookandtail\012- Eopenreversed\012- ramshorn\012está la minúscula pero no la mayúscula\012armé los .sc como dhookandtail.sc pero no se si están bien.\012\012*** NEW***\012Muchas dudas del diseño del ramshorn. También si agregar la mayúscula.\012\012Las que son Nsmall Ismall Rsmall Usmall, le metí la .sc original…\012\012Dudas sobre: ᵾ ʉ\012\012We see many .alt glyphs and we are not sure what the alternate should be or if is something that comes from a specific design and don't apply to our case\012\012Todo lo que es macronbelow ya teniamos linebelow, tienen mismo Unicode.\012\012Should we include ɛ (epsilon)? It is in the Bambara text.\012Misma situación con el η (Eta) y ƞ (nlegrightlong) en Wolof text.\012\012\012bracket layers tienen preeminencia sobre los alternates y sc\012entonces cuando astroke alternate se pone black, deja de ser alternate\012\012agregar bracket layers a \012/astroke.sc/astroke.sc.ss01\012\012Agregamos:\012uogonek.loclNAV.sc\012Uogonek.loclNAV\012\012Agregar: /florin.sc/florin.sc.ss01 ƒ/florin.ss01\012\012cambie:\012- Ereversed.ss01, /ereversed.sc.ss01\012- Ɛ Eopen, eopenreversed.sc, ɜ";
 }
 );
 date = "2021-06-21 08:39:08 +0000";
@@ -2511,7 +2510,6 @@ verticalStems = (
 236,
 226
 );
-visible = 1;
 weight = Bold;
 weightValue = 226;
 xHeight = 547;
@@ -7468,6 +7466,14 @@ name = D;
 {
 name = Z;
 transform = "{1, 0, 0, 1, 821, 0}";
+}
+);
+guideLines = (
+{
+position = "{578, 1015}";
+},
+{
+position = "{737, 958}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -63450,11 +63456,11 @@ name = i;
 },
 {
 name = j;
-transform = "{1, 0, 0, 1, 280, 0}";
+transform = "{1, 0, 0, 1, 250, 0}";
 }
 );
 layerId = UUID0;
-width = 535;
+width = 505;
 },
 {
 components = (
@@ -63463,11 +63469,11 @@ name = i;
 },
 {
 name = j;
-transform = "{1, 0, 0, 1, 376, 0}";
+transform = "{1, 0, 0, 1, 326, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 710;
+width = 660;
 },
 {
 components = (
@@ -63476,11 +63482,11 @@ name = i;
 },
 {
 name = j;
-transform = "{1, 0, 0, 1, 334, 0}";
+transform = "{1, 0, 0, 1, 284, 0}";
 }
 );
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
-width = 623;
+width = 573;
 }
 );
 leftKerningGroup = n;
@@ -76305,7 +76311,7 @@ name = topright;
 position = "{349, 742}";
 }
 );
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+background = {
 paths = (
 {
 closed = 1;
@@ -76335,6 +76341,40 @@ nodes = (
 "413 517 LINE",
 "0 517 LINE",
 "0 352 LINE"
+);
+}
+);
+};
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"367 -10 OFFCURVE",
+"418 -1 OFFCURVE",
+"453 19 CURVE",
+"399 176 LINE",
+"384 166 OFFCURVE",
+"366 161 OFFCURVE",
+"348 161 CURVE SMOOTH",
+"321 161 OFFCURVE",
+"301 180 OFFCURVE",
+"301 214 CURVE SMOOTH",
+"301 670 LINE",
+"75 670 LINE",
+"75 212 LINE SMOOTH",
+"75 61 OFFCURVE",
+"163 -10 OFFCURVE",
+"314 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"413 382 LINE",
+"413 547 LINE",
+"0 547 LINE",
+"0 382 LINE"
 );
 }
 );
@@ -83554,7 +83594,7 @@ name = ij;
 }
 );
 layerId = UUID0;
-width = 535;
+width = 505;
 },
 {
 components = (
@@ -83563,7 +83603,7 @@ name = ij;
 }
 );
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
-width = 623;
+width = 573;
 },
 {
 components = (
@@ -83572,7 +83612,7 @@ name = ij;
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 710;
+width = 660;
 }
 );
 leftKerningGroup = l;
@@ -90541,10 +90581,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"386 352 LINE",
-"386 517 LINE",
-"173 517 LINE",
-"173 352 LINE"
+"386 382 LINE",
+"386 547 LINE",
+"173 547 LINE",
+"173 382 LINE"
 );
 }
 );
@@ -208364,6 +208404,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"400 235 LINE",
+"400 700 LINE",
+"220 700 LINE",
+"220 235 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "565 0 LINE",
 "565 170 LINE",
 "55 170 LINE",
@@ -208377,15 +208426,6 @@ nodes = (
 "565 548 LINE",
 "55 548 LINE",
 "55 387 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"400 235 LINE",
-"400 700 LINE",
-"220 700 LINE",
-"220 235 LINE"
 );
 }
 );
@@ -226319,10 +226359,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"428 561 LINE",
-"448 771 LINE",
-"300 771 LINE",
-"300 561 LINE"
+"428 581 LINE",
+"448 791 LINE",
+"300 791 LINE",
+"300 581 LINE"
 );
 }
 );
@@ -236288,7 +236328,6 @@ nhookleft = 20;
 "@MMK_R_four.osf" = -20;
 "@MMK_R_hbar" = 30;
 "@MMK_R_hyphen" = -10;
-"@MMK_R_j" = 40;
 "@MMK_R_lambdastroke" = 90;
 "@MMK_R_lbar" = 40;
 "@MMK_R_n" = 80;
@@ -236743,7 +236782,7 @@ rdblgrave = 30;
 "@MMK_R_five.osf" = 5;
 "@MMK_R_four" = -30;
 "@MMK_R_hyphen" = -20;
-"@MMK_R_j" = -40;
+"@MMK_R_j" = -20;
 "@MMK_R_lambdastroke" = -30;
 "@MMK_R_n" = -10;
 "@MMK_R_nine" = 10;
@@ -237045,7 +237084,7 @@ nhookleft = -15;
 "@MMK_R_degree" = -15;
 "@MMK_R_hardsign-cy.ss01" = -35;
 "@MMK_R_hyphen" = 10;
-"@MMK_R_j" = -20;
+"@MMK_R_j" = 0;
 "@MMK_R_jstroke" = 10;
 "@MMK_R_nine" = -10;
 "@MMK_R_one" = -30;
@@ -238343,7 +238382,6 @@ idblgrave = 90;
 "@MMK_R_Y" = -60;
 "@MMK_R_asterisk" = 80;
 "@MMK_R_backslash" = -70;
-"@MMK_R_j" = 30;
 "@MMK_R_jstroke" = 10;
 "@MMK_R_one" = -10;
 "@MMK_R_one.osf" = -10;
@@ -239003,6 +239041,9 @@ uogonek = {
 };
 yhook.sc = {
 "@MMK_R_o.sc" = -25;
+};
+lslash = {
+"@MMK_R_y" = -5;
 };
 };
 "708134FE-A11E-43C9-84F0-594DA15B6BD1" = {
@@ -241660,7 +241701,6 @@ nhookleft = 55;
 "@MMK_R_four.osf" = -20;
 "@MMK_R_hbar" = 25;
 "@MMK_R_hyphen" = -10;
-"@MMK_R_j" = 44;
 "@MMK_R_lambdastroke" = 60;
 "@MMK_R_lbar" = 30;
 "@MMK_R_n" = 80;
@@ -242114,7 +242154,7 @@ rdblgrave = 43;
 "@MMK_R_five.osf" = 5;
 "@MMK_R_four" = -30;
 "@MMK_R_hyphen" = -24;
-"@MMK_R_j" = -50;
+"@MMK_R_j" = -20;
 "@MMK_R_lambdastroke" = -30;
 "@MMK_R_n" = -6;
 "@MMK_R_nine" = 10;
@@ -242210,7 +242250,6 @@ rdblgrave = 43;
 "@MMK_R_Chi-latin" = 45;
 "@MMK_R_cheabkhasian-cy" = -7;
 "@MMK_R_hyphen" = -30;
-"@MMK_R_t" = 19;
 };
 "@MMK_L_l.sc" = {
 "@MMK_R_asterisk" = -44;
@@ -242447,7 +242486,7 @@ nhookleft = -10;
 "@MMK_R_el-cy" = -5;
 "@MMK_R_hardsign-cy.ss01" = -31;
 "@MMK_R_hyphen" = 10;
-"@MMK_R_j" = -50;
+"@MMK_R_j" = -10;
 "@MMK_R_jstroke" = 10;
 "@MMK_R_nine" = -10;
 "@MMK_R_one" = -26;
@@ -243516,7 +243555,6 @@ lbelt.ss01 = 15;
 "@MMK_R_j" = 13;
 "@MMK_R_lambdastroke" = 50;
 "@MMK_R_lbar" = -30;
-"@MMK_R_n" = 17;
 "@MMK_R_nine" = -11;
 "@MMK_R_nine.osf" = -6;
 "@MMK_R_o" = -18;
@@ -243774,7 +243812,6 @@ lbelt.ss01 = 15;
 "@MMK_R_Y" = -47;
 "@MMK_R_asterisk" = 80;
 "@MMK_R_backslash" = -66;
-"@MMK_R_j" = 50;
 "@MMK_R_jstroke" = 10;
 "@MMK_R_one" = -6;
 "@MMK_R_one.osf" = -6;
@@ -244513,6 +244550,9 @@ yhook.sc = {
 };
 yhook.ss01 = {
 "@MMK_R_y" = 15;
+};
+lslash = {
+"@MMK_R_y" = 0;
 };
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
@@ -247356,7 +247396,7 @@ rdblgrave = 60;
 "@MMK_R_five.osf" = 5;
 "@MMK_R_four" = -30;
 "@MMK_R_hyphen" = -30;
-"@MMK_R_j" = -110;
+"@MMK_R_j" = -10;
 "@MMK_R_lambdastroke" = -30;
 "@MMK_R_nine" = 10;
 "@MMK_R_nine.osf" = -10;
@@ -247455,7 +247495,6 @@ rdblgrave = 60;
 "@MMK_R_Chi-latin" = 60;
 "@MMK_R_cheabkhasian-cy" = -15;
 "@MMK_R_hyphen" = -30;
-"@MMK_R_t" = 70;
 "@MMK_R_tshe-cy" = 20;
 };
 "@MMK_L_l.sc" = {
@@ -247543,6 +247582,7 @@ rdblgrave = 60;
 "@MMK_R_lbar" = 10;
 "@MMK_R_t" = 70;
 "@MMK_R_x" = -20;
+"@MMK_R_y" = -10;
 "@MMK_R_yturned" = -10;
 };
 "@MMK_L_lcaron" = {
@@ -247683,7 +247723,7 @@ nhookleft = 30;
 "@MMK_R_el-cy" = -12;
 "@MMK_R_hardsign-cy.ss01" = -25;
 "@MMK_R_hyphen" = 10;
-"@MMK_R_j" = -70;
+"@MMK_R_j" = -10;
 "@MMK_R_jstroke" = 10;
 "@MMK_R_lbar" = 10;
 "@MMK_R_nine" = -10;
@@ -248677,7 +248717,6 @@ lbelt.ss01 = 10;
 "@MMK_R_j" = 30;
 "@MMK_R_lambdastroke" = 40;
 "@MMK_R_lbar" = -10;
-"@MMK_R_n" = 40;
 "@MMK_R_o" = -15;
 "@MMK_R_one" = -10;
 "@MMK_R_paragraph" = -20;
@@ -248913,7 +248952,6 @@ lbelt.ss01 = 10;
 "@MMK_R_Y" = -30;
 "@MMK_R_asterisk" = 80;
 "@MMK_R_backslash" = -60;
-"@MMK_R_j" = 50;
 "@MMK_R_jstroke" = 30;
 "@MMK_R_question" = 40;
 nhookleft = 30;
@@ -249107,7 +249145,7 @@ nhookleft = 30;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_j" = -15;
 "@MMK_R_jstroke" = 5;
-"@MMK_R_lbar" = 25;
+"@MMK_R_lbar" = -10;
 "@MMK_R_nine" = 30;
 "@MMK_R_o" = -15;
 "@MMK_R_one" = 30;
@@ -249602,6 +249640,9 @@ yhook.ss01 = {
 };
 ystroke = {
 "@MMK_R_v" = -10;
+};
+lslash = {
+"@MMK_R_y" = 30;
 };
 };
 };

@@ -5,7 +5,7 @@ DisplayStrings = (
 "/Hturned",
 "o­z",
 "/iogonek.dotless/idotbelow.dotless/itildebelow.dotless",
-"/jcrossedtail.dotless/jcrossedtail"
+"fi/space fj/space gj/space kjkil\012y/lslash yv/lbar ynojot\012kvwxyz/space fi/space fj/space fijliliu/t.ss01 t/tbar/caroncomb.alt.short/tcaron/tcaron.ss01/tcaron/tcedilla/tcircumflexbelow/tcommaaccent/tdieresis/tdotaccent/tdotbelow/tlinebelow/peseta r"
 );
 classes = (
 {
@@ -75657,7 +75657,7 @@ nodes = (
 );
 }
 );
-width = 713;
+width = 718;
 },
 {
 anchors = (
@@ -75771,7 +75771,7 @@ transform = "{1, 0, 0, 1, -137, 42}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 713;
+width = 718;
 }
 );
 leftKerningGroup = l;
@@ -75821,7 +75821,7 @@ transform = "{1, 0, 0, 1, -137, 195}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 713;
+width = 718;
 }
 );
 leftKerningGroup = l;
@@ -75855,7 +75855,7 @@ transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 713;
+width = 718;
 },
 {
 components = (
@@ -75915,7 +75915,7 @@ transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 713;
+width = 718;
 }
 );
 leftKerningGroup = l;
@@ -76380,7 +76380,7 @@ transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 713;
+width = 718;
 }
 );
 leftKerningGroup = l;
@@ -89234,10 +89234,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"413 352 LINE",
-"413 517 LINE",
-"0 517 LINE",
-"0 352 LINE"
+"413 382 LINE",
+"413 547 LINE",
+"0 547 LINE",
+"0 382 LINE"
 );
 }
 );
@@ -105360,10 +105360,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"386 352 LINE",
-"386 517 LINE",
-"173 517 LINE",
-"173 352 LINE"
+"386 382 LINE",
+"386 547 LINE",
+"173 547 LINE",
+"173 382 LINE"
 );
 }
 );
@@ -109681,11 +109681,11 @@ name = f;
 },
 {
 name = i;
-transform = "{1, 0, 0, 1, 426, 0}";
+transform = "{1, 0, 0, 1, 441, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 752;
+width = 767;
 },
 {
 components = (
@@ -284464,10 +284464,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"428 561 LINE",
-"448 771 LINE",
-"300 771 LINE",
-"300 561 LINE"
+"428 581 LINE",
+"448 791 LINE",
+"300 791 LINE",
+"300 581 LINE"
 );
 }
 );
@@ -295646,7 +295646,7 @@ nhookleft = -15;
 "@MMK_R_chi-latin" = -60;
 "@MMK_R_degree" = -15;
 "@MMK_R_hardsign-cy.ss01" = -35;
-"@MMK_R_j" = -20;
+"@MMK_R_j" = 0;
 "@MMK_R_nine" = -10;
 "@MMK_R_one" = -30;
 "@MMK_R_one.osf" = -5;
@@ -296983,6 +296983,9 @@ tretroflexhook.ss01 = {
 };
 yhook.sc = {
 "@MMK_R_o.sc" = -25;
+};
+lslash = {
+"@MMK_R_y" = -5;
 };
 };
 "708134FE-A11E-43C9-84F0-594DA15B6BD1" = {
@@ -299223,7 +299226,7 @@ jcrossedtail = -40;
 "@MMK_R_eight" = -9;
 "@MMK_R_four" = -30;
 "@MMK_R_hyphen" = -24;
-"@MMK_R_j" = -50;
+"@MMK_R_j" = -20;
 "@MMK_R_lambdastroke" = -30;
 "@MMK_R_n" = -6;
 "@MMK_R_nine.osf" = -10;
@@ -299448,7 +299451,7 @@ nhookleft = -10;
 "@MMK_R_degree" = -17;
 "@MMK_R_el-cy" = -5;
 "@MMK_R_hardsign-cy.ss01" = -31;
-"@MMK_R_j" = -50;
+"@MMK_R_j" = -10;
 "@MMK_R_nine" = -10;
 "@MMK_R_one" = -26;
 "@MMK_R_one.osf" = -5;
@@ -300783,6 +300786,9 @@ tretroflexhook.ss01 = {
 };
 "upsilon-latin" = {
 "@MMK_R_chi-latin" = -20;
+};
+lslash = {
+"@MMK_R_y" = 0;
 };
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
@@ -302420,6 +302426,8 @@ jcrossedtail = -40;
 "@MMK_R_four.osf" = -20;
 "@MMK_R_guilsinglright" = -10;
 "@MMK_R_hyphen" = -10;
+"@MMK_R_j" = 10;
+"@MMK_R_l" = 15;
 "@MMK_R_o" = -5;
 "@MMK_R_period" = -10;
 "@MMK_R_questiondown" = -20;
@@ -302673,7 +302681,7 @@ jcrossedtail = -60;
 "@MMK_R_eight" = -15;
 "@MMK_R_four" = -30;
 "@MMK_R_hyphen" = -30;
-"@MMK_R_j" = -110;
+"@MMK_R_j" = -10;
 "@MMK_R_lambdastroke" = -30;
 "@MMK_R_nine.osf" = -10;
 "@MMK_R_o" = -25;
@@ -302777,6 +302785,7 @@ jcrossedtail = -60;
 "@MMK_L_lbar" = {
 "@MMK_R_A" = -15;
 "@MMK_R_x" = -20;
+"@MMK_R_y" = -10;
 "@MMK_R_yturned" = -10;
 };
 "@MMK_L_liraTurkish" = {
@@ -302877,7 +302886,7 @@ lmiddletilde = -25;
 "@MMK_R_degree" = -20;
 "@MMK_R_el-cy" = -12;
 "@MMK_R_hardsign-cy.ss01" = -25;
-"@MMK_R_j" = -70;
+"@MMK_R_j" = -10;
 "@MMK_R_nine" = -10;
 "@MMK_R_one" = -20;
 "@MMK_R_one.osf" = -5;
@@ -303703,6 +303712,7 @@ glottalstopsmall = -20;
 "@MMK_R_four.osf" = -50;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_j" = -15;
+"@MMK_R_lbar" = -10;
 "@MMK_R_o" = -15;
 "@MMK_R_period" = -30;
 "@MMK_R_questiondown" = -45;
@@ -303993,6 +304003,9 @@ tretroflexhook.ss01 = {
 };
 ystroke = {
 "@MMK_R_v" = -10;
+};
+lslash = {
+"@MMK_R_y" = 30;
 };
 };
 };
