@@ -5,7 +5,8 @@ DisplayStrings = (
 "/Hturned",
 "o­z",
 "/iogonek.dotless/idotbelow.dotless/itildebelow.dotless",
-"H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-"
+"H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
+"ª/Z.ss01/Astroke.ss01/colonsign \012ojo/jdotless o/jdotlessstroke o\012/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde \012/ohorn.sc/ohornacute.sc/ohorndotbelow.sc/ohorngrave.sc/ohornhookabove.sc/ohorntilde.sc \012/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde \012/tbar.ss01 \012\012\012\012"
 );
 classes = (
 {
@@ -72147,7 +72148,7 @@ width = 284;
 }
 );
 leftKerningGroup = l;
-rightKerningGroup = u;
+rightKerningGroup = l;
 unicode = 0069;
 },
 {
@@ -133939,7 +133940,7 @@ position = "{364, 0}";
 },
 {
 name = top;
-position = "{364, 582}";
+position = "{351, 582}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -134116,7 +134117,7 @@ name = ohorn.sc;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 64, 35}";
+transform = "{1, 0, 0, 1, 51, 35}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -134208,7 +134209,7 @@ name = ohorn.sc;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 64, 35}";
+transform = "{1, 0, 0, 1, 51, 35}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -134254,7 +134255,7 @@ name = ohorn.sc;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 64, 35}";
+transform = "{1, 0, 0, 1, 51, 35}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -134300,7 +134301,7 @@ name = ohorn.sc;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 64, 35}";
+transform = "{1, 0, 0, 1, 51, 35}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -255469,10 +255470,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"601 573 LINE",
 "664 820 LINE",
 "533 820 LINE",
-"481 617 LINE",
-"601 573 LINE"
+"481 617 LINE"
 );
 },
 {
