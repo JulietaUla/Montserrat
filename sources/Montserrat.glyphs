@@ -8,7 +8,8 @@ DisplayStrings = (
 "DZ\012/DZ/space/Dz/space/dz/space/dz.sc \012/DZcaron/space/Dzcaron/space/dzcaron/space/dzcaron.sc \012/DZ.ss01/space/Dz.ss01/space/dz.ss01/space/dz.sc.ss01 \012/DZcaron.ss01/space/Dzcaron.ss01/space/dzcaron.ss01/space/dzcaron.sc.ss01/space",
 "fi/space fj/space gj/space kjkikl/ereversed-cy/je-cy njuj\012y/lslash yv/lbar ynojot/space \012kvwxyz/space fijlu/t.ss01 tr\012/caroncomb.alt.short/tcaron/tcaron.ss01",
 "Fj/Ge-cy juTj\012OjoY\012oejojo/ezhreversed/jstroke",
-"koH/quoteleft/commaturnedmod rsatmasi"
+"H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-/bmacronbelow/pmacronbelow p/macronbelowcomb",
+"/macronbelowcomb/hmacronbelow.case p/pacute/pdotaccent/er-cy q/qa-cy p/fi.ss01/fi/pmacronbelow/bmacronbelow/dlinebelow/hmacronbelow/kmacronbelow/llinebelow/nlinebelow/rlinebelow/tlinebelow/llinebelow.ss01/tlinebelow.ss01/zmacronbelow.ss01/bmacronbelow.sc/dlinebelow.sc/hmacronbelow.sc/kmacronbelow.sc/llinebelow.sc/nlinebelow.sc/rlinebelow.sc/tlinebelow.sc/zmacronbelow.sc/nlinebelow.sc.ss01/tlinebelow.sc.ss01/zmacronbelow.sc.ss01"
 );
 classes = (
 {
@@ -72647,7 +72648,7 @@ width = 671;
 anchors = (
 {
 name = bottom;
-position = "{414, -170}";
+position = "{396, -160}";
 },
 {
 name = top;
@@ -230463,6 +230464,53 @@ source = uniA7B8.ss01;
 },
 {
 color = 3;
+glyphname = pmacronbelow;
+layers = (
+{
+components = (
+{
+name = p;
+},
+{
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 66, -100}";
+}
+);
+layerId = UUID0;
+width = 671;
+},
+{
+components = (
+{
+name = p;
+},
+{
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 87, -120}";
+}
+);
+layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
+width = 684;
+},
+{
+components = (
+{
+name = p;
+},
+{
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 96, -160}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 700;
+}
+);
+leftKerningGroup = l;
+rightKerningGroup = o;
+},
+{
+color = 3;
 glyphname = Arighthalfring;
 layers = (
 {
@@ -240930,7 +240978,7 @@ rinvertedbreve = -26;
 "@MMK_R_paragraph" = 21;
 "@MMK_R_parenleft" = -11;
 "@MMK_R_parenright" = 7;
-"@MMK_R_period" = -37;
+"@MMK_R_period" = -40;
 "@MMK_R_questiondown" = -81;
 "@MMK_R_quoteleft" = 11;
 "@MMK_R_quoteright" = 26;
@@ -246280,7 +246328,7 @@ rinvertedbreve = -15;
 "@MMK_R_one" = 40;
 "@MMK_R_paragraph" = 10;
 "@MMK_R_parenright" = 15;
-"@MMK_R_period" = -40;
+"@MMK_R_period" = -50;
 "@MMK_R_questiondown" = -75;
 "@MMK_R_quoteright" = 20;
 "@MMK_R_reversedze-cy" = -65;
