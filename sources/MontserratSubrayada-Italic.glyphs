@@ -121,12 +121,26 @@ feature ss01;
 name = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
 	@CombiningNonTopAccents = [arrowdoublerightbelowcomb brevebelowcomb breveinvertedbelowcomb cedillacomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb doublebrevebelowcomb doublemacronbelowcomb lowlinecomb macronbelowcomb minusbelowcomb ogonekcomb ringbelowcomb tildebelowcomb verticallinebelowcomb breveinverteddoublecomb doublebrevecomb dotaboverightcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb tildeoverlaycomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+
+	# Start dotless replacements
+    sub i' @CombiningTopAccents by idotless;
+    sub i-cy' by idotless;
+    sub imod' @CombiningTopAccents by imod.dotless;
+    sub iogonek' @CombiningTopAccents by iogonek.dotless;
+    sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
+    sub itildebelow' @CombiningTopAccents by itildebelow.dotless;
+    sub istroke' @CombiningTopAccents by istroke.dotless;
+    sub istrokemod' @CombiningTopAccents by istrokemod.dotless;
+    sub j' @CombiningTopAccents by jdotless;
+    sub jstroke' by jdotlessstroke;
+    sub jcrossedtail' @CombiningTopAccents by jcrossedtail.dotless;
+	# End dotless replacements
+
 	@Markscomb = [brevecomb-cy descender-cy dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_caroncomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb gravecomb_macroncomb acutecomb acutecomb_dotaccentcomb acutecomb_macroncomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb caroncomb_dotaccentcomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb ringcomb_acutecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb verticallineabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb ringbelowcomb commaaccentcomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb strokeshortcomb slashshortcomb slashlongcomb brevecomb.narrow macroncomb.narrow hungarumlaut dieresis.narrow circumflex.narrow tilde.narrow];
 	@MarkscombCase = [brevecomb-cy.case descender-cy.case dieresiscomb.case dieresiscomb_gravecomb.case dieresiscomb_acutecomb.case dieresiscomb_caroncomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case gravecomb_macroncomb.case acutecomb.case acutecomb_dotaccentcomb.case acutecomb_macroncomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case caroncomb.case caroncomb_dotaccentcomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case brevecomb_hookabovecomb.case ringcomb.case ringcomb_acutecomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_dieresiscomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case hookabovecomb.case verticallineabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case ringbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case circumflexbelowcomb.case brevebelowcomb.case tildebelowcomb.case macronbelowcomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case brevecomb.narrow.case macroncomb.narrow.case hungarumlaut.case dieresis.narrow.case circumflex.narrow.case tilde.narrow.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
