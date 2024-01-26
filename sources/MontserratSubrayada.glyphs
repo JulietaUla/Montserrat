@@ -3,12 +3,14 @@
 DisplayStrings = (
 "o/schwa/gravecomb",
 "/Hturned",
-"o­z",
+oz,
 "/iogonek.dotless/idotbelow.dotless/itildebelow.dotless",
 "H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
 "1-/space Ordfeminine/space isn't/space small/space and/space high/space positioned/space like/space before/space ª\012\0122-/space Interpolation/space issue/space in/space the/space/Zstroke Z/space bar/space (ss01)./space Check/space all/space glyphs/space composed/space with/space z.ss01/space and/space Z.ss01\012/z.ss01/Dz.ss01/dz.ss01/zacute.ss01/zcaron.ss01/zcircumflex.ss01/zdotaccent.ss01/zdotbelow.ss01/zmacronbelow.ss01 \012/z.sc.ss01/dz.sc.ss01/zacute.sc.ss01/zcaron.sc.ss01/zcircumflex.sc.ss01/zdotaccent.sc.ss01/zdotbelow.sc.ss01/zmacronbelow.sc.ss01 \012/Z.ss01/DZ.ss01/Zacute.ss01/Zcaron.ss01/Zcircumflex.ss01/Zdotaccent.ss01/Zdotbelow.ss01/Z.ss01/Zmacronbelow.ss01 \012\0123-/space The/space slash/space looks/space a/space bit/space too/space much/space on/space the/space right\012/Astroke.ss01 \012\0124-/space There/space is/space an/space issue/space in/space the/space right/space bar/space (interpolation/space issue/space or/space problem/space with/space layers)\012/colonsign \0125-/space In/space this/space last/space version,/space the/space \"j\"/space spacing/space looks/space a/space bit/space tight/space with/space rounded/space letters./space Need/space to/space be/space check/space in/space every/space masters.\012DONE/space ojo/jdotless o/jdotlessstroke o/space \0126-/space Accent/space position/space in/space uni1EE1\012/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde \012/ohorn.sc/ohornacute.sc/ohorndotbelow.sc/ohorngrave.sc/ohornhookabove.sc/ohorntilde.sc \012/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde \0127-/space Interpolation/space issue/space in/space tbar.ss01\012/tbar.ss01 \012",
 "I/tildecomb.narrow/tilde.narrow/tilde.narrow.case/Itildebelow/acutecomb/space/itildebelow/gravecomb",
-"/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke"
+"/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
+"/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
+"/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01"
 );
 classes = (
 {
@@ -38,11 +40,11 @@ value = 1;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 name = vendorID;
@@ -2158,6 +2160,7 @@ sub eogonekacute.loclNAV.sc by eogonekacute.loclNAV.sc.ss01;
 sub uogonekacute.loclNAV.sc by uogonekacute.loclNAV.sc.ss01;
 ";
 name = ss01;
+notes = "Name: Alternate";
 }
 );
 fontMaster = (
@@ -54686,6 +54689,36 @@ rightKerningGroup = V;
 glyphname = T_h;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{287, 0}";
+},
+{
+name = bottom_2;
+position = "{861, 0}";
+},
+{
+name = caret_1;
+position = "{574, 0}";
+},
+{
+name = center_1;
+position = "{287, 350}";
+},
+{
+name = center_2;
+position = "{861, 350}";
+},
+{
+name = top_1;
+position = "{287, 700}";
+},
+{
+name = top_2;
+position = "{861, 700}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -54749,6 +54782,36 @@ nodes = (
 width = 1148;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{323, 0}";
+},
+{
+name = bottom_2;
+position = "{969, 0}";
+},
+{
+name = caret_1;
+position = "{646, 0}";
+},
+{
+name = center_1;
+position = "{323, 350}";
+},
+{
+name = center_2;
+position = "{969, 350}";
+},
+{
+name = top_1;
+position = "{323, 700}";
+},
+{
+name = top_2;
+position = "{969, 700}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -54812,6 +54875,36 @@ nodes = (
 width = 1292;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{303, 0}";
+},
+{
+name = bottom_2;
+position = "{908, 0}";
+},
+{
+name = caret_1;
+position = "{605.5, 0}";
+},
+{
+name = center_1;
+position = "{303, 350}";
+},
+{
+name = center_2;
+position = "{908, 350}";
+},
+{
+name = top_1;
+position = "{303, 700}";
+},
+{
+name = top_2;
+position = "{908, 700}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
@@ -54882,6 +54975,12 @@ rightKerningGroup = n;
 glyphname = Iacute_J.loclNLD.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{357, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -54954,6 +55053,12 @@ nodes = (
 width = 714;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{364.5, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -55026,6 +55131,12 @@ nodes = (
 width = 729;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{360.5, 0}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
@@ -109677,6 +109788,12 @@ rightKerningGroup = whook;
 glyphname = fi;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{284.5, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -109692,6 +109809,12 @@ layerId = UUID0;
 width = 569;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{383.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -109705,6 +109828,12 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 767;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{322.5, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -109728,6 +109857,12 @@ unicode = FB01;
 glyphname = fl;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{280.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -109741,19 +109876,31 @@ layerId = UUID0;
 width = 561;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{383.5, 0}";
+}
+);
 components = (
 {
 name = f;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 426, 0}";
+transform = "{1, 0, 0, 1, 441, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 752;
+width = 767;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{322.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -109775,6 +109922,12 @@ unicode = FB02;
 glyphname = fi.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{272.5, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -109790,6 +109943,12 @@ layerId = UUID0;
 width = 545;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{363.5, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -109805,6 +109964,12 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 727;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{315, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -109827,6 +109992,12 @@ rightKerningGroup = u;
 glyphname = fl.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{280.5, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -109895,6 +110066,12 @@ nodes = (
 width = 561;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{396.5, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -109963,6 +110140,12 @@ nodes = (
 width = 793;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{329, 0}";
+}
+);
 color = 3;
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
@@ -110039,6 +110222,12 @@ rightKerningGroup = l.ss01;
 glyphname = iacute_j.loclNLD.sc;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{289, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -110102,6 +110291,12 @@ nodes = (
 width = 578;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{309, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -110165,6 +110360,12 @@ nodes = (
 width = 618;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{297.5, 0}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
@@ -110235,6 +110436,12 @@ rightKerningGroup = u.sc;
 glyphname = iacute_j.loclNLD.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{306, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -110298,6 +110505,12 @@ nodes = (
 width = 612;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{321, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -110361,6 +110574,12 @@ nodes = (
 width = 642;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{312.5, 0}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
@@ -167029,6 +167248,28 @@ rightKerningGroup = h.sc;
 glyphname = fi.sc;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{398, 0}";
+},
+{
+name = caret_1;
+position = "{397.5, 0}";
+},
+{
+name = ogonek;
+position = "{716, 10}";
+},
+{
+name = top;
+position = "{398, 559}";
+},
+{
+name = topleft;
+position = "{20, 559}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -167042,6 +167283,28 @@ layerId = UUID0;
 width = 795;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{421, 0}";
+},
+{
+name = caret_1;
+position = "{420.5, 0}";
+},
+{
+name = ogonek;
+position = "{757, 10}";
+},
+{
+name = top;
+position = "{421, 570}";
+},
+{
+name = topleft;
+position = "{20, 570}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -167055,6 +167318,28 @@ layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 width = 841;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{451, 0}";
+},
+{
+name = caret_1;
+position = "{451, 0}";
+},
+{
+name = ogonek;
+position = "{812, 10}";
+},
+{
+name = top;
+position = "{451, 582}";
+},
+{
+name = topleft;
+position = "{20, 582}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -167075,6 +167360,28 @@ rightKerningGroup = h.sc;
 glyphname = fl.sc;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{509, 0}";
+},
+{
+name = caret_1;
+position = "{508.5, 0}";
+},
+{
+name = center;
+position = "{509, 280}";
+},
+{
+name = top;
+position = "{509, 559}";
+},
+{
+name = topright;
+position = "{997, 559}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -167088,6 +167395,28 @@ layerId = UUID0;
 width = 1017;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{529, 0}";
+},
+{
+name = caret_1;
+position = "{528.5, 0}";
+},
+{
+name = center;
+position = "{529, 285}";
+},
+{
+name = top;
+position = "{529, 570}";
+},
+{
+name = topright;
+position = "{1037, 570}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -167101,6 +167430,28 @@ layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 width = 1057;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{555, 0}";
+},
+{
+name = caret_1;
+position = "{554.5, 0}";
+},
+{
+name = center;
+position = "{555, 291}";
+},
+{
+name = top;
+position = "{555, 582}";
+},
+{
+name = topright;
+position = "{1089, 582}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -167121,6 +167472,28 @@ rightKerningGroup = l.sc;
 glyphname = fi.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{440, 0}";
+},
+{
+name = caret_1;
+position = "{439.5, 0}";
+},
+{
+name = ogonek;
+position = "{791, 10}";
+},
+{
+name = top;
+position = "{440, 559}";
+},
+{
+name = topleft;
+position = "{20, 559}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -167134,6 +167507,28 @@ layerId = UUID0;
 width = 879;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{477, 0}";
+},
+{
+name = caret_1;
+position = "{477, 0}";
+},
+{
+name = ogonek;
+position = "{859, 10}";
+},
+{
+name = top;
+position = "{477, 570}";
+},
+{
+name = topleft;
+position = "{20, 570}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -167147,6 +167542,28 @@ layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 width = 954;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{511, 0}";
+},
+{
+name = caret_1;
+position = "{510.5, 0}";
+},
+{
+name = ogonek;
+position = "{919, 10}";
+},
+{
+name = top;
+position = "{511, 582}";
+},
+{
+name = topleft;
+position = "{20, 582}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -167167,6 +167584,28 @@ rightKerningGroup = i.sc.ss01;
 glyphname = fl.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{495, 0}";
+},
+{
+name = caret_1;
+position = "{494.5, 0}";
+},
+{
+name = center;
+position = "{495, 280}";
+},
+{
+name = top;
+position = "{495, 559}";
+},
+{
+name = topright;
+position = "{969, 559}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -167180,6 +167619,28 @@ layerId = UUID0;
 width = 989;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{517, 0}";
+},
+{
+name = caret_1;
+position = "{517, 0}";
+},
+{
+name = center;
+position = "{517, 285}";
+},
+{
+name = top;
+position = "{517, 570}";
+},
+{
+name = topright;
+position = "{1014, 570}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -167193,6 +167654,28 @@ layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 width = 1034;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{546, 0}";
+},
+{
+name = caret_1;
+position = "{546, 0}";
+},
+{
+name = center;
+position = "{546, 291}";
+},
+{
+name = top;
+position = "{546, 582}";
+},
+{
+name = topright;
+position = "{1072, 582}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -242989,44 +243472,6 @@ rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
-glyphname = softhyphen;
-layers = (
-{
-components = (
-{
-alignment = 1;
-name = hyphen;
-}
-);
-layerId = UUID0;
-width = 380;
-},
-{
-components = (
-{
-alignment = 1;
-name = hyphen;
-}
-);
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 390;
-},
-{
-components = (
-{
-alignment = 1;
-name = hyphen;
-}
-);
-layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
-width = 384;
-}
-);
-leftKerningGroup = hyphen;
-rightKerningGroup = hyphen;
-unicode = 00AD;
-},
-{
 glyphname = endash;
 layers = (
 {
@@ -293058,10 +293503,6 @@ name = Filter;
 value = AddExtremes;
 },
 {
-name = weightClass;
-value = 275;
-},
-{
 name = familyName;
 value = "Montserrat Subrayada";
 }
@@ -293072,6 +293513,7 @@ instanceInterpolations = {
 UUID0 = 0.85556;
 };
 name = ExtraLight;
+weightClass = ExtraLight;
 },
 {
 customParameters = (
@@ -295578,6 +296020,10 @@ jcrossedtail = -30;
 "@MMK_R_t" = -20;
 "@MMK_R_y" = -10;
 };
+"@MMK_L_lcaron" = {
+"@MMK_R_Cbar" = 5;
+"@MMK_R_Yogh" = 15;
+};
 "@MMK_L_liraTurkish" = {
 "@MMK_R_asterisk" = -40;
 "@MMK_R_backslash" = -50;
@@ -297033,10 +297479,6 @@ tretroflexhook.ss01 = {
 };
 yhook.sc = {
 "@MMK_R_o.sc" = -25;
-};
-"@MMK_L_lcaron" = {
-"@MMK_R_Cbar" = 5;
-"@MMK_R_Yogh" = 15;
 };
 };
 "708134FE-A11E-43C9-84F0-594DA15B6BD1" = {
@@ -299402,10 +299844,10 @@ jcrossedtail = -40;
 "@MMK_R_yturned" = -15;
 };
 "@MMK_L_lcaron" = {
-"@MMK_R_l" = 80;
 "@MMK_R_Cbar" = 40;
 "@MMK_R_Yogh" = 100;
 "@MMK_R_j" = 79;
+"@MMK_R_l" = 80;
 "@MMK_R_n" = 9;
 "@MMK_R_t" = 52;
 "@MMK_R_u" = 9;
@@ -302882,12 +303324,12 @@ jcrossedtail = -60;
 "@MMK_R_yturned" = -10;
 };
 "@MMK_L_lcaron" = {
-"@MMK_R_l" = 170;
 "@MMK_R_Cbar" = 70;
 "@MMK_R_Esh" = 40;
 "@MMK_R_J" = 140;
 "@MMK_R_Yogh" = 160;
 "@MMK_R_j" = 180;
+"@MMK_R_l" = 170;
 "@MMK_R_n" = 20;
 "@MMK_R_t" = 120;
 "@MMK_R_u" = 20;

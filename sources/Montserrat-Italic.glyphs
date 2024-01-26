@@ -13,7 +13,8 @@ DisplayStrings = (
 "/jcrossedtail/jcrossedtail.dotless",
 "fi/space fj/space gj\012w/lslash w/space y/lslash yv/lbar y/space ó/lslash r/space f/hbar/space ílïlîl/space nojot/space p/macronbelowcomb ara/space p/macronbelowcomb kjkAj/space i/ereversed-cy/je-cy uj\012±kvwxyz/space fi/space fjn/space fijl/t.ss01 tr/space/caroncomb.alt.short/tcaron/tcaron.ss01",
 "H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
-"ª/Z.ss01/Astroke.ss01/colonsign \012ojo/jdotless o/jdotlessstroke o\012/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde \012/ohorn.sc/ohornacute.sc/ohorndotbelow.sc/ohorngrave.sc/ohornhookabove.sc/ohorntilde.sc \012/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde \012/tbar.ss01 \012\012"
+"/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
+"/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01"
 );
 classes = (
 {
@@ -47,11 +48,11 @@ value = 1;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 name = vendorID;
@@ -2211,6 +2212,7 @@ sub eogonekacute.loclNAV.sc by eogonekacute.loclNAV.sc.ss01;
 sub uogonekacute.loclNAV.sc by uogonekacute.loclNAV.sc.ss01;
 ";
 name = ss01;
+notes = "Name: Alternate";
 }
 );
 fontMaster = (
@@ -48227,6 +48229,36 @@ rightKerningGroup = V;
 glyphname = T_h;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{235, 0}";
+},
+{
+name = bottom_2;
+position = "{809, 0}";
+},
+{
+name = caret_1;
+position = "{574, 0}";
+},
+{
+name = center_1;
+position = "{305, 350}";
+},
+{
+name = center_2;
+position = "{879, 350}";
+},
+{
+name = top_1;
+position = "{375, 700}";
+},
+{
+name = top_2;
+position = "{949, 700}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -48272,6 +48304,36 @@ nodes = (
 width = 1148;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{268, 0}";
+},
+{
+name = bottom_2;
+position = "{914, 0}";
+},
+{
+name = caret_1;
+position = "{550, 0}";
+},
+{
+name = center_1;
+position = "{338, 350}";
+},
+{
+name = center_2;
+position = "{984, 350}";
+},
+{
+name = top_1;
+position = "{408, 700}";
+},
+{
+name = top_2;
+position = "{1054, 700}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -48317,6 +48379,36 @@ nodes = (
 width = 1292;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{250, 0}";
+},
+{
+name = bottom_2;
+position = "{855, 0}";
+},
+{
+name = caret_1;
+position = "{605.5, 0}";
+},
+{
+name = center_1;
+position = "{320, 350}";
+},
+{
+name = center_2;
+position = "{925, 350}";
+},
+{
+name = top_1;
+position = "{390, 700}";
+},
+{
+name = top_2;
+position = "{995, 700}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -48371,6 +48463,12 @@ rightMetricsKey = h;
 glyphname = Iacute_J.loclNLD.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{357, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -48425,6 +48523,12 @@ nodes = (
 width = 714;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{310, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -48479,6 +48583,12 @@ nodes = (
 width = 729;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{360.5, 0}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -96854,6 +96964,12 @@ rightKerningGroup = whook;
 glyphname = fi;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{280.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -96867,6 +96983,12 @@ layerId = UUID0;
 width = 561;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{383, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -96880,6 +97002,12 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 766;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{322.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -96903,6 +97031,12 @@ unicode = FB01;
 glyphname = fl;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{280.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -96916,6 +97050,12 @@ layerId = UUID0;
 width = 561;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{383.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -96929,6 +97069,12 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 767;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{322.5, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -96952,6 +97098,12 @@ unicode = FB02;
 glyphname = fi.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{276.5, 0}";
+}
+);
 components = (
 {
 name = f.ss01;
@@ -96965,6 +97117,12 @@ layerId = UUID0;
 width = 553;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{375.5, 0}";
+}
+);
 components = (
 {
 name = f.ss01;
@@ -96978,6 +97136,12 @@ layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 width = 751;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{315, 0}";
+}
+);
 components = (
 {
 name = f.ss01;
@@ -97000,6 +97164,12 @@ rightMetricsKey = i;
 glyphname = fl.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{283.5, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -97050,6 +97220,12 @@ nodes = (
 width = 567;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{396.5, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -97100,6 +97276,12 @@ nodes = (
 width = 793;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{333, 0}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -97158,6 +97340,12 @@ rightKerningGroup = l.ss01;
 glyphname = iacute_j.loclNLD.sc;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{301, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -97212,6 +97400,12 @@ nodes = (
 width = 602;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{310, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -97266,6 +97460,12 @@ nodes = (
 width = 620;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{310, 0}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -97327,6 +97527,12 @@ rightKerningGroup = u.sc;
 glyphname = iacute_j.loclNLD.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{306, 0}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -97381,6 +97587,12 @@ nodes = (
 width = 612;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{321, 0}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -97435,6 +97647,12 @@ nodes = (
 width = 642;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{312.5, 0}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -147832,6 +148050,28 @@ rightMetricsKey = "=n.sc";
 glyphname = fi.sc;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{342, 0}";
+},
+{
+name = caret_1;
+position = "{397.5, 0}";
+},
+{
+name = ogonek;
+position = "{662, 10}";
+},
+{
+name = top;
+position = "{454, 559}";
+},
+{
+name = topleft;
+position = "{76, 559}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -147845,6 +148085,28 @@ layerId = UUID0;
 width = 795;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{364, 0}";
+},
+{
+name = caret_1;
+position = "{420.5, 0}";
+},
+{
+name = ogonek;
+position = "{702, 10}";
+},
+{
+name = top;
+position = "{478, 570}";
+},
+{
+name = topleft;
+position = "{77, 570}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -147858,6 +148120,28 @@ layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 width = 841;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{393, 0}";
+},
+{
+name = caret_1;
+position = "{451, 0}";
+},
+{
+name = ogonek;
+position = "{756, 10}";
+},
+{
+name = top;
+position = "{509, 582}";
+},
+{
+name = topleft;
+position = "{78, 582}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -147880,6 +148164,28 @@ rightMetricsKey = i.sc;
 glyphname = fl.sc;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{453, 0}";
+},
+{
+name = caret_1;
+position = "{508.5, 0}";
+},
+{
+name = center;
+position = "{509, 280}";
+},
+{
+name = top;
+position = "{565, 559}";
+},
+{
+name = topright;
+position = "{1053, 559}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -147893,6 +148199,28 @@ layerId = UUID0;
 width = 1017;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{472, 0}";
+},
+{
+name = caret_1;
+position = "{528.5, 0}";
+},
+{
+name = center;
+position = "{529, 285}";
+},
+{
+name = top;
+position = "{586, 570}";
+},
+{
+name = topright;
+position = "{1094, 570}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -147906,6 +148234,28 @@ layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 width = 1057;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{497, 0}";
+},
+{
+name = caret_1;
+position = "{554.5, 0}";
+},
+{
+name = center;
+position = "{555, 291}";
+},
+{
+name = top;
+position = "{613, 582}";
+},
+{
+name = topright;
+position = "{1147, 582}";
+}
+);
 components = (
 {
 name = f.sc;
@@ -147928,6 +148278,28 @@ rightMetricsKey = l.sc;
 glyphname = fi.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{380, 0}";
+},
+{
+name = caret_1;
+position = "{435.5, 0}";
+},
+{
+name = ogonek;
+position = "{730, 10}";
+},
+{
+name = top;
+position = "{492, 559}";
+},
+{
+name = topleft;
+position = "{76, 559}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -147941,6 +148313,28 @@ layerId = UUID0;
 width = 871;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{420, 0}";
+},
+{
+name = caret_1;
+position = "{476.5, 0}";
+},
+{
+name = ogonek;
+position = "{803, 10}";
+},
+{
+name = top;
+position = "{534, 570}";
+},
+{
+name = topleft;
+position = "{77, 570}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -147954,6 +148348,28 @@ layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 width = 953;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{450, 0}";
+},
+{
+name = caret_1;
+position = "{508, 0}";
+},
+{
+name = ogonek;
+position = "{858, 10}";
+},
+{
+name = top;
+position = "{566, 582}";
+},
+{
+name = topleft;
+position = "{78, 582}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -147976,6 +148392,28 @@ rightMetricsKey = i.sc.ss01;
 glyphname = fl.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{435, 0}";
+},
+{
+name = caret_1;
+position = "{490.5, 0}";
+},
+{
+name = center;
+position = "{491, 280}";
+},
+{
+name = top;
+position = "{547, 559}";
+},
+{
+name = topright;
+position = "{1017, 559}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -147989,6 +148427,28 @@ layerId = UUID0;
 width = 981;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{456, 0}";
+},
+{
+name = caret_1;
+position = "{513, 0}";
+},
+{
+name = center;
+position = "{513, 285}";
+},
+{
+name = top;
+position = "{570, 570}";
+},
+{
+name = topright;
+position = "{1063, 570}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -148002,6 +148462,28 @@ layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 width = 1026;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{485, 0}";
+},
+{
+name = caret_1;
+position = "{542.5, 0}";
+},
+{
+name = center;
+position = "{543, 291}";
+},
+{
+name = top;
+position = "{601, 582}";
+},
+{
+name = topright;
+position = "{1123, 582}";
+}
+);
 components = (
 {
 name = f.sc.ss01;
@@ -195577,44 +196059,6 @@ leftKerningGroup = hyphen;
 rightKerningGroup = hyphen;
 rightMetricsKey = "=|";
 unicode = 002D;
-},
-{
-glyphname = softhyphen;
-layers = (
-{
-components = (
-{
-alignment = 1;
-name = hyphen;
-}
-);
-layerId = UUID0;
-width = 380;
-},
-{
-components = (
-{
-alignment = 1;
-name = hyphen;
-}
-);
-layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 390;
-},
-{
-components = (
-{
-alignment = 1;
-name = hyphen;
-}
-);
-layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
-width = 384;
-}
-);
-leftKerningGroup = hyphen;
-rightKerningGroup = hyphen;
-unicode = 00AD;
 },
 {
 glyphname = endash;
