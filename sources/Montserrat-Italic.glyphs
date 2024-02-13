@@ -8,14 +8,12 @@ DisplayStrings = (
 "A/braceright.case HH/Placeholder HHH/Placeholder OOO/Placeholder OOO/Placeholder H\012/eopen/ezhreversed.sc/eopen.sc \012/Vhook/Nlongrightleg/Nhookleft/Lbelt/Eldescender-cy/Reversedze-cy W/Rtail/Kabashkir-cy/Bhook.loclXPE/Hturned/Gstroke/Fhook/Ldoublebar/N.ss01/Kastroke-cy/Jstroke.ss01/J.ss01 J/IJ.ss01/IJ/Germandbls/Eng.ss01/uniA7DC/Yturned Y/Hahook-cy/F.ss01/Istroke/Esh/Chook/Pstroke/Obarred-cy/Ezhreversed/Vhook/Nlongrightleg/Nhookleft/Lbelt/Eldescender-cy/Reversedze-cy W/Rtail/Kabashkir-cy/Bhook.loclXPE \012",
 "/ldot l/space l/periodcentered.loclCAT l/space l·l/space \012/ldot.ss01/l.ss01/space/l.ss01/periodcentered.loclCAT/l.ss01/space/l.ss01 ·/l.ss01 \012L/periodcentered.loclCAT.case L/space L/Ldot L/space \012/l.sc/periodcentered.loclCAT.sc/l.sc/space/ldot.sc/l.sc/space",
 "/Tbar/Tbar.ss01",
-"/jcrossedtail",
-"/jcrossedtail",
 "/jcrossedtail/jcrossedtail.dotless",
 "fi/space fj/space gj\012w/lslash w/space y/lslash yv/lbar y/space ó/lslash r/space f/hbar/space ílïlîl/space nojot/space p/macronbelowcomb ara/space p/macronbelowcomb kjkAj/space i/ereversed-cy/je-cy uj\012±kvwxyz/space fi/space fjn/space fijl/t.ss01 tr/space/caroncomb.alt.short/tcaron/tcaron.ss01",
 "H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01",
-""
+"/dottedCircle/ogonekcomb.i/idotless/iogonek/minusbelowcomb/gravecomb/space/iogonek/minusbelowcomb/acutecomb/space/iogonek/minusbelowcomb/circumflexcomb/space/iogonek/minusbelowcomb/tildecomb/space/iogonek/minusbelowcomb/macroncomb/space/iogonek/minusbelowcomb/brevecomb/space/iogonek/minusbelowcomb/dotaccentcomb/space/iogonek/minusbelowcomb/dieresiscomb/space/iogonek/minusbelowcomb/hookabovecomb/space/iogonek/minusbelowcomb/ringcomb/space/iogonek/minusbelowcomb/hungarumlautcomb/space/iogonek/minusbelowcomb/caroncomb/space/iogonek/minusbelowcomb/verticallineabovecomb/space/iogonek/minusbelowcomb/dblgravecomb/space/iogonek/minusbelowcomb/candraBinducomb/space/iogonek/minusbelowcomb/breveinvertedcomb/space/iogonek/minusbelowcomb/commaturnedabovecomb/space/iogonek/minusbelowcomb/commaabovecomb/space/iogonek/minusbelowcomb/macronacutecomb/space/iogonek/minusbelowcomb/gravemacroncomb \012\012\012"
 );
 classes = (
 {
@@ -141,11 +139,14 @@ code = "lookup ccmp_Other_1 {
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 
 	# Start dotless replacements
+    sub i' @CombiningNonTopAccents @CombiningTopAccents by idotless;
     sub i' @CombiningTopAccents by idotless;
     sub j' @CombiningTopAccents by jdotless;
+    sub j' @CombiningNonTopAccents @CombiningTopAccents by jdotless;
     sub i-cy' by idotless;
     sub imod' @CombiningTopAccents by imod.dotless;
     sub iogonek' @CombiningTopAccents by iogonek.dotless;
+    sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by iogonek.dotless;
     sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
     sub itildebelow' @CombiningTopAccents by itildebelow.dotless;
     sub istroke' @CombiningTopAccents by istroke.dotless;
@@ -2320,6 +2321,9 @@ position = "{447, -77}";
 },
 {
 position = "{500, 593}";
+},
+{
+position = "{116, -57}";
 }
 );
 horizontalStems = (
@@ -2436,10 +2440,10 @@ position = "{456, 592}";
 position = "{591, 709}";
 },
 {
-position = "{186, -57}";
+position = "{456, 627}";
 },
 {
-position = "{456, 627}";
+position = "{130, -57}";
 }
 );
 horizontalStems = (
@@ -2563,6 +2567,9 @@ position = "{-182, 246}";
 },
 {
 position = "{-168, 382}";
+},
+{
+position = "{186, -57}";
 }
 );
 horizontalStems = (
@@ -62839,7 +62846,7 @@ name = idotless;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, -158, 0}";
+transform = "{1, 0, 0, 1, 11, 0}";
 }
 );
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
@@ -62929,7 +62936,7 @@ name = idotless;
 },
 {
 name = tildebelowcomb;
-transform = "{1, 0, 0, 1, -158, 0}";
+transform = "{1, 0, 0, 1, -103, 0}";
 }
 );
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
@@ -82140,6 +82147,12 @@ width = 325;
 glyphname = iogonek.dotless;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{38, -174}";
+}
+);
 components = (
 {
 name = idotless;
@@ -82149,10 +82162,36 @@ name = ogonekcomb.i;
 transform = "{1, 0, 0, 1, -32, 0}";
 }
 );
+guideLines = (
+{
+angle = 78.7315;
+position = "{126, 266}";
+}
+);
 layerId = UUID0;
 width = 250;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{53, -174}";
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+position = "{61, -174}";
+}
+);
+components = (
+{
+name = minusbelowcomb;
+transform = "{0.62699, 0, 0, 1, -113, -174}";
+}
+);
+};
 components = (
 {
 name = idotless;
@@ -82162,10 +82201,25 @@ name = ogonekcomb.i;
 transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
+guideLines = (
+{
+position = "{0, 0}";
+},
+{
+angle = 78.7315;
+position = "{141, 266}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 width = 284;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{68, -174}";
+}
+);
 components = (
 {
 name = idotless;
@@ -82173,6 +82227,12 @@ name = idotless;
 {
 name = ogonekcomb.i;
 transform = "{1, 0, 0, 1, 45, 0}";
+}
+);
+guideLines = (
+{
+angle = 78.7315;
+position = "{156, 266}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -213392,20 +213452,32 @@ layers = (
 {
 anchors = (
 {
+name = _bottomleft;
+position = "{422, 0}";
+},
+{
+name = _center;
+position = "{438, 350}";
+},
+{
+name = _ogonek;
+position = "{392, 0}";
+},
+{
 name = bottom;
-position = "{418, 0}";
+position = "{363, 0}";
 },
 {
 name = top;
-position = "{418, 700}";
+position = "{506, 700}";
 },
 {
 name = topleft;
-position = "{59, 700}";
+position = "{147, 700}";
 },
 {
 name = topright;
-position = "{667, 700}";
+position = "{755, 700}";
 }
 );
 background = {
@@ -213446,6 +213518,12 @@ nodes = (
 }
 );
 };
+guideLines = (
+{
+angle = 258.6901;
+position = "{438, 350}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -213657,20 +213735,32 @@ width = 839;
 {
 anchors = (
 {
+name = _bottomleft;
+position = "{422, 0}";
+},
+{
+name = _center;
+position = "{438, 350}";
+},
+{
+name = _ogonek;
+position = "{392, 0}";
+},
+{
 name = bottom;
-position = "{418, 0}";
+position = "{363, 0}";
 },
 {
 name = top;
-position = "{418, 700}";
+position = "{505, 700}";
 },
 {
 name = topleft;
-position = "{59, 700}";
+position = "{146, 700}";
 },
 {
 name = topright;
-position = "{667, 700}";
+position = "{754, 700}";
 }
 );
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
@@ -213884,20 +213974,32 @@ width = 839;
 {
 anchors = (
 {
+name = _bottomleft;
+position = "{422, 0}";
+},
+{
+name = _center;
+position = "{438, 350}";
+},
+{
+name = _ogonek;
+position = "{392, 0}";
+},
+{
 name = bottom;
-position = "{418, 0}";
+position = "{363, 0}";
 },
 {
 name = top;
-position = "{418, 700}";
+position = "{503, 700}";
 },
 {
 name = topleft;
-position = "{59, 700}";
+position = "{144, 700}";
 },
 {
 name = topright;
-position = "{667, 700}";
+position = "{752, 700}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";

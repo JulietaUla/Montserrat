@@ -12,7 +12,6 @@ oz,
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01",
 "/.notdef",
-"",
 "/creversed",
 "/Onehundredreversed-roman/creversed.sc/creversed/space",
 "/eltail-cy/space",
@@ -21,7 +20,8 @@ oz,
 "/dottedCircle",
 "/iogonek/idotless_ogonekcomb/minusbelowcomb/brevecomb",
 "/Jdotlessstroke",
-"/Jstroke/Jdotlessstroke/jdotlessstroke.sc/jdotlessstroke/space"
+"/Jstroke/Jdotlessstroke/jdotlessstroke.sc/jdotlessstroke/space",
+"/minusbelowcomb/iogonek.dotless/iogonek.dotless/dottedCircle"
 );
 classes = (
 {
@@ -147,11 +147,14 @@ code = "lookup ccmp_Other_1 {
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 
 	# Start dotless replacements
+    sub i' @CombiningNonTopAccents @CombiningTopAccents by idotless;
     sub i' @CombiningTopAccents by idotless;
     sub j' @CombiningTopAccents by jdotless;
+    sub j' @CombiningNonTopAccents @CombiningTopAccents by jdotless;
     sub i-cy' by idotless;
     sub imod' @CombiningTopAccents by imod.dotless;
     sub iogonek' @CombiningTopAccents by iogonek.dotless;
+    sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by iogonek.dotless;
     sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
     sub itildebelow' @CombiningTopAccents by itildebelow.dotless;
     sub istroke' @CombiningTopAccents by istroke.dotless;
@@ -96638,13 +96641,15 @@ width = 326;
 glyphname = iogonek.dotless;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{125, -174}";
+}
+);
 components = (
 {
 name = idotless;
-},
-{
-name = dotaccentcomb.i;
-transform = "{1, 0, 0, 1, -175, 0}";
 },
 {
 name = ogonekcomb.i;
@@ -96655,13 +96660,15 @@ layerId = UUID0;
 width = 250;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{142, -174}";
+}
+);
 components = (
 {
 name = idotless;
-},
-{
-name = dotaccentcomb.i;
-transform = "{1, 0, 0, 1, -158, 0}";
 },
 {
 name = ogonekcomb.i;
@@ -96672,13 +96679,15 @@ layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 width = 284;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{162, -174}";
+}
+);
 components = (
 {
 name = idotless;
-},
-{
-name = dotaccentcomb.i;
-transform = "{1, 0, 0, 1, -137, 0}";
 },
 {
 name = ogonekcomb.i;
@@ -270673,20 +270682,32 @@ layers = (
 {
 anchors = (
 {
+name = _bottomleft;
+position = "{474, 0}";
+},
+{
+name = _center;
+position = "{420, 350}";
+},
+{
+name = _ogonek;
+position = "{444, 0}";
+},
+{
 name = bottom;
-position = "{418, 0}";
+position = "{415, 0}";
 },
 {
 name = top;
-position = "{418, 700}";
+position = "{417, 700}";
 },
 {
 name = topleft;
-position = "{59, 700}";
+position = "{58, 700}";
 },
 {
 name = topright;
-position = "{667, 700}";
+position = "{666, 700}";
 }
 );
 background = {
@@ -270938,20 +270959,32 @@ width = 839;
 {
 anchors = (
 {
+name = _bottomleft;
+position = "{474, 0}";
+},
+{
+name = _center;
+position = "{420, 350}";
+},
+{
+name = _ogonek;
+position = "{444, 0}";
+},
+{
 name = bottom;
-position = "{418, 0}";
+position = "{415, 0}";
 },
 {
 name = top;
-position = "{418, 700}";
+position = "{417, 700}";
 },
 {
 name = topleft;
-position = "{59, 700}";
+position = "{58, 700}";
 },
 {
 name = topright;
-position = "{667, 700}";
+position = "{666, 700}";
 }
 );
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
@@ -271165,20 +271198,32 @@ width = 839;
 {
 anchors = (
 {
+name = _bottomleft;
+position = "{474, 0}";
+},
+{
+name = _center;
+position = "{420, 350}";
+},
+{
+name = _ogonek;
+position = "{444, 0}";
+},
+{
 name = bottom;
-position = "{418, 0}";
+position = "{415, 0}";
 },
 {
 name = top;
-position = "{418, 700}";
+position = "{417, 700}";
 },
 {
 name = topleft;
-position = "{59, 700}";
+position = "{58, 700}";
 },
 {
 name = topright;
-position = "{667, 700}";
+position = "{666, 700}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
