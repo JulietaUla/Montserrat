@@ -13,7 +13,7 @@ DisplayStrings = (
 "H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01",
-"/dottedCircle/ogonekcomb.i/idotless/iogonek/minusbelowcomb/gravecomb/space/iogonek/minusbelowcomb/acutecomb/space/iogonek/minusbelowcomb/circumflexcomb/space/iogonek/minusbelowcomb/tildecomb/space/iogonek/minusbelowcomb/macroncomb/space/iogonek/minusbelowcomb/brevecomb/space/iogonek/minusbelowcomb/dotaccentcomb/space/iogonek/minusbelowcomb/dieresiscomb/space/iogonek/minusbelowcomb/hookabovecomb/space/iogonek/minusbelowcomb/ringcomb/space/iogonek/minusbelowcomb/hungarumlautcomb/space/iogonek/minusbelowcomb/caroncomb/space/iogonek/minusbelowcomb/verticallineabovecomb/space/iogonek/minusbelowcomb/dblgravecomb/space/iogonek/minusbelowcomb/candraBinducomb/space/iogonek/minusbelowcomb/breveinvertedcomb/space/iogonek/minusbelowcomb/commaturnedabovecomb/space/iogonek/minusbelowcomb/commaabovecomb/space/iogonek/minusbelowcomb/macronacutecomb/space/iogonek/minusbelowcomb/gravemacroncomb \012\012\012"
+"/ogonekcomb/ogonekcomb.i/iogonek.dotless"
 );
 classes = (
 {
@@ -14116,7 +14116,7 @@ name = I;
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -14, 0}";
+transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
 layerId = UUID0;
@@ -39740,7 +39740,7 @@ name = I.ss01;
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, 54, 0}";
+transform = "{1, 0, 0, 1, 53, 0}";
 }
 );
 layerId = UUID0;
@@ -62877,7 +62877,7 @@ name = idotless;
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -32, 0}";
+transform = "{1, 0, 0, 1, -33, 0}";
 }
 );
 layerId = UUID0;
@@ -63630,7 +63630,7 @@ transform = "{1, 0, 0, 1, -2, 0}";
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -32, 0}";
+transform = "{1, 0, 0, 1, -33, 0}";
 }
 );
 layerId = UUID0;
@@ -82147,19 +82147,13 @@ width = 325;
 glyphname = iogonek.dotless;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{38, -174}";
-}
-);
 components = (
 {
 name = idotless;
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -32, 0}";
+transform = "{1, 0, 0, 1, -33, 0}";
 }
 );
 guideLines = (
@@ -82172,12 +82166,6 @@ layerId = UUID0;
 width = 250;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{53, -174}";
-}
-);
 background = {
 anchors = (
 {
@@ -82214,12 +82202,6 @@ layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 width = 284;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{68, -174}";
-}
-);
 components = (
 {
 name = idotless;
@@ -112133,7 +112115,7 @@ name = i.sc;
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -25, 0}";
+transform = "{1, 0, 0, 1, -26, 0}";
 }
 );
 layerId = UUID0;
@@ -138769,7 +138751,7 @@ name = i.sc.ss01;
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, 27, 0}";
+transform = "{1, 0, 0, 1, 26, 0}";
 }
 );
 layerId = UUID0;
@@ -220803,8 +220785,47 @@ anchors = (
 {
 name = _ogonek;
 position = "{174, 0}";
+},
+{
+name = bottom;
+position = "{78, -174}";
 }
 );
+background = {
+anchors = (
+{
+name = _ogonek;
+position = "{174, 0}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"104 -213 OFFCURVE",
+"132 -204 OFFCURVE",
+"155 -186 CURVE",
+"147 -169 LINE",
+"127 -185 OFFCURVE",
+"101 -194 OFFCURVE",
+"76 -194 CURVE SMOOTH",
+"40 -194 OFFCURVE",
+"19 -176 OFFCURVE",
+"19 -142 CURVE SMOOTH",
+"19 -88 OFFCURVE",
+"70 -41 OFFCURVE",
+"174 0 CURVE",
+"167 16 LINE",
+"48 -31 OFFCURVE",
+"-1 -85 OFFCURVE",
+"-1 -144 CURVE SMOOTH",
+"-1 -187 OFFCURVE",
+"29 -213 OFFCURVE",
+"75 -213 CURVE SMOOTH"
+);
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
@@ -220840,6 +220861,10 @@ anchors = (
 {
 name = _ogonek;
 position = "{216, 0}";
+},
+{
+name = bottom;
+position = "{68, -174}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -220877,6 +220902,10 @@ anchors = (
 {
 name = _ogonek;
 position = "{197, 0}";
+},
+{
+name = bottom;
+position = "{73, -174}";
 }
 );
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
@@ -227007,7 +227036,11 @@ layers = (
 anchors = (
 {
 name = _ogonek;
-position = "{115, 0}";
+position = "{116, 0}";
+},
+{
+name = bottom;
+position = "{68, -174}";
 }
 );
 layerId = UUID0;
@@ -227015,26 +227048,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"88 -213 OFFCURVE",
-"108 -204 OFFCURVE",
-"120 -189 CURVE",
-"111 -175 LINE",
-"100 -187 OFFCURVE",
-"87 -195 OFFCURVE",
-"70 -195 CURVE SMOOTH",
-"47 -195 OFFCURVE",
-"31 -181 OFFCURVE",
-"31 -150 CURVE SMOOTH",
-"31 -101 OFFCURVE",
-"62 -49 OFFCURVE",
-"115 0 CURVE",
-"107 14 LINE",
-"54 -30 OFFCURVE",
-"11 -91 OFFCURVE",
-"11 -151 CURVE SMOOTH",
-"11 -190 OFFCURVE",
-"34 -213 OFFCURVE",
-"67 -213 CURVE SMOOTH"
+"89 -213 OFFCURVE",
+"109 -204 OFFCURVE",
+"121 -189 CURVE",
+"112 -175 LINE",
+"101 -187 OFFCURVE",
+"88 -195 OFFCURVE",
+"71 -195 CURVE SMOOTH",
+"48 -195 OFFCURVE",
+"32 -181 OFFCURVE",
+"32 -150 CURVE SMOOTH",
+"32 -101 OFFCURVE",
+"63 -49 OFFCURVE",
+"116 0 CURVE",
+"108 14 LINE",
+"55 -30 OFFCURVE",
+"12 -91 OFFCURVE",
+"12 -151 CURVE SMOOTH",
+"12 -190 OFFCURVE",
+"35 -213 OFFCURVE",
+"68 -213 CURVE SMOOTH"
 );
 }
 );
@@ -227045,6 +227078,10 @@ anchors = (
 {
 name = _ogonek;
 position = "{175, 0}";
+},
+{
+name = bottom;
+position = "{48, -174}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -227082,6 +227119,10 @@ anchors = (
 {
 name = _ogonek;
 position = "{145, 0}";
+},
+{
+name = bottom;
+position = "{63, -174}";
 }
 );
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
