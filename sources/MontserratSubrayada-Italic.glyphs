@@ -9,7 +9,7 @@ DisplayStrings = (
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01",
 "/Jstroke/Jdotlessstroke/jdotlessstroke.sc/jdotlessstroke/space",
-"/ogonekcomb/ogonekcomb.i/iogonek.dotless"
+"/creversed.sc/creversed/space"
 );
 classes = (
 {
@@ -130,7 +130,7 @@ code = "lookup ccmp_Other_1 {
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 
-	# Start dotless replacements
+# Start dotless replacements
     sub i' @CombiningNonTopAccents @CombiningTopAccents by idotless;
     sub i' @CombiningTopAccents by idotless;
     sub j' @CombiningTopAccents by jdotless;
