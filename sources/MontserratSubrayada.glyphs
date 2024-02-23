@@ -14,7 +14,7 @@ oz,
 "/iogonek/idotless_ogonekcomb/minusbelowcomb/brevecomb",
 "/Jdotlessstroke",
 "/Jstroke/Jdotlessstroke/jdotlessstroke.sc/jdotlessstroke/space",
-"/ogonekcomb/ogonekcomb.i/iogonek.dotless"
+"ljfnfifíf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n"
 );
 classes = (
 {
@@ -74218,7 +74218,7 @@ transform = "{1, 0, 0, 1, -137, 0}";
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -24, 0}";
+transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
@@ -74235,7 +74235,7 @@ transform = "{1, 0, 0, 1, -158, 0}";
 },
 {
 name = ogonekcomb.i;
-transform = "{1, 0, 0, 1, -104, 0}";
+transform = "{1, 0, 0, 1, 1, 0}";
 }
 );
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
@@ -297492,6 +297492,11 @@ glottalstopsmall = -10;
 "@MMK_R_y" = -20;
 "@MMK_R_yturned" = 0;
 jcrossedtail = -30;
+icaron = 20;
+idblgrave = 10;
+idieresisacute = 15;
+ibreve = 25;
+igrave = 35;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -20;
@@ -301328,6 +301333,14 @@ glottalstopsmall = -6;
 "@MMK_R_underscore" = -19;
 "@MMK_R_yturned" = -20;
 jcrossedtail = -40;
+idieresisacute = 30;
+idieresis = 20;
+idblgrave = 40;
+itilde = 20;
+icircumflex = 10;
+icaron = 25;
+ibreve = 30;
+igrave = 40;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -11;
@@ -303196,6 +303209,9 @@ tretroflexhook.ss01 = {
 "upsilon-latin" = {
 "@MMK_R_chi-latin" = -20;
 };
+idotbelow = {
+"@MMK_R_j" = 15;
+};
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
 "@MMK_L_A" = {
@@ -304848,6 +304864,18 @@ jcrossedtail = -40;
 "@MMK_R_underscore" = -30;
 "@MMK_R_yturned" = -20;
 jcrossedtail = -60;
+ibreve = 30;
+icaron = 25;
+icircumflex = 35;
+idblgrave = 20;
+idieresis = 35;
+idieresisacute = 35;
+itilde = 30;
+iogonek = 10;
+imacron = 30;
+ij = 10;
+iinvertedbreve = 20;
+igrave = 40;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_a.sc" = -25;
@@ -306453,6 +306481,17 @@ tretroflexhook.ss01 = {
 };
 ystroke = {
 "@MMK_R_v" = -10;
+};
+itildebelow = {
+"@MMK_R_j" = 0;
+j = 20;
+};
+idotbelow = {
+"@MMK_R_j" = 20;
+};
+idieresis = {
+"@MMK_R_n" = 0;
+idieresis = 35;
 };
 };
 };

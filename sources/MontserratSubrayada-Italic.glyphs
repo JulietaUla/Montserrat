@@ -9,7 +9,7 @@ DisplayStrings = (
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01",
 "/Jstroke/Jdotlessstroke/jdotlessstroke.sc/jdotlessstroke/space",
-"/creversed.sc/creversed/space"
+"ljfnfifíf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n"
 );
 classes = (
 {
@@ -72390,7 +72390,7 @@ name = idotless;
 },
 {
 name = tildebelowcomb;
-transform = "{1, 0, 0, 1, -158, 0}";
+transform = "{1, 0, 0, 1, -103, 0}";
 }
 );
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
@@ -297689,6 +297689,7 @@ glottalstopsmall = -10;
 "@MMK_R_y" = -20;
 "@MMK_R_yturned" = 0;
 jcrossedtail = -30;
+ibreve = 20;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -20;
@@ -301499,6 +301500,15 @@ glottalstopsmall = -6;
 "@MMK_R_underscore" = -19;
 "@MMK_R_yturned" = -20;
 jcrossedtail = -40;
+iinvertedbreve = 20;
+ibreve = 20;
+icaron = 20;
+icircumflex = 20;
+idblgrave = 20;
+idieresis = 20;
+idieresisacute = 20;
+itilde = 25;
+imacron = 20;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -11;
@@ -302892,6 +302902,7 @@ lbelt = -10;
 "@MMK_R_one.osf" = -6;
 "@MMK_R_reversedze-cy" = -8;
 "@MMK_R_semisoftsign-cy" = -6;
+idieresis = 0;
 };
 "@MMK_L_u.sc" = {
 "@MMK_R_a.sc" = -15;
@@ -303354,6 +303365,12 @@ tretroflexhook.ss01 = {
 };
 "upsilon-latin" = {
 "@MMK_R_chi-latin" = -20;
+};
+idieresis = {
+idieresis = 5;
+};
+idotbelow = {
+"@MMK_R_j" = 20;
 };
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
@@ -304993,6 +305010,18 @@ jcrossedtail = -40;
 "@MMK_R_underscore" = -30;
 "@MMK_R_yturned" = -20;
 jcrossedtail = -60;
+icaron = 15;
+icircumflex = 15;
+idblgrave = 15;
+idieresis = 15;
+idieresisacute = 15;
+idotbelow = 15;
+igrave = 15;
+iinvertedbreve = 15;
+ij = 15;
+imacron = 15;
+iogonek = 15;
+itilde = 15;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_a.sc" = -25;
@@ -306581,6 +306610,13 @@ tretroflexhook.ss01 = {
 };
 ystroke = {
 "@MMK_R_v" = -10;
+};
+idieresis = {
+"@MMK_R_n" = 0;
+idieresis = 40;
+};
+idotbelow = {
+"@MMK_R_j" = 15;
 };
 };
 };
