@@ -7,7 +7,7 @@ DisplayStrings = (
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "ljfnfifíf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n",
 "/periodcentered.loclCAT/cstroke/won/ogonekcomb/tildeoverlaycomb/strokeshortcomb/strokelongcomb/slashshortcomb/slashlongcomb/cedi/Cstroke/colonsign",
-"/won/dottedCircle/ogonekcomb/tildeoverlaycomb/strokeshortcomb/strokelongcomb/slashshortcomb/slashlongcomb/won/periodcentered.loclCAT/cstroke/Cstroke/dottedCircle/cedi/colonsign/four.tf/DZcaron/four.tf"
+"/won/dottedCircle/ogonekcomb/tildeoverlaycomb/strokeshortcomb/strokelongcomb/slashshortcomb/slashlongcomb/won/periodcentered.loclCAT/cstroke/Cstroke/dottedCircle/cedi/colonsign $/tdiagonalstroke.sc ¢/naira"
 );
 classes = (
 {
@@ -256560,19 +256560,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"617 -17 LINE",
-"617 73 LINE",
-"-2 73 LINE",
-"-2 -17 LINE"
+"404 537 LINE",
+"404 667 LINE",
+"263 667 LINE",
+"263 537 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"404 537 LINE",
-"404 667 LINE",
-"263 667 LINE",
-"263 537 LINE"
+"617 -17 LINE",
+"617 73 LINE",
+"-2 73 LINE",
+"-2 -17 LINE"
 );
 }
 );
@@ -256738,19 +256738,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"578 -10 LINE",
-"578 40 LINE",
-"-2 40 LINE",
-"-2 -10 LINE"
+"352 485 LINE",
+"352 652 LINE",
+"280 652 LINE",
+"280 485 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"352 485 LINE",
-"352 652 LINE",
-"280 652 LINE",
-"280 485 LINE"
+"578 -10 LINE",
+"578 40 LINE",
+"-2 40 LINE",
+"-2 -10 LINE"
 );
 }
 );
@@ -256823,10 +256823,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"547 -3 LINE",
-"547 16 LINE",
-"-2 16 LINE",
-"-2 -3 LINE"
+"312 -120 LINE",
+"312 8 LINE",
+"293 8 LINE",
+"293 -120 LINE"
 );
 },
 {
@@ -256841,10 +256841,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"293 8 LINE",
-"293 -120 LINE",
-"312 -120 LINE",
-"312 8 LINE"
+"547 -3 LINE",
+"547 16 LINE",
+"-2 16 LINE",
+"-2 -3 LINE"
 );
 }
 );
@@ -258241,10 +258241,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"311 693 LINE",
-"311 820 LINE",
-"292 820 LINE",
-"292 693 LINE"
+"311 -120 LINE",
+"311 7 LINE",
+"292 7 LINE",
+"292 -120 LINE"
 );
 },
 {
@@ -258259,10 +258259,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"292 7 LINE",
-"292 -120 LINE",
-"311 -120 LINE",
-"311 7 LINE"
+"311 693 LINE",
+"311 820 LINE",
+"292 820 LINE",
+"292 693 LINE"
 );
 }
 );
@@ -260714,7 +260714,7 @@ closed = 1;
 nodes = (
 "932 -17 LINE",
 "932 73 LINE",
-"632 73 LINE",
+"635 73 LINE",
 "632 -17 LINE"
 );
 },
@@ -260892,7 +260892,7 @@ closed = 1;
 nodes = (
 "887 -10 LINE",
 "887 40 LINE",
-"662 40 LINE",
+"665 40 LINE",
 "662 -10 LINE"
 );
 },
@@ -260946,7 +260946,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"700 -3 LINE",
+"700 0 LINE",
 "700 700 LINE",
 "680 700 LINE",
 "680 23 LINE",
@@ -260972,10 +260972,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"160 272 LINE",
 "160 290 LINE",
 "30 290 LINE",
-"30 272 LINE",
-"160 272 LINE"
+"30 272 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"160 410 LINE",
+"160 428 LINE",
+"30 428 LINE",
+"30 410 LINE"
 );
 },
 {
@@ -260983,35 +260992,26 @@ closed = 1;
 nodes = (
 "852 -3 LINE",
 "852 16 LINE",
-"697 16 LINE",
-"697 -3 LINE"
+"687 16 LINE",
+"685 -3 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"160 428 LINE",
-"30 428 LINE",
-"30 410 LINE",
-"160 410 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"690 272 LINE",
 "820 272 LINE",
 "820 290 LINE",
-"690 290 LINE"
+"690 290 LINE",
+"690 272 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"690 410 LINE",
 "820 410 LINE",
 "820 428 LINE",
-"690 428 LINE"
+"690 428 LINE",
+"690 410 LINE"
 );
 }
 );
