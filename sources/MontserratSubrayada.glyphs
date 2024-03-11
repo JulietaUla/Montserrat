@@ -1,20 +1,13 @@
 {
 .appVersion = "3151";
 DisplayStrings = (
-"/Hturned",
-oz,
-"/iogonek.dotless/idotbelow.dotless/itildebelow.dotless",
 "H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
 "1-/space Ordfeminine/space isn't/space small/space and/space high/space positioned/space like/space before/space ª\012\0122-/space Interpolation/space issue/space in/space the/space/Zstroke Z/space bar/space (ss01)./space Check/space all/space glyphs/space composed/space with/space z.ss01/space and/space Z.ss01\012/z.ss01/Dz.ss01/dz.ss01/zacute.ss01/zcaron.ss01/zcircumflex.ss01/zdotaccent.ss01/zdotbelow.ss01/zmacronbelow.ss01 \012/z.sc.ss01/dz.sc.ss01/zacute.sc.ss01/zcaron.sc.ss01/zcircumflex.sc.ss01/zdotaccent.sc.ss01/zdotbelow.sc.ss01/zmacronbelow.sc.ss01 \012/Z.ss01/DZ.ss01/Zacute.ss01/Zcaron.ss01/Zcircumflex.ss01/Zdotaccent.ss01/Zdotbelow.ss01/Z.ss01/Zmacronbelow.ss01 \012\0123-/space The/space slash/space looks/space a/space bit/space too/space much/space on/space the/space right\012/Astroke.ss01 \012\0124-/space There/space is/space an/space issue/space in/space the/space right/space bar/space (interpolation/space issue/space or/space problem/space with/space layers)\012/colonsign \0125-/space In/space this/space last/space version,/space the/space \"j\"/space spacing/space looks/space a/space bit/space tight/space with/space rounded/space letters./space Need/space to/space be/space check/space in/space every/space masters.\012DONE/space ojo/jdotless o/jdotlessstroke o/space \0126-/space Accent/space position/space in/space uni1EE1\012/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde \012/ohorn.sc/ohornacute.sc/ohorndotbelow.sc/ohorngrave.sc/ohornhookabove.sc/ohorntilde.sc \012/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde \0127-/space Interpolation/space issue/space in/space tbar.ss01\012/tbar.ss01 \012",
 "I/tildecomb.narrow/tilde.narrow/tilde.narrow.case/Itildebelow/acutecomb/space/itildebelow/gravecomb",
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
-"/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
-"/.notdef",
-"/dottedCircle",
-"/iogonek/idotless_ogonekcomb/minusbelowcomb/brevecomb",
-"/Jdotlessstroke",
-"/Jstroke/Jdotlessstroke/jdotlessstroke.sc/jdotlessstroke/space",
-"ljfnfifíf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n"
+"ljfnfifíf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n",
+"/periodcentered.loclCAT/cstroke/won/ogonekcomb/tildeoverlaycomb/strokeshortcomb/strokelongcomb/slashshortcomb/slashlongcomb/cedi/Cstroke/colonsign",
+"/won/dottedCircle/ogonekcomb/tildeoverlaycomb/strokeshortcomb/strokelongcomb/slashshortcomb/slashlongcomb/won/periodcentered.loclCAT/cstroke/Cstroke/dottedCircle/cedi/colonsign/four.tf/DZcaron/four.tf"
 );
 classes = (
 {
@@ -2211,7 +2204,7 @@ value = 1109;
 },
 {
 name = winDescent;
-value = 270;
+value = 370;
 },
 {
 name = hheaAscender;
@@ -2307,7 +2300,7 @@ value = 1109;
 },
 {
 name = winDescent;
-value = 270;
+value = 370;
 },
 {
 name = hheaAscender;
@@ -2395,7 +2388,7 @@ value = 1109;
 },
 {
 name = winDescent;
-value = 270;
+value = 370;
 },
 {
 name = hheaAscender;
@@ -256320,10 +256313,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"383 9 LINE",
-"383 -120 LINE",
 "402 -120 LINE",
-"402 9 LINE"
+"402 9 LINE",
+"383 9 LINE",
+"383 -120 LINE"
 );
 }
 );
@@ -257099,7 +257092,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"601 573 LINE",
+"606 603 LINE",
 "664 820 LINE",
 "533 820 LINE",
 "481 617 LINE"
@@ -257346,7 +257339,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"583 644 LINE",
+"578 627 LINE",
 "628 820 LINE",
 "560 820 LINE",
 "515 644 LINE"
@@ -257474,6 +257467,24 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"216 -120 LINE",
+"257 43 LINE",
+"241 52 LINE",
+"197 -120 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"361 -120 LINE",
+"393 7 LINE",
+"375 10 LINE",
+"342 -120 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "423 693 LINE",
 "455 820 LINE",
 "436 820 LINE",
@@ -257505,24 +257516,6 @@ nodes = (
 "713 16 LINE",
 "388 16 LINE",
 "388 -3 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"375 10 LINE",
-"342 -120 LINE",
-"361 -120 LINE",
-"393 7 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"241 52 LINE",
-"197 -120 LINE",
-"216 -120 LINE",
-"257 43 LINE"
 );
 }
 );
@@ -263055,37 +263048,37 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"161 410 LINE",
 "154 428 LINE",
 "30 428 LINE",
-"30 410 LINE",
-"161 410 LINE"
+"30 410 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"210 272 LINE",
 "204 290 LINE",
 "30 290 LINE",
-"30 272 LINE",
-"210 272 LINE"
+"30 272 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"963 410 LINE",
 "1096 410 LINE",
 "1096 428 LINE",
-"970 428 LINE"
+"970 428 LINE",
+"963 410 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"914 272 LINE",
 "1096 272 LINE",
 "1096 290 LINE",
-"921 290 LINE"
+"921 290 LINE",
+"914 272 LINE"
 );
 }
 );
@@ -270657,20 +270650,20 @@ layers = (
 {
 anchors = (
 {
-name = _bottomleft;
+name = bottom;
+position = "{415, 0}";
+},
+{
+name = bottomleft;
 position = "{474, 0}";
 },
 {
-name = _center;
+name = center;
 position = "{420, 350}";
 },
 {
-name = _ogonek;
+name = ogonek;
 position = "{444, 0}";
-},
-{
-name = bottom;
-position = "{415, 0}";
 },
 {
 name = top;
@@ -270934,20 +270927,20 @@ width = 839;
 {
 anchors = (
 {
-name = _bottomleft;
+name = bottom;
+position = "{415, 0}";
+},
+{
+name = bottomleft;
 position = "{474, 0}";
 },
 {
-name = _center;
+name = center;
 position = "{420, 350}";
 },
 {
-name = _ogonek;
+name = ogonek;
 position = "{444, 0}";
-},
-{
-name = bottom;
-position = "{415, 0}";
 },
 {
 name = top;
@@ -271173,20 +271166,20 @@ width = 839;
 {
 anchors = (
 {
-name = _bottomleft;
+name = bottom;
+position = "{415, 0}";
+},
+{
+name = bottomleft;
 position = "{474, 0}";
 },
 {
-name = _center;
+name = center;
 position = "{420, 350}";
 },
 {
-name = _ogonek;
+name = ogonek;
 position = "{444, 0}";
-},
-{
-name = bottom;
-position = "{415, 0}";
 },
 {
 name = top;
@@ -297491,12 +297484,12 @@ glottalstopsmall = -10;
 "@MMK_R_underscore" = -10;
 "@MMK_R_y" = -20;
 "@MMK_R_yturned" = 0;
-jcrossedtail = -30;
+ibreve = 25;
 icaron = 20;
 idblgrave = 10;
 idieresisacute = 15;
-ibreve = 25;
 igrave = 35;
+jcrossedtail = -30;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -20;
@@ -301332,15 +301325,15 @@ glottalstopsmall = -6;
 "@MMK_R_slash" = -30;
 "@MMK_R_underscore" = -19;
 "@MMK_R_yturned" = -20;
-jcrossedtail = -40;
-idieresisacute = 30;
-idieresis = 20;
-idblgrave = 40;
-itilde = 20;
-icircumflex = 10;
-icaron = 25;
 ibreve = 30;
+icaron = 25;
+icircumflex = 10;
+idblgrave = 40;
+idieresis = 20;
+idieresisacute = 30;
 igrave = 40;
+itilde = 20;
+jcrossedtail = -40;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -11;
@@ -303185,6 +303178,9 @@ fl.ss01 = {
 i = {
 "@MMK_R_backslash" = -35;
 };
+idotbelow = {
+"@MMK_R_j" = 15;
+};
 iogonek = {
 "@MMK_R_j" = 40;
 };
@@ -303208,9 +303204,6 @@ tretroflexhook.ss01 = {
 };
 "upsilon-latin" = {
 "@MMK_R_chi-latin" = -20;
-};
-idotbelow = {
-"@MMK_R_j" = 15;
 };
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
@@ -304863,19 +304856,19 @@ jcrossedtail = -40;
 "@MMK_R_slash" = -30;
 "@MMK_R_underscore" = -30;
 "@MMK_R_yturned" = -20;
-jcrossedtail = -60;
 ibreve = 30;
 icaron = 25;
 icircumflex = 35;
 idblgrave = 20;
 idieresis = 35;
 idieresisacute = 35;
-itilde = 30;
-iogonek = 10;
-imacron = 30;
-ij = 10;
-iinvertedbreve = 20;
 igrave = 40;
+iinvertedbreve = 20;
+ij = 10;
+imacron = 30;
+iogonek = 10;
+itilde = 30;
+jcrossedtail = -60;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_a.sc" = -25;
@@ -306460,8 +306453,19 @@ eogonek = {
 fl.ss01 = {
 "@MMK_R_o" = -45;
 };
+idieresis = {
+"@MMK_R_n" = 0;
+idieresis = 35;
+};
+idotbelow = {
+"@MMK_R_j" = 20;
+};
 iogonek = {
 "@MMK_R_j" = 35;
+};
+itildebelow = {
+"@MMK_R_j" = 0;
+j = 20;
 };
 lslash = {
 "@MMK_R_y" = 30;
@@ -306481,17 +306485,6 @@ tretroflexhook.ss01 = {
 };
 ystroke = {
 "@MMK_R_v" = -10;
-};
-itildebelow = {
-"@MMK_R_j" = 0;
-j = 20;
-};
-idotbelow = {
-"@MMK_R_j" = 20;
-};
-idieresis = {
-"@MMK_R_n" = 0;
-idieresis = 35;
 };
 };
 };

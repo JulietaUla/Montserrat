@@ -13,7 +13,8 @@ DisplayStrings = (
 "H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-",
 "/dcaron l/lcaron i\012/kgreenlandic/won $/ezhreversed.sc/Sobliquestroke/cedi/estroke/estroke/cstroke",
 "/T_h/Iacute_J.loclNLD.ss01/fi/fl/fi.ss01/fl.ss01/iacute_j.loclNLD.sc/iacute_j.loclNLD.sc.ss01/fi.sc/fl.sc/fi.sc.ss01/fl.sc.ss01",
-"ljfnfifíflf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n"
+"ljfnfifíflf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n",
+"/periodcentered.loclCAT/cstroke/won/dottedCircle/cedi/Cstroke/colonsign/five.tf/DZcaron/five.tf/four.tf uni01C4\012/DZcaron/zero.tf/DZcaron \012/DZcaron/one.tf/DZcaron \012/DZcaron/two.tf/DZcaron \012/DZcaron/three.tf/DZcaron \012/DZcaron/four.tf/DZcaron \012/DZcaron/five.tf/DZcaron \012/DZcaron/six.tf/DZcaron \012/DZcaron/seven.tf/DZcaron \012/DZcaron/eight.tf/DZcaron \012/DZcaron/nine.tf/DZcaron \012D/Zcaron/DZcaron/Ldot/DZcaron \012\012/Nj Nj\012\012/zero.tf \012/one.tf \012/two.tf \012/three.tf \012/four.tf \012/five.tf \012/six.tf \012/seven.tf \012/eight.tf \012/nine.tf \012/Ldot \012\012"
 );
 classes = (
 {
@@ -2254,7 +2255,7 @@ value = 1109;
 },
 {
 name = winDescent;
-value = 270;
+value = 370;
 },
 {
 name = hheaAscender;
@@ -2381,7 +2382,7 @@ value = 1109;
 },
 {
 name = winDescent;
-value = 270;
+value = 370;
 },
 {
 name = hheaAscender;
@@ -2495,7 +2496,7 @@ value = 1109;
 },
 {
 name = winDescent;
-value = 270;
+value = 370;
 },
 {
 name = hheaAscender;
@@ -204485,10 +204486,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"660 573 LINE",
 "773 820 LINE",
 "642 820 LINE",
-"549 617 LINE",
-"660 573 LINE"
+"549 617 LINE"
 );
 }
 );
@@ -204615,10 +204616,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"648 619 LINE",
 "739 820 LINE",
 "671 820 LINE",
-"592 646 LINE",
-"648 619 LINE"
+"592 646 LINE"
 );
 }
 );
@@ -204690,10 +204691,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"642 667 LINE",
 "712 820 LINE",
 "693 820 LINE",
-"626 673 LINE",
-"642 667 LINE"
+"626 673 LINE"
 );
 }
 );
@@ -213441,20 +213442,20 @@ layers = (
 {
 anchors = (
 {
-name = _bottomleft;
+name = bottom;
+position = "{363, 0}";
+},
+{
+name = bottomleft;
 position = "{422, 0}";
 },
 {
-name = _center;
+name = center;
 position = "{438, 350}";
 },
 {
-name = _ogonek;
+name = ogonek;
 position = "{392, 0}";
-},
-{
-name = bottom;
-position = "{363, 0}";
 },
 {
 name = top;
@@ -213724,20 +213725,20 @@ width = 839;
 {
 anchors = (
 {
-name = _bottomleft;
+name = bottom;
+position = "{363, 0}";
+},
+{
+name = bottomleft;
 position = "{422, 0}";
 },
 {
-name = _center;
+name = center;
 position = "{438, 350}";
 },
 {
-name = _ogonek;
+name = ogonek;
 position = "{392, 0}";
-},
-{
-name = bottom;
-position = "{363, 0}";
 },
 {
 name = top;
@@ -213963,20 +213964,20 @@ width = 839;
 {
 anchors = (
 {
-name = _bottomleft;
+name = bottom;
+position = "{363, 0}";
+},
+{
+name = bottomleft;
 position = "{422, 0}";
 },
 {
-name = _center;
+name = center;
 position = "{438, 350}";
 },
 {
-name = _ogonek;
+name = ogonek;
 position = "{392, 0}";
-},
-{
-name = bottom;
-position = "{363, 0}";
 },
 {
 name = top;
@@ -240279,6 +240280,8 @@ nhookleft = 20;
 "@MMK_R_y" = -20;
 "@MMK_R_yturned" = -20;
 "@MMK_R_zero" = 20;
+ibreve = 20;
+icaron = 20;
 icircumflex = 30;
 idblgrave = 110;
 idieresis = 20;
@@ -240289,8 +240292,6 @@ imacron = 30;
 itilde = 30;
 jcrossedtail = -30;
 rdblgrave = 30;
-ibreve = 20;
-icaron = 20;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -20;
@@ -245608,6 +245609,8 @@ nhookleft = 55;
 "@MMK_R_v" = 10;
 "@MMK_R_yturned" = -20;
 "@MMK_R_zero" = 11;
+ibreve = 40;
+icaron = 35;
 icircumflex = 49;
 idblgrave = 118;
 idieresis = 30;
@@ -245618,8 +245621,6 @@ imacron = 45;
 itilde = 60;
 jcrossedtail = -40;
 rdblgrave = 43;
-ibreve = 40;
-icaron = 35;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_O" = -11;
@@ -248352,6 +248353,9 @@ icircumflex = {
 idblgrave = {
 "@MMK_R_asterisk" = 40;
 };
+idotbelow = {
+"@MMK_R_j" = 20;
+};
 iinvertedbreve = {
 "@MMK_R_asterisk" = 30;
 };
@@ -248409,9 +248413,6 @@ yhook.sc = {
 };
 yhook.ss01 = {
 "@MMK_R_y" = 15;
-};
-idotbelow = {
-"@MMK_R_j" = 20;
 };
 };
 "5DA6E103-6A94-47F2-987D-4952DB8EA68E" = {
@@ -250837,22 +250838,22 @@ nhookleft = 60;
 "@MMK_R_underscore" = -30;
 "@MMK_R_v" = 10;
 "@MMK_R_yturned" = -20;
+i = 10;
+ibreve = 30;
+icaron = 30;
 icircumflex = 40;
 idblgrave = 90;
 idieresis = 45;
 idieresisacute = 60;
 igrave = 60;
 iinvertedbreve = 40;
+ij = 10;
 imacron = 40;
 itilde = 60;
+itildebelow = 10;
 jcircumflex = 50;
 jcrossedtail = -60;
 rdblgrave = 60;
-i = 10;
-ibreve = 30;
-icaron = 30;
-ij = 10;
-itildebelow = 10;
 };
 "@MMK_L_f.sc" = {
 "@MMK_R_a.sc" = -25;
@@ -253406,6 +253407,13 @@ i = {
 idblgrave = {
 "@MMK_R_asterisk" = 40;
 };
+idieresis = {
+"@MMK_R_l" = 0;
+idieresis = 33;
+};
+idotbelow = {
+"@MMK_R_j" = 40;
+};
 iinvertedbreve = {
 "@MMK_R_asterisk" = 30;
 };
@@ -253466,13 +253474,6 @@ yhook.ss01 = {
 };
 ystroke = {
 "@MMK_R_v" = -10;
-};
-idotbelow = {
-"@MMK_R_j" = 40;
-};
-idieresis = {
-"@MMK_R_l" = 0;
-idieresis = 33;
 };
 };
 };
