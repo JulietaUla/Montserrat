@@ -8,7 +8,8 @@ DisplayStrings = (
 "/ldot l/space l/periodcentered.loclCAT l/space l·l/space \012/ldot.ss01/l.ss01/space/l.ss01/periodcentered.loclCAT/l.ss01/space/l.ss01 ·/l.ss01 \012L/periodcentered.loclCAT.case L/space L/Ldot L/space \012/l.sc/periodcentered.loclCAT.sc/l.sc/space/ldot.sc/l.sc/space",
 "/Tbar/Tbar.ss01",
 "ljfnfifíflf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n",
-"/Astroke/Cstroke/Estroke/Tdiagonalstroke/Astroke.ss01/Estroke.ss01/Tdiagonalstroke.ss01 \012/astroke.sc/cstroke.sc/estroke.sc/tdiagonalstroke.sc/astroke.sc.ss01/estroke.sc.ss01/tdiagonalstroke.sc.ss01 \012/astroke/cstroke/estroke/tdiagonalstroke/astroke.ss01/estroke.ss01/tdiagonalstroke.ss01 \012\012/Astroke/Tdiagonalstroke/Astroke.ss01/Tdiagonalstroke.ss01/astroke/estroke/estroke.ss01/astroke.sc/tdiagonalstroke.sc/astroke.sc.ss01/tdiagonalstroke.sc.ss01"
+"/Astroke/Tdiagonalstroke/Astroke.ss01/Q.ss01/Tdiagonalstroke.ss01/estroke/gstroke/estroke.ss01/astroke.sc/dhookandtail.sc/tdiagonalstroke.sc/astroke.sc.ss01/q.sc.ss01/tdiagonalstroke.sc.ss01/cedi ¢/colonsign $/guarani/naira/peso/won/tdiagonalstroke.sc.ss01/cstroke \012/Dhookandtail",
+"/istroke.dotless/istroke/minusbelowcomb/gravecomb"
 );
 classes = (
 {
@@ -134,21 +135,24 @@ code = "lookup ccmp_Other_1 {
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 
 	# Start dotless replacements
-    sub i' @CombiningNonTopAccents @CombiningTopAccents by idotless;
     sub i' @CombiningTopAccents by idotless;
+    sub i' @CombiningNonTopAccents @CombiningTopAccents by idotless;
     sub j' @CombiningTopAccents by jdotless;
     sub j' @CombiningNonTopAccents @CombiningTopAccents by jdotless;
-    sub i-cy' by idotless;
     sub imod' @CombiningTopAccents by imod.dotless;
+    sub imod' @CombiningNonTopAccents @CombiningTopAccents by imod.dotless;
     sub iogonek' @CombiningTopAccents by iogonek.dotless;
     sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by iogonek.dotless;
     sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
+    sub idotbelow' @CombiningNonTopAccents @CombiningTopAccents by idotbelow.dotless;
     sub itildebelow' @CombiningTopAccents by itildebelow.dotless;
+    sub itildebelow' @CombiningNonTopAccents @CombiningTopAccents by itildebelow.dotless;
     sub istroke' @CombiningTopAccents by istroke.dotless;
+    sub istroke' @CombiningNonTopAccents @CombiningTopAccents by istroke.dotless;
     sub istrokemod' @CombiningTopAccents by istrokemod.dotless;
-    sub j' @CombiningTopAccents by jdotless;
-    sub jstroke' by jdotlessstroke;
+    sub istrokemod' @CombiningNonTopAccents @CombiningTopAccents by istrokemod.dotless;
     sub jcrossedtail' @CombiningTopAccents by jcrossedtail.dotless;
+    sub jcrossedtail' @CombiningNonTopAccents @CombiningTopAccents by jcrossedtail.dotless;
 	# End dotless replacements
 
 	@Markscomb = [brevecomb-cy descender-cy dieresiscomb dieresiscomb_gravecomb dieresiscomb_acutecomb dieresiscomb_caroncomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb gravecomb_macroncomb acutecomb acutecomb_dotaccentcomb acutecomb_macroncomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb caroncomb_dotaccentcomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb ringcomb_acutecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb verticallineabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb ringbelowcomb commaaccentcomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb strokeshortcomb slashshortcomb slashlongcomb brevecomb.narrow macroncomb.narrow hungarumlaut dieresis.narrow circumflex.narrow tilde.narrow];
