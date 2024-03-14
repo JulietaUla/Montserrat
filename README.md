@@ -1,5 +1,16 @@
 # The Montserrat Font Project
 
+[![][Fontbakery]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+[![][Universal]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FUniversal.json
+
 Julieta Ulanovsky began this project in 2010 while a post-graduate student of typeface design at the FADU, University of Buenos Aires.
 She launched it as a Kickstarter project in 2011, in order to complete the first public release and share it with the world through Google Fonts.
 In her Kickstarter, she described it like this:
@@ -19,13 +30,13 @@ Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Fo
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-If you particularly want to build fonts manually on your own computer, you will need to install the [`yq` utility](https://github.com/mikefarah/yq). On OS X with Homebrew, type `brew install yq`; on Linux, try `snap install yq`; if all else fails, try the instructions on the linked page.
-
-Then:
+If you want to build fonts manually on your own computer:
 
 - `make build` will produce font files.
 - `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 - `make proof` will generate HTML proof files.
+
+The proof files and QA tests are also available automatically via GitHub Actions - look at `https://julietaula.github.io/montserrat`.
 
 ## License
 
