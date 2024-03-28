@@ -9,7 +9,9 @@ DisplayStrings = (
 "/Tbar/Tbar.ss01",
 "ljfnfifíflf/ibreve f/icaron fîf/idblgrave fïf/idieresisacute \012f/idotaccent f/idotbelow jfìf/ihookabove f/iinvertedbreve f/ij f/imacron f/iogonek jf/itilde f/itildebelow jff\012ïïï\012L/dotaccentcomb L/l.sc/dotaccentcomb/l.sc/Ge-cy/cheabkhasian-cy/Ge-cy -H/Ge-cy -*n",
 "/Astroke/Tdiagonalstroke/Astroke.ss01/Q.ss01/Tdiagonalstroke.ss01/estroke/gstroke/estroke.ss01/astroke.sc/dhookandtail.sc/tdiagonalstroke.sc/astroke.sc.ss01/q.sc.ss01/tdiagonalstroke.sc.ss01/cedi ¢/colonsign $/guarani/naira/peso/won/tdiagonalstroke.sc.ss01/cstroke \012/Dhookandtail",
-"/istroke.dotless/istroke/minusbelowcomb/gravecomb"
+"/istroke.dotless/istroke/minusbelowcomb/gravecomb",
+"!/exclamdown.case ?/questiondown.case",
+"¡Que!/space ¡QUE!\012/questiondown.case"
 );
 classes = (
 {
@@ -1405,6 +1407,8 @@ automatic = 1;
 code = "sub glottalstopreversed by glottalstopreversed.case;
 sub hmacronbelow by hmacronbelow.case;
 sub jcaron by jcaron.case;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
 sub periodcentered by periodcentered.case;
 sub bullet by bullet.case;
 sub slash by slash.case;
@@ -97004,11 +97008,11 @@ name = f;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 441, 0}";
+transform = "{1, 0, 0, 1, 426, 0}";
 }
 );
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
-width = 767;
+width = 752;
 },
 {
 anchors = (
@@ -193993,6 +193997,83 @@ width = 361;
 leftKerningGroup = backslash;
 rightKerningGroup = backslash;
 unicode = 005C;
+},
+{
+glyphname = exclamdown.case;
+layers = (
+{
+components = (
+{
+name = exclam;
+transform = "{-1, 0, 0, -1, 279, 700}";
+}
+);
+layerId = UUID0;
+width = 242;
+},
+{
+components = (
+{
+name = exclam;
+transform = "{-1, 0, 0, -1, 344, 700}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 314;
+},
+{
+components = (
+{
+name = exclam;
+transform = "{-1, 0, 0, -1, 305, 700}";
+}
+);
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+width = 272;
+}
+);
+leftKerningGroup = exclamdown;
+leftMetricsKey = exclam;
+rightKerningGroup = exclamdown;
+},
+{
+glyphname = questiondown.case;
+layers = (
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 590, 700}";
+}
+);
+layerId = UUID0;
+width = 553;
+},
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 637, 700}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 606;
+},
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 611, 700}";
+}
+);
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+width = 578;
+}
+);
+leftKerningGroup = questiondown;
+leftMetricsKey = "=|question";
+rightKerningGroup = questiondown;
+rightMetricsKey = "=|question";
 },
 {
 glyphname = periodcentered.case;

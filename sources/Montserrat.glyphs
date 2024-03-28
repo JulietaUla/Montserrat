@@ -21,7 +21,8 @@ DisplayStrings = (
 "/lambdastroke",
 "/oOpenmod ð/dtail/dcroat/space Ð/Dcroat/Dtail",
 "/oOpenmod",
-"/chi/YturnedSansSerif/lambda/uniA7C8/uniA7C7/a.circled"
+"/chi/YturnedSansSerif/lambda/uniA7C8/uniA7C7/a.circled",
+"¡/exclamdown.case X!¿?/questiondown.case QUE?\012"
 );
 classes = (
 {
@@ -1414,6 +1415,8 @@ automatic = 1;
 code = "sub glottalstopreversed by glottalstopreversed.case;
 sub hmacronbelow by hmacronbelow.case;
 sub jcaron by jcaron.case;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
 sub periodcentered by periodcentered.case;
 sub bullet by bullet.case;
 sub slash by slash.case;
@@ -192690,6 +192693,84 @@ width = 361;
 leftKerningGroup = backslash;
 rightKerningGroup = backslash;
 unicode = 005C;
+},
+{
+glyphname = exclamdown.case;
+layers = (
+{
+components = (
+{
+name = exclam;
+transform = "{-1, 0, 0, -1, 242, 700}";
+}
+);
+layerId = UUID0;
+width = 242;
+},
+{
+components = (
+{
+name = exclam;
+transform = "{-1, 0, 0, -1, 314, 700}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 314;
+},
+{
+components = (
+{
+name = exclam;
+transform = "{-1, 0, 0, -1, 273, 700}";
+}
+);
+layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
+width = 273;
+}
+);
+leftKerningGroup = exclamdown;
+leftMetricsKey = exclam;
+rightKerningGroup = exclamdown;
+rightMetricsKey = "=|";
+},
+{
+glyphname = questiondown.case;
+layers = (
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 554, 700}";
+}
+);
+layerId = UUID0;
+width = 554;
+},
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 606, 700}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 606;
+},
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 577, 700}";
+}
+);
+layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
+width = 577;
+}
+);
+leftKerningGroup = questiondown;
+leftMetricsKey = "=|question";
+rightKerningGroup = questiondown;
+rightMetricsKey = "=|question";
 },
 {
 glyphname = periodcentered.case;
