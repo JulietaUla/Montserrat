@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3260";
 DisplayStrings = (
 "/iogonek.dotless/idotbelow.dotless/itildebelow.dotless",
 "/jcrossedtail/jcrossedtail.dotless",
@@ -31,7 +31,8 @@ DisplayStrings = (
 "rt/OE/yturnedSansSerif.sc.ss01",
 "/dieresiscomb.narrow ï/idieresis.sc/idieresis.sc.ss01/yi-cy/dieresis.narrow",
 "IÍ/Ibreve/Icaron Î/Idblgrave Ï/Idieresisacute/Idotaccent/Idotbelow Ì/Ihookabove/Iinvertedbreve/Imacron/Iogonek/Itilde/Itildebelow/Iogonek.loclNAV/I.uc",
-"/Germandbls fíf/ibreve f/icaron fîf/idblgrave fïf/imacron/space"
+"/Germandbls fíf/ibreve f/icaron fîf/idblgrave fïf/imacron/space",
+"®/A.circled H/A.circled HO/A.circled.ss01/a.circled.ss01/a.circled"
 );
 classes = (
 {
@@ -93886,14 +93887,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"236 252 LINE",
-"243 252 LINE",
-"403 252 LINE",
-"403 271 LINE",
-"257 271 LINE",
+"403 251 LINE",
+"403 270 LINE",
+"257 270 LINE",
 "250 271 LINE",
 "96 271 LINE",
-"96 252 LINE"
+"96 252 LINE",
+"236 252 LINE",
+"243 251 LINE"
 );
 }
 );
@@ -143402,14 +143403,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"256 274 LINE",
-"263 274 LINE",
-"463 274 LINE",
-"463 293 LINE",
-"277 293 LINE",
+"463 273 LINE",
+"463 292 LINE",
+"277 292 LINE",
 "270 293 LINE",
 "84 293 LINE",
-"84 274 LINE"
+"84 274 LINE",
+"256 274 LINE",
+"263 273 LINE"
 );
 }
 );
@@ -226223,6 +226224,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = ogonekcomb;
 transform = "{1, 0, 0, 1, 64, 0}";
 }
@@ -226233,6 +226235,7 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = ogonekcomb;
 transform = "{1, 0, 0, 1, 85, 0}";
 }
@@ -226243,6 +226246,7 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = ogonekcomb;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
