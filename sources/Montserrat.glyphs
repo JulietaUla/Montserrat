@@ -146794,6 +146794,20 @@ source = h;
 glyphname = imod;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{89, 320}";
+},
+{
+name = ogonek;
+position = "{99, 320}";
+},
+{
+name = top;
+position = "{89, 775}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -146833,6 +146847,20 @@ width = 70;
 width = 177;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{102, 320}";
+},
+{
+name = ogonek;
+position = "{147, 320}";
+},
+{
+name = top;
+position = "{102, 802}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
@@ -146873,6 +146901,20 @@ width = 70;
 width = 203;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{115, 320}";
+},
+{
+name = ogonek;
+position = "{195, 320}";
+},
+{
+name = top;
+position = "{115, 802}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -147325,6 +147367,20 @@ source = y;
 glyphname = imod.dotless;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{89, 320}";
+},
+{
+name = ogonek;
+position = "{99, 320}";
+},
+{
+name = top;
+position = "{89, 657}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -147347,6 +147403,20 @@ width = 70;
 width = 178;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{102, 320}";
+},
+{
+name = ogonek;
+position = "{147, 320}";
+},
+{
+name = top;
+position = "{102, 668}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
@@ -147370,6 +147440,20 @@ width = 70;
 width = 204;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{115, 320}";
+},
+{
+name = ogonek;
+position = "{195, 320}";
+},
+{
+name = top;
+position = "{115, 677}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -184162,41 +184246,55 @@ source = e;
 glyphname = istrokemod;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{140, 320}";
+},
+{
+name = ogonek;
+position = "{150, 320}";
+},
+{
+name = top;
+position = "{140, 775}";
+}
+);
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"144 320 LINE",
-"144 657 LINE",
-"124 657 LINE",
-"124 320 LINE"
+"150 320 LINE",
+"150 657 LINE",
+"130 657 LINE",
+"130 320 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"214 486 LINE",
-"214 503 LINE",
-"54 503 LINE",
-"54 486 LINE"
+"220 486 LINE",
+"220 503 LINE",
+"60 503 LINE",
+"60 486 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"145 746 OFFCURVE",
-"155 755 OFFCURVE",
-"155 767 CURVE SMOOTH",
-"155 778 OFFCURVE",
-"145 787 OFFCURVE",
-"134 787 CURVE SMOOTH",
-"122 787 OFFCURVE",
-"112 778 OFFCURVE",
-"112 767 CURVE SMOOTH",
-"112 755 OFFCURVE",
-"123 746 OFFCURVE",
-"134 746 CURVE SMOOTH"
+"151 746 OFFCURVE",
+"161 755 OFFCURVE",
+"161 767 CURVE SMOOTH",
+"161 778 OFFCURVE",
+"151 787 OFFCURVE",
+"140 787 CURVE SMOOTH",
+"128 787 OFFCURVE",
+"118 778 OFFCURVE",
+"118 767 CURVE SMOOTH",
+"118 755 OFFCURVE",
+"129 746 OFFCURVE",
+"140 746 CURVE SMOOTH"
 );
 }
 );
@@ -184207,44 +184305,58 @@ verticalShift = 320;
 width = 70;
 };
 };
-width = 267;
+width = 281;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{125, 320}";
+},
+{
+name = ogonek;
+position = "{170, 320}";
+},
+{
+name = top;
+position = "{125, 802}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
 closed = 1;
 nodes = (
-"191 320 LINE",
-"191 668 LINE",
-"101 668 LINE",
-"101 320 LINE"
+"170 320 LINE",
+"170 668 LINE",
+"80 668 LINE",
+"80 320 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"256 470 LINE",
-"256 525 LINE",
-"36 525 LINE",
-"36 470 LINE"
+"235 470 LINE",
+"235 525 LINE",
+"15 525 LINE",
+"15 470 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"179 722 OFFCURVE",
-"203 745 OFFCURVE",
-"203 776 CURVE SMOOTH",
-"203 804 OFFCURVE",
-"179 826 OFFCURVE",
-"146 826 CURVE SMOOTH",
-"113 826 OFFCURVE",
-"88 803 OFFCURVE",
-"88 774 CURVE SMOOTH",
-"88 745 OFFCURVE",
-"112 722 OFFCURVE",
-"146 722 CURVE SMOOTH"
+"158 722 OFFCURVE",
+"182 745 OFFCURVE",
+"182 776 CURVE SMOOTH",
+"182 804 OFFCURVE",
+"158 826 OFFCURVE",
+"125 826 CURVE SMOOTH",
+"92 826 OFFCURVE",
+"67 803 OFFCURVE",
+"67 774 CURVE SMOOTH",
+"67 745 OFFCURVE",
+"91 722 OFFCURVE",
+"125 722 CURVE SMOOTH"
 );
 }
 );
@@ -184256,44 +184368,58 @@ weight = -20;
 width = 70;
 };
 };
-width = 292;
+width = 250;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{151, 320}";
+},
+{
+name = ogonek;
+position = "{231, 320}";
+},
+{
+name = top;
+position = "{151, 802}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
 closed = 1;
 nodes = (
-"228 320 LINE",
-"228 677 LINE",
-"67 677 LINE",
-"67 320 LINE"
+"231 320 LINE",
+"231 677 LINE",
+"70 677 LINE",
+"70 320 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"283 463 LINE",
-"283 540 LINE",
-"12 540 LINE",
-"12 463 LINE"
+"286 463 LINE",
+"286 540 LINE",
+"15 540 LINE",
+"15 463 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"206 700 OFFCURVE",
-"244 735 OFFCURVE",
-"244 783 CURVE SMOOTH",
-"244 829 OFFCURVE",
-"206 861 OFFCURVE",
-"147 861 CURVE SMOOTH",
-"88 861 OFFCURVE",
-"50 826 OFFCURVE",
-"50 780 CURVE SMOOTH",
-"50 735 OFFCURVE",
-"88 700 OFFCURVE",
-"147 700 CURVE SMOOTH"
+"209 700 OFFCURVE",
+"247 735 OFFCURVE",
+"247 783 CURVE SMOOTH",
+"247 829 OFFCURVE",
+"209 861 OFFCURVE",
+"150 861 CURVE SMOOTH",
+"91 861 OFFCURVE",
+"53 826 OFFCURVE",
+"53 780 CURVE SMOOTH",
+"53 735 OFFCURVE",
+"91 700 OFFCURVE",
+"150 700 CURVE SMOOTH"
 );
 }
 );
@@ -184305,11 +184431,13 @@ weight = -65;
 width = 70;
 };
 };
-width = 295;
+width = 301;
 }
 );
 leftKerningGroup = nmod;
+leftMetricsKey = istrokemod.dotless;
 rightKerningGroup = nmod;
+rightMetricsKey = istrokemod.dotless;
 unicode = 1DA4;
 userData = {
 RMXScaler = {
@@ -185413,6 +185541,20 @@ source = z;
 glyphname = istrokemod.dotless;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{140, 320}";
+},
+{
+name = ogonek;
+position = "{150, 320}";
+},
+{
+name = top;
+position = "{140, 657}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -185444,24 +185586,38 @@ width = 70;
 width = 280;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{125, 320}";
+},
+{
+name = ogonek;
+position = "{170, 320}";
+},
+{
+name = top;
+position = "{125, 668}";
+}
+);
 layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
 paths = (
 {
 closed = 1;
 nodes = (
-"200 320 LINE",
-"200 668 LINE",
-"110 668 LINE",
-"110 320 LINE"
+"170 320 LINE",
+"170 668 LINE",
+"80 668 LINE",
+"80 320 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"265 470 LINE",
-"265 525 LINE",
-"45 525 LINE",
-"45 470 LINE"
+"235 470 LINE",
+"235 525 LINE",
+"15 525 LINE",
+"15 470 LINE"
 );
 }
 );
@@ -185473,27 +185629,41 @@ weight = -20;
 width = 70;
 };
 };
-width = 310;
+width = 250;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{152, 320}";
+},
+{
+name = ogonek;
+position = "{232, 320}";
+},
+{
+name = top;
+position = "{152, 677}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
 closed = 1;
 nodes = (
-"234 320 LINE",
-"234 677 LINE",
-"73 677 LINE",
-"73 320 LINE"
+"232 320 LINE",
+"232 677 LINE",
+"71 677 LINE",
+"71 320 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"289 463 LINE",
-"289 540 LINE",
-"17 540 LINE",
-"17 463 LINE"
+"287 463 LINE",
+"287 540 LINE",
+"15 540 LINE",
+"15 463 LINE"
 );
 }
 );
@@ -185505,7 +185675,7 @@ weight = -65;
 width = 70;
 };
 };
-width = 307;
+width = 302;
 }
 );
 leftKerningGroup = nmod;
