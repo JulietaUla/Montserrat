@@ -1,5 +1,5 @@
 set -e
-echo Freezing and subsetting Alternates
+echo Freezing and subsetting Alternates 2
 rm -rf fonts-alternates
 mkdir -p fonts-alternates fonts-alternates/otf fonts-alternates/ttf fonts-alternates/variable fonts-alternates/webfonts
 
