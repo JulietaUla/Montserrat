@@ -1,17 +1,16 @@
-echo
+set -e
 echo Freezing and subsetting Alternates
 rm -rf fonts-alternates
-cp -r fonts fonts-alternates
-cd fonts-alternates
-for f in variable/*.ttf; do echo && echo Freezing Alternates version for "$f" && pyftfeatfreeze -f 'ss01' -S -U Alternates "$f" "${f//Montserrat/MontserratAlternates}" && rm "$f"; done
-for f in variable/*.ttf; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
+mkdir -p fonts-alternates fonts-alternates/otf fonts-alternates/ttf fonts-alternates/variable fonts-alternates/webfonts
 
-for f in otf/*.otf; do echo && echo Freezing Alternates version for "$f" && pyftfeatfreeze -f 'ss01' -S -U Alternates "$f" "${f//Montserrat/MontserratAlternates}" && rm "$f"; done
-for f in otf/*.otf; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
-
-for f in ttf/*.ttf; do echo && echo Freezing Alternates version for "$f" && pyftfeatfreeze -f 'ss01' -S -U Alternates "$f" "${f//Montserrat/MontserratAlternates}" && rm "$f"; done
-for f in ttf/*.ttf; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
-
-for f in webfonts/*.woff2; do echo && echo Freezing Alternates version for "$f" && pyftfeatfreeze -f 'ss01' -S -U Alternates "$f" "${f//Montserrat/MontserratAlternates}" && rm "$f"; done
-for f in webfonts/*.woff2; do pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$f.temp $f && mv $f.temp $f; done
-cd ../..
+fonts=$(ls fonts/*/*)
+for font in $fonts;
+do 
+    echo Freezing Alternates version for "$font"
+    # fonts/variable/Montserrat[wght].ttf --> fonts-alternates/variable/MontserratAlternates[wght].ttf
+    new_path="${font//Montserrat/MontserratAlternates}"
+    new_path="${new_path//fonts/fonts-alternates}"
+    new_path="${new_path//webfonts-alternates/webfonts}"
+    gftools remap-font $font --map-file sources/alternative_mapping.txt -o $new_path
+    gftools rename-font $new_path "Montserrat Alternates" -o $new_path
+done
