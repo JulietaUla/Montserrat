@@ -15,7 +15,7 @@ jobs:
       - name: Install sys tools/deps
         run: |
           sudo apt-get update
-          sudo apt-get install ttfautohint
+          sudo apt-get install ttfautohint libcairo2-dev
           sudo snap install yq
       - uses: actions/cache@v4
         with:

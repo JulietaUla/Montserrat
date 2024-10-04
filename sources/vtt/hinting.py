@@ -1,34 +1,19 @@
-import fontTools
-from fontTools.ttLib import TTFont, newTable
+from fontTools.ttLib import TTFont
 import vttLib
-from vttmisc import tsi1
-import shutil
-import gftools
+from gftools.scripts.transfer_vtt_hints import transfer_hints
 
-vttSource = [
-    "sources/vtt/Montserrat[wght]-VTT.ttf",
-    "sources/vtt/Montserrat-Italic[wght]-VTT.ttf",
-]
-newSource = [
-    "fonts/variable/Montserrat[wght].ttf",
-    "fonts/variable/Montserrat-Italic[wght].ttf",
-]
+
+sources = {
+    "sources/vtt/Montserrat[wght]-VTT.ttf": "fonts/variable/Montserrat[wght].ttf",
+    "sources/vtt/Montserrat-Italic[wght]-VTT.ttf": "fonts/variable/Montserrat-Italic[wght].ttf", 
+}
 
 print("INFO:Integrating hinting sources and compiling")
 
-for i, source in enumerate(newSource):
-
-    newFont = TTFont(source)
-    vttFont = TTFont(vttSource[i])
-
-    for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC"]:
-        newFont[table] = fontTools.ttLib.newTable(table)
-        newFont[table] = vttFont[table]
-
-    vttLib.compile_instructions(newFont, ship=True)
-
-    newFont["head"].flags |= 1 << 3
-
-    newFont.save(source.replace(".ttf", "-VTT.ttf"))
-
-    shutil.move(source.replace(".ttf", "-VTT.ttf"), source)
+for src, dst in sources.items():
+    src = TTFont(src)
+    dst = TTFont(dst)
+    transfer_hints(src, dst)
+    vttLib.compile_instructions(dst, ship=True)
+    dst["head"].flags |= 1 << 3
+    dst.save(dst.reader.file.name)
