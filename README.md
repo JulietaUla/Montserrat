@@ -36,17 +36,11 @@ If you want to build fonts manually on your own computer:
 - `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 - `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://julietaula.github.io/montserrat`.
-
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at
 https://openfontlicense.org
-
-## Repository Layout
-
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
 
 ## Changelog
 
@@ -75,3 +69,11 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 - Variable font wow includes hand hinting by Mike Duggan
 - Added necessary glyphs for Navajo
 - Other small glyph / OT fixes
+
+### Version 9.000
+
+- New Subfamily: _Montserrat Underline_ replaces Montserrat Subrayada, and is fully synchronized with Montserrat Normal and their respective Alternates versions.
+- Glyph Expansion: Increased from 1968 to 2731 glyphs, including new anchors, diacritics, Cyrillic updates, and additional characters.
+- Tooling & Pipeline Enhancements: Updated to latest gftools, added Cairo, reimported font hinting, and cleaned up scripts.
+- Spacing & Kerning Fixes: Improved interpolation, character spacing, kerning pairs, and width matching across styles.
+- Miscellaneous Fixes: Case-swapping fixes, remapped fonts, updated Font Info, and cleaned source files.
