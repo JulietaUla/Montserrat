@@ -73,7 +73,7 @@ https://openfontlicense.org
 ### Version 9.000
 
 - New Subfamily: _Montserrat Underline_ replaces Montserrat Subrayada, and is fully synchronized with Montserrat Normal and their respective Alternates versions.
-- Glyph Expansion: Increased from 1968 to 2731 glyphs, including new anchors, diacritics, Cyrillic updates, and additional characters.
+- Glyph Expansion: Increased from 1968 to 2731 glyphs, including SSA (African), new anchors, diacritics, Cyrillic updates, and additional characters.
 - Tooling & Pipeline Enhancements: Updated to latest gftools, added Cairo, reimported font hinting, and cleaned up scripts.
 - Spacing & Kerning Fixes: Improved interpolation, character spacing, kerning pairs, and width matching across styles.
 - Miscellaneous Fixes: Case-swapping fixes, remapped fonts, updated Font Info, and cleaned source files.
