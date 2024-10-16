@@ -1,8 +1,7 @@
 {
 .appVersion = "3260";
 DisplayStrings = (
-"/AEmacron",
-"/cedillacomb Ç/Ccedillaacute/Ecedilla/Ecedillabreve/Scedilla/Tcedilla/Ecedillabreve.ss01/Tcedilla.ss01 ç/ccedillaacute/ecedilla/ecedillabreve/scedilla/tcedilla/ecedilla.ss01/ecedillabreve.ss01/tcedilla.ss01/ccedilla.sc/ccedillaacute.sc/ecedilla.sc/ecedillabreve.sc/Hcedilla/hcedilla/h.sc/h.sc/hcedilla.sc/scedilla.sc/tcedilla.sc/ecedilla.sc.ss01/ecedillabreve.sc.ss01/tcedilla.sc.ss01/Esdescender-cy.loclCHU/zedescender-cy.loclBSH/esdescender-cy.loclCHU ¸"
+"/AEmacron"
 );
 classes = (
 {
@@ -29134,7 +29133,7 @@ position = "{561, 0}";
 },
 {
 name = top;
-position = "{475, 700}";
+position = "{475, 710}";
 },
 {
 name = topright;
@@ -41625,6 +41624,16 @@ rightKerningGroup = N.ss01;
 glyphname = Eng.ss01;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{304, -194}";
+},
+{
+name = top;
+position = "{482, 700}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -41669,6 +41678,16 @@ nodes = (
 width = 787;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{302, -194}";
+},
+{
+name = top;
+position = "{480, 700}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -41713,6 +41732,16 @@ nodes = (
 width = 789;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{302, -194}";
+},
+{
+name = top;
+position = "{481, 700}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -142224,6 +142253,16 @@ rightKerningGroup = n.sc.ss01;
 glyphname = eng.sc.ss01;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{249, -194}";
+},
+{
+name = top;
+position = "{399, 559}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -142268,6 +142307,16 @@ nodes = (
 width = 678;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{258, -194}";
+},
+{
+name = top;
+position = "{413, 582}";
+}
+);
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -142312,6 +142361,16 @@ nodes = (
 width = 701;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{252, -194}";
+},
+{
+name = top;
+position = "{405, 570}";
+}
+);
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -241786,6 +241845,50 @@ leftKerningGroup = j;
 leftMetricsKey = j;
 rightKerningGroup = f;
 rightMetricsKey = f;
+},
+{
+glyphname = pmacronbelow;
+layers = (
+{
+components = (
+{
+name = p;
+},
+{
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 105, -100}";
+}
+);
+layerId = UUID0;
+width = 671;
+},
+{
+components = (
+{
+name = p;
+},
+{
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 108, -120}";
+}
+);
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+width = 684;
+},
+{
+components = (
+{
+name = p;
+},
+{
+name = macronbelowcomb;
+transform = "{1, 0, 0, 1, 116, -170}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 700;
+}
+);
 },
 {
 glyphname = prime;
