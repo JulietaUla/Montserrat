@@ -1,5 +1,16 @@
 # The Montserrat Font Project
 
+[![][Fontbakery]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+[![][Universal]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://JulietaUla.github.io/Montserrat/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FUniversal.json
+
 Julieta Ulanovsky began this project in 2010 while a post-graduate student of typeface design at the FADU, University of Buenos Aires.
 She launched it as a Kickstarter project in 2011, in order to complete the first public release and share it with the world through Google Fonts.
 In her Kickstarter, she described it like this:
@@ -10,10 +21,26 @@ In her Kickstarter, she described it like this:
 >
 > There are other revivals, but those do not stay close to the originals. The letters that inspired this project have work, dedication, care, color, contrast, light and life, day and night! These are the types that make the city look so beautiful.
 
-Since then it has been developed by Julieta in collaboration with several designers. 
-In 2015, a full set of weights and italics were developed by Julieta in collaboration with Ale Paul, Carolina Giovagnoli, Andrés Torresi, Juan Pablo del Peral and Sol Matas. 
-In 2017, Jacques Le Bailly reworked the entire Latin design, and in parallel Juan Pablo del Peral and Sol Matas developed the initial Cyrillic extension with review and advise from Maria Doreuli and Alexei Vanyashin. 
+Since then it has been developed by Julieta in collaboration with several designers.
+In 2015, a full set of weights and italics were developed by Julieta in collaboration with Ale Paul, Carolina Giovagnoli, Andrés Torresi, Juan Pablo del Peral and Sol Matas.
+In 2017, Jacques Le Bailly reworked the entire Latin design, and in parallel Juan Pablo del Peral and Sol Matas developed the initial Cyrillic extension with review and advise from Maria Doreuli and Alexei Vanyashin.
 Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Foley. Special thanks also to Thomas Linard, Valeria Dulitzky, Belén Quirós, and Germán Rozo.
+
+## Building
+
+Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+
+If you want to build fonts manually on your own computer:
+
+- `make build` will produce font files.
+- `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+- `make proof` will generate HTML proof files.
+
+## License
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at
+https://openfontlicense.org
 
 ## Changelog
 
@@ -31,7 +58,22 @@ Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Fo
 - Added OpenType features consistent with character-set expansion
 
 ### Version 7.200
+
 - Google commissioned Jacques Le Bailly @fonthausen to do an extensive revision of the latin character set.
-- We applied a new weight distribution across the variables. 
+- We applied a new weight distribution across the variables.
 - Now Montserrat has extended Cyrillic support (GF Cyrillic Pro).
 - More detais about migration in https://github.com/JulietaUla/Montserrat/releases/tag/v7.200
+
+### Version 8.000
+
+- Variable font wow includes hand hinting by Mike Duggan
+- Added necessary glyphs for Navajo
+- Other small glyph / OT fixes
+
+### Version 9.000
+
+- New Subfamily: _Montserrat Underline_ replaces Montserrat Subrayada, and is fully synchronized with Montserrat Normal and their respective Alternates versions.
+- Glyph Expansion: Increased from 1968 to 2731 glyphs, including SSA (African), new anchors, diacritics, Cyrillic updates, and additional characters.
+- Tooling & Pipeline Enhancements: Updated to latest gftools, added Cairo, reimported font hinting, and cleaned up scripts.
+- Spacing & Kerning Fixes: Improved interpolation, character spacing, kerning pairs, and width matching across styles.
+- Miscellaneous Fixes: Case-swapping fixes, remapped fonts, updated Font Info, and cleaned source files.
