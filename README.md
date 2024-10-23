@@ -11,6 +11,10 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FJulietaUla%2FMontserrat%2Fgh-pages%2Fbadges%2FUniversal.json
 
+![Montserrat](documentation/MONTSERRAT_01.png)
+![Montserrat](documentation/MONTSERRAT_02.png)
+![Montserrat](documentation/MONTSERRAT_03.png)
+
 Julieta Ulanovsky began this project in 2010 while a post-graduate student of typeface design at the FADU, University of Buenos Aires.
 She launched it as a Kickstarter project in 2011, in order to complete the first public release and share it with the world through Google Fonts.
 In her Kickstarter, she described it like this:
@@ -77,3 +81,10 @@ https://openfontlicense.org
 - Tooling & Pipeline Enhancements: Updated to latest gftools, added Cairo, reimported font hinting, and cleaned up scripts.
 - Spacing & Kerning Fixes: Improved interpolation, character spacing, kerning pairs, and width matching across styles.
 - Miscellaneous Fixes: Case-swapping fixes, remapped fonts, updated Font Info, and cleaned source files.
+
+## Known Issues
+
+**Variable font display issues in Adobe apps:** Variable fonts may not display correctly in certain versions of Adobe CC apps. This behavior varies between different versions. For a more consistent experience, we recommend using the static font files instead. [More info](https://github.com/google/fonts/pull/8281#issuecomment-2402303242).
+
+**Bolder glyph variations:** There are known issues with the appearance of some glyphs in bolder weights. This is due to limitations in fontmake, the tool used to generate the fonts, and is under investigation.
+[More details here.](https://github.com/google/fonts/pull/8281#issuecomment-2419002841)
