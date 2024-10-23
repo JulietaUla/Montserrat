@@ -1,0 +1,72 @@
+sources:
+  - MontserratUnderline.glyphs
+  - MontserratUnderline-Italic.glyphs
+axisOrder:
+  - wght
+  - ital
+familyName: "Montserrat Underline"
+flattenComponents: True
+buildStatic: True
+buildSmallCap: False
+outputDir: "../fonts-underline"
+stat:
+  MontserratUnderline[wght].ttf:
+    - name: Weight
+      tag: wght
+      values:
+        - name: Thin
+          value: 100
+        - name: ExtraLight
+          value: 200
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: Medium
+          value: 500
+        - name: SemiBold
+          value: 600
+        - name: Bold
+          value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+    - name: Italic
+      tag: ital
+      values:
+        - name: Roman
+          value: 0
+          linkedValue: 1
+          flags: 2
+  MontserratUnderline-Italic[wght].ttf:
+    - name: Weight
+      tag: wght
+      values:
+        - name: Thin
+          value: 100
+        - name: ExtraLight
+          value: 200
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: Medium
+          value: 500
+        - name: SemiBold
+          value: 600
+        - name: Bold
+          value: 700
+        - name: ExtraBold
+          value: 800
+        - name: Black
+          value: 900
+    - name: Italic
+      tag: ital
+      values:
+        - name: Italic
+          value: 1
