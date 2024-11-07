@@ -29,7 +29,13 @@ venv/touchfile: requirements.txt
 	touch venv/touchfile
 
 test: venv build.stamp
-	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/variable -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+
+test-underline: venv build.stamp
+	. venv/bin/activate; mkdir -p out/ out/fontbakery-underline; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges-underline --html out/fontbakery-underline/fontbakery-report.html --ghmarkdown out/fontbakery-underline/fontbakery-report.md $(shell find fonts-underline/variable -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+
+test-alternates: venv build.stamp
+	. venv/bin/activate; mkdir -p out/ out/fontbakery-alternates; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges-alternates --html out/fontbakery-alternates/fontbakery-report.html --ghmarkdown out/fontbakery-alternates/fontbakery-report.md $(shell find fonts-alternates/variable -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof
