@@ -4,7 +4,9 @@ DisplayStrings = (
 "/lambdastroke/lambdastroke.ss01/lambdastroke.sc/lambdastroke.sc.ss01/Lambda/lambda/lambda.sc/Lambdastroke.ss01",
 "/cedillacomb Ç/Ccedillaacute/Ecedilla/Ecedillabreve/Scedilla/Tcedilla/Ecedillabreve.ss01/Tcedilla.ss01 ç/ccedillaacute/ecedilla/ecedillabreve/scedilla/tcedilla/ecedilla.ss01/ecedillabreve.ss01/tcedilla.ss01/ccedilla.sc/ccedillaacute.sc/ecedilla.sc/ecedillabreve.sc/Hcedilla/hcedilla/h.sc/h.sc/hcedilla.sc/scedilla.sc/tcedilla.sc/ecedilla.sc.ss01/ecedillabreve.sc.ss01/tcedilla.sc.ss01/Esdescender-cy.loclCHU/zedescender-cy.loclBSH/esdescender-cy.loclCHU ¸",
 "/Eng.ss01/Eng",
-"/Tdiagonalstroke/Tdiagonalstroke.ss01/tdiagonalstroke/tdiagonalstroke.ss01/tdiagonalstroke.sc/tdiagonalstroke.sc.ss01"
+"/Tdiagonalstroke/Tdiagonalstroke.ss01/tdiagonalstroke/tdiagonalstroke.ss01/tdiagonalstroke.sc/tdiagonalstroke.sc.ss01",
+"/quotedblrightreversed/quotedblright",
+"/quotereversed a/quotereversed u/quoteleft/space/quotedblrightreversed/quotedblright/quotedblrightreversed"
 );
 classes = (
 {
@@ -200003,6 +200005,162 @@ widthMetricsKey = period;
 rightKerningGroup = quoteright;
 rightMetricsKey = period;
 unicode = 2019;
+},
+{
+color = 3;
+glyphname = quotereversed;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"89 704 LINE",
+"89 693 LINE",
+"105 693 OFFCURVE",
+"117 705 OFFCURVE",
+"117 719 CURVE SMOOTH",
+"117 733 OFFCURVE",
+"106 745 OFFCURVE",
+"91 745 CURVE SMOOTH",
+"75 745 OFFCURVE",
+"65 731 OFFCURVE",
+"65 719 CURVE SMOOTH",
+"65 708 OFFCURVE",
+"67 701 OFFCURVE",
+"69 690 CURVE",
+"102 556 LINE",
+"120 556 LINE"
+);
+}
+);
+};
+components = (
+{
+name = quoteright;
+transform = "{-1, 0, 0, 1, 182, 0}";
+}
+);
+layerId = UUID0;
+width = 182;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"130 666 LINE",
+"115 599 LINE",
+"158 599 OFFCURVE",
+"190 628 OFFCURVE",
+"190 673 CURVE SMOOTH",
+"190 718 OFFCURVE",
+"158 748 OFFCURVE",
+"116 748 CURVE SMOOTH",
+"74 748 OFFCURVE",
+"43 717 OFFCURVE",
+"43 673 CURVE SMOOTH",
+"43 652 OFFCURVE",
+"47 636 OFFCURVE",
+"62 594 CURVE",
+"112 453 LINE",
+"184 453 LINE"
+);
+}
+);
+};
+components = (
+{
+name = quoteright;
+transform = "{-1, 0, 0, 1, 235, 0}";
+}
+);
+layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
+width = 235;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"185 625 LINE",
+"152 499 LINE",
+"230 499 OFFCURVE",
+"284 546 OFFCURVE",
+"284 624 CURVE SMOOTH",
+"284 702 OFFCURVE",
+"228 752 OFFCURVE",
+"152 752 CURVE SMOOTH",
+"76 752 OFFCURVE",
+"20 702 OFFCURVE",
+"20 624 CURVE SMOOTH",
+"20 592 OFFCURVE",
+"24 568 OFFCURVE",
+"59 493 CURVE SMOOTH",
+"129 344 LINE",
+"269 344 LINE"
+);
+}
+);
+};
+components = (
+{
+name = quoteright;
+transform = "{-1, 0, 0, 1, 304, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 304;
+}
+);
+unicode = 201B;
+},
+{
+color = 3;
+glyphname = quotedblrightreversed;
+layers = (
+{
+background = {
+components = (
+{
+name = quotedblright;
+}
+);
+};
+components = (
+{
+name = quotedblright;
+transform = "{-1, 0, 0, 1, 312, 0}";
+}
+);
+layerId = UUID0;
+width = 312;
+},
+{
+components = (
+{
+name = quotedblright;
+transform = "{-1, 0, 0, 1, 435, 0}";
+}
+);
+layerId = "708134FE-A11E-43C9-84F0-594DA15B6BD1";
+width = 435;
+},
+{
+components = (
+{
+name = quotedblright;
+transform = "{-1, 0, 0, 1, 594, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 594;
+}
+);
+unicode = 201F;
 },
 {
 glyphname = guillemetleft;

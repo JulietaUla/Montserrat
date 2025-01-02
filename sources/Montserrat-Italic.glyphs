@@ -2,7 +2,8 @@
 .appVersion = "3260";
 DisplayStrings = (
 "/AEmacron",
-"/U.ss01 U/W.ss01"
+"/U.ss01 U/W.ss01",
+"/quotereversed a/quotereversed u/quoteleft/quotereversed/space/quotedblrightreversed \012/quotedblrightreversed/quotedblright/quoteleft/quotedblrightreversed"
 );
 classes = (
 {
@@ -201118,6 +201119,201 @@ widthMetricsKey = period;
 rightKerningGroup = quoteright;
 rightMetricsKey = period;
 unicode = 2019;
+},
+{
+color = 3;
+glyphname = quotereversed;
+layers = (
+{
+background = {
+components = (
+{
+name = quoteright;
+transform = "{1, 0, 0, 1, -27, 0}";
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"161 700 LINE",
+"156 693 LINE",
+"176 693 OFFCURVE",
+"188 704 OFFCURVE",
+"188 719 CURVE SMOOTH",
+"188 736 OFFCURVE",
+"174 745 OFFCURVE",
+"162 745 CURVE SMOOTH",
+"149 745 OFFCURVE",
+"136 735 OFFCURVE",
+"136 715 CURVE SMOOTH",
+"136 707 OFFCURVE",
+"138 694 OFFCURVE",
+"140 682 CURVE SMOOTH",
+"160 556 LINE",
+"178 556 LINE"
+);
+}
+);
+width = 182;
+},
+{
+background = {
+components = (
+{
+name = quoteright;
+}
+);
+};
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"212 666 LINE",
+"184 599 LINE",
+"244 599 OFFCURVE",
+"273 640 OFFCURVE",
+"273 679 CURVE SMOOTH",
+"273 724 OFFCURVE",
+"239 748 OFFCURVE",
+"204 748 CURVE SMOOTH",
+"165 748 OFFCURVE",
+"124 717 OFFCURVE",
+"124 669 CURVE SMOOTH",
+"124 653 OFFCURVE",
+"129 621 OFFCURVE",
+"135 591 CURVE SMOOTH",
+"161 453 LINE",
+"224 453 LINE"
+);
+}
+);
+width = 235;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"189 344 LINE",
+"307 517 LINE SMOOTH",
+"342 568 OFFCURVE",
+"354 596 OFFCURVE",
+"354 633 CURVE SMOOTH",
+"354 704 OFFCURVE",
+"305 752 OFFCURVE",
+"231 752 CURVE SMOOTH",
+"152 752 OFFCURVE",
+"89 697 OFFCURVE",
+"89 613 CURVE SMOOTH",
+"89 544 OFFCURVE",
+"140 494 OFFCURVE",
+"213 494 CURVE",
+"189 625 LINE",
+"49 344 LINE"
+);
+}
+);
+};
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"250 625 LINE",
+"192 499 LINE",
+"305 499 OFFCURVE",
+"355 572 OFFCURVE",
+"355 639 CURVE SMOOTH",
+"355 707 OFFCURVE",
+"298 752 OFFCURVE",
+"232 752 CURVE SMOOTH",
+"173 752 OFFCURVE",
+"87 717 OFFCURVE",
+"87 607 CURVE SMOOTH",
+"87 568 OFFCURVE",
+"99 521 OFFCURVE",
+"107 493 CURVE SMOOTH",
+"148 344 LINE",
+"278 344 LINE"
+);
+}
+);
+width = 304;
+}
+);
+unicode = 201B;
+},
+{
+color = 3;
+glyphname = quotedblrightreversed;
+layers = (
+{
+background = {
+components = (
+{
+name = quotedblright;
+}
+);
+};
+components = (
+{
+name = quotereversed;
+},
+{
+name = quotereversed;
+transform = "{1, 0, 0, 1, 130, 0}";
+}
+);
+layerId = UUID0;
+width = 312;
+},
+{
+background = {
+components = (
+{
+name = quotedblright;
+}
+);
+};
+components = (
+{
+name = quotereversed;
+},
+{
+name = quotereversed;
+transform = "{1, 0, 0, 1, 200, 0}";
+}
+);
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+width = 435;
+},
+{
+background = {
+components = (
+{
+name = quotedblright;
+}
+);
+};
+components = (
+{
+name = quotereversed;
+},
+{
+name = quotereversed;
+transform = "{1, 0, 0, 1, 298, 0}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+width = 601;
+}
+);
+unicode = 201F;
 },
 {
 glyphname = guillemetleft;
