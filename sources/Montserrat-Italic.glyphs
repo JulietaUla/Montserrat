@@ -1,9 +1,9 @@
 {
-.appVersion = "3260";
+.appVersion = "3436";
 DisplayStrings = (
 "/AEmacron",
 "/U.ss01 U/W.ss01",
-"/quotereversed a/quotereversed u/quoteleft/quotereversed/space/quotedblrightreversed \012/quotedblrightreversed/quotedblright/quoteleft/quotedblrightreversed"
+"/tse-cy/de-cy/te-cy/de-cy/tetse-cy/de-cy/de-cy/de-cy/de-cy/de-cy/tse-cy/de-cy/de-cy/descender-cy/shcha-cy/de-cy/chedescender-cy/de-cy/hadescender-cy/de-cy/kadescender-cy/de-cy/space/pedescender-cy/de-cy/tedescender-cy/de-cy/gedescender-cy/de-cy/dzhe-cy/de-cy/verticalbar-cy/verticalbar-cy/chedescenderabkhasian-cy .\012/descender-cy.short/hadescender-cy/de-cy/de-cy/space/kadescender-cy/descender-cy/shcha-cy/pedescender-cy/de-cy/de-cy .\012/De-cy/Tse-cy/Tetse-cy/Tse-cy/Shcha-cy/Gedescender-cy/Pedescender-cy/Tedescender-cy/Chedescender-cy/Hadescender-cy/Kadescender-cy/Dzhe-cy/Chedescenderabkhasian-cy"
 );
 classes = (
 {
@@ -2322,10 +2322,13 @@ value = 559;
 descender = -194;
 guideLines = (
 {
-position = "{447, -77}";
+position = "{503, -121}";
 },
 {
 position = "{500, 594}";
+},
+{
+position = "{503, -165}";
 }
 );
 horizontalStems = (
@@ -2417,10 +2420,13 @@ value = 570;
 descender = -194;
 guideLines = (
 {
-position = "{186, -80}";
+position = "{437, -112}";
 },
 {
 position = "{456, 612}";
+},
+{
+position = "{437, -151}";
 }
 );
 horizontalStems = (
@@ -2509,7 +2515,10 @@ guideLines = (
 position = "{568, 620}";
 },
 {
-position = "{256, -70}";
+position = "{350, -137}";
+},
+{
+position = "{350, -102}";
 }
 );
 horizontalStems = (
@@ -151718,6 +151727,23 @@ unicode = 0494;
 glyphname = "De-cy";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"-71 -165 LINE",
+"-71 8 LINE",
+"611 8 LINE",
+"611 -165 LINE",
+"631 -165 LINE",
+"631 27 LINE",
+"-91 27 LINE",
+"-91 -165 LINE"
+);
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
@@ -151756,6 +151782,23 @@ nodes = (
 width = 773;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"233 -137 LINE",
+"233 0 LINE",
+"631 0 LINE",
+"631 -137 LINE",
+"847 -137 LINE",
+"847 183 LINE",
+"17 183 LINE",
+"17 -137 LINE"
+);
+}
+);
+};
 layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
 paths = (
 {
@@ -151794,6 +151837,23 @@ nodes = (
 width = 863;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"120 -151 LINE",
+"121 0 LINE",
+"678 0 LINE",
+"678 -151 LINE",
+"784 -151 LINE",
+"784 99 LINE",
+"15 99 LINE",
+"14 -151 LINE"
+);
+}
+);
+};
 layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
 paths = (
 {
@@ -154064,13 +154124,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"697 -175 LINE",
+"699 -165 LINE",
 "736 19 LINE",
 "599 19 LINE",
 "595 0 LINE",
 "721 0 LINE",
 "714 9 LINE",
-"677 -175 LINE"
+"679 -165 LINE"
 );
 }
 );
@@ -154138,13 +154198,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"725 -156 LINE",
+"726 -151 LINE",
 "776 99 LINE",
 "556 99 LINE",
 "536 0 LINE",
 "674 0 LINE",
 "654 29 LINE",
-"619 -156 LINE"
+"620 -151 LINE"
 );
 }
 );
@@ -154334,8 +154394,8 @@ nodes = (
 "225 700 LINE",
 "85 0 LINE",
 "340 0 LINE",
-"305 -175 LINE",
-"325 -175 LINE",
+"307 -165 LINE",
+"327 -165 LINE",
 "360 0 LINE",
 "615 0 LINE",
 "755 700 LINE"
@@ -154380,8 +154440,8 @@ nodes = (
 "191 700 LINE",
 "51 0 LINE",
 "297 0 LINE",
-"266 -156 LINE",
-"372 -156 LINE",
+"266 -151 LINE",
+"372 -151 LINE",
 "403 0 LINE",
 "650 0 LINE",
 "790 700 LINE"
@@ -166864,14 +166924,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-47 -134 LINE",
+"-44 -121 LINE",
 "-21 0 LINE",
 "506 0 LINE",
-"480 -134 LINE",
-"500 -134 LINE",
+"483 -121 LINE",
+"503 -121 LINE",
 "530 18 LINE",
 "-37 18 LINE",
-"-67 -134 LINE"
+"-64 -121 LINE"
 );
 }
 );
@@ -166908,14 +166968,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"145 -108 LINE",
+"146 -102 LINE",
 "166 0 LINE",
 "468 0 LINE",
-"447 -108 LINE",
-"656 -108 LINE",
+"448 -102 LINE",
+"657 -102 LINE",
 "713 177 LINE",
 "-7 177 LINE",
-"-64 -108 LINE"
+"-63 -102 LINE"
 );
 }
 );
@@ -166953,14 +167013,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"34 -121 LINE",
+"36 -112 LINE",
 "58 0 LINE",
 "486 0 LINE",
-"462 -121 LINE",
-"565 -121 LINE",
+"464 -112 LINE",
+"567 -112 LINE",
 "608 96 LINE",
 "-26 96 LINE",
-"-69 -121 LINE"
+"-67 -112 LINE"
 );
 }
 );
@@ -169503,13 +169563,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"549 -134 LINE",
+"552 -121 LINE",
 "580 18 LINE",
 "471 18 LINE",
 "467 0 LINE",
 "564 0 LINE",
 "558 8 LINE",
-"529 -134 LINE"
+"532 -121 LINE"
 );
 }
 );
@@ -169546,13 +169606,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"632 -108 LINE",
+"633 -102 LINE",
 "689 177 LINE",
 "391 177 LINE",
 "355 0 LINE",
 "493 0 LINE",
 "444 0 LINE",
-"423 -108 LINE"
+"424 -102 LINE"
 );
 }
 );
@@ -169590,13 +169650,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"586 -121 LINE",
+"588 -112 LINE",
 "630 96 LINE",
 "438 96 LINE",
 "419 0 LINE",
 "534 0 LINE",
 "509 4 LINE",
-"483 -121 LINE"
+"485 -112 LINE"
 );
 }
 );
@@ -169821,8 +169881,8 @@ nodes = (
 "168 517 LINE",
 "64 0 LINE",
 "251 0 LINE",
-"223 -134 LINE",
-"243 -134 LINE",
+"226 -121 LINE",
+"246 -121 LINE",
 "271 0 LINE",
 "457 0 LINE",
 "561 517 LINE"
@@ -169850,8 +169910,8 @@ nodes = (
 "108 547 LINE",
 "-2 0 LINE",
 "179 0 LINE",
-"158 -108 LINE",
-"368 -108 LINE",
+"158 -102 LINE",
+"368 -102 LINE",
 "389 0 LINE",
 "570 0 LINE",
 "680 547 LINE"
@@ -169880,8 +169940,8 @@ nodes = (
 "142 532 LINE",
 "36 0 LINE",
 "220 0 LINE",
-"195 -121 LINE",
-"299 -121 LINE",
+"197 -112 LINE",
+"301 -112 LINE",
 "324 0 LINE",
 "507 0 LINE",
 "613 532 LINE"
@@ -173862,13 +173922,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"403 -101 LINE",
+"403 -102 LINE",
 "459 177 LINE",
 "160 177 LINE",
 "124 0 LINE",
 "263 0 LINE",
 "224 48 LINE",
-"194 -101 LINE"
+"194 -102 LINE"
 );
 }
 );
@@ -173913,13 +173973,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"314 -111 LINE",
+"314 -112 LINE",
 "356 96 LINE",
 "164 96 LINE",
 "144 0 LINE",
 "259 0 LINE",
 "239 28 LINE",
-"211 -111 LINE"
+"211 -112 LINE"
 );
 }
 );
@@ -174226,13 +174286,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"744 -101 LINE",
+"744 -102 LINE",
 "799 177 LINE",
 "508 177 LINE",
 "473 0 LINE",
 "603 0 LINE",
 "564 48 LINE",
-"535 -101 LINE"
+"535 -102 LINE"
 );
 },
 {
@@ -174273,13 +174333,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"670 -111 LINE",
+"670 -112 LINE",
 "711 96 LINE",
 "526 96 LINE",
 "507 0 LINE",
 "614 0 LINE",
 "594 28 LINE",
-"567 -111 LINE"
+"567 -112 LINE"
 );
 },
 {
@@ -220548,13 +220608,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 -101 LINE",
+"260 -102 LINE",
 "316 177 LINE",
 "17 177 LINE",
 "-19 0 LINE",
 "120 0 LINE",
 "81 48 LINE",
-"51 -101 LINE"
+"51 -102 LINE"
 );
 }
 );
@@ -220572,13 +220632,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"174 -111 LINE",
+"174 -112 LINE",
 "216 96 LINE",
 "24 96 LINE",
 "4 0 LINE",
 "119 0 LINE",
 "99 28 LINE",
-"71 -111 LINE"
+"71 -112 LINE"
 );
 }
 );
@@ -242176,8 +242236,8 @@ paths = (
 closed = 1;
 nodes = (
 "6 36 LINE",
-"-22 -101 LINE",
-"188 -101 LINE",
+"-22 -102 LINE",
+"188 -102 LINE",
 "216 36 LINE"
 );
 }
@@ -242197,8 +242257,8 @@ paths = (
 closed = 1;
 nodes = (
 "39 23 LINE",
-"13 -111 LINE",
-"117 -111 LINE",
+"13 -112 LINE",
+"117 -112 LINE",
 "143 23 LINE"
 );
 }
