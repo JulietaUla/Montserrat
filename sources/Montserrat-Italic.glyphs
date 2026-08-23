@@ -1433,6 +1433,7 @@ sub exclamdown by exclamdown.case;
 sub questiondown by questiondown.case;
 sub periodcentered by periodcentered.case;
 sub bullet by bullet.case;
+sub colon by colon.case;
 sub slash by slash.case;
 sub backslash by backslash.case;
 sub periodcentered.loclCAT by periodcentered.loclCAT.case;
@@ -2251,6 +2252,17 @@ sub uogonekacute.loclNAV.sc by uogonekacute.loclNAV.sc.ss01;
 ";
 name = ss01;
 notes = "Name: Alternate";
+},
+{
+code = "sub at' [ @Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by at.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] colon' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by colon.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] hyphen' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by hyphen.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] endash' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by endash.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] emdash' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by emdash.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] leftArrow' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by leftArrow.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] rightArrow' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by rightArrow.case;
+";
+name = calt;
 }
 );
 fontMaster = (
@@ -197062,6 +197074,49 @@ width = 235;
 leftKerningGroup = colon;
 rightKerningGroup = colon;
 unicode = 003A;
+},
+{
+glyphname = colon.case;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = colon;
+transform = "{1, 0, 0, 1, 18, 87}";
+}
+);
+layerId = UUID0;
+vertWidth = 0;
+width = 182;
+},
+{
+components = (
+{
+alignment = -1;
+name = colon;
+transform = "{1, 0, 0, 1, 15, 77}";
+}
+);
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+vertWidth = 0;
+width = 235;
+},
+{
+components = (
+{
+alignment = -1;
+name = colon;
+transform = "{1, 0, 0, 1, 14, 67}";
+}
+);
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+vertWidth = 0;
+width = 304;
+}
+);
+leftMetricsKey = "=colon+10";
+widthMetricsKey = "=colon+20";
 },
 {
 glyphname = semicolon;

@@ -1438,6 +1438,7 @@ sub exclamdown by exclamdown.case;
 sub questiondown by questiondown.case;
 sub periodcentered by periodcentered.case;
 sub bullet by bullet.case;
+sub colon by colon.case;
 sub slash by slash.case;
 sub backslash by backslash.case;
 sub periodcentered.loclCAT by periodcentered.loclCAT.case;
@@ -2256,7 +2257,19 @@ sub uogonekacute.loclNAV.sc by uogonekacute.loclNAV.sc.ss01;
 ";
 name = ss01;
 notes = "Name: Alternate";
+},
+{
+code = "sub at' [ @Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by at.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] colon' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by colon.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] hyphen' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by hyphen.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] endash' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by endash.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] emdash' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by emdash.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] leftArrow' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by leftArrow.case;
+sub [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] rightArrow' [@Uppercase zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf] by rightArrow.case;
+";
+name = calt;
 }
+
 );
 fontMaster = (
 {
@@ -246421,6 +246434,188 @@ width = 235;
 leftKerningGroup = colon;
 rightKerningGroup = colon;
 unicode = 003A;
+},
+{
+glyphname = colon.case;
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"154 565 OFFCURVE",
+"166 577 OFFCURVE",
+"166 591 CURVE SMOOTH",
+"166 605 OFFCURVE",
+"154 617 OFFCURVE",
+"140 617 CURVE SMOOTH",
+"126 617 OFFCURVE",
+"114 605 OFFCURVE",
+"114 591 CURVE SMOOTH",
+"114 577 OFFCURVE",
+"126 565 OFFCURVE",
+"140 565 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"59 94 OFFCURVE",
+"71 106 OFFCURVE",
+"71 120 CURVE SMOOTH",
+"71 134 OFFCURVE",
+"59 146 OFFCURVE",
+"45 146 CURVE SMOOTH",
+"31 146 OFFCURVE",
+"19 134 OFFCURVE",
+"19 120 CURVE SMOOTH",
+"19 106 OFFCURVE",
+"31 94 OFFCURVE",
+"45 94 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-54 -3 LINE",
+"136 -3 LINE",
+"136 16 LINE",
+"-54 16 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"53 124 LINE",
+"39 124 LINE",
+"14 2 LINE",
+"28 2 LINE"
+);
+}
+);
+vertWidth = 0;
+width = 182;
+},
+{
+layerId = "C4221BDF-4AE8-4E40-821A-B2476087DE1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"194 463 OFFCURVE",
+"231 495 OFFCURVE",
+"231 543 CURVE SMOOTH",
+"231 585 OFFCURVE",
+"201 615 OFFCURVE",
+"161 615 CURVE SMOOTH",
+"118 615 OFFCURVE",
+"82 582 OFFCURVE",
+"82 534 CURVE SMOOTH",
+"82 493 OFFCURVE",
+"113 463 OFFCURVE",
+"153 463 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"116 81 OFFCURVE",
+"153 113 OFFCURVE",
+"153 161 CURVE SMOOTH",
+"153 203 OFFCURVE",
+"123 233 OFFCURVE",
+"83 233 CURVE SMOOTH",
+"40 233 OFFCURVE",
+"4 200 OFFCURVE",
+"4 152 CURVE SMOOTH",
+"4 111 OFFCURVE",
+"35 81 OFFCURVE",
+"75 81 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-55 -10 LINE",
+"190 -10 LINE",
+"190 40 LINE",
+"-55 40 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"96 170 LINE",
+"63 170 LINE",
+"30 0 LINE",
+"63 0 LINE"
+);
+}
+);
+vertWidth = 0;
+width = 235;
+},
+{
+layerId = "5DA6E103-6A94-47F2-987D-4952DB8EA68E";
+paths = (
+{
+closed = 1;
+nodes = (
+"251 366 OFFCURVE",
+"315 421 OFFCURVE",
+"315 505 CURVE SMOOTH",
+"315 576 OFFCURVE",
+"266 624 OFFCURVE",
+"192 624 CURVE SMOOTH",
+"113 624 OFFCURVE",
+"50 569 OFFCURVE",
+"50 485 CURVE SMOOTH",
+"50 416 OFFCURVE",
+"101 366 OFFCURVE",
+"174 366 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"189 57 OFFCURVE",
+"253 112 OFFCURVE",
+"253 196 CURVE SMOOTH",
+"253 267 OFFCURVE",
+"204 315 OFFCURVE",
+"130 315 CURVE SMOOTH",
+"51 315 OFFCURVE",
+"-12 260 OFFCURVE",
+"-12 176 CURVE SMOOTH",
+"-12 107 OFFCURVE",
+"39 57 OFFCURVE",
+"112 57 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-50 -17 LINE",
+"261 -17 LINE",
+"261 73 LINE",
+"-50 73 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"147 200 LINE",
+"87 200 LINE",
+"47 0 LINE",
+"107 0 LINE"
+);
+}
+);
+vertWidth = 0;
+width = 304;
+}
+);
 },
 {
 glyphname = semicolon;
